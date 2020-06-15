@@ -3,9 +3,11 @@ function MobileSideBar__toggle() {
 
     if ( $btn.hasClass('active') ) {
         $btn.removeClass('active');
+        $('.side-menu-box-1').removeClass('active');
     }
     else {
         $btn.addClass('active');
+        $('.side-menu-box-1').addClass('active');
     }
 }
 

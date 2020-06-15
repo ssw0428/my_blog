@@ -309,6 +309,7 @@ label[for] {
     width: 30px;
     height: 30px;
     position: relative;
+        top: 8px;
 }
 
 .btn-toggle-mobile-side-bar>div {
@@ -316,7 +317,7 @@ label[for] {
     top: 0;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 10%;
     background-color: purple;
     transition: top .3s .3s, transform .3s, opacity .2s .3s;
 }
@@ -331,7 +332,7 @@ label[for] {
 
 .btn-toggle-mobile-side-bar.active>div {
     top: 40%;
-    transition: top .3s, transform .3s .3s, opacity .2s 0s;
+    transition: top .3s, transform .3s, opacity .2s 0s;
 }
 
 .btn-toggle-mobile-side-bar.active>div:nth-child(1) {
@@ -357,7 +358,6 @@ label[for] {
 /* 탑바 시작 */
 .top-bar {
     height: 60px;
-    margin-top: 10px;
     border-bottom: 1px solid #cfcfcf;
     
 }
@@ -368,7 +368,7 @@ label[for] {
 
 .top-bar > div > .menu-box-1 > ul > li > a {
     font-weight: 500;
-    color: rgb(179, 170, 179);
+    color: rgb(194, 194, 194);
     transition: color 1.5s;    
 }
 
@@ -420,7 +420,7 @@ label[for] {
         width: 100%;
         background-color: white;
         color: black;
-        border: 2px solid black;
+        border: 2px solid #cfcfcf;
         border-top: 0;
 }
     
@@ -436,6 +436,57 @@ label[for] {
 }
 
 .top-bar .menu-box-1>ul ul>li:hover>a {
-    background-color: black;
+    background-color: rgb(155, 10, 155);
     color: white;
+}
+
+/* 모바일 사이드 바 시작 */
+.side-menu-box-1 {
+    position: absolute;
+    top:60px;
+    left:-250px;
+    width:250px;
+    bottom:0;
+    transition: left 0.6s;
+    background-color: white;
+    border-top: 1px solid #cfcfcf;;
+}
+
+.side-menu-box-1 > ul > li > a {
+    display: block;
+    padding: 20px;
+    margin-top: 10px;
+    color: #cfcfcf;
+}
+.side-menu-box-1 > ul > li:hover > a {
+    background-color: rgb(155, 10, 155);
+    color: white;
+}
+
+.side-menu-box-1.active {
+    left:0;
+}
+/* 모바일 사이드 바 끝 */ 
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar > .mobile-logo {
+    color: red;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.mobile-bar {
+    height: 60px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.mobile-bar > .mobile-logo > a {
+    font-weight: 600;
+    display: block;
+}
+
+.mobile-bar > .side-name-bar span {
+    font-weight: 600;
+    margin-right: 10px;
+    color: rgb(194, 194, 194);
 }
