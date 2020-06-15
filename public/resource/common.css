@@ -323,7 +323,7 @@ label[for] {
     content: "";
     position: absolute;
     top: 100%;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     width: 0;
     height: 3px;
