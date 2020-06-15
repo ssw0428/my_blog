@@ -15,12 +15,10 @@
         <div class="con height-100p flex">
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="/">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c"
-                            href="/list.php">Article</a></li>
-                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="/aboutMe.php">About
-                            Me</a></li>
-                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="#">SNS</a></li>
+                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="/"><span>Home</span></a></li>
+                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="/list.php"><span>Article</span></a></li>
+                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="/aboutMe.php"><span>About Me</span></a></li>
+                    <li class="flex-1-0-0 flex"><a class="flex flex-1-0-0 flex-jc-c flex-ai-c" href="#"><span>SNS</span></a></li>
                 </ul>
             </nav>
         </div>
