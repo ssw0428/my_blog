@@ -31,14 +31,20 @@
         </div>
     </div>
     <!-- 모바일 서브 메뉴 바bg -->
-    <div class="mobile-side-bar-bg"></div>
+    <div class="mobile-side-bar-bg visible-sm-down"></div>
     <!-- 모바일 서브 메뉴 바 -->
-    <div class="mobile-side-bar">
+    <div class="mobile-side-bar visible-sm-down">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Articles</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="#">SNS</a></li>
+            <li><a href="#">SNS</a>
+                <ul>
+                    <li><a href="#">Git hub</a></li>
+                    <li><a href="#">Insta</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 
@@ -54,11 +60,44 @@
                 <ul class="flex flex-1-0-0">
                     <li class="flex-1-0-0 flex"><a href="/"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Articles</span></a>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Articles</span></a>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    GITHUB
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    FACEBOOK
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    INSTA
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>About Me</span></a>
+                    <li class="flex-1-0-0 flex">
+                        <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>About Me</span></a>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    GITHUB
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    FACEBOOK
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    INSTA
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>SNS</span></a>

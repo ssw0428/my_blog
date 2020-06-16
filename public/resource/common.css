@@ -318,7 +318,7 @@ label[for] {
     left: 0;
     width: 100%;
     height: 10%;
-    background-color: purple;
+    background-color: rgb(43, 43, 255);
     transition: top .3s .3s, transform .3s, opacity .2s .3s;
 }
 
@@ -380,7 +380,7 @@ label[for] {
 }
 
 .top-bar > div > .menu-box-1 > ul > li:hover > a {
-    color: rgb(214, 48, 62);
+    color: white;
     
 }
 
@@ -397,7 +397,7 @@ label[for] {
     transform: translateX(-50%);
     width: 0;
     height: 3px;
-    background-color: purple;
+    background-color: rgb(43, 43, 255);;
     transition: width 0.3s;
 }
 
@@ -405,6 +405,37 @@ label[for] {
     width: 100%;
 }
 /* 메뉴 바 클릭할 때 선 나오기 끝 */
+
+/* 2차 메뉴 시작 */
+.top-bar .menu-box-1 > ul ul {
+    display: none;
+    position: absolute;
+    border-top:0;
+    top: 100%;
+    left: -2px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 2px solid #cfcfcf;
+    border-top: 0;
+}
+
+.top-bar .menu-box-1>ul>li:hover>ul {
+    display: block;
+}
+
+.top-bar .menu-box-1>ul ul>li>a {
+display: block;
+text-align: center;
+padding:20px 0;
+padding: 20px 0;
+}
+
+.top-bar .menu-box-1>ul ul>li:hover>a {
+background-color: rgb(155, 10, 155);
+color: white;
+}
+/* 2차 메뉴 끝 */
 
 /* 탑바 끝 */
 
@@ -422,35 +453,6 @@ label[for] {
 }
 /* 모바일 탑바 끝 */
 
-.top-bar .menu-box-1 > ul ul {
-        display: none;
-        position: absolute;
-        border-top:0;
-        top: 100%;
-        left: -2px;
-        width: 100%;
-        background-color: white;
-        color: black;
-        border: 2px solid #cfcfcf;
-        border-top: 0;
-}
-    
-.top-bar .menu-box-1>ul>li:hover>ul {
-        display: block;
-}
-
-.top-bar .menu-box-1>ul ul>li>a {
-    display: block;
-    text-align: center;
-    padding:20px 0;
-    padding: 20px 0;
-}
-
-.top-bar .menu-box-1>ul ul>li:hover>a {
-    background-color: rgb(155, 10, 155);
-    color: white;
-}
-
 /* 모바일 사이드 바 시작 */
 .mobile-side-bar {
     position: fixed;
@@ -459,24 +461,65 @@ label[for] {
     width:250px;
     bottom:0;
     transition: left 0.8s;
-    background-color: white;
+    background-color: rgb(1, 1, 54);
     border-top: 1px solid #cfcfcf;
 }
-
-.mobile-side-bar > ul > li > a {
+.mobile-side-bar > ul > li {
+    position: relative;
+}
+.mobile-side-bar ul > li > a {
     display: block;
     padding: 20px;
-    margin-top: 10px;
-    color: #cfcfcf;
-}
-.mobile-side-bar > ul > li:hover > a {
-    background-color: rgb(155, 10, 155);
+    padding-left: 30px; 
     color: white;
+    font-weight: bold;
+    position: relative;
+    background-color: rgb(1, 1, 54);
+}
+
+.mobile-side-bar > ul > li > a::before {
+    content: "";
+    content:"";
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:6%;
+    width:3px;
+    height:20px;
+    background-color:blue;
 }
 
 .mobile-side-bar.active {
     left:0;
 }
+
+.mobile-side-bar > ul ul {
+    width: 100%;
+    background-color: white;
+    display: none;
+}
+
+.mobile-side-bar > ul > li.active > ul {
+    display: block;
+}
+
+.mobile-side-bar > ul > li.active > ul > li > a {
+    padding-left: 40px;
+    font-weight: normal;
+    color: rgb(211, 211, 211);
+    font-size: 14px;
+}
+
+.mobile-side-bar ul > li > a:not(:only-child)::after {
+    content:"[+]";
+    float:right;
+}
+
+.mobile-side-bar ul > li.active > a:not(:only-child)::after {
+    content:"[-]";
+}
+
+.
 
 .mobile-side-bar-bg {
     position: fixed;
@@ -506,7 +549,7 @@ label[for] {
 .mobile-bar {
     height: 60px;
     border-bottom: 1px solid #cfcfcf;
-    background-color: white;
+    background-color: rgb(1, 1, 54);
     position: fixed;
     top: 0;
     left: 0;
@@ -521,7 +564,7 @@ label[for] {
 .mobile-bar > .side-name-bar span {
     font-weight: 600;
     margin-right: 10px;
-    color: rgb(194, 194, 194);
+    color: white;
     position: fixed;
     right: 0;
 }
