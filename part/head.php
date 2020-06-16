@@ -11,26 +11,29 @@
 </head>
 
 <body>
+    <!-- 모바일 바 -->
     <div class="mobile-bar  visible-sm-down flex">
-
+        <!-- 모바일 사이드 바 -->
         <div class="mobile-top-bar visible-sm-down flex flex-1-0-0">
-            <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+            <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
                 <div></div>
                 <div></div>
                 <div></div>
             </a>
         </div>
-
+        <!-- 모바일 로고 바 -->
         <div class="mobile-logo visible-sm-down flex flex-jc-c flex-ai-c flex-1-0-0">
             <a href="# flex flex-jc-c flex-ai-c"></a>
         </div>
-
+        <!-- 오른쪽 사이드 이름 -->
         <div class="side-name-bar flex flex-1-0-0 flex-jc-end flex-ai-c">
             <span>Sang _ Won's Blog</span>
         </div>
     </div>
-
-    <div class="side-menu-box-1">
+    <!-- 모바일 서브 메뉴 바bg -->
+    <div class="mobile-side-bar-bg"></div>
+    <!-- 모바일 서브 메뉴 바 -->
+    <div class="mobile-side-bar">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Articles</a></li>
@@ -39,12 +42,14 @@
         </ul>
     </div>
 
-
+    <!-- 탑바 -->
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
+            <!-- 로고(아직 없음) -->
             <a href="/" class="logo flex flex-ai-c">
                 <i class="fas fa-clone"></i>
             </a>
+            <!-- 메뉴 박스 -->
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
                     <li class="flex-1-0-0 flex"><a href="/"

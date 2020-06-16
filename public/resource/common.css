@@ -348,6 +348,13 @@ label[for] {
 }
 
 /* 커스텀 */
+@media (max-width:799px) {
+    body {
+        padding-top: 60px;
+    }
+}
+
+
 .con-min-width {
     min-width: 1356px;
 }
@@ -404,6 +411,10 @@ label[for] {
 /* 모바일 탑바 시작 */
 .mobile-top-bar {
     height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
@@ -441,30 +452,47 @@ label[for] {
 }
 
 /* 모바일 사이드 바 시작 */
-.side-menu-box-1 {
-    position: absolute;
+.mobile-side-bar {
+    position: fixed;
     top:60px;
     left:-250px;
     width:250px;
     bottom:0;
-    transition: left 0.6s;
+    transition: left 0.8s;
     background-color: white;
-    border-top: 1px solid #cfcfcf;;
+    border-top: 1px solid #cfcfcf;
 }
 
-.side-menu-box-1 > ul > li > a {
+.mobile-side-bar > ul > li > a {
     display: block;
     padding: 20px;
     margin-top: 10px;
     color: #cfcfcf;
 }
-.side-menu-box-1 > ul > li:hover > a {
+.mobile-side-bar > ul > li:hover > a {
     background-color: rgb(155, 10, 155);
     color: white;
 }
 
-.side-menu-box-1.active {
+.mobile-side-bar.active {
     left:0;
+}
+
+.mobile-side-bar-bg {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.0);
+    transition: background-color 2s;
+    visibility: hidden;
+
+}
+
+.mobile-side-bar-bg.active {
+    visibility: visible;
+    background-color: rgba(0,0,0,0.5);
 }
 /* 모바일 사이드 바 끝 */ 
 
@@ -478,6 +506,11 @@ label[for] {
 .mobile-bar {
     height: 60px;
     border-bottom: 1px solid #cfcfcf;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .mobile-bar > .mobile-logo > a {
@@ -489,4 +522,6 @@ label[for] {
     font-weight: 600;
     margin-right: 10px;
     color: rgb(194, 194, 194);
+    position: fixed;
+    right: 0;
 }
