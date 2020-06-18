@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>블로그</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
+    <link rel="stylesheet" href="/resource/index.css">
+    
+    <link rel="icon" href="/resource/img/favicon.ico">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
 
 <body>
     <!-- 모바일 바 -->
-    <div class="mobile-bar  visible-sm-down flex">
+    <div class="mobile-bar  visible-sm-down flex flex-1-0-0">
         <!-- 모바일 사이드 바 -->
-        <div class="mobile-top-bar visible-sm-down flex flex-1-0-0">
+        <div class="mobile-top-bar visible-sm-down flex flex-1-0-0 relative">
             <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
                 <div></div>
                 <div></div>
@@ -22,11 +27,13 @@
             </a>
         </div>
         <!-- 모바일 로고 바 -->
-        <div class="mobile-logo visible-sm-down flex flex-jc-c flex-ai-c flex-1-0-0">
-            <a href="# flex flex-jc-c flex-ai-c"></a>
+        <div class="mobile-logo visible-sm-down flex flex-jc-c flex-ai-c flex-1-0-0 absolute-middle absolute-center">
+            <a href="# flex flex-jc-c flex-ai-c flex-1-0-0">
+                <img class="flex-ai-c flex-jc-c flex-1-0-0" src="/resource/img/img-1.png" alt="width=100"></a>
+            </a>
         </div>
         <!-- 오른쪽 사이드 이름 -->
-        <div class="side-name-bar flex flex-1-0-0 flex-jc-end flex-ai-c">
+        <div class="side-name-bar flex flex-1-0-0 flex-jc-end flex-ai-c relative">
             <span>Sang _ Won's Blog</span>
         </div>
     </div>
@@ -53,12 +60,15 @@
         </ul>
     </div>
 
+    <!-- 로고 -->
+    <a href="#" class="flex flex-ai-c flex-jc-c main-logo"><img class="flex-ai-c flex-jc-c"
+            src="/resource/img/img-1.png" alt="width=100"></a>
     <!-- 탑바 -->
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
-            <!-- 로고(아직 없음) -->
-            <a href=""><img src="localhost:8023/resource/img/img-1.jpg" alt=""></a>
-            </a>
+            <!-- 블로그 이름 -->
+            <a href="#" class="blog-name flex flex-ai-c flex-1-0-0 ">Sang Won's_blog</a>
+
             <!-- 메뉴 박스 -->
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
@@ -126,5 +136,31 @@
                     </li>
                 </ul>
             </nav>
+            <!-- 서브메뉴박스 -->
+            <div class="sub-menu-bar flex"></div>
+        </div>
+    </div>
+
+    <!-- 슬라이더 -->
+    <div class="main-slider">
+        <div class="slides">
+            <div class="active" style="background-image:url(../resource/img/main-slide-1.jpg);"></div>
+            <div style="background-image:url(../resource/img/main-slide-2.jpg);"></div>
+            <div style="background-image:url(../resource/img/main-slide-3.jpg);"></div>
+            <div style="background-image:url(../resource/img/main-slide-4.jpg);"></div>
+            <div style="background-image:url(../resource/img/main-slide-5.jpg); background-size: contain;"></div>
+        </div>
+
+        <div class="side-bars">
+            <div>
+                <span>
+                    <i class="fas fa-angle-left"></i>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <i class="fas fa-angle-right"></i>
+                </span>
+            </div>
         </div>
     </div>

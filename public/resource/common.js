@@ -38,3 +38,36 @@ function MobileSideBar__init() {
 $(function () {
     MobileSideBar__init();
 });
+
+//슬라이더 
+
+$(function () {
+    $(".main-slider > .side-bars > div").click(function () {
+        var $clickedBtn = $(this);
+        var $slider = $clickedBtn.parent().parent();
+
+        var $current = $slider.find('.slides > .active');
+        var $post = null;
+
+        var isLeft = $clickedBtn.index() == 0;
+
+        if ( isLeft ) {
+            $post = $current.prev();
+        }
+        else {
+            $post = $current.next();
+        }
+        
+        if ( $post.length == 0 ) {
+            if ( isLeft ) {
+                $post = $slider.find('.slides > div:last-child');
+            }
+            else {
+                $post = $slider.find('.slides > div:first-child');
+            }
+        }
+        $current.removeClass('active');
+        $post.addClass('active');
+    });
+
+});

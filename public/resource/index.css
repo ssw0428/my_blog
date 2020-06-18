@@ -1,0 +1,14 @@
+.main-bar {
+    margin-top: 20px; 
+}
+
+.main-bar > span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.main-bar > .my-img > a > img {
+    display: block;
+    width: 300px;
+    margin-top: 20px; 
+}
