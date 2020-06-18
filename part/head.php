@@ -41,7 +41,12 @@
             <li><a href="#">SNS</a>
                 <ul>
                     <li><a href="#">Git hub</a></li>
-                    <li><a href="#">Insta</a></li>
+                    <li><a href="#">Insta</a>
+                        <ul>
+                            <li><a href="#">Private</a></li>
+                            <li><a href="#">public</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Facebook</a></li>
                 </ul>
             </li>
@@ -52,15 +57,15 @@
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
             <!-- 로고(아직 없음) -->
-            <a href="/" class="logo flex flex-ai-c">
-                <i class="fas fa-clone"></i>
+            <a href=""><img src="localhost:8023/resource/img/img-1.jpg" alt=""></a>
             </a>
             <!-- 메뉴 박스 -->
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
                     <li class="flex-1-0-0 flex"><a href="/"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Articles</span></a>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"
+                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Articles</span></a>
                         <ul>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">

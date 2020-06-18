@@ -309,7 +309,7 @@ label[for] {
     width: 30px;
     height: 30px;
     position: relative;
-        top: 8px;
+    top: 8px;
 }
 
 .btn-toggle-mobile-side-bar>div {
@@ -362,34 +362,36 @@ label[for] {
 .con {
     max-width: 800px;
 }
+
 /* 탑바 시작 */
 .top-bar {
     height: 60px;
-    border-bottom: 1px solid #cfcfcf;
-    
+    border-bottom: 1px solid rgb(28, 28, 102);
+    background-color: rgb(1, 1, 54);
+
 }
 
-.top-bar > div > .menu-box-1 > ul > li {
+.top-bar>div>.menu-box-1>ul>li {
     position: relative;
 }
 
-.top-bar > div > .menu-box-1 > ul > li > a {
-    font-weight: 500;
-    color: rgb(194, 194, 194);
-    transition: color 1.5s;    
+.top-bar>div>.menu-box-1>ul>li>a {
+    font-weight: 400;
+    color: #ffe560;
+    transition: color 0.5s;
 }
 
-.top-bar > div > .menu-box-1 > ul > li:hover > a {
+.top-bar>div>.menu-box-1>ul>li:hover>a {
     color: white;
-    
+
 }
 
 /* 메뉴 바 클릭할 때 선 나오기 시작 */
-.top-bar > div > .menu-box-1 > ul > li > a > span {
+.top-bar>div>.menu-box-1>ul>li>a>span {
     position: relative;
 }
 
-.top-bar > div > .menu-box-1 > ul > li > a > span::after {
+.top-bar>div>.menu-box-1>ul>li>a>span::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -397,27 +399,31 @@ label[for] {
     transform: translateX(-50%);
     width: 0;
     height: 3px;
-    background-color: rgb(43, 43, 255);;
+    background-color: rgb(43, 43, 255);
+    ;
     transition: width 0.3s;
 }
 
-.top-bar > div > .menu-box-1 > ul > li:hover > a > span::after {
+.top-bar>div>.menu-box-1>ul>li:hover>a>span::after {
     width: 100%;
 }
+
 /* 메뉴 바 클릭할 때 선 나오기 끝 */
 
 /* 2차 메뉴 시작 */
-.top-bar .menu-box-1 > ul ul {
+.top-bar .menu-box-1>ul ul {
     display: none;
     position: absolute;
-    border-top:0;
+    border-top: 0;
     top: 100%;
     left: -2px;
     width: 100%;
     background-color: white;
     color: black;
-    border: 2px solid #cfcfcf;
+    border: 2px solid rgb(28, 28, 102);
+    ;
     border-top: 0;
+    margin-top: 1px;
 }
 
 .top-bar .menu-box-1>ul>li:hover>ul {
@@ -425,16 +431,18 @@ label[for] {
 }
 
 .top-bar .menu-box-1>ul ul>li>a {
-display: block;
-text-align: center;
-padding:20px 0;
-padding: 20px 0;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    padding: 20px 0;
 }
 
 .top-bar .menu-box-1>ul ul>li:hover>a {
-background-color: rgb(155, 10, 155);
-color: white;
+    background-color: rgb(28, 28, 102);
+    ;
+    color: white;
 }
+
 /* 2차 메뉴 끝 */
 
 /* 탑바 끝 */
@@ -449,77 +457,88 @@ color: white;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
-    margin:0 10px;
+    margin: 0 10px;
 }
+
 /* 모바일 탑바 끝 */
 
 /* 모바일 사이드 바 시작 */
 .mobile-side-bar {
     position: fixed;
-    top:60px;
-    left:-250px;
-    width:250px;
-    bottom:0;
+    top: 60px;
+    left: -400px;
+    width: 400px;
+    bottom: 0;
     transition: left 0.8s;
     background-color: rgb(1, 1, 54);
     border-top: 1px solid #cfcfcf;
 }
-.mobile-side-bar > ul > li {
+
+.mobile-side-bar>ul>li {
     position: relative;
 }
-.mobile-side-bar ul > li > a {
+
+.mobile-side-bar ul>li>a {
     display: block;
-    padding: 20px;
-    padding-left: 30px; 
+    padding: 30px;
+    padding-left: 30px;
     color: white;
     font-weight: bold;
     position: relative;
+    font-size: 20px;
     background-color: rgb(1, 1, 54);
 }
 
-.mobile-side-bar > ul > li > a::before {
+.mobile-side-bar>ul>li>a::before {
     content: "";
-    content:"";
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:6%;
-    width:3px;
-    height:20px;
-    background-color:blue;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4%;
+    width: 3px;
+    height: 20px;
+    background-color: blue;
 }
 
 .mobile-side-bar.active {
-    left:0;
+    left: 0;
 }
 
-.mobile-side-bar > ul ul {
+.mobile-side-bar>ul ul {
     width: 100%;
     background-color: white;
     display: none;
 }
 
-.mobile-side-bar > ul > li.active > ul {
+.mobile-side-bar ul>li.active>a:not(:only-child) {
+    background-color: white;
+    color: black;
+}
+
+.mobile-side-bar ul>li.active>ul {
     display: block;
 }
 
-.mobile-side-bar > ul > li.active > ul > li > a {
+.mobile-side-bar ul>li.active>ul>li>a {
     padding-left: 40px;
     font-weight: normal;
     color: rgb(211, 211, 211);
     font-size: 14px;
 }
 
-.mobile-side-bar ul > li > a:not(:only-child)::after {
-    content:"[+]";
-    float:right;
+.mobile-side-bar>ul ul ul>li>a {
+    padding-left: 90px;
 }
 
-.mobile-side-bar ul > li.active > a:not(:only-child)::after {
-    content:"[-]";
+.mobile-side-bar ul>li>a:not(:only-child)::after {
+    content: "[+]";
+    float: right;
 }
 
-.
+.mobile-side-bar ul>li.active>a:not(:only-child)::after {
+    content: "[-]";
+}
+
 
 .mobile-side-bar-bg {
     position: fixed;
@@ -527,7 +546,7 @@ color: white;
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(0, 0, 0, 0.0);
     transition: background-color 2s;
     visibility: hidden;
 
@@ -535,11 +554,18 @@ color: white;
 
 .mobile-side-bar-bg.active {
     visibility: visible;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
-/* 모바일 사이드 바 끝 */ 
 
-.mobile-top-bar > .btn-toggle-mobile-side-bar > .mobile-logo {
+@media (max-width:799px) {
+    html.mobile-side-bar-actived {
+        overflow-y: hidden;
+    }
+}
+
+/* 모바일 사이드 바 끝 */
+
+.mobile-top-bar>.btn-toggle-mobile-side-bar>.mobile-logo {
     color: red;
     text-align: center;
     display: block;
@@ -556,15 +582,16 @@ color: white;
     width: 100%;
 }
 
-.mobile-bar > .mobile-logo > a {
+.mobile-bar>.mobile-logo>a {
     font-weight: 600;
     display: block;
 }
 
-.mobile-bar > .side-name-bar span {
+.mobile-bar>.side-name-bar span {
     font-weight: 600;
     margin-right: 10px;
     color: white;
     position: fixed;
     right: 0;
 }
+
