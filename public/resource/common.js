@@ -19,7 +19,15 @@ function MobileSideBar__toggle() {
     }
 }
 
+$('.top-bar .menu-box-1').mouseenter(function () {
+    $('.menu-box-1').css('background-color', 'white');
+    $('.menu-box-1').css('color', 'black');
+});
 
+$('.menu-box-1').mouseleave(function () {
+    $('.top-bar').css('background-color', '');
+    $('.top-bar').css('color', '');
+});
 
 function MobileSideBar__init() {
     $('.btn-toggle-mobile-side-bar, .mobile-side-bar-bg').click(MobileSideBar__toggle);
@@ -51,18 +59,16 @@ $(function () {
 
         var isLeft = $clickedBtn.index() == 0;
 
-        if ( isLeft ) {
+        if (isLeft) {
             $post = $current.prev();
-        }
-        else {
+        } else {
             $post = $current.next();
         }
-        
-        if ( $post.length == 0 ) {
-            if ( isLeft ) {
+
+        if ($post.length == 0) {
+            if (isLeft) {
                 $post = $slider.find('.slides > div:last-child');
-            }
-            else {
+            } else {
                 $post = $slider.find('.slides > div:first-child');
             }
         }
@@ -71,3 +77,5 @@ $(function () {
     });
 
 });
+
+

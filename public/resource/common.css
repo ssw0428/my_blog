@@ -363,11 +363,10 @@ label[for] {
     max-width: 1200px;
 }
 /* 로고 시작 */
-.main-logo {
-}
+
 .main-logo > img {
     margin-top: 10px; 
-    width: 180px;
+    width: 150px;
 }
 @media (max-width:799px) {
     .main-logo > img {
@@ -381,14 +380,15 @@ label[for] {
     height: 90px;
     margin-top: 10px;
     background-color: white;
-    border-top: 1px solid #c2c2c2;
-    border-bottom: 1px solid #c2c2c2;
+    border-top: 1px solid rgb(161, 113, 161);
+    border-bottom: 1px solid rgb(161, 113, 161);
+    
 
 }
 
 .top-bar > div > .blog-name {
     
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 800;
     letter-spacing: 0.1rem;
     padding-left: 20px;
@@ -404,6 +404,7 @@ label[for] {
 
 .top-bar>div>.menu-box-1>ul>li>a {
     font-weight: 600;
+    font-size: 18px;
     color: black;
     transition: color 0.5s;
 }
@@ -446,10 +447,11 @@ label[for] {
     width: 100%;
     background-color: white;
     color: black;
-    border: 1px solid #c2c2c2;
+    border: 1px solid rgb(161, 113, 161);
     ;
     border-top: 0;
     margin-top: 1px;
+    z-index: 5;
 }
 
 .top-bar .menu-box-1>ul>li:hover>ul {
@@ -461,10 +463,11 @@ label[for] {
     text-align: center;
     padding: 20px 0;
     padding: 20px 0;
+    transition: background-color 0.1s;
 }
 
 .top-bar .menu-box-1>ul ul>li:hover>a {
-    background-color: rgb(28, 28, 102);
+    background-color: rgb(104, 33, 104);
     ;
     color: white;
 }
@@ -616,12 +619,13 @@ label[for] {
 }
 
 .mobile-bar>.side-name-bar span {
-    font-weight: 800;
+    font-weight: 600;
     margin-right: 10px;
     background: linear-gradient(to right, purple, rgb(250, 122, 143));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: fixed;
+    font-size: 14px;
     right: 0;
 }
 
@@ -630,7 +634,6 @@ html, body {
     height: 100%;
 }
 .main-slider {
-    margin-top: 1px;
     height: 60%;
     position: relative;
     cursor: pointer;
@@ -643,7 +646,7 @@ html, body {
     width:100%;
     height:100%;
     opacity:0;
-    transition:opacity 0.5s;
+    transition:opacity 0.4s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -670,9 +673,10 @@ html, body {
     transform: translateY(-50%);
     right: inherit;
     left: inherit;
-    padding: 40px;
+    padding: 60px;
     transition: transform 0.5s;
-    font-size: 4rem;
+    font-size: 4.5rem;
+    color: white;
 }
 .main-slider > .side-bars > div:active > span {
     transform: translateY(-40%);
