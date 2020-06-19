@@ -18,3 +18,21 @@
         width: 150px;
     }
 }
+
+.main-bar > .profile-bar {
+    margin-top: 50px;
+} 
+
+.main-bar .profile-bar > .profile-list {
+    padding-left: 80px;
+}
+
+.main-bar .profile-bar > .profile-list > div:first-child {
+    margin-top: 10px;
+}
+
+.main-bar .profile-bar > .profile-list > div {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}

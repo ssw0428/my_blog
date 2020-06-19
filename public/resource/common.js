@@ -76,6 +76,18 @@ $(function () {
         $post.addClass('active');
     });
 
+
 });
 
+function slideBar__move() {
+    function a() {
+        $('.main-slider .side-bars > div:last-child').click();
+    }
 
+    setInterval(a,4000);
+
+}
+
+$(function() {
+    slideBar__move();
+});

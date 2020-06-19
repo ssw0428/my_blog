@@ -148,7 +148,7 @@
             <div style="background-image:url(../resource/img/main-slide-2.jpg);"></div>
             <div style="background-image:url(../resource/img/main-slide-3.jpg);"></div>
             <div style="background-image:url(../resource/img/main-slide-4.jpg);"></div>
-            <div style="background-image:url(../resource/img/main-slide-5.jpg); background-size: contain;"></div>
+            <div style="background-image:url(../resource/img/main-slide-5.jpg);"></div>
         </div>
 
         <div class="side-bars">

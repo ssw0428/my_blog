@@ -1,8 +1,10 @@
 /* 폰트적용 */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 html {
-    font-family: "Noto Sans KR", sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -377,11 +379,12 @@ label[for] {
 
 /* 탑바 시작 */
 .top-bar {
-    height: 90px;
+    height: 70px;
     margin-top: 10px;
     background-color: white;
-    border-top: 1px solid rgb(161, 113, 161);
-    border-bottom: 1px solid rgb(161, 113, 161);
+    border-top: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+    
     
 
 }
@@ -438,6 +441,13 @@ label[for] {
 /* 메뉴 바 클릭할 때 선 나오기 끝 */
 
 /* 2차 메뉴 시작 */
+.top-bar .menu-box-1>ul ul::before {
+    content:"";
+    display:block;
+    height:1px;
+    background-color:white;
+    margin-top:-1px;
+}
 .top-bar .menu-box-1>ul ul {
     display: none;
     position: absolute;
@@ -448,10 +458,9 @@ label[for] {
     background-color: white;
     color: black;
     border: 1px solid rgb(161, 113, 161);
-    ;
     border-top: 0;
     margin-top: 1px;
-    z-index: 5;
+    z-index: 10;
 }
 
 .top-bar .menu-box-1>ul>li:hover>ul {
@@ -483,6 +492,7 @@ label[for] {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
@@ -495,8 +505,8 @@ label[for] {
 .mobile-side-bar {
     position: fixed;
     top: 60px;
-    left: -400px;
-    width: 400px;
+    left: -300px;
+    width: 300px;
     bottom: 0;
     transition: left 0.8s;
     background-color: white;
@@ -506,6 +516,10 @@ label[for] {
 
 .mobile-side-bar>ul>li {
     position: relative;
+}
+
+.mobile-side-bar.active {
+    left: 0;
 }
 
 .mobile-side-bar ul>li>a {
@@ -529,9 +543,7 @@ label[for] {
     background-color: rgb(161, 9, 161);
 }
 
-.mobile-side-bar.active {
-    left: 0;
-}
+
 
 .mobile-side-bar>ul ul {
     width: 100%;
@@ -578,7 +590,7 @@ label[for] {
     background-color: rgba(0, 0, 0, 0.0);
     transition: background-color 2s;
     visibility: hidden;
-    z-index: 3;
+    z-index: 10;
 
 }
 
@@ -634,7 +646,7 @@ html, body {
     height: 100%;
 }
 .main-slider {
-    height: 60%;
+    height: 80%;
     position: relative;
     cursor: pointer;
     user-select:none;
@@ -673,14 +685,20 @@ html, body {
     transform: translateY(-50%);
     right: inherit;
     left: inherit;
-    padding: 60px;
+    padding: 100px;
     transition: transform 0.5s;
     font-size: 4.5rem;
-    color: white;
+    color: purple;
 }
 .main-slider > .side-bars > div:active > span {
     transform: translateY(-40%);
 }
 
+@media (max-width:799px) {
+    .main-slider > .side-bars > div > span {
+        padding:20px;
+        font-size: 3.5rem;
+    }
+}
 
 /* 슬라이더 끝 */
