@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="/resource/index.css">
-    
+
     <link rel="icon" href="/resource/img/favicon.ico">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -60,9 +60,7 @@
         </ul>
     </div>
 
-    <!-- 로고 -->
-    <a href="#" class="flex flex-ai-c flex-jc-c main-logo"><img class="flex-ai-c flex-jc-c"
-            src="/resource/img/img-1.png" alt="width=100"></a>
+
     <!-- 탑바 -->
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
@@ -136,13 +134,15 @@
                     </li>
                 </ul>
             </nav>
-            <!-- 서브메뉴박스 -->
-            <div class="sub-menu-bar flex"></div>
+            <!-- 로고 -->
+            <a href="#" class="flex flex-ai-c flex-jc-end flex-1-0-0 main-logo">
+                <img class="flex-ai-c flex-jc-c" src="/resource/img/img-1.png" alt="width=100">
+            </a>
         </div>
     </div>
 
     <!-- 슬라이더 -->
-    <div class="main-slider">
+    <div class="main-slider con">
         <div class="slides">
             <div class="active" style="background-image:url(../resource/img/main-slide-1.jpg);"></div>
             <div style="background-image:url(../resource/img/main-slide-2.jpg);"></div>

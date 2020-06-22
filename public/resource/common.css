@@ -362,13 +362,12 @@ label[for] {
 }
 
 .con {
-    max-width: 1200px;
+    max-width: 1820px;
 }
 /* 로고 시작 */
 
 .main-logo > img {
-    margin-top: 10px; 
-    width: 150px;
+    width: 80px;
 }
 @media (max-width:799px) {
     .main-logo > img {
@@ -382,8 +381,6 @@ label[for] {
     height: 70px;
     margin-top: 10px;
     background-color: white;
-    border-top: 1px solid rgb(190, 190, 190);
-    border-bottom: 1px solid rgb(190, 190, 190);
     
     
 
@@ -394,7 +391,6 @@ label[for] {
     font-size: 27px;
     font-weight: 800;
     letter-spacing: 0.1rem;
-    padding-left: 20px;
     background: linear-gradient(to right, purple, rgb(250, 122, 143));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -406,7 +402,7 @@ label[for] {
 }
 
 .top-bar>div>.menu-box-1>ul>li>a {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 18px;
     color: black;
     transition: color 0.5s;
@@ -662,6 +658,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .main-slider > .slides > div.active {
