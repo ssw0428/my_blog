@@ -70,12 +70,29 @@
             <!-- 메뉴 박스 -->
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a href="/"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Articles</span></a>
-                        <ul>
+                    <li class="flex-1-0-0 flex"><a href="/"class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily</span></a>
+                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                            <li class="">
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    GITHUB
+                                </a>
+                            </li>
                             <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    FACEBOOK
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    INSTA
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>SelfDevelopment</span></a>
+                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                            <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
                                     GITHUB
                                 </a>
@@ -93,29 +110,12 @@
                         </ul>
                     </li>
                     <li class="flex-1-0-0 flex">
-                        <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>About Me</span></a>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/jhs512" target="_blank">
-                                    GITHUB
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jhs512" target="_blank">
-                                    FACEBOOK
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jhs512" target="_blank">
-                                    INSTA
-                                </a>
-                            </li>
-                        </ul>
+                        <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Portfolio</span></a>
                     </li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>SNS</span></a>
-                        <ul>
-                            <li>
+                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                            <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
                                     GITHUB
                                 </a>

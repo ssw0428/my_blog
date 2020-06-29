@@ -294,6 +294,10 @@ label[for] {
     flex: 1 0 0;
 }
 
+*>.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
 /* 공통 CSS */
 @media (max-width:799px) {
     .visible-md-up {
@@ -378,12 +382,9 @@ label[for] {
 
 /* 탑바 시작 */
 .top-bar {
-    height: 70px;
+    height: 90px;
     margin-top: 10px;
     background-color: white;
-    
-    
-
 }
 
 .top-bar > div > .blog-name {
@@ -397,9 +398,12 @@ label[for] {
     
 }
 
-.top-bar>div>.menu-box-1>ul>li {
+.top-bar>div {
     position: relative;
 }
+
+
+
 
 .top-bar>div>.menu-box-1>ul>li>a {
     font-weight: 300;
@@ -449,33 +453,56 @@ label[for] {
     position: absolute;
     border-top: 0;
     top: 100%;
-    left: -2px;
+    left: 0px;
     width: 100%;
     background-color: white;
     color: black;
-    border: 1px solid rgb(161, 113, 161);
     border-top: 0;
-    margin-top: 1px;
+    margin-top: 0px;
     z-index: 10;
+    height: 0;
+    transition: height 4.5s;
+}
+
+.top-bar .menu-box-1>ul ul > li {
+    margin: 10px 40px;
 }
 
 .top-bar .menu-box-1>ul>li:hover>ul {
-    display: block;
+    display: flex;
+    height: 100%;
 }
 
 .top-bar .menu-box-1>ul ul>li>a {
     display: block;
     text-align: center;
-    padding: 20px 0;
-    padding: 20px 0;
+    padding: 20px 10px;
     transition: background-color 0.1s;
 }
 
-.top-bar .menu-box-1>ul ul>li:hover>a {
-    background-color: rgb(104, 33, 104);
-    ;
-    color: white;
+
+/* 메뉴 바 클릭할 때 2차 메뉴에 선 나오기 시작 */
+.top-bar>div>.menu-box-1>ul ul>li>a {
+    position: relative;
 }
+
+.top-bar>div>.menu-box-1>ul ul>li>a::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, purple, rgb(250, 122, 143));
+    transition: width 0.3s;
+}
+
+.top-bar>div>.menu-box-1>ul ul>li:hover>a::after {
+    width: 100%;
+}
+
+/* 메뉴 바 클릭할 때 2차 메뉴에 선 나오기 끝 */
 
 /* 2차 메뉴 끝 */
 
@@ -642,7 +669,7 @@ html, body {
     height: 100%;
 }
 .main-slider {
-    height: 80%;
+    height: 55%;
     position: relative;
     cursor: pointer;
     user-select:none;
@@ -699,3 +726,11 @@ html, body {
 }
 
 /* 슬라이더 끝 */
+
+.top-bar > div.active {
+    background-color: rgb(255, 236, 153);
+    color: blue;
+}
+.top-bar.active > div > .menu-box-1 > ul > li > a {
+    color: rgb(97, 38, 97);
+}

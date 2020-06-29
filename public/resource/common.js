@@ -91,3 +91,16 @@ function slideBar__move() {
 $(function() {
     slideBar__move();
 });
+
+/* 좋은 예, 시작 */
+/*
+$(function () {
+    $('.top-bar div .menu-box-1 ul').mouseenter (function() {
+        $('.top-bar > div').addClass('active');
+      });
+      
+      $('.top-bar').mouseleave (function() {
+        $('.top-bar > div').removeClass('active');
+      });
+});
+*/
