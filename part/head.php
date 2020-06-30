@@ -63,15 +63,17 @@
 
     <!-- 탑바 -->
     <div class="top-bar visible-md-up">
-        <div class="con height-100p flex">
+        <div class="height-100p flex">
             <!-- 블로그 이름 -->
             <a href="#" class="blog-name flex flex-ai-c flex-1-0-0 ">Sang Won's_blog</a>
 
             <!-- 메뉴 박스 -->
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a href="/"class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily</span></a>
+                    <li class="flex-1-0-0 flex"><a href="/"
+                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"
+                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily</span></a>
                         <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
@@ -90,7 +92,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>SelfDevelopment</span></a>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"
+                            class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Self&#160;&#160;Development</span></a>
                         <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
@@ -142,7 +145,7 @@
     </div>
 
     <!-- 슬라이더 -->
-    <div class="main-slider con">
+    <div class="main-slider">
         <div class="slides">
             <div class="active" style="background-image:url(../resource/img/main-slide-1.jpg);"></div>
             <div style="background-image:url(../resource/img/main-slide-2.jpg);"></div>
@@ -161,6 +164,49 @@
                 <span>
                     <i class="fas fa-angle-right"></i>
                 </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 주요 소식 -->
+    <div class="recentStories con">
+        <span class="main-title">Recent Stories</span>
+        <div class="story-list flex con">
+            <div style="border: 1px solid blue" class="story flex flex-1-0-0 flex-ai-c">
+                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue">
+                    <a href="">Self-Development</a>
+                    <a href="">20-06-29</a>
+                    <a href="">제목</a>
+                    <a href="">내용</a>
+                </div>
+            </div>
+            <div class="story flex flex-1-0-0 flex-jc-c flex-ai-c">
+                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="story flex flex-1-0-0 flex-jc-c flex-ai-c">
+                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="story flex flex-1-0-0 flex-jc-end flex-ai-c">
+                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
         </div>
     </div>

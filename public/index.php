@@ -2,7 +2,7 @@
     include "../part/head.php"
     ?>
 
-
+<!--
     <div class="main-bar con">
         <span>My Profile</span>
 
@@ -34,7 +34,7 @@
             </div>
         </div>
     </div>
-
+-->
 
     <?php
     include "../part/foot.php"

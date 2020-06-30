@@ -38,5 +38,15 @@
 }
 
 .title-list {
-    text-align: center;
+}
+
+.title-list > .title {
+    font-size: 40px;
+    color: rgb(146, 17, 146);
+}
+.title-list > .name {
+    margin-top: 20px;
+}
+.title-list > .haha {
+    font-size: 50px;
 }

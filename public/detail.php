@@ -37,27 +37,26 @@ $row = mysqli_fetch_assoc($rs);
 </script>
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
-<div class="con">
-    <a href="#" onclick="history.back();">[뒤로가기]</a>
-    <a href="/list.php">[리스트]</a>
-    <a href="#" onclick="history.front();">[앞으로가기]</a>
-</div>
-<div class="title-list">
+
+<div class="title-list con">
     <h1 class="title con">제목 : <?=$row['title']?></h1>
-    <div class="con">
-        등록날짜 : <?=$row['regDate']?>
+    <div class="con name">
+        by 서상원
     </div>
-    <div class="con">
-        수정날짜 : <?=$row['updateDate']?>
+    <div style="border: 1px solid red" class="date flex">
+        <div class="">
+            등록날짜 : <?=$row['regDate']?>
+        </div>
+        <div class="">
+            수정날짜 : <?=$row['updateDate']?>
+        </div>
     </div>
-    <div class="con">
-        작성자 : 서상원
-    </div>
-    <div class="con" style="display:none;" id="origin1">
+
+    <div class="haha con" style="display:none;" id="origin1">
         <?=$row['body']?>
     </div>
     <div class="con" id="viewer1"></div>
-    </div>
+</div>
 <script>
     var editor1__initialValue = $('#origin1').html();
     var editor1 = new toastui.Editor({
@@ -68,6 +67,12 @@ $row = mysqli_fetch_assoc($rs);
         plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
     });
 </script>
+<div class="con">
+    <a href="#" onclick="history.back();">[뒤로가기]</a>
+    <a href="/list.php">[리스트]</a>
+    <a href="#" onclick="history.front();">[앞으로가기]</a>
+</div>
+
 <?php
 include "../part/foot.php";
 ?>

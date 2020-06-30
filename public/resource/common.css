@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 html {
-    
+
     font-family: 'Roboto', sans-serif;
 }
 
@@ -366,18 +366,24 @@ label[for] {
 }
 
 .con {
-    max-width: 1820px;
+    max-width: 1400px;
 }
-/* 로고 시작 */
 
-.main-logo > img {
-    width: 80px;
+/* 로고 시작 */
+.main-logo {
+    margin-right: 250px;
 }
+
+.main-logo>img {
+    width: 70px;
+}
+
 @media (max-width:799px) {
-    .main-logo > img {
+    .main-logo>img {
         display: none;
     }
 }
+
 /* 로고 끝 */
 
 /* 탑바 시작 */
@@ -385,29 +391,32 @@ label[for] {
     height: 90px;
     margin-top: 10px;
     background-color: white;
+    border-bottom: 1px solid rgb(100, 100, 100);
 }
 
-.top-bar > div > .blog-name {
-    
-    font-size: 27px;
+.top-bar>div>.blog-name {
+    margin-left: 250px;
+    font-size: 25px;
     font-weight: 800;
     letter-spacing: 0.1rem;
     background: linear-gradient(to right, purple, rgb(250, 122, 143));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
 
 .top-bar>div {
     position: relative;
 }
 
-
+.top-bar>div>.menu-box-1>ul>li {
+    padding: 0 30px;
+}
 
 
 .top-bar>div>.menu-box-1>ul>li>a {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     transition: color 0.5s;
 }
@@ -442,29 +451,29 @@ label[for] {
 
 /* 2차 메뉴 시작 */
 .top-bar .menu-box-1>ul ul::before {
-    content:"";
-    display:block;
-    height:1px;
-    background-color:white;
-    margin-top:-1px;
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin-top: -1px;
 }
+
 .top-bar .menu-box-1>ul ul {
     display: none;
     position: absolute;
-    border-top: 0;
+    border-top: 1px solid rgb(226, 226, 226);
     top: 100%;
     left: 0px;
     width: 100%;
     background-color: white;
     color: black;
-    border-top: 0;
     margin-top: 0px;
     z-index: 10;
     height: 0;
     transition: height 4.5s;
 }
 
-.top-bar .menu-box-1>ul ul > li {
+.top-bar .menu-box-1>ul ul>li {
     margin: 10px 40px;
 }
 
@@ -478,6 +487,7 @@ label[for] {
     text-align: center;
     padding: 20px 10px;
     transition: background-color 0.1s;
+    font-size: 14px;
 }
 
 
@@ -648,7 +658,7 @@ label[for] {
 }
 
 
-.mobile-bar>.mobile-logo>a > img {
+.mobile-bar>.mobile-logo>a>img {
     display: block;
     width: 70px;
 }
@@ -665,45 +675,51 @@ label[for] {
 }
 
 /* 슬라이더 시작 */
-html, body {
+html,
+body {
     height: 100%;
 }
+
 .main-slider {
     height: 55%;
     position: relative;
     cursor: pointer;
-    user-select:none;
+    user-select: none;
 }
-.main-slider > .slides > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    opacity:0;
-    transition:opacity 0.4s;
+
+.main-slider>.slides>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
-.main-slider > .slides > div.active {
-    opacity:1;
+.main-slider>.slides>div.active {
+    opacity: 1;
 }
-.main-slider > .side-bars > div {
+
+.main-slider>.side-bars>div {
     position: absolute;
     top: 0;
     left: 0;
     width: 30%;
     height: 100%;
-    width:calc(50% - 100px);
+    width: calc(50% - 100px);
 }
-.main-slider > .side-bars > div:last-child {
-    left:auto;
-    right:0;
+
+.main-slider>.side-bars>div:last-child {
+    left: auto;
+    right: 0;
 }
-.main-slider > .side-bars > div > span {
+
+.main-slider>.side-bars>div>span {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -714,23 +730,55 @@ html, body {
     font-size: 4.5rem;
     color: purple;
 }
-.main-slider > .side-bars > div:active > span {
+
+.main-slider>.side-bars>div:active>span {
     transform: translateY(-40%);
 }
 
 @media (max-width:799px) {
-    .main-slider > .side-bars > div > span {
-        padding:20px;
+    .main-slider>.side-bars>div>span {
+        padding: 20px;
         font-size: 3.5rem;
     }
 }
 
 /* 슬라이더 끝 */
 
-.top-bar > div.active {
+.top-bar>div.active {
     background-color: rgb(255, 236, 153);
     color: blue;
 }
-.top-bar.active > div > .menu-box-1 > ul > li > a {
+
+.top-bar.active>div>.menu-box-1>ul>li>a {
     color: rgb(97, 38, 97);
 }
+
+/* 주요 소식 시작 */
+.recentStories {
+    margin-top: 80px;
+    margin-bottom: 1000px;
+}
+
+.recentStories>.main-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.recentStories .story-list {
+    margin-top: 40px;
+}
+.recentStories .story-list .story .title-img img {
+    width: 300px;
+    height: 300px;
+
+}
+.recentStories .story-list .story {
+    position: relative;
+    border: 2px solid red;
+}
+.recentStories .story-list .story > .issue {
+    position: absolute;
+    top: 100%;
+}
+
+/* 주요 소식 끝 */
