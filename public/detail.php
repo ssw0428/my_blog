@@ -39,11 +39,11 @@ $row = mysqli_fetch_assoc($rs);
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
 <div class="title-list con">
-    <h1 class="title con">제목 : <?=$row['title']?></h1>
+    <h1 class="title con"><?=$row['title']?></h1>
     <div class="con name">
         by 서상원
     </div>
-    <div style="border: 1px solid red" class="date flex">
+    <div class="date">
         <div class="">
             등록날짜 : <?=$row['regDate']?>
         </div>
@@ -52,7 +52,7 @@ $row = mysqli_fetch_assoc($rs);
         </div>
     </div>
 
-    <div class="haha con" style="display:none;" id="origin1">
+    <div class="con" style="display:none;" id="origin1">
         <?=$row['body']?>
     </div>
     <div class="con" id="viewer1"></div>

@@ -172,40 +172,52 @@
     <div class="recentStories con">
         <span class="main-title">Recent Stories</span>
         <div class="story-list flex con">
-            <div style="border: 1px solid blue" class="story flex flex-1-0-0 flex-ai-c">
-                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
-                <div class="issue">
-                    <a href="">Self-Development</a>
-                    <a href="">20-06-29</a>
-                    <a href="">제목</a>
-                    <a href="">내용</a>
+            <div class="story flex flex-jc-c flex-ai-c">
+                <div class="title-img">
+                    <a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue-1">
+                    <a class="" href="">Self-Development</a>
+                    <a class="" href="">20-06-29</a>
+                </div>
+                <div class="issue-2">
+                    <a href="">제목들어갑니다.</a>
+                    <a href="">"내용이 들어가는 부분입니다.내용이 들어가는 부분입니다.내용이 들어가는 부분입니다...."</a>
                 </div>
             </div>
-            <div class="story flex flex-1-0-0 flex-jc-c flex-ai-c">
-                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
-                <div class="issue">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+            <div class="story flex flex-jc-c flex-ai-c">
+                <div class="title-img">
+                    <a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue-1">
+                    <a class="" href="">Self-Development</a>
+                    <a class="" href="">20-06-29</a>
+                </div>
+                <div class="issue-2">
+                    <a href="">제목들어갑니다.</a>
+                    <a href="">"내용이 들어가는 부분입니다.내용이 들어가는 부분입니다.내용이 들어가는 부분입니다...."</a>
                 </div>
             </div>
-            <div class="story flex flex-1-0-0 flex-jc-c flex-ai-c">
-                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
-                <div class="issue">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+            <div class="story flex flex-jc-c flex-ai-c">
+                <div class="title-img">
+                    <a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue-1">
+                    <a class="" href="">Self-Development</a>
+                    <a class="" href="">20-06-29</a>
+                </div>
+                <div class="issue-2">
+                    <a href="">제목들어갑니다.</a>
+                    <a href="">"내용이 들어가는 부분입니다.내용이 들어가는 부분입니다.내용이 들어가는 부분입니다...."</a>
                 </div>
             </div>
-            <div class="story flex flex-1-0-0 flex-jc-end flex-ai-c">
-                <div class="title-img"><a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
-                <div class="issue">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+            <div class="story flex flex-jc-c flex-ai-c">
+                <div class="title-img">
+                    <a href=""><img src="/resource/img/story-img-1.jpg" alt=""></a></div>
+                <div class="issue-1">
+                    <a class="" href="">Self-Development</a>
+                    <a class="" href="">20-06-29</a>
+                </div>
+                <div class="issue-2">
+                    <a href="">제목들어갑니다.</a>
+                    <a href="">"내용이 들어가는 부분입니다.내용이 들어가는 부분입니다.내용이 들어가는 부분입니다...."</a>
                 </div>
             </div>
         </div>

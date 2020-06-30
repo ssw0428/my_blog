@@ -756,7 +756,7 @@ body {
 /* 주요 소식 시작 */
 .recentStories {
     margin-top: 80px;
-    margin-bottom: 1000px;
+    margin-bottom: 200px;
 }
 
 .recentStories>.main-title {
@@ -767,18 +767,64 @@ body {
 .recentStories .story-list {
     margin-top: 40px;
 }
+
 .recentStories .story-list .story .title-img img {
     width: 300px;
     height: 300px;
 
 }
+
 .recentStories .story-list .story {
     position: relative;
-    border: 2px solid red;
+    padding-bottom: 180px;
+    margin-right: 65px;
 }
-.recentStories .story-list .story > .issue {
+
+.recentStories .story-list .story:nth-child(4) {
+    margin-right: 0;
+}
+
+.recentStories .story-list .story>.issue-1 {
     position: absolute;
-    top: 100%;
+    left: 0;
+    bottom: 30%;
+    width: 100%;
 }
+
+.recentStories .story-list .story>.issue-1>a:nth-child(1) {
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+}
+
+.recentStories .story-list .story>.issue-1>a:nth-child(2) {
+    right: 0;
+    position: absolute;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(177, 177, 177);
+}
+
+.recentStories .story-list .story>.issue-2 {
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    width: 100%;
+}
+
+.recentStories .story-list .story>.issue-2>a:nth-child(1) {
+    font-weight: 600;
+    font-size: 28px;
+    display: block;
+    margin-bottom: 25px; 
+}
+
+.recentStories .story-list .story>.issue-2>a:nth-child(2) {
+    display: block;
+    color: #555555;
+    font-size: 15px;
+    vertical-align: baseline;
+}
+
 
 /* 주요 소식 끝 */
