@@ -1,5 +1,5 @@
 <?php
-$dbConn = mysqli_connect("site20.blog.oa.gg", "site20", "sbs123414", "site20", 3306) or die("DB CONNECTION ERROR");
+$dbConn = mysqli_connect("site4.blog.oa.gg", "site4", "sbs123414", "site4", 3306) or die("DB CONNECTION ERROR");
 
 $cateItemId = $_GET['cateItemId'];
 
