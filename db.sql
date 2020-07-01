@@ -47,3 +47,4 @@ updateDate = NOW(),
 cateItemId = 3,
 title = '제목',
 `body` = '';
+

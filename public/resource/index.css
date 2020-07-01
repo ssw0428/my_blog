@@ -54,3 +54,37 @@
     text-align: center;
     color: rgb(182, 182, 182);
 }
+
+/* daily life */
+.main-daily-life-title {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+
+.daily-menu {
+    margin-top: 50px;
+}
+.daily-menu > ul > li {
+    margin: 0 50px;
+}
+
+/* self-development */
+.main-self-development-title {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+
+.self-development-menu {
+    margin-top: 50px;
+}
+.self-development-menu > ul > li {
+    margin: 0 50px;
+}

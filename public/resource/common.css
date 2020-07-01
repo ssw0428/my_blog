@@ -298,6 +298,10 @@ label[for] {
     flex-wrap: nowrap;
 }
 
+*>.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /* 공통 CSS */
 @media (max-width:799px) {
     .visible-md-up {
@@ -397,8 +401,8 @@ label[for] {
     font-weight: 800;
     letter-spacing: 0.1rem;
     background: linear-gradient(to right, purple, rgb(250, 122, 143));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
 }
 
 .top-bar>div {
@@ -524,17 +528,19 @@ label[for] {
 *::after {
 	box-sizing: border-box;
 }
-
+.main-page > .container > .blog-name {
+    flex-direction: column;
+}
 .main-page > .container > .blog-name > h1 {
     position: relative;
 	display: block;
 	margin: 0;
-	font-size: 100px;
+	font-size: 130px;
 	line-height: 1;
 	transform: translateY(6rem);
 	animation: up 500ms linear forwards;
 	z-index: 1;
-	text-shadow: 0px 1px 1px rgba(255,255,255,1);
+    text-shadow: 0px 1px 1px rgba(255,255,255,1);
 	
 	&::before,
 	&::after {
@@ -584,14 +590,15 @@ label[for] {
 }
 
 .main-page>section:nth-child(1)>.self-introduction {
-    margin-top: 350px;
+    margin-top: 100px;
     position: relative;
+    height: 700px;
 }
 
 .main-page > .container > .self-introduction > span {
     font-size: 16px;
-    padding: 0 100px;
-    border: 1px solid red;
+    padding: 0 50px;
+    height: 20%;
 }
 
 
@@ -746,8 +753,8 @@ label[for] {
     font-weight: 600;
     margin-right: 10px;
     background: linear-gradient(to right, purple, rgb(250, 122, 143));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
     position: fixed;
     font-size: 14px;
     right: 0;
@@ -764,7 +771,7 @@ body {
     position: relative;
     cursor: pointer;
     user-select: none;
-    width: 50%;
+    width: 100%;
 }
 
 .main-page > .container > .self-introduction > .main-slider>.slides>div {
@@ -905,6 +912,7 @@ body {
     font-size: 15px;
     vertical-align: baseline;
 }
+
 
 
 /* 주요 소식 끝 */
