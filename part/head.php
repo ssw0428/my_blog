@@ -79,9 +79,43 @@
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
                     <li class="flex-1-0-0 flex"><a href="/dailyLife.php"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily&#160;&#160;Life</span></a>
+                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                            <li class="">
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    GITHUB
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    FACEBOOK
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    INSTA
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="flex-1-0-0 flex"><a href="/selfDevelopment.php"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Self&#160;&#160;Development</span></a>
+                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                            <li class="">
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    GITHUB
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    FACEBOOK
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                    INSTA
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="flex-1-0-0 flex">
                         <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Portfolio</span></a>

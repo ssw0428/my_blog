@@ -88,3 +88,116 @@
 .self-development-menu > ul > li {
     margin: 0 50px;
 }
+
+/* 주요 소식 시작 */
+.recentStories {
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.recentStories>.main-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.recentStories .story-list {
+    margin-top: 40px;
+}
+
+.recentStories .story-list .story .title-img img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.recentStories .story-list .story {
+    position: relative;
+    padding-bottom: 180px;
+    margin-right: 65px;
+}
+
+.recentStories .story-list .story:nth-child(4) {
+    margin-right: 0;
+}
+
+.recentStories .story-list .story>.issue-1 {
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+    width: 100%;
+}
+
+.recentStories .story-list .story>.issue-1>a:nth-child(1) {
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+}
+
+.recentStories .story-list .story>.issue-1>a:nth-child(2) {
+    right: 0;
+    position: absolute;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(177, 177, 177);
+}
+
+.recentStories .story-list .story>.issue-2 {
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    width: 100%;
+}
+
+.recentStories .story-list .story>.issue-2>a:nth-child(1) {
+    font-weight: 600;
+    font-size: 28px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.recentStories .story-list .story>.issue-2>a:nth-child(2) {
+    display: block;
+    color: #555555;
+    font-size: 15px;
+    vertical-align: baseline;
+}
+
+
+/* 주요 소식 끝 */
+
+/* 자기개발 시작 */
+
+.text-list {
+    position: relative;
+    margin-top: 80px;
+    border: 1px solid #c4c4c4;
+    padding: 20px 10px;
+}
+
+.text-list > .title {
+    font-size: 1.5rem;
+}
+
+.text-list > .summary {
+    margin-top: 10px;
+    margin-right: 200px;
+    font-size: 19px;
+}
+
+.text-list > .date {
+    margin-top: 10px;
+    color: #c4c4c4;
+}
+
+.text-list > .title-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

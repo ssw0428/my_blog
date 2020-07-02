@@ -78,7 +78,7 @@ $(function () {
 
 
 });
-
+/*
 function slideBar__move() {
     function a() {
         $('.main-slider .side-bars > div:last-child').click();
@@ -87,6 +87,7 @@ function slideBar__move() {
     setInterval(a,4000);
 
 }
+*/
 
 $(function() {
     slideBar__move();
