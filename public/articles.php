@@ -63,11 +63,11 @@ while ( true ) {
 
 
 
-<div class="con main-self-development-title">
-    <span><?=$cateItemName?></span>
+<div class="con main-title">
+    <h1><?=$cateItemName?></h1>
 </div>
 
-
+<!--
 <div class="self-development-menu con flex flex-jc-c flex-ai-c">
     <ul class="flex flex-jc-c flex-ai-c">
         <li><a href="#">HTML</a></li>
@@ -76,31 +76,36 @@ while ( true ) {
         <li><a href="#">The Rest</a></li>
     </ul>
 </div>
-
+-->
 
 <ul class="text-list con">
     <?php foreach ( $rows as $row ) { ?>
-    <li>
-        <div class="title flex">
-            <a href="detail.php?id=<?=$row['id']?>">
-                <h1><?=$row['title']?></h1>
-            </a>
-
-        </div>
-        <div class="summary">
-            <a href="detail.php?id=<?=$row['id']?>">
-                <span><h1><?=$row['summary']?></h1></span>
-            </a>
-        </div>
-        <div class="date">
-            <a href="detail.php?id=<?=$row['id']?>">
-                <?=substr($row['regDate'], 0, 10)?>
-            </a>
-        </div>
-        <div style="background-image:url(https://ssw0428.github.io/img1/blog/article/1/CSS.jpg);"
-            class="title-img flex flex-jc-end">
-        </div>
-    </li>
+    <ul class="inner">
+            <li class="inner-2 flex">
+                <div class="title flex">
+                    <a href="detail.php?id=<?=$row['id']?>">
+                        <h1><?=$row['title']?></h1>
+                    </a>
+                </div>
+                <div class="summary">
+                    <a href="detail.php?id=<?=$row['id']?>">
+                        <span>
+                            <?=$row['summary']?>
+                        </span>
+                    </a>
+                </div>
+                <div class="date">
+                    <a href="detail.php?id=<?=$row['id']?>">
+                        <?=substr($row['regDate'], 0, 10)?>
+                    </a>
+                </div>
+            </li>
+            <li class="title-img flex flex-jc-end">
+                <a href="detail.php?id=<?=$row['id']?>">
+                    <img src="<?=$row['thumbImgUrl']?>" alt="">
+                </a>
+            </li>
+    </ul>
     <?php } ?>
 </ul>
 

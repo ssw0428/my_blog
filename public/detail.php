@@ -38,7 +38,7 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="title-list con">
+<div class="title-list con-2">
     <h1 class="title con"><?=$row['title']?></h1>
     <div class="con name">
         by 서상원
@@ -67,7 +67,20 @@ $row = mysqli_fetch_assoc($rs);
         plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
     });
 </script>
-<div class="con">
+<ul class="comment con-2">
+    <li class="comment-name">
+        <span>댓글쓰기 1</span>
+    </li>
+    <li class="comment-viewer">
+        <span>
+            잘보고갑니다.
+        </span>
+    </li>
+    <li class="comment-write">
+        <span>좋은 댓글은 블로거에게 큰 힘이 됩니다.</span>
+    </li>
+</ul>
+<div class="con-2 menu">
     <a href="#" onclick="history.back();">[뒤로가기]</a>
     <a href="/list.php">[리스트]</a>
     <a href="#" onclick="history.front();">[앞으로가기]</a>

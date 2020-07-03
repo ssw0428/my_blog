@@ -77,42 +77,47 @@
                 <ul class="flex flex-1-0-0">
                     <li class="flex-1-0-0 flex"><a href="/"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Home</span></a></li>
-                    <li class="flex-1-0-0 flex"><a href="/dailyLife.php"
+                    <li class="flex-1-0-0 flex"><a href="/articles.php?cateItemId=1"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily&#160;&#160;Life</span></a>
-                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                        <ul class="">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
-                                    GITHUB
+                                photograph
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                    FACEBOOK
+                                IT Info
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                    INSTA
+                                Fishing&#160;&#160;Life
                                 </a>
                             </li>
                         </ul>
                     </li>
-                    <li class="flex-1-0-0 flex"><a href="/selfDevelopment.php"
+                    <li class="flex-1-0-0 flex"><a href="/articles.php?cateItemId=2"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Self&#160;&#160;Development</span></a>
-                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                        <ul class="">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
-                                    GITHUB
+                                HTML
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                    FACEBOOK
+                                CSS
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                    INSTA
+                                Java Script
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jhs512" target="_blank">
+                                The Rest
                                 </a>
                             </li>
                         </ul>
@@ -122,7 +127,7 @@
                     </li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>SNS</span></a>
-                        <ul class="flex flex-ai-c flex-jc-c flex-1-0-0">
+                        <ul class="">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
                                     GITHUB

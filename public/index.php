@@ -63,7 +63,7 @@
                     <a class="" href="">20-06-29</a>
                 </div>
                 <div class="issue-2">
-                    <a href=""><?=$article['title']?></a>
+                    <a href="">제목들어갑니다.</a>
                     <a href="">"내용이 들어가는 부분입니다.내용이 들어가는 부분입니다.내용이 들어가는 부분입니다...."</a>
                 </div>
             </div>

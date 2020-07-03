@@ -38,6 +38,12 @@
 }
 
 .title-list {
+    margin: 120px auto;
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .title-list > .title {
@@ -53,6 +59,36 @@
     font-size: 12px;
     text-align: center;
     color: rgb(182, 182, 182);
+}
+
+.comment {
+    border: 1px solid #c4c4c4;
+    margin: 0 auto;
+}
+
+.comment > .comment-name > span {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.comment > .comment-viewer > span {
+    display: block;
+    padding: 60px 0;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.comment > .comment-write {
+    display: block;
+    padding: 80px 0;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #9e9e9e;
+}
+
+.comment > .comment-write > span {
+    display: block;
+    background-color: white;
 }
 
 /* daily life */
@@ -91,8 +127,8 @@
 
 /* 주요 소식 시작 */
 .recentStories {
-    margin-top: 80px;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-bottom: 2000px;
 }
 
 .recentStories>.main-title {
@@ -165,39 +201,59 @@
 
 /* 주요 소식 끝 */
 
-/* 자기개발 시작 */
+/* 아티클 시작 */
+.main-title {
+    margin-top: 130px; 
+}
+.main-title > h1 {
+    display: block;
+    text-align: center;
+    font-size: 3.5rem;
+}
 
 .text-list {
-    position: relative;
     margin-top: 80px;
+}
+
+.text-list > .inner {
     border: 1px solid #c4c4c4;
-    padding: 20px 10px;
+    padding: 30px 10px;
+    margin-top: 40px;
+    position: relative;
+    
+
 }
 
-.text-list > .title {
-    font-size: 1.5rem;
+.text-list > .inner > .inner-2 {
+    flex-direction: column;
+    margin-left: 20px;
 }
 
-.text-list > .summary {
-    margin-top: 10px;
+.text-list > .inner > .inner-2 > .title {
+    font-size: 1.0rem;
+    
+}
+
+.text-list > .inner > .inner-2 >.summary {
+    margin: 30px 0;
     margin-right: 200px;
-    font-size: 19px;
+    font-size: 22px;
 }
 
-.text-list > .date {
+.text-list > .inner > .inner-2 > .date {
     margin-top: 10px;
     color: #c4c4c4;
 }
 
-.text-list > .title-img {
+.text-list > .inner > .title-img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 0;
+    right: 3%;
+    width: 300px;
+
+}
+.text-list > .inner > .title-img > a > img {
     width: 150px;
-    height: 150px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 
 }
