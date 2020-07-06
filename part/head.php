@@ -65,7 +65,7 @@
     <div class="top-bar visible-md-up">
         <div class="height-100p flex con">
             <!-- 로고 -->
-            <a href="#" class="flex flex-ai-c flex-1-0-0 main-logo">
+            <a href="/index.php" class="flex flex-ai-c flex-1-0-0 main-logo">
                 <img class="" src="/resource/img/img-1.png" alt="width=100">
             </a>
             <!-- 블로그 이름
@@ -82,17 +82,17 @@
                         <ul class="">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
-                                photograph
+                                    photograph
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                IT Info
+                                    IT Info
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                Fishing&#160;&#160;Life
+                                    Fishing&#160;&#160;Life
                                 </a>
                             </li>
                         </ul>
@@ -102,22 +102,22 @@
                         <ul class="">
                             <li class="">
                                 <a href="https://github.com/jhs512" target="_blank">
-                                HTML
+                                    HTML
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                CSS
+                                    CSS
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                Java Script
+                                    Java Script
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/jhs512" target="_blank">
-                                The Rest
+                                    The Rest
                                 </a>
                             </li>
                         </ul>
@@ -150,4 +150,10 @@
             </nav>
 
         </div>
+    </div>
+
+
+    <!-- Top btn -->
+    <div class="top-btn">
+    <a class="MOVE_TOP_BTN" href="#">TOP</a>
     </div>

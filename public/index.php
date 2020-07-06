@@ -38,10 +38,12 @@
                         </div>
                     </div>
                 </div>
+                <div class="my-img">
+                    <img src="/resource/img/img-2.png" alt="">
+                </div>
                 <div class="text flex flex-1-0-0 flex-ai-c">
-                        Sang Won's Blog에 찾아와주셔서<br>감사합니다. <br>제가 지금까지 공부한 자료와 저의 일상들이 기록되어 있는 공간입니다. 부족하지만, 많은 글들을 보시면서 함께
-                        공감하길 원해요.
-                   
+                    Sang Won's Blog에 찾아와주셔서 감사합니다. <br>제가 지금까지 공부한 자료와 저의 일상들이 기록되어 있는 공간입니다. 부족하지만, 많은 글들을 보시면서 함께
+                    공감하길 원해요.
                 </div>
             </div>
 
@@ -105,6 +107,19 @@
             </div>
         </div>
     </div>
+
+    <ul class="more-content">
+        <li class="content">
+            <h1>
+                더 많은 글을 보고 싶다면?
+            </h1>
+        </li>
+        <li class="click">
+            <a href="">
+                MORE
+            </a>
+        </li>
+    </ul>
 
 
     <!--
