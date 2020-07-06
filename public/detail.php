@@ -58,13 +58,117 @@ $row = mysqli_fetch_assoc($rs);
     <div class="con" id="viewer1"></div>
 </div>
 <script>
+    // 유튜브 플러그인 시작
+    function youtubePlugin() {
+        toastui.Editor.codeBlockManager.setReplacer("youtube", function (youtubeId) {
+            // Indentify multiple code blocks
+            const wrapperId = `yt${Math.random().toString(36).substr(2, 10)}`;
+
+            // Avoid sanitizing iframe tag
+            setTimeout(renderYoutube.bind(null, wrapperId, youtubeId), 0);
+
+            return `<div id="${wrapperId}"></div>`;
+        });
+    }
+
+    function renderYoutube(wrapperId, youtubeId) {
+        const el = document.querySelector(`#${wrapperId}`);
+
+        el.innerHTML = `<iframe width="420" height="315" src="https://www.youtube.com/embed/${youtubeId}"></iframe>`;
+    }
+    // 유튜브 플러그인 끝
+
+    // repl 플러그인 시작
+    function replPlugin() {
+        toastui.Editor.codeBlockManager.setReplacer("repl", function (replUrl) {
+            var postSharp = "";
+            if (replUrl.indexOf('#') !== -1) {
+                var pos = replUrl.indexOf('#');
+                postSharp = replUrl.substr(pos);
+                replUrl = replUrl.substr(0, pos);
+            }
+
+            if (replUrl.indexOf('?') === -1) {
+                replUrl += "?dummy=1";
+            }
+
+            replUrl += "&lite=true";
+            replUrl += postSharp;
+
+            // Indentify multiple code blocks
+            const wrapperId = `yt${Math.random().toString(36).substr(2, 10)}`;
+
+            // Avoid sanitizing iframe tag
+            setTimeout(renderRepl.bind(null, wrapperId, replUrl), 0);
+
+            return "<div id=\"" + wrapperId + "\"></div>";
+        });
+    }
+
+    function renderRepl(wrapperId, replUrl) {
+        const el = document.querySelector(`#${wrapperId}`);
+
+        var urlParams = getUrlParams(replUrl);
+
+        var height = 400;
+
+        if (urlParams.height) {
+            height = urlParams.height;
+        }
+
+        el.innerHTML = '<iframe height="' + height + 'px" width="100%" src="' + replUrl +
+            '" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>';
+    }
+    // repl 플러그인 끝
+
+    // codepen 플러그인 시작
+    function codepenPlugin() {
+        toastui.Editor.codeBlockManager.setReplacer("codepen", function (codepenUrl) {
+            // Indentify multiple code blocks
+            const wrapperId = `yt${Math.random().toString(36).substr(2, 10)}`;
+
+            // Avoid sanitizing iframe tag
+            setTimeout(renderCodepen.bind(null, wrapperId, codepenUrl), 0);
+
+            return "<div id=\"" + wrapperId + "\"></div>";
+        });
+    }
+
+    function renderCodepen(wrapperId, codepenUrl) {
+        const el = document.querySelector(`#${wrapperId}`);
+
+        var urlParams = getUrlParams(codepenUrl);
+
+        var height = 400;
+
+        if (urlParams.height) {
+            height = urlParams.height;
+        }
+
+        el.innerHTML = '<iframe height="' + height + '" style="width: 100%;" scrolling="no" title="" src="' +
+            codepenUrl + '" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>';
+    }
+    // repl 플러그인 끝
+
+    // lib 시작
+    function getUrlParams(url) {
+        var params = {};
+
+        url.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) {
+            params[key] = value;
+        });
+        return params;
+    }
+    // lib 끝
     var editor1__initialValue = $('#origin1').html();
     var editor1 = new toastui.Editor({
         el: document.querySelector('#viewer1'),
         height: '600px',
         initialValue: editor1__initialValue,
         viewer: true,
-        plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
+        initialEditType: "markdown",
+        previewStyle: "vertical",
+        plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin, replPlugin, codepenPlugin]
     });
 </script>
 <ul class="comment con-2">
