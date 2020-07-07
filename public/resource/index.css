@@ -38,7 +38,7 @@
 }
 
 .title-list {
-    margin: 120px auto;
+    margin: 170px auto;
 }
 
 .menu {
@@ -56,9 +56,11 @@
     text-align: center;
 }
 .title-list > .date {
+    margin-top: 10px;
     font-size: 12px;
     text-align: center;
     color: rgb(182, 182, 182);
+    margin-bottom: 50px;
 }
 
 .comment {
@@ -127,30 +129,25 @@
 
 /* 주요 소식 시작 */
 .recentStories {
-    margin-top: 150px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 
-.recentStories>.main-title {
+.main-title {
     font-size: 35px;
     font-weight: 600;
 }
 
-.recentStories .story-list {
-    margin-top: 40px;
+.recentStories > .story-list {
+    width: 100%;
     justify-content: space-between;
-}
-
-.recentStories .story-list .story .title-img img {
-    width: 300px;
-    height: 300px;
-
+    margin: 0 20px;
 }
 
 .recentStories .story-list .story {
     position: relative;
     padding-bottom: 180px;
-    margin-right: 65px;
+    width: 100%;
 }
 
 .recentStories .story-list .story:nth-child(4) {
@@ -160,7 +157,7 @@
 .recentStories .story-list .story>.issue-1 {
     position: absolute;
     left: 0;
-    bottom: 30%;
+    bottom: 35%;
     width: 100%;
 }
 
@@ -181,22 +178,20 @@
 .recentStories .story-list .story>.issue-2 {
     position: absolute;
     left: 0;
-    bottom: 3%;
-    width: 100%;
+    bottom: 0;
 }
 
 .recentStories .story-list .story>.issue-2>a:nth-child(1) {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 24px;
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .recentStories .story-list .story>.issue-2>a:nth-child(2) {
     display: block;
     color: #555555;
     font-size: 15px;
-    vertical-align: baseline;
 }
 
 .more-content {
@@ -266,11 +261,11 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 3%;
+    right: 2%;
     width: 300px;
 
 }
 .text-list > .inner > .title-img > a > img {
-    width: 150px;
+    width: 140px;   
 
 }

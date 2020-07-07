@@ -51,13 +51,13 @@ ORDER BY id DESC
 
 // 말하고 응답받기
 $rs = mysqli_query($dbConn, $sql);
-$rows = [];
+$articles = [];
 while ( true ) {
     $row = mysqli_fetch_assoc($rs);
     if ( $row == null ) {
         break;
     }
-    $rows[] = $row;
+    $articles[] = $row;
 }
 ?>
 
@@ -79,30 +79,30 @@ while ( true ) {
 -->
 
 <ul class="text-list con">
-    <?php foreach ( $rows as $row ) { ?>
+    <?php foreach ( $articles as $article ) { ?>
     <ul class="inner">
             <li class="inner-2 flex">
                 <div class="title flex">
-                    <a href="detail.php?id=<?=$row['id']?>">
-                        <h1><?=$row['title']?></h1>
+                    <a href="detail.php?id=<?=$article['id']?>">
+                        <h1><?=$article['title']?></h1>
                     </a>
                 </div>
                 <div class="summary">
-                    <a href="detail.php?id=<?=$row['id']?>">
+                    <a href="detail.php?id=<?=$article['id']?>">
                         <span>
-                            <?=$row['summary']?>
+                            <?=$article['summary']?>
                         </span>
                     </a>
                 </div>
                 <div class="date">
-                    <a href="detail.php?id=<?=$row['id']?>">
-                        <?=substr($row['regDate'], 0, 10)?>
+                    <a href="detail.php?id=<?=$article['id']?>">
+                        <?=substr($article['regDate'], 0, 10)?>
                     </a>
                 </div>
             </li>
             <li class="title-img flex flex-jc-end">
-                <a href="detail.php?id=<?=$row['id']?>">
-                    <img src="<?=$row['thumbImgUrl']?>" alt="">
+                <a href="detail.php?id=<?=$article['id']?>">
+                    <img src="<?=$article['thumbImgUrl']?>" alt="">
                 </a>
             </li>
     </ul>
