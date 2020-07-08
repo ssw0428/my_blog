@@ -148,6 +148,7 @@
     position: relative;
     padding-bottom: 180px;
     width: 100%;
+    margin: 10px 20px;
 }
 
 .recentStories .story-list .story:nth-child(4) {
@@ -162,9 +163,10 @@
 }
 
 .recentStories .story-list .story>.issue-1>a:nth-child(1) {
-    background-color: purple;
+    background-color: rgb(122, 57, 122);
     color: white;
     font-size: 16px;
+    padding: 0 5px;
 }
 
 .recentStories .story-list .story>.issue-1>a:nth-child(2) {
@@ -212,6 +214,41 @@
 }
 
 /* 주요 소식 끝 */
+
+/* 그리드 시작 */
+.grid > ul > li > a {
+    display:block;
+}
+
+.grid > ul > li > a > img {
+    display:block;
+    width:100%;
+}
+
+.grid > ul > li {
+    width:20%;
+    box-sizing:border-box;
+    padding:0 10px 20px 10px;
+}
+
+@media ( max-width:1000px ) {
+    .grid > ul > li {
+        width:33.3333%;
+    }
+}
+
+@media ( max-width:700px ) {
+    .grid > ul > li {
+        width:50%;
+    }
+}
+
+@media ( max-width:500px ) {
+    .grid > ul > li {
+        width:100%;
+    }
+}
+/* 그리드 끝 */
 
 /* 아티클 시작 */
 .main-title {

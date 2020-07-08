@@ -32,7 +32,7 @@ $articles[] = $row;
 
 ?>
 <!-- 메인페이지  -->
-<div class="main-page con">
+<div class="main-page box con">
     <section class="container con">
         <div class="blog-name flex flex-jc-c">
             <h1>
@@ -84,49 +84,73 @@ $articles[] = $row;
 </div>
 
 <!-- 주요 소식 -->
-<span class="flex main-title con">Recent Stories</span>
-<div class="recentStories flex con">
-    <?php foreach ( $articles as $article ) { ?>
-    <div class="story-list flex flex-ai-c flex-jc-c" >
-        <div class="story flex flex-jc-c flex-ai-c">
-            <div class="title-img flex flex-jc-c">
-                <a href="detail.php?id=<?=$article['id']?>">
-                    <img src="<?=$article['thumbImgUrl']?>" alt="">
-                </a>
-            </div>
-            <div class="issue-1">
-                <a class="" href="">Self-Development</a>
-                <a href="detail.php?id=<?=$article['id']?>">
-                    <?=substr($article['regDate'], 0, 10)?>
-                </a>
-            </div>
-            <div class="issue-2">
-                <a href="detail.php?id=<?=$article['id']?>">
-                    <?=$article['title']?>
-                </a>
-                <a href="detail.php?id=<?=$article['id']?>">
-                    <span>
-                        <?=$article['summary']?>
-                    </span>
-                </a>
+<div class="box">
+    <span class="flex main-title con">Recent Stories</span>
+    <div class="recentStories flex con">
+        <?php foreach ( $articles as $article ) { ?>
+        <div class="story-list flex flex-ai-c flex-jc-c">
+            <div class="story flex flex-jc-c flex-ai-c">
+                <div class="title-img flex flex-jc-c">
+                    <a href="detail.php?id=<?=$article['id']?>">
+                        <img src="<?=$article['thumbImgUrl']?>" alt="">
+                    </a>
+                </div>
+                <div class="issue-1">
+                    <a class="" href="">Self-Development</a>
+                    <a href="detail.php?id=<?=$article['id']?>">
+                        <?=substr($article['regDate'], 0, 10)?>
+                    </a>
+                </div>
+                <div class="issue-2">
+                    <a href="detail.php?id=<?=$article['id']?>">
+                        <?=$article['title']?>
+                    </a>
+                    <a href="detail.php?id=<?=$article['id']?>">
+                        <span>
+                            <?=$article['summary']?>
+                        </span>
+                    </a>
+                </div>
             </div>
         </div>
+        <?php } ?>
     </div>
-    <?php } ?>
+
+    <ul class="more-content">
+        <li class="content">
+            <h1>
+                더 많은 글을 보고 싶다면?
+            </h1>
+        </li>
+        <li class="click">
+            <a href="">
+                MORE
+            </a>
+        </li>
+    </ul>
 </div>
 
-<ul class="more-content">
-    <li class="content">
-        <h1>
-            더 많은 글을 보고 싶다면?
-        </h1>
-    </li>
-    <li class="click">
-        <a href="">
-            MORE
-        </a>
-    </li>
-</ul>
+    <nav class="grid con">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/ccjNAF/btqwAzxbY6X/lALEMtE0LkVCpcbTeOSZDK/img.jpg">
+                </a>
+            </li>
+            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/cQOmkD/btqwxSyrqm9/0oDZdskHvQdMwfeXlfbhwK/img.jpg"></a>
+            </li>
+            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/b1lks0/btqwxR0wGWU/a51jzd5WigrYR8o22nKEfK/img.jpg"></a>
+            </li>
+            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/cH0lEv/btqwy1HDeHJ/d35zjOJ3s90V3YPWaWt3u0/img.jpg"></a>
+            </li>
+            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/bZW46K/btqwzAbX2ZE/D0qVZ6atdITXM1jgi9jDU0/img.jpg"></a>
+            </li>
+            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/bb1gII/btqwAmqXcsY/nkyzk9fYmrN5qBSXmTLMl0/img.jpg"></a>
+            </li>
+            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/v5g5D/btqwy0PofvX/QockA7MBfZAvELkM9TGR8K/img.jpg"></a>
+            </li>
+        </ul>
+    </nav>
 
 <!--
 <div class="main-bar con">
