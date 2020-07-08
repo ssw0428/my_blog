@@ -83,17 +83,13 @@
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily&#160;&#160;Life</span></a>
                         <ul class="">
                             <li class="">
-                                <a href="https://github.com/jhs512" target="_blank">
-                                    photograph
+                                <a href="/articles.php?cateItemId=1"></a>
+                                photograph
                                 </a>
                             </li>
+
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
-                                    IT Info
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="/articles.php?cateItemId=1">
                                     Fishing&#160;&#160;Life
                                 </a>
                             </li>
@@ -102,52 +98,58 @@
                     <li class="flex-1-0-0 flex"><a href="/articles.php?cateItemId=2"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Self&#160;&#160;Development</span></a>
                         <ul class="">
+                            <li>
+                                <a href="/articles.php?cateItemId=2">
+                                    IT Info
+                                </a>
+                            </li>
                             <li class="">
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="/articles.php?cateItemId=2">
                                     HTML
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="/articles.php?cateItemId=2">
                                     CSS
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="/articles.php?cateItemId=2">
                                     Java Script
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="/articles.php?cateItemId=2">
                                     The Rest
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li class="flex-1-0-0 flex">
-                        <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Portfolio</span></a>
-                    </li>
-                    <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>SNS</span></a>
                         <ul class="">
                             <li class="">
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="" target="">
                                     GITHUB
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="" target="">
                                     FACEBOOK
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="" target="">
                                     INSTA
                                 </a>
                             </li>
                         </ul>
 
                     </li>
+                    <li class="flex-1-0-0 flex">
+                        <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Portfolio</span></a>
+                    </li>
+
                 </ul>
             </nav>
 

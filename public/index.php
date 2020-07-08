@@ -123,34 +123,41 @@ $articles[] = $row;
             </h1>
         </li>
         <li class="click">
-            <a href="">
+            <a href="/articles.php?cateItemId=2">
                 MORE
             </a>
         </li>
     </ul>
 </div>
 
-    <nav class="grid con">
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/ccjNAF/btqwAzxbY6X/lALEMtE0LkVCpcbTeOSZDK/img.jpg">
-                </a>
-            </li>
-            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/cQOmkD/btqwxSyrqm9/0oDZdskHvQdMwfeXlfbhwK/img.jpg"></a>
-            </li>
-            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/b1lks0/btqwxR0wGWU/a51jzd5WigrYR8o22nKEfK/img.jpg"></a>
-            </li>
-            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/cH0lEv/btqwy1HDeHJ/d35zjOJ3s90V3YPWaWt3u0/img.jpg"></a>
-            </li>
-            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/bZW46K/btqwzAbX2ZE/D0qVZ6atdITXM1jgi9jDU0/img.jpg"></a>
-            </li>
-            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/bb1gII/btqwAmqXcsY/nkyzk9fYmrN5qBSXmTLMl0/img.jpg"></a>
-            </li>
-            <li><a href="#"><img src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/v5g5D/btqwy0PofvX/QockA7MBfZAvELkM9TGR8K/img.jpg"></a>
-            </li>
-        </ul>
-    </nav>
+<nav class="grid con">
+    <ul>
+        <li>
+            <a href="#">
+                <img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/ccjNAF/btqwAzxbY6X/lALEMtE0LkVCpcbTeOSZDK/img.jpg">
+            </a>
+        </li>
+        <li><a href="#"><img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/cQOmkD/btqwxSyrqm9/0oDZdskHvQdMwfeXlfbhwK/img.jpg"></a>
+        </li>
+        <li><a href="#"><img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/b1lks0/btqwxR0wGWU/a51jzd5WigrYR8o22nKEfK/img.jpg"></a>
+        </li>
+        <li><a href="#"><img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/cH0lEv/btqwy1HDeHJ/d35zjOJ3s90V3YPWaWt3u0/img.jpg"></a>
+        </li>
+        <li><a href="#"><img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/bZW46K/btqwzAbX2ZE/D0qVZ6atdITXM1jgi9jDU0/img.jpg"></a>
+        </li>
+        <li><a href="#"><img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/bb1gII/btqwAmqXcsY/nkyzk9fYmrN5qBSXmTLMl0/img.jpg"></a>
+        </li>
+        <li><a href="#"><img
+                    src="//i1.daumcdn.net/thumb/R320x0/?fname=https://k.kakaocdn.net/dn/v5g5D/btqwy0PofvX/QockA7MBfZAvELkM9TGR8K/img.jpg"></a>
+        </li>
+    </ul>
+</nav>
 
 <!--
 <div class="main-bar con">
