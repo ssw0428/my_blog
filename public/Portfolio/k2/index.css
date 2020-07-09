@@ -357,8 +357,12 @@ label[for] {
 /* 탑메뉴바 끝 */
 
 /* 메뉴바 시작 */
-.menu-bar > ul {
+.menu-bar > .main-menu-box {
+    position: relative;
+}
+.menu-bar > .main-menu-box > ul {
     width: 100%;
+    width: 870px;
 }
 
 .menu-bar > .logo-bar > .logo > img {
@@ -390,17 +394,13 @@ label[for] {
     right: 19%;
 }
 
-.menu-bar > ul {
-    width: 870px;
-}
-
-.menu-bar > ul > li {
+.menu-bar > .main-menu-box > ul > li {
     position: relative;
     height: 100px;
     flex-basis: calc(100%/6);
 }
 
-.menu-bar > ul > li > a {
+.menu-bar > .main-menu-box > ul > li > a {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
@@ -408,30 +408,36 @@ label[for] {
     padding: 38px 0;
 }
 
-.menu-bar > ul > li:hover > a {
+.menu-bar > .main-menu-box > ul > li:hover > a {
     color:#C30013;
     transition: color 0.3s ease-in-out;
 }
 
-.menu-bar > ul ul {
+.menu-bar > .main-menu-box > .sub-menu-box {
     border-top: 1px solid #F6F6F6;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
+    width: 870px;
     background-color: pink;
-    width: 100%;
 }
 
-.menu-bar ul > li:hover > ul {
+.menu-bar > .main-menu-box > .sub-menu-box > ul {
+    flex-basis: calc(100%/6);
+    padding: 28px 0;
+}
+
+.menu-bar .main-menu-box > li:hover > ul {
     display: block;
 
 }
 
-.menu-bar > ul ul > li > a {
+.menu-bar > .main-menu-box > .sub-menu-box ul li > a {
     font-size: 14px;
     color: #616161;
     display: block;
     text-align: center;
+    padding: 8px 0;
 }
 /* 메뉴바 끝 */

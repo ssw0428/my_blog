@@ -29,12 +29,26 @@
         </div>
     </nav>
 
-    <nav class="menu-bar flex flex-jc-c">
+    <div class="menu-bar flex flex-jc-c">
         <div class="flex  logo-bar">
             <a class="logo" href="#"><img src="https://ssw0428.github.io/img1/pf/k2/ci.png" alt=""></a>
         </div>
-        <ul class="flex flex-jc-c flex-ai-c">
-            <li><a href="#">안전화</a>
+        <nav class="main-menu-box">
+            <ul class="flex flex-jc-c flex-ai-c">
+                <li><a href="#">안전화</a>
+                </li>
+                <li><a href="#">캐쥬얼화</a>
+                </li>
+                <li><a href="#">유니폼</a>
+                </li>
+                <li><a href="#">안전보호구</a>
+                </li>
+                <li><a href="#">용품</a>
+                </li>
+                <li><a href="#">기술정보</a>
+                </li>
+            </ul>
+            <nav class="sub-menu-box flex flex-jc-c">
                 <ul>
                     <li><a href="#">전체</a></li>
                     <li><a href="#">GORE-TEX 안전화</a></li>
@@ -49,13 +63,9 @@
                     <li><a href="#">다목적 안전화</a></li>
                     <li><a href="#">안전장화</a></li>
                 </ul>
-            </li>
-            <li><a href="#">캐쥬얼화</a>
                 <ul>
                     <li><a href="#">캐쥬얼화</a></li>
                 </ul>
-            </li>
-            <li><a href="#">유니폼</a>
                 <ul>
                     <li><a href="#">전체</a></li>
                     <li><a href="#">근무복</a></li>
@@ -66,16 +76,12 @@
                     <li><a href="#">바지</a></li>
                     <li><a href="#">쉐프웨어</a></li>
                 </ul>
-            </li>
-            <li><a href="#">안전보호구</a>
                 <ul>
                     <li><a href="#">전체</a></li>
                     <li><a href="#">안전벨트</a></li>
                     <li><a href="#">보안경</a></li>
                     <li><a href="#">마스크</a></li>
                 </ul>
-            </li>
-            <li><a href="#">용품</a>
                 <ul>
                     <li><a href="#">전체</a></li>
                     <li><a href="#">보호대</a></li>
@@ -84,16 +90,15 @@
                     <li><a href="#">하계용품</a></li>
                     <li><a href="#">일반용품</a></li>
                 </ul>
-            </li>
-            <li><a href="#">기술정보</a>
                 <ul>
                     <li><a href="#">ARMOR FLEX</a></li>
                     <li><a href="#">AIRFLOW SYSTEM</a></li>
                     <li><a href="#">인젝션 안전화</a></li>
                     <li><a href="#">생산/품질관리</a></li>
                 </ul>
-            </li>
-        </ul>
+
+            </nav>
+        </nav>
         <div class="event flex flex-ai-c">
             <span>이벤트/기획전</span>
         </div>
@@ -105,7 +110,7 @@
                 <span><i class="fas fa-book-open"></i></span>
             </a>
         </div>
-    </nav>
+    </div>
 
 </body>
 
