@@ -110,6 +110,12 @@
     </div>
 
     <div class="main-slider">
+        <span>
+            <a href="#">
+                자세히 보기
+                <span class="arrow"></span>
+            </a>
+        </span>
         <div class="slides">
             <div style="background-image:url(https://ssw0428.github.io/img1/pf/k2/20ss_visual1.jpg);" class="active">
                 <img src="https://ssw0428.github.io/img1/pf/k2/visual1_txt.png" alt="">
@@ -123,14 +129,23 @@
         </div>
 
         <div class="side-bars">
-            <div>
-                <img src="https://ssw0428.github.io/img1/pf/k2/uniform_w.png" alt="">
+            <!-- 왼쪽 -->
+            <div class="control1">
+                <span class="line hover"></span>
+                <span class="on"></span>
+                안전용품
             </div>
-            <div>
-                <img src="https://ssw0428.github.io/img1/pf/k2/supp_w.png" alt="">
+            <!-- 오른쪽 -->
+
+            <div class="control2">
+                <span class="line hover"></span>
+                <span class="on"></span>
+                안전용품
             </div>
         </div>
+
     </div>
+
     <div class="main-prod">
         <div class="main-name">
             <span>BEST ITEM</span>
@@ -146,46 +161,63 @@
         <nav class="item-list con">
             <ul class="flex flex-jc-c">
                 <li>
-                    <a href="#">
-                        <img src="https://ssw0428.github.io/img1/pf/k2/1000000217_main_052.jpg" alt="">
-                    </a>
-                    <a href="#">안전보호구</a>
-                    <a href="#">[온라인 단독] 13일 오전10시 - 비말차단마스크(KF-AD) - 50EA</a>
-                    <div class="price-eng">
-                        <a href="#">0원</a>
-                        <a href="#">회원전용 (비회원 구매불가) 상품 입니다.</a>
+                    <div class="inner1">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000217_main_052.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="inner2 flex flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">안전보호구</a>
+                        <a class="name2" href="#">[온라인 단독] 13일 오전10시 - 비말차단마스크(KF-AD) - 50EA</a>
+                        <div class="price">
+                            <a class="name3" href="#">0원</a>
+                            <a class="name4" href="#">회원전용 (비회원 구매불가) 상품 입니다.</a>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000206_main_026.jpg" alt=""></a>
-                    <a href="#">안전보호구</a>
-                    <a href="#">10일 10시 판매 - KF94 황사방역마스크 (1EA)</a>
-                    <div class="price-eng">
-                        <a href="#">1,000원</a>
-                        <a href="#">회원전용 (비회원 구매불가) 상품 입니다.</a>
+                    <div class="inner1">
+                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000206_main_026.jpg" alt=""></a>
+                    </div>
+                    <div class="inner2 flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">안전보호구</a>
+                        <a class="name2" href="#">10일 10시 판매 - KF94 황사방역마스크 (1EA)</a>
+                        <div class="price">
+                            <a class="name3" href="#">1,000원</a>
+                            <a class="name4" href="#">회원전용 (비회원 구매불가) 상품 입니다.</a>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000209_main_072.jpg" alt=""></a>
-                    <a href="#">의류</a>
-                    <a href="#">[온라인 단독] LB2-203 폴로티 그레이</a>
-                    <div class="price-eng">
-                        <a href="#">20,000원</a>
-                        <a href="#">9,000원</a>
+                    <div class="inner1">
+                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000209_main_072.jpg" alt=""></a>
+                    </div>
+                    <div class="inner2 flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">의류</a>
+                        <a class="name2" href="#">[온라인 단독] LB2-203 폴로티 그레이</a>
+                        <div class="price">
+                            <a class="name3" href="#">20,000원</a>
+                            <a class="name4" href="#">9,000원</a>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000211_main_088.jpg" alt=""></a>
-                    <a href="#">의류</a>
-                    <a href="#">[온라인 단독] LB2-120 자켓 다크그레이</a>
-                    <div class="price-eng">
-                        <a href="#">40,000원</a>
-                        <a href="#">19,000원</a>
+                    <div class="inner1">
+                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000211_main_088.jpg" alt=""></a>
+                    </div>
+                    <div class="inner2 flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">의류</a>
+                        <a class="name2" href="#">[온라인 단독] LB2-120 자켓 다크그레이</a>
+                        <div class="price">
+                            <a class="name3" href="#">40,000원</a>
+                            <a class="name4" href="#">19,000원</a>
+                        </div>
                     </div>
                 </li>
             </ul>
         </nav>
     </div>
+    <div class="next">d</div>
 
 </body>
 

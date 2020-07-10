@@ -453,13 +453,170 @@ html, body {
     margin: 0 auto;
 }
 
+.main-slider > span {
+    position: absolute;
+    z-index: 10;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+
+.main-slider > span > a {
+    padding: 15px 50px;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+    display: block;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    position: relative;
+}
+
+.main-slider > span:hover > a {
+    opacity: 1;
+}
+
+.main-slider > span > a > .arrow {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/arrow1.png);
+    position: absolute;
+    opacity: 0;
+    top: 20px;
+    right: 32px;
+    width: 30px;
+    height: 10px;
+    transition: right 0.5s;
+    overflow: hidden;
+}
+.main-slider > span > a:hover > .arrow {
+    opacity: 1;
+    right: -17px;
+}
+
+/* 왼쪽 클릭 */
+.main-slider > .side-bars > .control1 {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/supp_w.png);
+    position: absolute;
+    top: 278px;
+    width: 120px;
+    height: 71px;
+    padding-top: 99px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    background-position: center 53px;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    transition: background-color 0.5;
+}
+
+.main-slider > .side-bars > .control1 > .line {
+    position: absolute;
+    top: 71px;
+    width: 30px;
+    height: 2px;
+    left: 0;
+    background-color: #fff;
+}
+
+.main-slider > .side-bars > .control1 > .line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.main-slider > .side-bars > .control1:hover > .on {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/supp_r.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center 53px;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+}
+
+/* 오른쪽 클릭 */
+.main-slider > .side-bars > .control2 {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/uniform_w.png);
+    z-index: 200;
+    position: absolute;
+    top: 278px;
+    width: 120px;
+    height: 71px;
+    padding-top: 99px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    background-position: center 53px;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    transition: background-color 0.5;
+}
+
+.main-slider > .side-bars > .control2 > .line {
+    position: absolute;
+    top: 71px;
+    width: 30px;
+    height: 2px;
+    right: 0;
+    background-color: #fff;
+}
+
+.main-slider > .side-bars > .control2 > .line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.main-slider > .side-bars > .control1:hover {
+    color: red;
+    background-color: white;
+}
+
+.main-slider > .side-bars > .control2:hover {
+    color: red;
+    background-color: white;
+}
+
+.main-slider > .side-bars > .control2:hover > .on {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/uniform_r.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center 53px;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+}
+
+
 .main-slider .side-bars > div {
     position:absolute;
-    top:45%;
+    top:0;
     left:0;
     /* ie 9 이상에서만 사용 가능 */
     height:100%;
     cursor:pointer;
+    
 }
 
 .main-slider .side-bars > div:last-child {
@@ -467,20 +624,14 @@ html, body {
     right:0;
 }
 
-.main-slider .side-bars > div > span {
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
+.main-slider .side-bars > div > img {
     left:inherit;
     right:inherit;
-    font-size:5rem;
     transition: transform 0.2s;
-    margin:0 10px;
+    margin-top: 250px;
 }
 
-.main-slider .side-bars > div:active > span {
-    transform:translateY(-40%);
-}
+
 
 .main-slider > .slides > div {
     position:absolute;
@@ -497,7 +648,7 @@ html, body {
 }
 
 .main-slider > .slides > div > img {
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     position: absolute;
@@ -507,10 +658,6 @@ html, body {
     opacity:1;
 }
 
-.main-slider > .side-bars > div > img {
-    border: 1px solid red;
-    
-}
 
 
 /* 슬라이드 끝 */
@@ -544,7 +691,67 @@ html, body {
     margin: 0 20px;
 }
 
-.main-prod > .item-list > ul > li > a img {
+.main-prod > .item-list > ul > li > .inner1 {
+    border: 1px solid rgb(226, 226, 226);
+    height: 400px;
+    display:table;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.main-prod > .item-list > ul > li > .inner1 > a img {
     width: 300px;
-    border: 1px solid red;
+}
+
+.main-prod > .item-list > ul > li > .inner2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.main-prod > .item-list > ul > li > .inner2 > .name1 {
+    font-size: 14px;
+    color: #787878;
+    
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main-prod > .item-list > ul > li > .inner2 > .name2 {
+    font-size: 18px;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main-prod > .item-list > ul > li > .inner2 > .price {
+    margin-top: 12px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main-prod > .item-list > ul > li > .inner2 .name3 {
+    font-size: 12px;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 3px;
+    font-size: 12px;
+    color: #787878;
+    text-decoration: line-through;
+}
+.main-prod > .item-list > ul > li > .inner2 .name4 {
+    font-size: 18px;
+    display: inline;
+    vertical-align: middle;
+    display: inline;
+    vertical-align: middle;
+}
+
+.next {
+    height: 500px;
 }
