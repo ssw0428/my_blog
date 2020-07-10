@@ -333,218 +333,57 @@ label[for] {
     max-width: 1200px;
 }
 
-/* 탑메뉴바 시작 */
-.top-menu-bar {
-    background-color: #F6F6F6;
-}
-
-.top-menu-bar > .inner {
-    height: 40px;
-    line-height: 40px;
-    padding: 0 40px;
-
-}
-.top-menu-bar > .inner > ul > li {
-    margin-left: 30px;
-}
-
-.top-menu-bar > .inner > ul > li > a {
-    font-size: 12px;
-    color: #787878;
-    font-weight: bold;
-}
-
-/* 탑메뉴바 끝 */
-
 /* 메뉴바 시작 */
-
-.menu-bar > .logo-bar > .logo > img {
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
     z-index: 100;
-    position: absolute;
-    top: 80px;
-    left: 50%;
-    margin-left: -600px;
-    width: 120px;
+    border-bottom: 1px solid #ebebeb;
+}
+.menu-bar {
+    height: 96px;
+}
+.menu-bar > ul {
 }
 
-.menu-bar > .event > span {
-    position: absolute;
-    right: 50%;
-    top: 80px;
-    margin-right: -520px;
-    font-size: 14px;
-}
-
-.menu-bar > .right-icon > .search > span {
-    position: absolute;
-    top: 80px;
-    right: 21%;
-}
-
-.menu-bar > .right-icon > .book > span {
-    position: absolute;
-    top: 80px;
-    right: 19%;
-}
-.menu-bar > .main-menu-box > ul {
-    width: 870px;
+.menu-bar > ul > li {
+    margin: 45px 0 0 70px;
+    position: relative;
     z-index: 10;
 }
-
-.menu-bar > .main-menu-box > ul > li {
-    position: relative;
-    height: 100px;
-    flex-basis: calc(100%/6);
+.menu-bar > ul > li:hover {
+    border-bottom: 1px solid red;
 }
 
-.menu-bar > .main-menu-box > ul > li > a {
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    display: block;
-    padding: 38px 0;
+.menu-bar > ul > li > a {
+    font-size: 22px;
+    padding: 45px 5px 20px 5px;
 }
 
-.menu-bar > .main-menu-box > ul > li:hover > a {
-    color:#C30013;
-    transition: color 0.3s ease-in-out;
-}
-
-.menu-bar > .main-menu-box > ul ul {
+.menu-bar > ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    right:0;
-    background-color: white;
-    height: 0;
-    transition: height 0.5s, background-color 1s;
+    width: 0;
+    transition: width 0.3s;
     overflow: hidden;
-}
-.menu-bar > .main-menu-box > ul:hover ul {
-    height: 450px;
+    background-color: white;
 }
 
-.menu-bar > .main-menu-box > ul li:hover > ul {
-    border-top: 1px solid #F6F6F6;
-    background-color: #f8f8f8;
-}
-
-
-.menu-bar > .main-menu-box > ul ul > li > a {
-    font-size: 14px;
-    color: #616161;
-    display: block;
-    text-align: center;
-    padding: 8px 15px;
-    font-weight: 600;
-}
-/* 메뉴바 끝 */
-
-/* 슬라이드 시작 */
-html, body {
-    height:100%;
-}
-
-.main-slider {
-    height:700px;
-    width:95%;
-    position:relative;
-    user-select:none;
-    margin: 0 auto;
-}
-
-.main-slider .side-bars > div {
-    position:absolute;
-    top:45%;
-    left:0;
-    /* ie 9 이상에서만 사용 가능 */
-    height:100%;
-    cursor:pointer;
-}
-
-.main-slider .side-bars > div:last-child {
-    left:auto;
-    right:0;
-}
-
-.main-slider .side-bars > div > span {
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:inherit;
-    right:inherit;
-    font-size:5rem;
-    transition: transform 0.2s;
-    margin:0 10px;
-}
-
-.main-slider .side-bars > div:active > span {
-    transform:translateY(-40%);
-}
-
-.main-slider > .slides > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    opacity:0;
-    transition:opacity 0.5s;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-    background-attachment:fixed;
-}
-
-.main-slider > .slides > div > img {
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    position: absolute;
-}
-
-.main-slider > .slides > div.active {
-    opacity:1;
-}
-
-.main-slider > .side-bars > div > img {
-    border: 1px solid red;
+.menu-bar > ul > li:hover > ul {
+    width: 300px;
     
 }
 
-
-/* 슬라이드 끝 */
-
-.main-prod > .main-name > span {
-    margin-top: 92px;
-    display: block;
-    text-align: center;
-    font-size: 46px;
-    font-weight: 500;
+.menu-bar > ul ul > li {
+    padding: 20px;
+}
+.menu-bar > ul > li > ul > li > a {
+    color: #888888;
+    font-weight: 300;
 }
 
-.main-prod > .item-name {
-    margin: 28px 0 58px 0;
-}
-
-.main-prod > .item-name > li > a {
-    padding: 0 32px;
-    font-size: 18px;
-    font-weight: 500;
-}
-.main-prod > .item-list {
-    position: relative;
-    overflow: visible;
-}
-.main-prod > .item-list > ul {
-    max-width: 1400px;
-}
-
-.main-prod > .item-list > ul > li {
-    margin: 0 20px;
-}
-
-.main-prod > .item-list > ul > li > a img {
-    width: 300px;
-    border: 1px solid red;
-}
+/* 메뉴바 끝 */

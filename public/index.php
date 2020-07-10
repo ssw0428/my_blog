@@ -53,6 +53,7 @@ $articles[] = $row;
                     <div style="background-image:url(../resource/img/main-slide-3.jpg);"></div>
                     <div style="background-image:url(../resource/img/main-slide-1.jpg);"></div>
                     <div style="background-image:url(../resource/img/main-slide-5.jpg);"></div>
+                    
                 </div>
 
                 <div class="side-bars">
