@@ -217,8 +217,200 @@
             </ul>
         </nav>
     </div>
-    <div class="next">d</div>
+    <div class="main-tech">
+        <h3>SAFETY TECHNOLOGY</h3>
+        <div class="inner">
+            <div class="slide">
+                <ul>
+                    <li style="background-image:url(https://ssw0428.github.io/img1/pf/k2/tech1_p1.jpg);">
+                        <div class="inner2 flex" style="width: 436px;">
+                            <span class="name1" style="font-size:60px; color: white; font-weight: bold;">
+                                ARMOR FLEX
+                            </span>
+                            <span class="name2"
+                                style="font-size:18px; color: white; margin-top:13px; font-weight: 600;">
+                                강하고 유연한 신소재 아머 플렉스가<br>
+                                발의 피로도 감소로 새로운 산업안전 기준을 제시합니다.
+                            </span>
+                            <span class="name3" style="font-size:14px; color: #F3C3C3; margin-top:39px;">
+                                ARMOR FLEX는 날카로운 못 등 작업 중 발에 미치는 위험요소를
+                                더 완벽하게 방지하고, 유연성이 뛰어나며 가벼울 뿐 아니라
+                                쾌적성, 안정성이 우수한 혁신적인 제품입니다.
+                            </span>
+                            <span class="view"><a href="#">자세히 보기</a></span>
+                        </div>
+                    </li>
+                    <li style="background-image:url(https://ssw0428.github.io/img1/pf/k2/tech2_p1.jpg);">
+                        <div class="inner2 flex" style="width: 436px;">
+                            <span class="name1" style="font-size:60px; color: white; font-weight: bold;">
 
+                                AIRFLOW
+                                SYSTEM
+                            </span>
+                            <span class="name2"
+                                style="font-size:18px; color: white; margin-top:13px; font-weight: 600;">
+                                열기를 배출하는 AIRFLOW SYSTEM이
+                                쾌적하고 편안한 착화감을 제공합니다.
+                            </span>
+                            <span class="name3" style="font-size:14px; color: #F3C3C3; margin-top:39px;">
+                                대형통기창과 메쉬로 이루어진 AIRFLOW SYSTEM은 작업 시 발생하는
+                                신발 내의 열기를 배출하고 외부공기가 유입되는 구조로 이루어져
+                                작업자의 발이 편안하고 쾌적하도록 내부환경을 만들어줍니다.
+                            </span>
+                            <span class="view"><a href="#">자세히 보기</a></span>
+                        </div>
+                    </li>
+                    <li style="background-image:url(https://ssw0428.github.io/img1/pf/k2/tech3_p1.jpg);">
+                        <div class="inner2 flex" style="width: 436px;">
+                            <span class="name1" style="font-size:60px; color: white; font-weight: bold;">
+                                INJECTION SAFETY SHOES
+                            </span>
+                            <span class="name2"
+                                style="font-size:18px; color: white; margin-top:13px; font-weight: 600;">
+                                다이렉트 인젝션 방식으로
+                                최고의 안전화를 만듭니다.
+                            </span>
+                            <span class="name3" style="font-size:14px; color: #F3C3C3; margin-top:39px;">
+                                K2 Safety의 안전기술의 정점에 선 인젝션 안전화,
+                                국내 최초 라버폴링공법을 통해 무게는 더욱 가벼워지고,
+                                충격 흡수와 내구성을 더욱 향상시킨 명품 안전화입니다.
+                            </span>
+                            <span class="view"><a href="#">자세히 보기</a></span>
+                        </div>
+                    </li>
+                    <li style="background-image:url(https://ssw0428.github.io/img1/pf/k2/tech4_p1.jpg);">
+                        <div class="inner2 flex" style="width: 436px;">
+                            <span class="name1" style="font-size:60px; color: white; font-weight: bold;">
+                                PERFECT
+                                QUALITY
+                                MANAGEMENT
+                            </span>
+                            <span class="name2"
+                                style="font-size:18px; color: white; margin-top:13px; font-weight: 600;">
+                                까다로운 품질관리가<br>
+                                K2 안전화를 명품으로 만듭니다.
+                            </span>
+                            <span class="name3" style="font-size:14px; color: #F3C3C3; margin-top:39px;">
+                                안전화의 기본은 품질! K2 Safety의 안전화 전 제품은
+                                철저한 검사를 거친 완벽한 품질의 제품이며,
+                                K2 Safety가 제품의 안전함에 자신감을 갖는 이유입니다.
+                            </span>
+                            <span class="view"><a href="#">자세히 보기</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-prod">
+        <div class="main-name">
+            <span>MD CHOICE</span>
+        </div>
+        <ul class="item-name flex flex-jc-c">
+            <li><a href="#">전체</a></li>
+            <li><a href="#">안전화</a></li>
+            <li><a href="#">캐쥬얼화</a></li>
+            <li><a href="#">유니폼</a></li>
+            <li><a href="#">안전보호구</a></li>
+            <li><a href="#">용품</a></li>
+        </ul>
+        <nav class="item-list con">
+            <ul class="flex flex-jc-c">
+                <li>
+                    <div class="inner1">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000209_main_072.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="inner2 flex flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">의류</a>
+                        <a class="name2" href="#">[온라인 단독] LB2-203 폴로티 그레이</a>
+                        <div class="price">
+                            <a class="name3" href="#">20,000원</a>
+                            <a class="name4" href="#">9,000원</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner1">
+                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000210_main_093.jpg" alt=""></a>
+                    </div>
+                    <div class="inner2 flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">의류</a>
+                        <a class="name2" href="#">[온라인 단독] LB2-204 폴로티 블루</a>
+                        <div class="price">
+                            <a class="name3" href="#">20,000원</a>
+                            <a class="name4" href="#">9,000원</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner1">
+                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000211_main_088.jpg" alt=""></a>
+                    </div>
+                    <div class="inner2 flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">의류</a>
+                        <a class="name2" href="#">[온라인 단독] LB2-120 자켓 다크그레이</a>
+                        <div class="price">
+                            <a class="name3" href="#">48,000원</a>
+                            <a class="name4" href="#">19,000원</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="inner1">
+                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000212_main_033.jpg" alt=""></a>
+                    </div>
+                    <div class="inner2 flex-jc-c flex-ai-c">
+                        <a class="name1" href="#">의류</a>
+                        <a class="name2" href="#">[온라인 단독] LB2-120 자켓 머스타드</a>
+                        <div class="price">
+                            <a class="name3" href="#">48,000원</a>
+                            <a class="name4" href="#">19,000원</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <article class="main_vod">
+        <div class="wrp_holder">
+            <div class="player"></div>
+        </div>
+        <a href="javascript:chgVideo('vwK4rS6WZR0');">
+            <span class="play">play</span>
+        </a>
+        <div class="branding">
+            <div class="inner">
+                <span class="obj building1" style="top: 172.663px;"></span>
+                <span class="obj building2" style="top: 140.217px;"></span>
+                <span class="obj cloud_1" style="top: -25.6432px;"></span>
+                <span class="obj cloud_r" style="top: 157.842px;"></span>
+                <span class="obj ci">K2 Safety</span>
+                <span class="obj txt">안전한 삶, 행복한 일상</span>
+            </div>
+        </div>
+
+    </article>
 </body>
+<!-- 빨간색 슬라이드 작업 하다가...
+    <div class="bx-wrapper" style="max-width: 100%;">
+            <div class="bx-viewport" aria-live="polite"
+                style="width: 100%; overflow: hidden; position: relative; height: 650px;">
+                <div id="tech" class="tech_slider"
+                    style="width: auto; position: relative; transition-duration: 0s; transform: translate3d(0px, -650px, 0px);">
+                    <div class="slide tech4 bx-clone"
+                        style="float: none; list-style: none; position: relative; width: 1823px;" aria-hidden="true">
+                        <span class="bg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="bx-controls"></div>
+        </div>
+    </div>
+-->
 
 </html>

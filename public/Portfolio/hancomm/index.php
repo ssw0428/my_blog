@@ -33,6 +33,13 @@
             </ul>
         </nav>
     </header>
+
+    <div class="main-contents">
+        <a class="left-about-us" href="#">
+            <span>ABOUT US</span>
+        </a>
+    </div>
+    
 </body>
 
 </html>

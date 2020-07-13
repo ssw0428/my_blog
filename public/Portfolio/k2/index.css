@@ -493,6 +493,14 @@ html, body {
     right: -17px;
 }
 
+.main-slider > .slides > div {
+    animation-name: zoomout;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 /* 왼쪽 클릭 */
 .main-slider > .side-bars > .control1 {
     background-image: url(https://ssw0428.github.io/img1/pf/k2/supp_w.png);
@@ -596,6 +604,20 @@ html, body {
     background-color: white;
 }
 
+.main-slider > .side-bars > .control2:hover > .line {
+    background-color: red;
+}
+
+.main-slider > .side-bars > .control2:hover > .line::after {
+    background-color: red;
+}
+.main-slider > .side-bars > .control1:hover > .line {
+    background-color: red;
+}
+.main-slider > .side-bars > .control1:hover > .line::after {
+    background-color: red;
+}
+
 .main-slider > .side-bars > .control2:hover > .on {
     background-image: url(https://ssw0428.github.io/img1/pf/k2/uniform_r.png);
     position: absolute;
@@ -662,6 +684,8 @@ html, body {
 
 /* 슬라이드 끝 */
 
+/* 메인 상품 시작 */
+
 .main-prod > .main-name > span {
     margin-top: 92px;
     display: block;
@@ -725,6 +749,7 @@ html, body {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    width: 320px;
 }
 
 .main-prod > .item-list > ul > li > .inner2 > .price {
@@ -737,7 +762,6 @@ html, body {
 
 .main-prod > .item-list > ul > li > .inner2 .name3 {
     font-size: 12px;
-    display: inline;
     vertical-align: middle;
     margin-right: 3px;
     font-size: 12px;
@@ -746,12 +770,247 @@ html, body {
 }
 .main-prod > .item-list > ul > li > .inner2 .name4 {
     font-size: 18px;
-    display: inline;
     vertical-align: middle;
-    display: inline;
-    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20px;
 }
 
-.next {
-    height: 500px;
+/* 메인 상품 끝 */
+
+/* 빨간 슬라이드 시작 */
+
+.main-tech {
+    margin-top: 89px;
+    padding: 0 40px;
 }
+
+.main-tech > h3 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.main-tech > .inner {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1840px;
+}
+
+.main-tech > .inner > .slide {
+    height: 620px;
+    overflow: hidden;
+}
+
+.main-tech > .inner > .slide > ul {
+    height: calc(100% * 4);
+    animation: slide 16s infinite;
+}
+
+.main-tech > .inner > .slide > ul > li {
+    height: calc(100% / 4);
+    position: relative;
+}
+.main-tech > .inner > .slide > ul > li > .inner2 {
+    flex-direction: column;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 49px;
+    padding-bottom: 3px;
+    transform: translateY(-50%);
+}
+
+
+
+.main-tech > .inner > .slide > ul > li > .inner2 > .view {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 57px 0 0;
+    padding: 30px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+@keyframes slide {
+  0% {margin-top:0;}
+  10% {margin-top:0;}
+  25% {margin-top:-620px;}
+  35% {margin-top:-620px;}
+  50% {margin-top:-1240px;}
+  60% {margin-top:-1240px;}
+  75% {margin-top:-1860px;}
+  85% {margin-top:-1860px;}
+  100% {margin-top:0;}
+}
+
+
+.main_vod {
+    padding: 131px 0 130px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.main_vod > a {
+    display: block;
+}
+
+.main_vod > a > .play {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/vod_playbtn.png);
+    position: absolute;
+    top: calc(50% + 40px);
+    left: 50%;
+    width: 130px;
+    height: 130px;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: translateX(-50%);
+}
+
+.main_vod > .wrp_holder {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1200px;
+}
+
+.main_vod > .wrp_holder > .player {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.main_vod > .branding {
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    transform: translateX(-50%);
+}
+
+.main_vod > .branding > .inner .obj {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main_vod > .branding > .inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.main_vod > .branding > .inner > .building1 {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_building1.png);
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 29.64%;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_vod > .branding > .inner > .building2 {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_building2.png);
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50.63%;
+}
+
+.main_vod > .branding > .inner > .cloud_1 {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_cloud_1.png);
+    z-index: 5;
+    right: 27.92%;
+    width: 72.08%;
+    height: 0;
+    padding-bottom: 45.78%;
+}
+
+.main_vod > .branding > .inner > .cloud_r {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_cloud_r.png);
+    z-index: 5;
+    right: 27.92%;
+    width: 72.08%;
+    height: 0;
+    padding-bottom: 45.78%;
+}
+
+.main_vod > .branding > .inner > .ci {
+    z-index: 30;
+    bottom: calc(50% + 40px);
+    left: 50%;
+    width: 44.84%;
+    height: 0;
+    padding-bottom: 9.165%;
+    font-size: 0;
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_brand_ci.png);
+    transform: translateX(-50%);
+    border: 1px solid red;
+    background-color: white;
+}
+
+.main_vod > .branding > .inner > .txt {
+    z-index: 4;
+    bottom: calc(50% - 4px);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0.5em;
+}
+
+/* 빨간 슬라이드 끝 */
+
+
+
+
+
+
+/*
+.main-tech > .inner > .bx-wrapper > .bx-viewport > .tech-slider {
+    overflow: hidden;
+
+}
+
+.main-tech > .inner > .bx-wrapper > .bx-viewport > .tech-slider > .slide {
+    height: 650px;
+    overflow: hidden;
+    outline: none;
+    border: 0;
+}
+
+.main-tech > .inner > .bx-wrapper > .bx-viewport > .tech-slider > .tech4 > .bg {
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/tech1_p1.jpg);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #991522;
+    background-position: center center;
+    background-size: auto 100%;
+
+}
+*/
