@@ -330,7 +330,7 @@ label[for] {
 }
 
 .con {
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 /* 탑메뉴바 시작 */
@@ -703,41 +703,39 @@ html, body {
     font-size: 18px;
     font-weight: 500;
 }
-.main-prod > .item-list {
-    position: relative;
-    overflow: visible;
-}
+
 .main-prod > .item-list > ul {
     max-width: 1400px;
 }
 
 .main-prod > .item-list > ul > li {
     margin: 0 20px;
+    position: relative;
+    border: 1px solid red;
 }
 
 .main-prod > .item-list > ul > li > .inner1 {
     border: 1px solid rgb(226, 226, 226);
     height: 400px;
-    display:table;
-    display:table-cell;
-    vertical-align:middle;
 }
 
-.main-prod > .item-list > ul > li > .inner1 > a img {
-    width: 300px;
+.main-prod > .item-list > ul > li > .inner1 > a {
+    display: block;
+}
+
+.main-prod > .item-list > ul > li > .inner1 > a > img {
+    width:100%;
+    display: block;
+
 }
 
 .main-prod > .item-list > ul > li > .inner2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    justify-content: center;
+    
 }
 
 .main-prod > .item-list > ul > li > .inner2 > .name1 {
     font-size: 14px;
     color: #787878;
-    
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -750,6 +748,7 @@ html, body {
     overflow: hidden;
     white-space: nowrap;
     width: 320px;
+    text-align: center;
 }
 
 .main-prod > .item-list > ul > li > .inner2 > .price {
@@ -774,7 +773,6 @@ html, body {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    width: 20px;
 }
 
 /* 메인 상품 끝 */

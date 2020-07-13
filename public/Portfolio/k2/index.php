@@ -166,7 +166,7 @@
                             <img src="https://ssw0428.github.io/img1/pf/k2/1000000217_main_052.jpg" alt="">
                         </a>
                     </div>
-                    <div class="inner2 flex flex-jc-c flex-ai-c">
+                    <div class="inner2">
                         <a class="name1" href="#">안전보호구</a>
                         <a class="name2" href="#">[온라인 단독] 13일 오전10시 - 비말차단마스크(KF-AD) - 50EA</a>
                         <div class="price">
@@ -179,7 +179,7 @@
                     <div class="inner1">
                         <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000206_main_026.jpg" alt=""></a>
                     </div>
-                    <div class="inner2 flex-jc-c flex-ai-c">
+                    <div class="inner2">
                         <a class="name1" href="#">안전보호구</a>
                         <a class="name2" href="#">10일 10시 판매 - KF94 황사방역마스크 (1EA)</a>
                         <div class="price">
@@ -192,7 +192,7 @@
                     <div class="inner1">
                         <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000209_main_072.jpg" alt=""></a>
                     </div>
-                    <div class="inner2 flex-jc-c flex-ai-c">
+                    <div class="inner2">
                         <a class="name1" href="#">의류</a>
                         <a class="name2" href="#">[온라인 단독] LB2-203 폴로티 그레이</a>
                         <div class="price">
@@ -205,7 +205,7 @@
                     <div class="inner1">
                         <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000211_main_088.jpg" alt=""></a>
                     </div>
-                    <div class="inner2 flex-jc-c flex-ai-c">
+                    <div class="inner2">
                         <a class="name1" href="#">의류</a>
                         <a class="name2" href="#">[온라인 단독] LB2-120 자켓 다크그레이</a>
                         <div class="price">

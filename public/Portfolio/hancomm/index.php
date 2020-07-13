@@ -34,12 +34,31 @@
         </nav>
     </header>
 
-    <div class="main-contents">
+    <div class="main-contents con">
         <a class="left-about-us" href="#">
             <span>ABOUT US</span>
         </a>
+        <div class="hancomm-title con">
+            <img src="https://ssw0428.github.io/img1/pf/hancomm/logo.png" alt="">
+        </div>
+        <div class="click">
+            <span class="name">More Work</span>
+            <span class="arrow"></span>
+        </div>
+        <div class="main-control aos-init aos-animate flex">
+            <div class="swiper-pagination eng swiper-pagination-fraction flex">
+                <span class="swiper-pagination-current">1</span>
+                /
+                <span class="swiper-pagination-total">6</span>
+            </div>
+            <div class="dp-inblock clearfix flex flex-jc-end">
+                <div class="control-prev eng">PREV</div>
+                <p class="pull-left">/</p>
+                <div class="control-next eng">NEXT</div>
+            </div>
+        </div>
     </div>
-    
+ 
 </body>
 
 </html>

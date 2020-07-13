@@ -382,6 +382,7 @@ label[for] {
 
 .menu-bar>ul ul>li {
     padding: 20px;
+    white-space: nowrap;
 }
 
 .menu-bar>ul>li>ul>li>a {
@@ -392,6 +393,10 @@ label[for] {
 /* 메뉴바 끝 */
 
 /* 메인 컨텐츠 시작 */
+.main-contents {
+    position: relative;
+}
+
 .main-contents>.left-about-us {
     position: fixed;
     top: 50%;
@@ -439,6 +444,103 @@ label[for] {
 
 .main-contents>.left-about-us:hover {
     height: 100%;
+}
+.main-contents > .hancomm-title {
+    top: 140px;
+    position: absolute;
+    left: 0;
+}
+.main-contents > .hancomm-title > img {
+    max-width: 519px;
+}
+.main-contents > .click {
+    position: absolute;
+    top: 340px;
+    left: 0;
+}
+.main-contents > .click > .name {
+    font-size: 20px;
+    color: #333333;
+    padding: 20px 100px 20px 0;
+    position: relative;
+}
+.main-contents > .click > .arrow {
+    background-image: url(https://ssw0428.github.io/img1/pf/hancomm/more_arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:40px;
+    position: absolute;
+    left: 120px;
+    top: -15px;
+    width: 50px;
+    height: 50px;
+    transition: left 0.3s;
+}
+.main-contents > .click:hover > .arrow {
+    background-image: url(https://ssw0428.github.io/img1/pf/hancomm/more_arrow_w.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:40px;
+    position: absolute;
+    left: 138px;
+    top: -15px;
+    width: 50px;
+    height: 50px;
+}
+
+.main-contents > .click > .name::after {
+    content: "";
+    border: 1px solid black;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    transition: background-color .5s, height .3s, width .3s;
+}
+.main-contents > .click:hover > .name::after {
+    background-color: black;
+    height:60px;
+    width: 60px;
+}
+
+.main-contents > .main-control {
+    position: absolute;
+    top: 340px;
+    right: 0;
+    width: 280px;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid red;
+}
+
+.main-contents > .main-control > .swiper-pagination {
+    padding: 10px 0 0 25px;
+    width: auto;
+    font-size: 14px;
+    line-height: 14px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.main-contents > .main-control > .swiper-pagination > .swiper-pagination-current {
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.main-contents > .main-control > .swiper-pagination > .swiper-pagination-total {
+    font-size: 14px;
+}
+
+.main-contents > .main-control > .dp-inblock {
+    border: 2px solid blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* 메인 컨텐츠 끝 */
