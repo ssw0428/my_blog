@@ -680,8 +680,6 @@ html, body {
     opacity:1;
 }
 
-
-
 /* 슬라이드 끝 */
 
 /* 메인 상품 시작 */
@@ -703,6 +701,60 @@ html, body {
     font-size: 18px;
     font-weight: 500;
 }
+
+/* price list 시작 */
+
+.main-prod > .prod-box-1 .item {
+}
+
+.main-prod > .prod-box-1 .item > .img-box::after {
+  content:"";
+  display:block;
+  padding-top:150%;
+}
+
+.main-prod > .prod-box-1 .item > .img-box {
+  position:relative;
+}
+
+.main-prod > .prod-box-1 .item > .img-box > a > img {
+  position:absolute;
+  left:0;
+  right:0;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.main-prod > .prod-box-1 .item > .prod-name, .prod-box-1 .item > .prod-price {
+  white-space:nowrap;
+  overflow-x:hidden;
+  text-overflow:ellipsis;
+}
+
+.main-prod > .prod-box-1 > .owl-carousel.owl-theme > .owl-nav {
+  margin:0;
+}
+
+.main-prod > .prod-box-1 > .owl-carousel.owl-theme > .owl-nav > button {
+  background-color:#787878;
+  border-radius:0;
+  position:absolute;
+  left:-5px;
+  top:50%;
+  width: 80px;
+  height: 80px;
+  transform:translateY(-50%);
+}
+
+.main-prod > .prod-box-1 > .owl-carousel.owl-theme > .owl-nav > button:last-child {
+  position:absolute;
+  left:auto;
+  right:-5px;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+/* price list 끝 */
 
 .main-prod > .item-list > ul {
     max-width: 1400px;

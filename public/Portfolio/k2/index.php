@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/Portfolio/k2/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="/Portfolio/k2/index.js"></script>
 </head>
 
@@ -158,64 +162,171 @@
             <li><a href="#">안전보호구</a></li>
             <li><a href="#">용품</a></li>
         </ul>
-        <nav class="item-list con">
-            <ul class="flex flex-jc-c">
-                <li>
-                    <div class="inner1">
+        <!-- 상품 슬라이더 1 -->
+        <div class="prod-box-1 con">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img-box">
                         <a href="#">
                             <img src="https://ssw0428.github.io/img1/pf/k2/1000000217_main_052.jpg" alt="">
                         </a>
                     </div>
-                    <div class="inner2">
-                        <a class="name1" href="#">안전보호구</a>
-                        <a class="name2" href="#">[온라인 단독] 13일 오전10시 - 비말차단마스크(KF-AD) - 50EA</a>
-                        <div class="price">
-                            <a class="name3" href="#">0원</a>
-                            <a class="name4" href="#">회원전용 (비회원 구매불가) 상품 입니다.</a>
+                    <div class="type">
+                        안전보호구
+                    </div>
+                    <div class="prod-name">
+                        [온라인 단독] 13일 오전10시 - 비말차단마스크(KF-AD) - 50EA
+                    </div>
+                    <div class="price-list">
+                        <div class="price-1">
+                            품절
                         </div>
                     </div>
-                </li>
-                <li>
-                    <div class="inner1">
-                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000206_main_026.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000206_main_026.jpg" alt="">
+                        </a>
                     </div>
-                    <div class="inner2">
-                        <a class="name1" href="#">안전보호구</a>
-                        <a class="name2" href="#">10일 10시 판매 - KF94 황사방역마스크 (1EA)</a>
-                        <div class="price">
-                            <a class="name3" href="#">1,000원</a>
-                            <a class="name4" href="#">회원전용 (비회원 구매불가) 상품 입니다.</a>
+                    <div class="type">
+                        안전보호구
+                    </div>
+                    <div class="prod-name">
+                        일정 공지예정 - KF94 황사방역마스크 (1EA)
+                    </div>
+                    <div class="price-list">
+                        <div class="price-1">
+                            품절
                         </div>
                     </div>
-                </li>
-                <li>
-                    <div class="inner1">
-                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000209_main_072.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000209_main_072.jpg" alt="">
+                        </a>
                     </div>
-                    <div class="inner2">
-                        <a class="name1" href="#">의류</a>
-                        <a class="name2" href="#">[온라인 단독] LB2-203 폴로티 그레이</a>
-                        <div class="price">
-                            <a class="name3" href="#">20,000원</a>
-                            <a class="name4" href="#">9,000원</a>
+                    <div class="type">
+                        의류
+                    </div>
+                    <div class="prod-name">
+                        [온라인 단독] LB2-203 폴로티 그레이
+                    </div>
+                    <div class="price-list">
+                        <div class="price-1">
+                            20,000원
+                        </div>
+                        <div class="price-2">
+                            9,000원
                         </div>
                     </div>
-                </li>
-                <li>
-                    <div class="inner1">
-                        <a href="#"><img src="https://ssw0428.github.io/img1/pf/k2/1000000211_main_088.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000211_main_088.jpg" alt="">
+                        </a>
                     </div>
-                    <div class="inner2">
-                        <a class="name1" href="#">의류</a>
-                        <a class="name2" href="#">[온라인 단독] LB2-120 자켓 다크그레이</a>
-                        <div class="price">
-                            <a class="name3" href="#">40,000원</a>
-                            <a class="name4" href="#">19,000원</a>
+                    <div class="type">
+                        의류
+                    </div>
+                    <div class="prod-name">
+                        [온라인 단독] LB2-120 자켓 다크그레이
+                    </div>
+                    <div class="price-list">
+                        <div class="price-1">
+                            20,000원
+                        </div>
+                        <div class="price-2">
+                            9,000원
                         </div>
                     </div>
-                </li>
-            </ul>
-        </nav>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000213_main_081.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="type">
+                        안전보호구
+                    </div>
+                    <div class="prod-name">
+                        [세트구성 할인] PP 투명가림판 + KF94 황사마스크 1매
+                    </div>
+                    <div class="price-list"></div>
+                    <div class="price-1">
+                        3,200원
+                    </div>
+                    <div class="price-2">
+                        3,000원
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000210_main_093.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="type">
+                        의류
+                    </div>
+                    <div class="prod-name">
+                        [온라인 단독] LB2-204 폴로티 블루
+                    </div>
+                    <div class="price-list"></div>
+                    <div class="price-1">
+                        20,000원
+                    </div>
+                    <div class="price-2">
+                        9,000원
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000214_main_071.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="type">
+                        안전보호구
+                    </div>
+                    <div class="prod-name">
+                        [필수아이템] PP 투명가림판
+                    </div>
+                    <div class="price-list">
+                        <div class="price-1">
+                            2,200원
+                        </div>
+                        <div class="price-2">
+                            2,200원
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/1000000212_main_033.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="type">
+                        의류
+                    </div>
+                    <div class="prod-name">
+                        [온라인 단독] LB2-120 자켓 머스타드
+                    </div>
+                    <div class="price-list">
+                        <div class="price-1">
+                            48,000원
+                        </div>
+                        <div class="price-2">
+                            19,000원
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="main-tech">
         <h3>SAFETY TECHNOLOGY</h3>
