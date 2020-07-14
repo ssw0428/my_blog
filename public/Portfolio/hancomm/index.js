@@ -1,5 +1,19 @@
-
-function chgVideo(yt_id){
-	$('.main_vod .player').empty().append('<iframe src="https://www.youtube.com/embed/'+yt_id+'?rel=0;amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
-	$('.main_vod .button').hide();
-}
+$(function () {
+	function MySlider1__init() {
+		$('.my-slider-1 > .owl-carousel').owlCarousel({
+			responsive: {
+				0: {
+					items: 3
+				}
+			},
+			loop: true,
+			dots: false,
+			nav: true,
+			navText: ['좌', '우']
+		});
+	}
+	MySlider1__init();
+});
+$(function () {
+	alert("hi");
+});

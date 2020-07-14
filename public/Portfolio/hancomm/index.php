@@ -8,8 +8,15 @@
     <!--https://www.hancomm.co.kr/index.do-->
     <link rel="stylesheet" href="/Portfolio/hancomm/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/Portfolio/k2/hancomm.js"></script>
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+   
+    <script src="/Portfolio/hancomm/index.js"></script>
 </head>
 
 <body>
@@ -57,8 +64,88 @@
                 <div class="control-next eng">NEXT</div>
             </div>
         </div>
+        <!-- 슬라이더 1 -->
+        <div class="my-slider-1">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h4>1</h4>
+                </div>
+                <div class="item">
+                    <h4>2</h4>
+                </div>
+                <div class="item">
+                    <h4>3</h4>
+                </div>
+                <div class="item">
+                    <h4>4</h4>
+                </div>
+                <div class="item">
+                    <h4>5</h4>
+                </div>
+                <div class="item">
+                    <h4>6</h4>
+                </div>
+                <div class="item">
+                    <h4>7</h4>
+                </div>
+                <div class="item">
+                    <h4>8</h4>
+                </div>
+                <div class="item">
+                    <h4>9</h4>
+                </div>
+                <div class="item">
+                    <h4>10</h4>
+                </div>
+                <div class="item">
+                    <h4>11</h4>
+                </div>
+                <div class="item">
+                    <h4>12</h4>
+                </div>
+            </div>
+        </div>
     </div>
- 
+    <div class="my-slider-1">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h4>1</h4>
+                </div>
+                <div class="item">
+                    <h4>2</h4>
+                </div>
+                <div class="item">
+                    <h4>3</h4>
+                </div>
+                <div class="item">
+                    <h4>4</h4>
+                </div>
+                <div class="item">
+                    <h4>5</h4>
+                </div>
+                <div class="item">
+                    <h4>6</h4>
+                </div>
+                <div class="item">
+                    <h4>7</h4>
+                </div>
+                <div class="item">
+                    <h4>8</h4>
+                </div>
+                <div class="item">
+                    <h4>9</h4>
+                </div>
+                <div class="item">
+                    <h4>10</h4>
+                </div>
+                <div class="item">
+                    <h4>11</h4>
+                </div>
+                <div class="item">
+                    <h4>12</h4>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
