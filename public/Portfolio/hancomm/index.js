@@ -9,11 +9,8 @@ $(function () {
 			loop: true,
 			dots: false,
 			nav: true,
-			navText: ['좌', '우']
+			navText: ['.control-prev', '.control-next']
 		});
 	}
 	MySlider1__init();
-});
-$(function () {
-	alert("hi");
 });

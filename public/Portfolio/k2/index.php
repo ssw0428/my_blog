@@ -338,28 +338,36 @@
                         <li class="active">
                             <a class="flex">
                                 <div class="num flex-ai-c">01</div>
-                                <div class="dot-box flex-ai-c"><div class="dot"></div></div>
+                                <div class="dot-box flex-ai-c">
+                                    <div class="dot"></div>
+                                </div>
                                 <div class="name flex-ai-c">ARMOR FLEX</div>
                             </a>
                         </li>
                         <li>
                             <a class="flex">
                                 <div class="num flex-ai-c">02</div>
-                                <div class="dot-box flex-ai-c"><div class="dot"></div></div>
+                                <div class="dot-box flex-ai-c">
+                                    <div class="dot"></div>
+                                </div>
                                 <div class="name flex-ai-c">AIRFLOW<br> SYSTEM</div>
                             </a>
                         </li>
                         <li>
                             <a class="flex">
                                 <div class="num flex-ai-c">03</div>
-                                <div class="dot-box flex-ai-c"><div class="dot"></div></div>
+                                <div class="dot-box flex-ai-c">
+                                    <div class="dot"></div>
+                                </div>
                                 <div class="name flex-ai-c">INJECTION<br> SAFETY SHOES</div>
                             </a>
                         </li>
                         <li>
                             <a class="flex">
                                 <div class="num flex-ai-c">04</div>
-                                <div class="dot-box flex-ai-c"><div class="dot"></div></div>
+                                <div class="dot-box flex-ai-c">
+                                    <div class="dot"></div>
+                                </div>
                                 <div class="name flex-ai-c">PERFECT QUALITY<br>MANAGEMENT</div>
                             </a>
                         </li>
@@ -647,8 +655,58 @@
                 <span class="obj txt">안전한 삶, 행복한 일상</span>
             </div>
         </div>
-
     </article>
+
+    <nav class="footer">
+        <div class="inner">
+            <nav class="footer-type-1">
+                <ul class="flex">
+                    <Li><a href="">기업소개</a></Li>
+                    <Li><a href="">개인정보처리방침</a></Li>
+                    <Li><a href="">이용약관</a></Li>
+                    <Li><a href="">정보보호 캠페인</a></Li>
+                    <Li><a href="">고객센터</a></Li>
+                    <Li><a href="">인증서</a></Li>
+                </ul>
+            </nav>
+
+            <article class="footer-type-2">
+                <h2>로고</h2>
+                <div class="address">
+                    서울시 강남구 자곡동 648번지, K2그룹빌딩&nbsp;&nbsp;&nbsp; 상호명 : 주식회사 케이투세이프티&nbsp;&nbsp;&nbsp;대표이사 : 정영훈
+                    <br>
+                    사업자등록번호 206-86-84960&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;통신판매업신고번호 제2020-서울강남-02446호
+                    <br>
+                    CS센터 1644-7781 FAX 02-3294-8183
+                    <br>
+                    COPYRIGHT 2020 BY K2 SAFETY ALL RIGHT RESERVED.
+                </div>
+                <div class="icon flex">
+                    <span class="fb">facebook</span>
+                    <span class="ig">insta</span>
+                </div>
+
+                <div class="select">
+                    <div class="box">
+                        <a href="">
+                            K2 Safety 패밀리 사이트
+                        </a>
+                    </div>
+                    <nav class="group-list">
+                        <ul>
+                            <li><a href="">K2 KOREA GROUP</a></li>
+                            <li><a href="">K2</a></li>
+                            <li><a href="">EIDER</a></li>
+                            <li><a href="">와이드앵글</a></li>
+                            <li><a href="">살레와</a></li>
+                            <li><a href="">다이나핏</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div></div>
+            </article>
+        </div>
+</nav>
 </body>
 <!-- 빨간색 슬라이드 작업 하다가...
     <div class="bx-wrapper" style="max-width: 100%;">

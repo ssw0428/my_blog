@@ -340,15 +340,13 @@ label[for] {
     left: 0;
     width: 100%;
     background: #fff;
-    z-index: 100;
+    z-index: 10;
     border-bottom: 1px solid #ebebeb;
 }
 
 .menu-bar {
     height: 96px;
 }
-
-.menu-bar>ul {}
 
 .menu-bar>ul>li {
     margin: 45px 0 0 70px;
@@ -367,7 +365,7 @@ label[for] {
 
 .menu-bar>ul ul {
     position: absolute;
-    top: 100%;
+    top: 101%;
     left: 0;
     width: 0;
     transition: width 0.3s;
@@ -387,7 +385,6 @@ label[for] {
 
 .menu-bar>ul>li>ul>li>a {
     color: #888888;
-    font-weight: 300;
 }
 
 /* 메뉴바 끝 */
@@ -395,6 +392,7 @@ label[for] {
 /* 메인 컨텐츠 시작 */
 .main-contents {
     position: relative;
+    border: 1px solid red;
 }
 
 .main-contents>.left-about-us {
@@ -410,7 +408,7 @@ label[for] {
     text-align: center;
 }
 
-.main-contents>.left-about-us> span {
+.main-contents>.left-about-us>span {
     color: white;
     padding: 30px;
     letter-spacing: 3px;
@@ -423,12 +421,12 @@ label[for] {
     height: 100%;
 }
 
-.main-contents>.left-about-us> span::after {
+.main-contents>.left-about-us>span::after {
     content: "";
     background-image: url(https://ssw0428.github.io/img1/pf/hancomm/logo_w.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -445,30 +443,41 @@ label[for] {
 .main-contents>.left-about-us:hover {
     height: 100%;
 }
-.main-contents > .hancomm-title {
-    top: 140px;
+
+.main-contents>.hancomm-title {
+    top: 190px;
     position: absolute;
     left: 0;
+    transition: left 0.2s, top 0.2s;
 }
-.main-contents > .hancomm-title > img {
+
+.main-contents>.hancomm-title:hover {
+    left: -8px;
+    top: 185px;
+}
+
+.main-contents>.hancomm-title>img {
     max-width: 519px;
 }
-.main-contents > .click {
+
+.main-contents>.click {
     position: absolute;
-    top: 340px;
+    top: 390px;
     left: 0;
 }
-.main-contents > .click > .name {
+
+.main-contents>.click>.name {
     font-size: 20px;
     color: #333333;
     padding: 20px 100px 20px 0;
     position: relative;
 }
-.main-contents > .click > .arrow {
+
+.main-contents>.click>.arrow {
     background-image: url(https://ssw0428.github.io/img1/pf/hancomm/more_arrow.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:40px;
+    background-size: 40px;
     position: absolute;
     left: 120px;
     top: -15px;
@@ -476,11 +485,12 @@ label[for] {
     height: 50px;
     transition: left 0.3s;
 }
-.main-contents > .click:hover > .arrow {
+
+.main-contents>.click:hover>.arrow {
     background-image: url(https://ssw0428.github.io/img1/pf/hancomm/more_arrow_w.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:40px;
+    background-size: 40px;
     position: absolute;
     left: 138px;
     top: -15px;
@@ -488,43 +498,43 @@ label[for] {
     height: 50px;
 }
 
-.main-contents > .click > .name::after {
+.main-contents>.click>.name::after {
     content: "";
     border: 1px solid black;
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     position: absolute;
     left: 140px;
     top: 5px;
     transition: background-color .5s, height .3s, width .3s;
 }
-.main-contents > .click:hover > .name::after {
+
+.main-contents>.click:hover>.name::after {
     background-color: black;
-    height:60px;
+    height: 60px;
     width: 60px;
 }
 
-.main-contents > .main-control {
+.main-contents>.main-control {
     position: absolute;
-    top: 340px;
+    top: 400px;
     right: 0;
     width: 280px;
     border-bottom: 1px solid #ddd;
-    border: 1px solid red;
 }
 
-.main-contents > .main-control > .swiper-pagination {
+.main-contents>.main-control>.swiper-pagination {
     padding: 10px 0 0 25px;
     width: auto;
     font-size: 14px;
     line-height: 14px;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     left: 0;
 }
 
-.main-contents > .main-control > .swiper-pagination > .swiper-pagination-current {
+.main-contents>.main-control>.swiper-pagination>.swiper-pagination-current {
     font-size: 30px;
     font-weight: 600;
     position: absolute;
@@ -532,28 +542,143 @@ label[for] {
     left: 0;
 }
 
-.main-contents > .main-control > .swiper-pagination > .swiper-pagination-total {
+.main-contents>.main-control>.swiper-pagination>.swiper-pagination-total {
     font-size: 14px;
+    margin-left: 5px;
+    color: #333333;
 }
 
-.main-contents > .main-control > .dp-inblock {
-    border: 2px solid blue;
+.main-contents>.main-control>.dp-inblock {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 0;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-contents>.main-control>.dp-inblock > .control-prev {
+    margin-right: 10px;
+}
+
+.main-contents>.main-control>.dp-inblock > .slash {
+    color: #ddd;
+    font-weight: normal;
+}
+
+.main-contents>.main-control>.dp-inblock > .control-next {
+    margin-left: 10px;
 }
 
 /* 메인 컨텐츠 끝 */
 
 .my-slider-1 .item {
-    border:10px solid red;
-    height:100px;
-    font-size:1rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
+    height: 416px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  body, ul, li, h1, h2, h3, h4 {
-    margin:0;
-  }
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.my-slider-1 {
+    position: absolute;
+    right: 0;
+    margin-top: 470px;
+    width: 1550px;
+    height: 416px;
+}
+
+.my-slider-1 .item>.slide-list {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.my-slider-1 .item>.slide-list>.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(239, 80, 37, .8);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: transform .3s, opacity .3s;
+}
+
+.my-slider-1 .item>.slide-list:hover>.title {
+    display: block;
+    transform: scale(1.0);
+    opacity: 1;
+}
+
+.my-slider-1 .item>.slide-list>.title>.name1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    font: 12px;
+    letter-spacing: 3px;
+}
+
+.my-slider-1 .item>.slide-list>.title>.name2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.my-slider-1 .item>.slide-list>.title>.name3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transform: translateX(-50%);
+    display: block;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+.my-slider-1 .item>.slide-list>.title>.name3::before {
+    content: "";
+    width: 24px;
+    border-top: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -1px;
+    transform: rotate(90deg);
+}
+.my-slider-1 .item>.slide-list>.title>.name3::after {
+    content: "";
+    width: 24px;
+    border-top: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -1px;
+}
