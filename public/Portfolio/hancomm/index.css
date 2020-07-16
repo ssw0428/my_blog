@@ -330,6 +330,10 @@ label[for] {
 }
 
 .con {
+    max-width: 1550px;
+}
+
+.con-1 {
     max-width: 1200px;
 }
 
@@ -392,7 +396,6 @@ label[for] {
 /* 메인 컨텐츠 시작 */
 .main-contents {
     position: relative;
-    border: 1px solid red;
 }
 
 .main-contents>.left-about-us {
@@ -445,7 +448,7 @@ label[for] {
 }
 
 .main-contents>.hancomm-title {
-    top: 190px;
+    top: 150px;
     position: absolute;
     left: 0;
     transition: left 0.2s, top 0.2s;
@@ -571,7 +574,8 @@ label[for] {
 }
 
 /* 메인 컨텐츠 끝 */
-
+body, html {
+}
 .my-slider-1 .item {
     height: 416px;
     font-size: 1rem;
@@ -580,21 +584,11 @@ label[for] {
     align-items: center;
 }
 
-body,
-ul,
-li,
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
 .my-slider-1 {
     position: absolute;
-    right: 0;
+    left: 0;
     margin-top: 470px;
-    width: 1550px;
+    width: 1730px;
     height: 416px;
 }
 

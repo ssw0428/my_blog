@@ -14,3 +14,9 @@ $(function () {
 	}
 	MySlider1__init();
 });
+
+$(function () {
+	window.addEventListener('load', function (event) {
+		AOS.init();
+	});
+});
