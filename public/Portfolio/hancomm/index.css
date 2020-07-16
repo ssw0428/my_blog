@@ -346,6 +346,10 @@ label[for] {
     background: #fff;
     z-index: 10;
     border-bottom: 1px solid #ebebeb;
+    opacity: 1;
+    transform: translateZ(0);
+    transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+    transition-duration: 1s;
 }
 
 .menu-bar {
@@ -398,6 +402,7 @@ label[for] {
     position: relative;
 }
 
+/* aobut us 시작 */
 .main-contents>.left-about-us {
     position: fixed;
     top: 50%;
@@ -446,7 +451,9 @@ label[for] {
 .main-contents>.left-about-us:hover {
     height: 100%;
 }
+/* aobut us 끝 */
 
+/* 한컴 타이들 시작 */
 .main-contents>.hancomm-title {
     top: 150px;
     position: absolute;
@@ -456,13 +463,15 @@ label[for] {
 
 .main-contents>.hancomm-title:hover {
     left: -8px;
-    top: 185px;
+    top: 145px;
 }
 
 .main-contents>.hancomm-title>img {
     max-width: 519px;
 }
+/* 한컴 타이들 끝 */
 
+/* more work 시작 */
 .main-contents>.click {
     position: absolute;
     top: 390px;
@@ -518,8 +527,12 @@ label[for] {
     height: 60px;
     width: 60px;
 }
+/* more work 끝 */
 
-.main-contents>.main-control {
+/* 메인 슬라이더 시작 */
+
+/* 컨트롤러 시작 */
+.main-contents>.my-slider-1>.controler {
     position: absolute;
     top: 400px;
     right: 0;
@@ -527,7 +540,7 @@ label[for] {
     border-bottom: 1px solid #ddd;
 }
 
-.main-contents>.main-control>.swiper-pagination {
+.main-contents>.my-slider-1>.controler >.control-box>.index-box {
     padding: 10px 0 0 25px;
     width: auto;
     font-size: 14px;
@@ -537,7 +550,7 @@ label[for] {
     left: 0;
 }
 
-.main-contents>.main-control>.swiper-pagination>.swiper-pagination-current {
+.main-contents>.my-slider-1>.controler >.control-box>.index-box>.current-index {
     font-size: 30px;
     font-weight: 600;
     position: absolute;
@@ -545,13 +558,12 @@ label[for] {
     left: 0;
 }
 
-.main-contents>.main-control>.swiper-pagination>.swiper-pagination-total {
+.main-contents>.my-slider-1>.controler >.control-box>.index-box>.total-count {
     font-size: 14px;
     margin-left: 5px;
     color: #333333;
 }
-
-.main-contents>.main-control>.dp-inblock {
+.main-contents>.my-slider-1>.controler >.control-box>.nav-box {
     position: absolute;
     bottom: 10px;
     right: 0;
@@ -560,22 +572,21 @@ label[for] {
     font-weight: bold;
 }
 
-.main-contents>.main-control>.dp-inblock > .control-prev {
+.main-contents>.my-slider-1>.controler >.control-box>.nav-box>.btn-left {
     margin-right: 10px;
 }
 
-.main-contents>.main-control>.dp-inblock > .slash {
+.main-contents>.my-slider-1>.controler >.control-box>.nav-box>.slash {
     color: #ddd;
     font-weight: normal;
 }
 
-.main-contents>.main-control>.dp-inblock > .control-next {
+.main-contents>.my-slider-1>.controler >.control-box>.nav-box>.btn-right {
     margin-left: 10px;
 }
+/* 컨트롤러 끝 */
 
-/* 메인 컨텐츠 끝 */
-body, html {
-}
+/* 메인 슬라이더 시작 */
 .my-slider-1 .item {
     height: 416px;
     font-size: 1rem;
@@ -676,3 +687,15 @@ body, html {
     margin-left: -12px;
     margin-top: -1px;
 }
+
+.img-box {
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .img-box::after {
+    content:"";
+    display:block;
+    padding-top:100%;
+  }
