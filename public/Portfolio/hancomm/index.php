@@ -178,7 +178,7 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item" onclick="Pop1__open('KEB하나은행', 'KEB하나은행 하나원큐', 'https://ssw0428.github.io/img1/pf/hancomm/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89.mp4');">
                         <div>
-                            <a href="" class="title">
+                            <a class="title">
                                 <span class="name1">CAMPAIGN</span>
                                 <span class="name2">KEB하나은행 하나원큐</span>
                                 <span class="name3"></span>
@@ -268,23 +268,23 @@
 
 
     <button
-        onclick="Pop1__open('KEB하나은행', 'KEB하나은행 하나원큐', 'https://ssw0428.github.io/img1/pf/hancomm/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89.mp4');">열기1</button>
+        onclick="Pop1__open('KEB하나은행', 'KEB하나은행 하나원큐', 'https://ssw0428.github.io/img1/pf/hancomm/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89.mp4')">열기1</button>
 
 
     <button
-        onclick="Pop1__open('동아오츠카', '오로나민C 큰소리 뻥뻥 헬스장', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%98%A4%EB%A1%9C%EB%82%98%EB%AF%BC.mp4');">열기2</button>
+        onclick="Pop1__open('동아오츠카', '오로나민C 큰소리 뻥뻥 헬스장', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%98%A4%EB%A1%9C%EB%82%98%EB%AF%BC.mp4')">열기2</button>
 
     <button
-        onclick="Pop1__open('동아오츠카', '오로나민C 큰소리 뻥뻥 부부', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%98%A4%EB%A1%9C%EB%82%98%EB%AF%BC%20%EB%B6%80%EB%B6%80.mp4');">열기3</button>
+        onclick="Pop1__open('동아오츠카', '오로나민C 큰소리 뻥뻥 부부', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%98%A4%EB%A1%9C%EB%82%98%EB%AF%BC%20%EB%B6%80%EB%B6%80.mp4')">열기3</button>
 
     <button
-        onclick="Pop1__open('하이트진로', '참이슬 이슬방울', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%95%84%EC%9D%B4%EC%9C%A0.mp4');">열기4</button>
+        onclick="Pop1__open('하이트진로', '참이슬 이슬방울', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%95%84%EC%9D%B4%EC%9C%A0.mp4')">열기4</button>
 
     <button
-        onclick="Pop1__open('bhc', '골드킹 윙 윙 포인트 레슨', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%A0%84%EC%A7%80%ED%98%84.mp4');">열기5</button>
+        onclick="Pop1__open('bhc', '골드킹 윙 윙 포인트 레슨', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%A0%84%EC%A7%80%ED%98%84.mp4')">열기5</button>
 
     <button
-        onclick="Pop1__open('야나두', '야나두 자동차B', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%95%BC%EB%82%98%EB%91%90.mp4');">열기6</button>
+        onclick="Pop1__open('야나두', '야나두 자동차B', 'https://ssw0428.github.io/img1/pf/hancomm/%EC%95%BC%EB%82%98%EB%91%90.mp4')">열기6</button>
 </body>
 
 </html>

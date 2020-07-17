@@ -108,19 +108,22 @@ function Pop1__open(client, title, url) {
 	$pop1.find('.client').text(client);
 	$pop1.find('.title').text(title);
 	$pop1.find('.video-box').html('<video src="' + url + '" controls="" autoplay="" muted></video>');
-  }
+}
   
-  function Pop1__close() {
+function Pop1__close() {
 	$('.pop-1-bg').removeClass('active');
 	var $pop1 = $('.pop-1');
-	
+
 	$pop1.find('.client').text('');
 	$pop1.find('.title').text('');
 	$pop1.find('.video-box').html('');
-  }
+}
   
-  function Pop1__init() {
+function Pop1__init() {
 	$('.pop-1 .btn-close, .pop-1-bg').click(Pop1__close);
-  }
+}
+
+$(function(){
+	Pop1__init();
+})
   
-  Pop1__init();
