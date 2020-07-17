@@ -256,12 +256,13 @@
                     <div class="prod-name">
                         [세트구성 할인] PP 투명가림판 + KF94 황사마스크 1매
                     </div>
-                    <div class="price-list"></div>
-                    <div class="price-1">
-                        3,200원
-                    </div>
-                    <div class="price-2">
-                        3,000원
+                    <div class="price-list">
+                        <div class="price-1">
+                            3,200원
+                        </div>
+                        <div class="price-2">
+                            3,000원
+                        </div>
                     </div>
                 </div>
                 <div class="item">
@@ -276,12 +277,13 @@
                     <div class="prod-name">
                         [온라인 단독] LB2-204 폴로티 블루
                     </div>
-                    <div class="price-list"></div>
+                    <div class="price-list">
                     <div class="price-1">
                         20,000원
                     </div>
                     <div class="price-2">
                         9,000원
+                    </div>
                     </div>
                 </div>
                 <div class="item">
@@ -584,12 +586,13 @@
                     <div class="prod-name">
                         액티브
                     </div>
-                    <div class="price-list"></div>
+                    <div class="price-list">
                     <div class="price-1">
                         89,000원
                     </div>
                     <div class="price-2">
                         89,000원
+                    </div>
                     </div>
                 </div>
                 <div class="item">
@@ -706,7 +709,7 @@
                 <div></div>
             </article>
         </div>
-</nav>
+    </nav>
 </body>
 <!-- 빨간색 슬라이드 작업 하다가...
     <div class="bx-wrapper" style="max-width: 100%;">

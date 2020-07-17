@@ -704,7 +704,6 @@ html, body {
 
 /* price list 시작 */
 .main-prod .prod-box-1 {
-    border: 1px solid red;
 }
 .main-prod .prod-box-1 .item {
     
@@ -885,7 +884,6 @@ html, body {
 
 .main-tech {
     margin-top: 89px;
-    padding: 0 40px;
 }
 
 .main-tech > h3 {
@@ -903,7 +901,7 @@ html, body {
     position:absolute;
     top:50%;
     transform: translateY(-50%);
-    right:0;
+    right:5%;
     z-index:1;
 }
 .side-bar > .menu-1 > ul > li {
@@ -952,7 +950,7 @@ html, body {
     white-space:nowrap;
     line-height:0;
     position:relative;
-    width: 1840px;
+    width: 100%;
 }
 
 .pages-box > div {
@@ -1113,7 +1111,6 @@ html, body {
 }
 
 .main_vod > .branding > .inner > .ci {
-    z-index: 30;
     bottom: calc(50% + 40px);
     left: 50%;
     width: 44.84%;
@@ -1121,6 +1118,9 @@ html, body {
     padding-bottom: 9.165%;
     font-size: 0;
     background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_brand_ci.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
     transform: translateX(-50%);
     border: 1px solid red;
 }
