@@ -560,6 +560,7 @@ body {
     margin-bottom:50px;
     margin-right:300px;
     border-bottom: 1px solid #ddd;
+    border: 1px solid red;
 }
 
 .box-1>.my-slider-1.active>.head>.control-box {

@@ -504,7 +504,6 @@ screen and (max-height: 1000px) {
 .section-box {
     position: relative;
     margin-top: 100px;
-    padding: 0 40px;
     max-width: 1710px;
     min-width: 1300px;
     box-sizing: border-box;
@@ -648,32 +647,328 @@ screen and (max-height: 1000px) {
 /* swiper 슬라이더3 시작 */
 
 /* swiper 슬라이더4 시작 */
+.best-item {
+    border: 1px solid red;
+}
 
-.best-item > .inner {
+.best-item>.inner {
     position: relative;
-    margin: 0 auto;
-    padding: 100px 40px 0;
+    padding: 50px 40px 0;
     max-width: 1710px;
     min-width: 1300px;
 }
-.best-item > .inner > .headArea {
+
+.best-item>.inner>.headArea {
     width: 310px;
-    margin-right: 20px;
-    border: 1px solid red;
+    margin-left: -40px;
 }
-.best-item > .inner > .headArea > span:nth-child(1) {
+
+.best-item>.inner>.headArea>span:nth-child(1) {
     font-size: 34px;
-    border: 1px solid red;
+    margin-bottom: 5px;
 }
 
-.best-item > .inner > .headArea > span:nth-child(2) {
+.best-item>.inner>.headArea>span:nth-child(2) {
     font-size: 20px;
+    display: block;
 }
 
-.best-item > .inner > .cont-box {
+.best-item>.inner>.headArea>a {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 138px;
+    padding: 20px 70px;
+    background-color: black;
+    color: white;
+}
+
+.best-item>.inner>.cont-box {
     width: calc(100% - 330px);
 }
 
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info {
+    display: block;
+    text-align: left;
+
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.brand {
+    font-size: 14px;
+    color: #888888;
+    display: block;
+    margin-top: 14px;
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.txt {
+    font-size: 14px;
+    display: block;
+    margin-top: 14px;
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.price-list {
+    margin-top: 30px;
+    display: block;
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.price-list>.color {
+    color: #b1863c;
+    font-size: 20px;
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.price-list>.name-1 {
+    font-size: 20px;
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.price-list>.name-2 {
+    margin-left: 10px;
+}
+
+.best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info>.price-list>.name-3 {
+    margin-left: 15px;
+    font-size: 15px;
+    color: #d1d1d1;
+    text-decoration: line-through;
+}
+
 /* swiper 슬라이더4 끝 */
+
+/* swiper 슬라이더5 시작 */
+.trend-box {
+    border: 2px solid red;
+}
+
+.trend-box>.headArea {
+    width: 310px;
+}
+
+.trend-box>.headArea>h2 {
+    font-weight: 100;
+    font-size: 40px;
+    display: block;
+}
+
+.trend-box>.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+}
+
+.trend-box>.swiper-container>.swiper-wrapper>.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.trend-box>.swiper-container>.swiper-wrapper>.swiper-slide>a {
+    display: block;
+    font-size: 24px;
+    color: #666;
+    border-radius: 70px;
+    border: 2px solid #ababab;
+    text-align: center;
+    height: 80px;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.trend-box>.swiper-container>.swiper-wrapper>.swiper-slide:hover>a {
+    color: #b1863c;
+    border-color: #b1863c;
+    background-color: #f8f1ec;
+}
+
+/* swiper 슬라이더5 끝 */
+
+/* curation 시작 */
+
+.curation > .headArea > h2 {
+    font-size: 40px;
+}
+
+.curation>.cont-box {
+    margin-top: 20px;
+}
+
+.curation>.cont-box>ul {
+    margin: 0 -10px;
+}
+
+.curation>.cont-box>ul>li {
+    width: 20%;
+    margin-bottom: 60px;
+    padding: 0 10px;
+    box-sizing:border-box;
+}
+
+.curation > .cont-box > ul > li > a {
+    display: block;
+    overflow: hidden;
+}
+
+.curation > .cont-box > ul > li > a > img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.curation > .cont-box > ul > li > a > img-box > img {
+    width: 100%;
+}
+
+.curation>.cont-box>ul>li>a>.info {
+    display: block;
+    text-align: left;
+
+}
+
+.curation > .cont-box > ul > li > a >.info>.brand {
+    font-size: 14px;
+    color: #888888;
+    display: block;
+    margin-top: 14px;
+}
+
+.curation > .cont-box > ul > li > a >.info>.txt {
+    font-size: 14px;
+    display: block;
+    margin-top: 14px;
+}
+
+.curation > .cont-box > ul > li > a >.info>.price-list {
+    margin-top: 30px;
+    display: block;
+}
+
+.curation > .cont-box > ul > li > a >.info>.price-list>.color {
+    color: #b1863c;
+    font-size: 20px;
+}
+
+.curation > .cont-box > ul > li > a >.info>.price-list>.name-1 {
+    font-size: 20px;
+}
+
+.curation > .cont-box > ul > li > a >.info>.price-list>.name-2 {
+    margin-left: 10px;
+}
+
+.curation > .cont-box > ul > li > a >.info>.price-list>.name-3 {
+    margin-left: 15px;
+    font-size: 15px;
+    color: #d1d1d1;
+    text-decoration: line-through;
+}
+
+/* curation 끝 */
+
+/* 슬릭 슬라이더 시작 */
+
+.brand-slick > .cont-box > div .column > .slider > div a {
+	color: #ABABAB;
+    font-size: 28px; 
+	margin: 0.5rem;
+	padding: 2%;
+    text-align: center;
+    border: 1px solid red;
+    display: block;
+}
+
+.brand-slick > .cont-box > div .column > .slider > div a > span {
+    width: 100%;
+    white-space: nowrap;
+}
+
+
+.slider-nav h3 span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slider-nav .slick-slide {
+	cursor: pointer;
+}
+
+.slick-slide.is-active h3 {
+	color: #c00;
+	background-color: #fff;
+}
+
+/* 슬릭 슬라이더 끝 */
+
+/* EVENT-BOX 시작 */
+.event-box {
+    margin-top: 300px;
+}
+
+.event-box > .cont-box {
+    margin-top: 20px;
+}
+
+.event-box > .cont-box > ul {
+    margin: 0 -10px;
+}
+
+.event-box > .cont-box > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.event-box > .cont-box > ul > li {
+    min-height: 400px;
+    box-sizing: border-box;
+    width: 33.333333%;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    position: relative;
+    float: left;
+}
+
+.event-box > .cont-box > ul > li:first-child {
+    width: 66.666666%;
+}
+.event-box > .cont-box > ul > li > a {
+    display: block;
+    border: 1px solid red;
+}
+.event-box > .cont-box > ul > li > a > .img-box {
+    position: relative;
+    padding-top: 310px;
+    height: 100px;
+    border: 1px solid blue;
+    overflow: hidden;
+    display: block;
+}
+
+.event-box > .cont-box > ul > li > a > .img-box > img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translatex(-50%);
+}
+
+.event-box > .cont-box > ul > li > a  > .info {
+    margin-top: 15px;
+}
+.event-box > .cont-box > ul > li > a  > .info > .brand {
+    font-size: 24px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.event-box > .cont-box > ul > li > a  > .info > .txt {
+    margin-top: 8px;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+/* EVENT-BOX 끝 */
 
 /* 헤더 끝 */
