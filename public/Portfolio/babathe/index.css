@@ -450,6 +450,12 @@ screen and (max-height: 1000px) {
 
 /* gnb 끝 */
 
+/* gnb 2차 메뉴 시작 */
+
+.wrap>.header>.inner>.header-area>.gnb
+
+/* gnb 2차 메뉴 끝 */
+
 
 
 /* swiper 슬라이더 시작 */
@@ -902,6 +908,22 @@ screen and (max-height: 1000px) {
     margin-top: 300px;
 }
 
+.event-box > .headArea {
+    border: 1px solid red;
+    position: relative;
+}
+
+.event-box > .headArea > h2 {
+    font-size: 40px;
+}
+.event-box > .headArea > span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
 .event-box > .cont-box {
     margin-top: 20px;
 }
@@ -931,28 +953,25 @@ screen and (max-height: 1000px) {
 }
 .event-box > .cont-box > ul > li > a {
     display: block;
-    border: 1px solid red;
 }
 .event-box > .cont-box > ul > li > a > .img-box {
     position: relative;
     padding-top: 310px;
-    height: 100px;
-    border: 1px solid blue;
     overflow: hidden;
     display: block;
 }
 
 .event-box > .cont-box > ul > li > a > .img-box > img {
     position: absolute;
+    height: 100%;
     top: 0;
     left: 50%;
-    height: 100%;
-    width: 100%;
     transform: translatex(-50%);
 }
 
 .event-box > .cont-box > ul > li > a  > .info {
     margin-top: 15px;
+    display: block;
 }
 .event-box > .cont-box > ul > li > a  > .info > .brand {
     font-size: 24px;
@@ -970,5 +989,336 @@ screen and (max-height: 1000px) {
 }
 
 /* EVENT-BOX 끝 */
+
+/* 아울렛 시작 */
+.outlet-box {
+    margin-top: 110px;
+}
+.outlet-box > .headArea {
+    position: relative;
+}
+
+.outlet-box > .headArea > h2 {
+    font-size: 40px;
+}
+.outlet-box > .headArea > span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.outlet-box > .cont-box > .list1 {
+    margin: 0 -10px;
+}
+
+.outlet-box > .cont-box > .list1 > li {
+    box-sizing: border-box;
+    width: calc(100% / 3);
+    margin: 0 10px;
+}
+
+.outlet-box > .cont-box > .list1 > li > a {
+    display: block;
+}
+.outlet-box > .cont-box > .list1 > li > a > .img-box {
+    position: relative;
+    padding-top: 310px;
+    overflow: hidden;
+    display: block;
+}
+
+.outlet-box > .cont-box > .list1 > li > a > .img-box > img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.outlet-box > .cont-box > .list1 > li > a  > .info {
+    margin-top: 15px;
+    display: block;
+}
+.outlet-box > .cont-box > .list1 > li > a  > .info > .brand {
+    font-size: 24px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.outlet-box > .cont-box > .list1 > li > a  > .info > .txt {
+    margin-top: 8px;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.outlet-box > .cont-box > .list2 {
+    margin: 0 -10px;
+    margin-top: 20px;
+}
+
+.outlet-box > .cont-box > .list2 >li {
+    width: 20%;
+    margin-bottom: 60px;
+    padding: 0 10px;
+    box-sizing:border-box;
+}
+
+.outlet-box > .cont-box > .list2 > li > a {
+    display: block;
+    overflow: hidden;
+}
+
+.outlet-box > .cont-box > .list2 > li > a > img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.curation > .cont-box > ul > li > a > img-box > img {
+    width: 100%;
+}
+
+.outlet-box > .cont-box > .list2 >li>a>.info {
+    display: block;
+    text-align: left;
+
+}
+.outlet-box > .cont-box > .list2 > li > a >.info>.brand {
+    font-size: 14px;
+    color: #888888;
+    display: block;
+    margin-top: 14px;
+}
+
+.outlet-box > .cont-box > .list2 > li > a >.info>.txt {
+    font-size: 14px;
+    display: block;
+    margin-top: 14px;
+}
+
+.outlet-box > .cont-box > .list2 > li > a >.info>.price-list {
+    margin-top: 30px;
+    display: block;
+}
+
+.outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.color {
+    color: #b1863c;
+    font-size: 20px;
+}
+
+.outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.name-1 {
+    font-size: 20px;
+}
+
+.outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.name-2 {
+    margin-left: 10px;
+}
+
+.outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.name-3 {
+    margin-left: 15px;
+    font-size: 15px;
+    color: #d1d1d1;
+    text-decoration: line-through;
+}
+
+/* 아울렛 끝 */
+
+/* editorial 시작 */
+
+.editorial-box {
+    margin-top: 110px;
+}
+
+.editorial-box > .headArea {
+    position: relative;
+}
+
+.editorial-box > .headArea > h2 {
+    font-size: 40px;
+}
+.editorial-box > .headArea > span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.editorial-box > .container > .swiper6 .swiper-slide > a > .info {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.editorial-box > .container > .swiper6 .swiper-slide > a > .info > .txt-title {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.editorial-box > .container > .swiper6 .swiper-slide > a > .info > .txt {
+    font-size: 15px;
+    margin-top: 12px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 72px;
+    line-height: 24px;
+}
+
+/* editorial 끝 */
+
+/* fashion-leader-box 시작 */
+
+.fashion-leader-box > .inner {
+    position: relative;
+    max-width: 1710px;
+    min-width: 1300px;
+}
+
+.fashion-leader-box>.inner>.headArea {
+    width: 310px;
+    margin-right: 20px;
+}
+
+.fashion-leader-box>.inner>.headArea>span {
+    font-size: 40px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fashion-leader-box>.inner>.headArea>a {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 138px;
+    padding: 20px 25px;
+    background-color: black;
+    color: white;
+}
+
+.fashion-leader-box>.inner>.cont-box {
+    width: calc(100% - 330px);
+}
+.fashion-leader-box>.inner>.cont-box .swiper4 .swiper-slide>a>.img-box {
+    position: relative;
+}
+.fashion-leader-box>.inner>.cont-box .swiper4 .swiper-slide>a .info {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    color: white;
+}
+
+/* fashion-leader-box 끝 */
+
+/* 맴버십 배너 시작 */
+
+.membership-bnner {
+    margin-top:115px;
+    margin-bottom: 140px;
+}
+
+.membership-bnner > .headArea > h2 {
+    font-size: 40px;
+}
+
+.membership-bnner > .cont-box {
+     margin-top: 20px;
+}
+.membership-bnner > .cont-box > ul {
+    margin: 0 -10px;
+}
+.membership-bnner > .cont-box > ul > li {
+    width: 33.333333%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.membership-bnner > .cont-box > ul > li > a {
+    display: block;
+}
+
+.membership-bnner > .cont-box > ul > li > a > img {
+    width: 100%;    
+}
+
+/* 맴버십 배너 끝 */
+
+/* footer 시작 */
+
+.footer {
+    padding-top: 40px;
+    background-color: #eee;
+}
+
+.footer > .cont-box {
+    max-width: 1710px;
+    padding: 0 40px;
+    height: 290px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer > .cont-box > .footArea {
+    margin-right: 185px;
+}
+
+.footer > .cont-box > .footArea > .footInfo {
+    width: 50%;
+}
+.footer > .cont-box > .footArea > .footHelp {
+    width: auto;
+    justify-content: flex-end;
+    border: 1px solid red;
+}
+.footer > .cont-box > .footArea > .footInfo > address {
+    font-style: normal;
+    margin-top: 18px;
+}
+
+.footer > .cont-box > .footArea > .footInfo span {
+    font-size: 12px;   
+}
+
+.footer > .cont-box > .footArea > .footInfo > address > .phone1 {
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.footer > .cont-box > .footArea > .footInfo > address > .phone2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer > .cont-box > .footArea > .footInfo > address > .same {
+    margin-left: 8px;
+}
+
+.footer > .cont-box > .footArea > .footHelp > ul {
+    width: 180px;
+    padding-right: 30px; 
+}
+
+.footer > .cont-box > .footArea > .footHelp > ul > li:not(:first-child) {
+    margin-top: 16px;
+}
+
+.footer > .cont-box > .footArea > .footHelp > ul:nth-child(2) > li:last-child > a {
+    font-weight: 600;
+}
+
+.footer > .cont-box > .footLink {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid red;
+}
+
+/* footer 끝 */
 
 /* 헤더 끝 */

@@ -34,16 +34,67 @@
                     </h1>
 
                     <nav class="gnb flex">
-
                         <ul class="gnb-main flex flex-jc-c">
                             <li>
                                 <a href=""><span>BEST</span></a>
+                                <ul>
+                                    <li><a href="">베스트 셀러</a></li>
+                                    <li><a href="">신상품</a></li>
+                                    <li><a href="">온라인 단독</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href=""><span>BRAND</span></a>
+                                <ul>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu01.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu02.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu03.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu04.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu05.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu06.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu07.jpg" alt=""></a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href=""><span>CATEGORY</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="">전체</a>
+                                    </li>
+                                    <li>
+                                        <a href="">아우터</a>
+                                        <ul>
+                                            <li><a href="">코트</a></li>
+                                            <li><a href="">자켓</a></li>
+                                            <li><a href="">점퍼</a></li>
+                                            <li><a href="">트렌치</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">원피스</a>
+                                        <ul>
+                                            <li><a href="">캐쥬얼</a></li>
+                                            <li><a href="">포멀</a></li>
+                                            <li><a href="">페미닌</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">상의</a>
+                                        <ul>
+                                            <li><a href="">티셔츠</a></li>
+                                            <li><a href="">니트</a></li>
+                                            <li><a href="">가디건</a></li>
+                                            <li><a href="">블라우스</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">하의</a>
+                                        <ul>
+                                            <li><a href="">팬츠</a></li>
+                                            <li><a href="">스커트</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <a href=""><span>EVENT</span></a>
@@ -52,7 +103,6 @@
                                 <a href=""><span>OUTLET</span></a>
                             </li>
                         </ul>
-
                         <ul class="gnb-other flex">
                             <li>
                                 <a href=""><span>에디토리얼</span></a>
@@ -907,7 +957,7 @@
     </div>
 
     <div class="event-box section-box con">
-        <div class="headArea">
+        <div class="headArea flex">
             <h2>EVENT</h2>
             <span>전체보기</span>
         </div>
@@ -916,7 +966,8 @@
                 <li>
                     <a href="">
                         <span class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200703_baba_onepiece_2020x580_1595207435704.jpg" alt="">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200703_baba_onepiece_2020x580_1595207435704.jpg"
+                                alt="">
                         </span>
                         <span class="info">
                             <span class="brand">아이잗바바 써머 원피스</span>
@@ -928,7 +979,8 @@
                 <li>
                     <a href="">
                         <span class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200703_jj_windowshopping_1388x580_1594599178075.jpg" alt="">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200703_jj_windowshopping_1388x580_1594599178075.jpg"
+                                alt="">
                         </span>
                         <span class="info">
                             <span class="brand">JJ지고트 랜선여행! 도심 속 리조트룩</span>
@@ -939,7 +991,8 @@
                 <li>
                     <a href="">
                         <span class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200713_theizzat_buying_new_1388x580_1595204026933.jpg" alt="">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200713_theizzat_buying_new_1388x580_1595204026933.jpg"
+                                alt="">
                         </span>
                         <span class="info">
                             <span class="brand">더아이잗 COOL SUMMER CHECK</span>
@@ -950,7 +1003,8 @@
                 <li>
                     <a href="">
                         <span class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200707_tilbury_holiday2_1388x580_1594599366708.jpg" alt="">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200707_tilbury_holiday2_1388x580_1594599366708.jpg"
+                                alt="">
                         </span>
                         <span class="info">
                             <span class="brand">틸버리 여름 휴가준비</span>
@@ -961,7 +1015,8 @@
                 <li>
                     <a href="">
                         <span class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200708_bywool_blouse_tshirts_1388x580_1595227873777.jpg" alt="">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200708_bywool_blouse_tshirts_1388x580_1595227873777.jpg"
+                                alt="">
                         </span>
                         <span class="info">
                             <span class="brand">바이울 써머 블라우스 & 티셔츠</span>
@@ -973,6 +1028,557 @@
         </nav>
     </div>
 
+    <div class="outlet-box section-box con">
+        <div class="headArea">
+            <h2>OUTLET</h2>
+            <span>전체보기</span>
+        </div>
+        <div class="cont-box">
+            <ul class="list1 flex">
+                </li>
+                <li>
+                    <a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200708_bjt_best_1388x580_1594599731624.jpg"
+                                alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">더아이잗 COOL SUMMER CHECK</span>
+                            <span class="txt">여름 신상품 ~60% OFF + 10% 쿠폰</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/20200602_theizzat_outlet_1388x580_1591167219270.jpg"
+                                alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">틸버리 여름 휴가준비</span>
+                            <span class="txt">휴양지 원피스 UP TO 65% OFF</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/jjjigott_outlet_1388x580_1589766583687.jpg"
+                                alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">바이울 써머 블라우스 & 티셔츠</span>
+                            <span class="txt">전상품 20% OFF</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list2 flex flex-wrap">
+                <li>
+                    <a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/JK5A0OP9560_1_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">JIGOTT</span>
+                            <span class="txt">플라운스 플라워 프린팅 원피스</span>
+                            <span class="price-list">
+                                <span class="name-1 color">179,400</span>
+                                <span class="name-2 color">70%</span>
+                                <span class="name-3">598,000</span>
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/JK5A0OP7486_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">JIGOTT</span>
+                            <span class="txt">핀턱 밴딩 프릴 디테일 원피스</span>
+                            <span class="price-list">
+                                <span class="name-1 color">179,400</span>
+                                <span class="name-2 color">70%</span>
+                                <span class="name-3">598,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/BJ7E0SLG147_1_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">IZZAT BABA</span>
+                            <span class="txt">하프 밴딩 절개 와이드 팬츠</span>
+                            <span class="price-list">
+                                <span class="name-1 color">39,000</span>
+                                <span class="name-2 color">68%</span>
+                                <span class="name-3">119,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/CJ6A0BL8234_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">THE IZZAT COLLECTION</span>
+                            <span class="txt">러플 카라 소매 주름 블라우스</span>
+                            <span class="price-list">
+                                <span class="name-1 color">143,400</span>
+                                <span class="name-2 color">70%</span>
+                                <span class="name-3">478,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/JK5A0OP9340_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">JIGOTT</span>
+                            <span class="txt">브이넥 랩 플리츠 원피스</span>
+                            <span class="price-list">
+                                <span class="name-1 color">209,000</span>
+                                <span class="name-2 color">70%</span>
+                                <span class="name-3">698,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/BK5E0TSE192_1_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">IZZAT BABA</span>
+                            <span class="txt">린넨 100% 쥬얼 포켓 티셔츠</span>
+                            <span class="price-list">
+                                <span class="name-1 color">53,100</span>
+                                <span class="name-2 color">10%</span>
+                                <span class="name-3">59,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/JK5A0OP7882_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">JIGOTT</span>
+                            <span class="txt">플라워 레이스 플리츠 원피스</span>
+                            <span class="price-list">
+                                <span class="name-1 color">227,400</span>
+                                <span class="name-2 color">70%</span>
+                                <span class="name-3">758,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/BK5A0BL7130_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">IZZAT BABA</span>
+                            <span class="txt">메탈 버튼 핀턱 블라우스</span>
+                            <span class="price-list">
+                                <span class="name-1 color">119,200</span>
+                                <span class="name-2 color">60%</span>
+                                <span class="name-3">298,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/CK6A0JK3641_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">THE IZZAT COLLECTION</span>
+                            <span class="txt">소매 디테일 린넨 자켓</span>
+                            <span class="price-list">
+                                <span class="name-1 color">211,200</span>
+                                <span class="name-2 color">60%</span>
+                                <span class="name-3">528,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+                <li><a href="">
+                        <span class="img-box">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/JJ7A0SK7560_11_310x455.jpg" alt="">
+                        </span>
+                        <span class="info">
+                            <span class="brand">JIGOTT</span>
+                            <span class="txt">언발 도트 플리츠 스커트</span>
+                            <span class="price-list">
+                                <span class="name-1 color">75,600</span>
+                                <span class="name-2 color">80%</span>
+                                <span class="name-3">378,000</span>
+                            </span>
+                        </span>
+                    </a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="editorial-box section-box con">
+        <div class="headArea">
+            <h2>EDITORIAL</h2>
+            <span>전체보기</span>
+        </div>
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper-container swiper6">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="img-box">
+                                <img src="https://ssw0428.github.io/img1/pf/babathe/20200716_editorial_summertrend_720x580.jpg"
+                                    alt="">
+                            </span>
+                            <span class="info">
+                                <span class="txt-title">2020 Summer Trend</span>
+                                <span class="txt">남들 다 입는 그저 그런 여름옷 말고. 비슷비슷해 보이는 짧은 옷들 사이로 유독 시선이 머무는 룩이 있기 마련이다. 2020
+                                    Summer Trend에 뒤처지지 않으면서도 나를 좀 더 특별하게 해줄 바바더 닷컴의 썸머 룩.</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="img-box">
+                                <img src="https://ssw0428.github.io/img1/pf/babathe/20200713_sun_sea_720x580.jpg"
+                                    alt="">
+                            </span>
+                            <span class="info">
+                                <span class="txt-title">작열하는 태양 아래 쪽빛 바다</span>
+                                <span class="txt">타오르는 회색빛 시멘트 바닥을 벗어나 걸음마다 흔적을 남기는 모레 위를 거니는 상상. 언제 가도 기분 좋은 바다는 상상
+                                    속에서조차 우리를 들뜨게 한다. 뜨거운 태양 아래 청량한 바다가 그려지는 JJ JIGOTT의 이번 룩은 블루&오렌지 컬러가 한데
+                                    어우러졌다.</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="img-box">
+                                <img src="https://ssw0428.github.io/img1/pf/babathe/20200706_collection_nightfever_720x580.jpg"
+                                    alt="">
+                            </span>
+                            <span class="info">
+                                <span class="txt-title">Night Fever</span>
+                                <span class="txt">이번 Summer Collection은 풀과 나무, 숲이 연상되는 이국적인 자연 모티프를 이용하여 한 여름밤의 파티를
+                                    연상하였다.<br>강렬한 이국적 프린트와 함께 뜨겁게 내리쬐는 낮의 태양 열기가 이어지듯 밤의 파티열기를 상상하며 랜선 썸머 나이트 파티를
+                                    떠나보자.</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="img-box">
+                                <img src="https://ssw0428.github.io/img1/pf/babathe/20200706_summer_garden_720x580.jpg"
+                                    alt="">
+                            </span>
+                            <span class="info">
+                                <span class="txt-title">더아이잗만의 여름정원</span>
+                                <span class="txt">뉴트로를 바탕으로 아이잗 감성을 담아 푸른 여름 정원을 그려본다.<br>자연과 어우러진 브라이트 색조를 비롯해 웨어러블한
+                                    로맨틱 데일리룩을 선보였으며<br>화려한 패턴부터 채도 높은 모던룩까지 임팩트있는 썸머 스타일을 만나보자.</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="img-box">
+                                <img src="https://ssw0428.github.io/img1/pf/babathe/20200703_office_look_720x580_1594010904572.jpg"
+                                    alt="">
+                            </span>
+                            <span class="info">
+                                <span class="txt-title">컬러로 보는 2020 PRE-FALL NEW OFFICE LOOK</span>
+                                <span class="txt">패션 브랜드의 선두주자인 지고트가 2020 F/W NEW OFFICE LOOK 을 선보였다.<br>시간이 지날수록 소장
+                                    가치있는 지고트의 셋업라인부터 원피스까지 2020 Pre-Fall 트렌드 컬러로 보는 오피스룩 지금부터 만나보자.</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="img-box">
+                                <img src="https://ssw0428.github.io/img1/pf/babathe/20200625_tilbury_july_720x580.jpg"
+                                    alt="">
+                            </span>
+                            <span class="info">
+                                <span class="txt-title">틸버리와 함께하는 7월의 여름</span>
+                                <span class="txt">무더운 여름을 맞이하여 시원하게 즐길 수 있는 틸버리의 썸머룩을 소개한다. 사랑스러운 그녀가 선택한 7월의
+                                    아이템은?</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fashion-leader-box section-box con">
+        <div class="inner flex">
+            <div class="headArea">
+                <span>FASHION<br>LEADER</span>
+                <a href="">패션리더 바로가기</a>
+            </div>
+            <div class="cont-box">
+                <div class="container">
+                    <!-- Slider main container -->
+                    <div class="swiper-container swiper4">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0707-2.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">JIGOTT</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0707-1.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">JIGOTT</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0707.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">JJ JIGOTT</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07032.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">JIGOTT</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07200.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">JJ JIGOTT</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0720_3.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07203.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA></span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07202.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">BYWOOL</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07162.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">THE IZZAT</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0716.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07152.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07135.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0713.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0710_1594363608824.jpg"
+                                            alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/0710_3.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <span class="img-box">
+                                        <img src="https://ssw0428.github.io/img1/pf/babathe/07103.jpg" alt="">
+                                    </span>
+                                    <span class="info">
+                                        <span class="brand">IZZAT BABA</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="membership-bnner section-box con">
+        <div class="headArea">
+            <h2>MEMBERSHIP BENEFIT</h2>
+        </div>
+        <nav class="cont-box">
+            <ul class="flex">
+                <li><a href=""><img
+                            src="https://ssw0428.github.io/img1/pf/babathe/20191104_bottom_banner01_1572835710067.jpg"
+                            alt=""></a></li>
+                <li><a href=""><img
+                            src="https://ssw0428.github.io/img1/pf/babathe/200428_main_membership_m_02_1588128087723.jpg"
+                            alt=""></a></li>
+                <li><a href=""><img
+                            src="https://ssw0428.github.io/img1/pf/babathe/21091122_member_m_03_1574641674759.jpg"
+                            alt=""></a></li>
+            </ul>
+    </div>
+
+    <div class="footer">
+        <div class="cont-box con flex">
+            <div class="footArea flex">
+                <div class="footInfo flex">
+                    <address>
+                        <span class="text-logo">바바그룹 ㈜바바더닷컴</span>
+                        <br>
+                        <span class="phone1">대표번호</span>
+                        <span class="phone2">1600 - 0306</span>
+                        <span class="same">평일 10:00 - 17:00</span>
+                        <span class="same">점심 12:30 - 14:00</span>
+                        <span class="same">주말.공휴일 휴무</span>
+                        <br>
+                        <span>대표이사 문인식</span>
+                        <span>서울특별시 서초구 신반포로 339, 논현빌딩 6층(잠원동) </span>
+                        <span>사업자 등록번호 569-86-01308</span>
+                        <br>
+                        <span>사업자정보 확인</span>
+                        <span>통신판매업신고번호 제2019-서울서초-1268호</span>
+                        <br>
+                        <span>개인정보관리책임자</span>
+                        <span>류양순</span>
+                        <span> babathe@babafashion.com</span>
+                        <br>
+                        <span>(C) BABA GROUP all rights reserved.</span>
+                    </address>
+                </div>
+                <div class="footHelp flex">
+                    <ul>
+                        <li><a href="">멤버십혜택</a></li>
+                        <li><a href="">바바프리미엄</a></li>
+                        <li><a href="">바바패션리더</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">교객센터</a></li>
+                        <li><a href="">매장안내</a></li>
+                        <li><a href="">회사소개</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footLink flex">
+                <ul class="down">
+                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/img_qrcode.png" alt=""></a></li>
+                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/btn_appstore.png" alt=""></a>
+                    </li>
+                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/btn_google.png" alt=""></a></li>
+                </ul>
+                <ul class="sns">
+                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/ico_fb.png" alt=""></a></li>
+                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/ico_ig.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 </body>
 
