@@ -37,15 +37,17 @@
                         <ul class="gnb-main flex flex-jc-c">
                             <li>
                                 <a href=""><span>BEST</span></a>
-                                <ul>
-                                    <li><a href="">베스트 셀러</a></li>
-                                    <li><a href="">신상품</a></li>
-                                    <li><a href="">온라인 단독</a></li>
+                                <ul class="flex">
+                                    <div class="inner">
+                                        <li><a href="">베스트 셀러</a></li>
+                                        <li><a href="">신상품</a></li>
+                                        <li><a href="">온라인 단독</a></li>
+                                    </div>
                                 </ul>
                             </li>
                             <li>
                                 <a href=""><span>BRAND</span></a>
-                                <ul>
+                                <ul class="flex">
                                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu01.jpg" alt=""></a></li>
                                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu02.jpg" alt=""></a></li>
                                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu03.jpg" alt=""></a></li>
@@ -57,7 +59,7 @@
                             </li>
                             <li>
                                 <a href=""><span>CATEGORY</span></a>
-                                <ul>
+                                <ul class="flex">
                                     <li>
                                         <a href="">전체</a>
                                     </li>
