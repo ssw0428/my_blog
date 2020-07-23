@@ -17,118 +17,149 @@
 
 
     <!-- slick 불러오기 -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
     <script src="/Portfolio/babathe/index.js"></script>
 
 </head>
 
 <body>
-    <div class="wrap con">
-        <div class="header con">
-            <div class="inner">
-                <div class="header-area flex">
-                    <h1 class="logo flex">
-                        <a href="">BABATHE.COM</a>
-                    </h1>
-
-                    <nav class="gnb flex">
-                        <ul class="gnb-main flex flex-jc-c">
-                            <li>
-                                <a href=""><span>BEST</span></a>
-                                <ul class="flex">
-                                    <div class="inner">
-                                        <li><a href="">베스트 셀러</a></li>
-                                        <li><a href="">신상품</a></li>
-                                        <li><a href="">온라인 단독</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href=""><span>BRAND</span></a>
-                                <ul class="flex">
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu01.jpg" alt=""></a></li>
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu02.jpg" alt=""></a></li>
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu03.jpg" alt=""></a></li>
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu04.jpg" alt=""></a></li>
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu05.jpg" alt=""></a></li>
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu06.jpg" alt=""></a></li>
-                                    <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu07.jpg" alt=""></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href=""><span>CATEGORY</span></a>
-                                <ul class="flex">
-                                    <li>
-                                        <a href="">전체</a>
-                                    </li>
-                                    <li>
-                                        <a href="">아우터</a>
-                                        <ul>
-                                            <li><a href="">코트</a></li>
-                                            <li><a href="">자켓</a></li>
-                                            <li><a href="">점퍼</a></li>
-                                            <li><a href="">트렌치</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">원피스</a>
-                                        <ul>
-                                            <li><a href="">캐쥬얼</a></li>
-                                            <li><a href="">포멀</a></li>
-                                            <li><a href="">페미닌</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">상의</a>
-                                        <ul>
-                                            <li><a href="">티셔츠</a></li>
-                                            <li><a href="">니트</a></li>
-                                            <li><a href="">가디건</a></li>
-                                            <li><a href="">블라우스</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">하의</a>
-                                        <ul>
-                                            <li><a href="">팬츠</a></li>
-                                            <li><a href="">스커트</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href=""><span>EVENT</span></a>
-                            </li>
-                            <li>
-                                <a href=""><span>OUTLET</span></a>
-                            </li>
-                        </ul>
-                        <ul class="gnb-other flex">
-                            <li>
-                                <a href=""><span>에디토리얼</span></a>
-                            </li>
-                            <li>
-                                <a href=""><span>패션리더</span></a>
-                            </li>
-                        </ul>
-
-                        <div class="util-menu flex">
-                            <ul class="flex flex-ai-c">
-                                <li>
-                                    <a href="">로그인</a>
-                                </li>
-                                <li>
-                                    <a href="">회원가입</a>
-                                </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+    <div class="top-menu-box con-min-width flex">
+        <div class="inner flex">
+            <ul class="gnb-main flex">
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">BEST
+                    </a>
+                    <ul class="flex">
+                        <div class="inner flex">
+                            <li><a href="">베스트 셀러</a></li>
+                            <li><a href="">신상품</a></li>
+                            <li><a href="">온라인 단독</a></li>
                         </div>
-                    </nav>
-                </div>
+                    </ul>
+                </li>
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">BRAND</a>
+                    <ul>
+                        <div class="inner flex flex-ai-c">
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu01.jpg"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu02.jpg"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu03.jpg"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu04.jpg"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu05.jpg"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu06.jpg"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="https://ssw0428.github.io/img1/pf/babathe/20200715_brand_menu07.jpg"
+                                        alt=""></a></li>
+                        </div>
+                    </ul>
+
+                </li>
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">CATEGORY</a>
+                    <ul>
+                        <div class="inner con flex flex-jc-c">
+                            <li>
+                                <a href="">전체</a>
+
+                            </li>
+                            <li>
+                                <a href="">아우터</a>
+                                <ul>
+                                    <li><a href="">코트</a></li>
+                                    <li><a href="">자켓</a></li>
+                                    <li><a href="">점퍼</a></li>
+                                    <li><a href="">트렌치</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">원피스</a>
+                                <ul>
+                                    <li><a href="">캐쥬얼</a></li>
+                                    <li><a href="">포멀</a></li>
+                                    <li><a href="">페미닌</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">상의</a>
+                                <ul>
+                                    <li><a href="">티셔츠</a></li>
+                                    <li><a href="">니트</a></li>
+                                    <li><a href="">가디건</a></li>
+                                    <li><a href="">블라우스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">하의</a>
+                                <ul>
+                                    <li><a href="">팬츠</a></li>
+                                    <li><a href="">스커트</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">EVENT</a>
+
+                </li>
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">OUTLET</a>
+
+                </li>
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">에디토리얼</a>
+
+                </li>
+                <li>
+                    <a class="flex flex-ai-c height-100p" href="">패션리더</a>
+
+                </li>
+            </ul>
+            <ul class="gnb-other flex flex-ai-c flex-jc-end">
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+            <a class="logo flex flex-ai-c flex-order-m1" href="">
+                <img src="https://ssw0428.github.io/img1/pf/babathe/hlogo.png" alt="">
+                <img src="https://ssw0428.github.io/img1/pf/babathe/hlogo_on.png" alt="">
+            </a>
+
+            <div class="view">
+                <div class="search-box"></div>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+                <ul>
+                    <li><a href=""></a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -207,7 +238,7 @@
     <div class="section-box con">
         <div class="head-area flex">
             <h2>NEW ARRIVAL</h2>
-            <a class="flex flex-jc-end" href="">전체보기</a>
+            <a class="" href="">전체보기</a>
         </div>
         <div class="container">
             <!-- Slider main container -->
@@ -1031,7 +1062,7 @@
     </div>
 
     <div class="outlet-box section-box con">
-        <div class="headArea">
+        <div class="headArea flex">
             <h2>OUTLET</h2>
             <span>전체보기</span>
         </div>
@@ -1224,7 +1255,7 @@
     </div>
 
     <div class="editorial-box section-box con">
-        <div class="headArea">
+        <div class="headArea flex">
             <h2>EDITORIAL</h2>
             <span>전체보기</span>
         </div>
@@ -1567,14 +1598,14 @@
                     </ul>
                 </div>
             </div>
-            <div class="footLink flex">
-                <ul class="down">
+            <div class="footLink">
+                <ul class="down flex">
                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/img_qrcode.png" alt=""></a></li>
                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/btn_appstore.png" alt=""></a>
                     </li>
                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/btn_google.png" alt=""></a></li>
                 </ul>
-                <ul class="sns">
+                <ul class="sns flex flex-jc-end">
                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/ico_fb.png" alt=""></a></li>
                     <li><a href=""><img src="https://ssw0428.github.io/img1/pf/babathe/ico_ig.png" alt=""></a></li>
                 </ul>

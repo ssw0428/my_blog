@@ -318,6 +318,10 @@
         flex-wrap: wrap;
     }
 
+    *>.flex-order-m1 {
+        order: -1;
+    }
+
     /* 커스텀 */
     @media (max-width:799px) {
         ss {
@@ -339,172 +343,344 @@
     }
 
     .con-min-width {
-        min-width: 1356px;
+        min-width: 1710px;
     }
 
     .con {
-        max-width: 1700px;
+        max-width: 1710px;
     }
 
     .con-1 {
         max-width: 1200px;
     }
 
-    /* 헤더 시작 */
-
-    .wrap {
-        position: relative;
-        min-width: 1300px;
-    }
-
-    .wrap>.header {
+    /* 탑 메뉴 박스 */
+    .top-menu-box {
         position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
-        min-width: 1300px;
+        height: 80px;
         z-index: 10;
     }
 
-    .wrap>.header>.inner {
-        max-width: 1710px;
-        height: 80px;
-    }
-
-
-    /* 로고 시작 */
-    .wrap>.header>.inner>.header-area>.logo {
-        position: absolute;
-        left: 0;
-        top: 0;
-
-    }
-
-    .wrap>.header>.inner>.header-area>.logo>a {
-        background-image: url(https://ssw0428.github.io/img1/pf/babathe/hlogo.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        display: block;
-        width: 165px;
-        height: 80px;
-        font-size: 0;
-    }
-
-    /* 로고 끝 */
-
-    /* gnb 시작 */
-    .wrap>.header>.inner>.header-area>.gnb {
-        position: relative;
+    .top-menu-box>.inner {
         width: 100%;
-        height: 80px;
+        position: relative;
+        padding: 0 140px;
+    }
+
+    /* 탑 메뉴 박스에 있는 gnb-main 메뉴 */
+    .top-menu-box>.inner>.gnb-main {
+        margin-left: 105px;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li>a {
+        padding: 0 23px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .top-menu-box>.inner>.gnb-other {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .top-menu-box>.inner>.gnb-other>li {
+        margin-left: 20px;
         font-size: 14px;
-        border: 1px solid yellow;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb>.gnb-main {
-        position: absolute;
-        right: 50%;
-        top: 4%;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb>.gnb-main>li>a {
-        display: block;
-        text-align: center;
-        padding: 30px 23px;
         color: white;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb>.gnb-main>li>a:last-child {
-        padding-right: 36px;
+    .top-menu-box>.inner>.gnb-main:hover~.gnb-other>li {
+        color: black;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb>.gnb-other {
+    /* 탑 메뉴 박스에 있는 gnb-other 메뉴 */
+
+    .top-menu-box>.inner>.gnb-other>li:nth-child(1)>a {
+        position: relative;
+    }
+
+    .top-menu-box>.inner>.gnb-other>li:nth-child(1)>a::after {
+        content: "";
         position: absolute;
-        left: 50%;
-        margin: 30px 0;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb>.gnb-other>li>a {
-        padding: 30px 23px;
-        color: white;
-        white-space:nowrap;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb>.gnb-other>li>a:last-child {
-        padding-left: 36px;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb ul>li>a>span {
-        padding-bottom: 30px;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb ul>li>a:hover>span {
-        border-bottom: 1px solid black;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb>.util-menu {
-        position: absolute;
-        right: 0;
+        right: -5px;
         top: 50%;
         transform: translateY(-50%);
+        display: block;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        margin-top: -1px;
+        background-color: #fff;
+    }
+
+    .top-menu-box>.inner>.gnb-other>li:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    .top-menu-box>.inner>.gnb-other>li:nth-child(3)>a {
+        display: block;
+        background-image: url(https://ssw0428.github.io/img1/pf/babathe/sp_ico_menu.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .top-menu-box>.inner>.gnb-other>li:nth-child(4)>a {
+        display: block;
+        background-image: url(https://ssw0428.github.io/img1/pf/babathe/sp_ico_menu.png);
+        background-repeat: no-repeat;
+        background-position: -37px 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .top-menu-box>.inner>.gnb-other>li:nth-child(5)>a {
+        display: block;
+        background-image: url(https://ssw0428.github.io/img1/pf/babathe/sp_ico_menu.png);
+        background-repeat: no-repeat;
+        background-position: -74px 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* 탑 메뉴 박스에 있는 gnb-main을 클릭했을 때 */
+
+    .top-menu-box>.inner>.gnb-main:hover>li>a {
+        color: black;
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover~.gnb-other>li:nth-child(3)>a {
+        display: block;
+        background-image: url(https://ssw0428.github.io/img1/pf/babathe/sp_ico_menu.png);
+        background-repeat: no-repeat;
+        background-position: 0 -40px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover~.gnb-other>li:nth-child(4)>a {
+        display: block;
+        background-image: url(https://ssw0428.github.io/img1/pf/babathe/sp_ico_menu.png);
+        background-repeat: no-repeat;
+        background-position: -37px -40px;
+        ;
+        width: 30px;
+        height: 30px;
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover~.gnb-other>li:nth-child(5)>a {
+        display: block;
+        background-image: url(https://ssw0428.github.io/img1/pf/babathe/sp_ico_menu.png);
+        background-repeat: no-repeat;
+        background-position: -74px -40px;
+        width: 30px;
+        height: 30px;
     }
 
 
-    /* gnb 끝 */
 
-    /* gnb 2차 메뉴 시작 */
-    .wrap>.header>.inner>.header-area>.gnb > ul > li {
+    /* gnb 메뉴가 흰색으로 */
+
+    .top-menu-box>.inner>.gnb-main::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        z-index: -1;
+        transition: background-color .3s;
     }
-    .wrap>.header>.inner>.header-area>.gnb > ul ul {
+
+    .top-menu-box>.inner>.gnb-main:hover::after {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    /* 탑 메뉴 박스에 있는 로고의 색깔 */
+    .top-menu-box>.inner>.gnb-main~.logo>img:last-child {
         display: none;
-        position: fixed;
-        top: 83px;
-        left: 50%;
-        transform: translateX(-50%);
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover~.logo>img:last-child {
+        display: block;
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover~.logo>img:first-child {
+        display: none;
+    }
+
+    /* 탑 메뉴 박스에 있는gnb-main 6~-7번째 점 넣기 */
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(6)>a {
+        position: relative;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(6)>a::after {
+        content: "";
+        position: absolute;
+        bottom: 40%;
+        right: 10%;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(7)>a {
+        position: relative;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(7)>a::after {
+        content: "";
+        position: absolute;
+        bottom: 40%;
+        right: 10%;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover>li:nth-child(6)>a::after {
+        content: "";
+        position: absolute;
+        bottom: 40%;
+        right: 10%;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: black;
+    }
+
+    .top-menu-box>.inner>.gnb-main:hover>li:nth-child(7)>a::after {
+        content: "";
+        position: absolute;
+        bottom: 40%;
+        right: 10%;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: black;
+    }
+
+    /*2차 메뉴*/
+    .top-menu-box>.inner>.gnb-main>li>ul>.inner {
         width: 100%;
     }
-    .wrap>.header>.inner>.header-area>.gnb > ul ul > .inner {
+
+    .top-menu-box>.inner>.gnb-main>li>ul {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:hover>ul {
+        height: auto;
+        transition: height .3;
+    }
+
+
+    .top-menu-box>.inner>.gnb-main>li>ul::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: -1;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li>ul::after {
+        content: "";
+        position: fixed;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        transition: background-color .3s, visibility .3s;
+        z-index: -2;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:hover>ul::after {
+        background-color: rgba(0, 0, 0, .3);
+        visibility: visible;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(1)>ul>.inner {
         width: 1190px;
-    }
-
-    .wrap>.header>.inner>.header-area>.gnb > ul > li:not(:nth-child(2)) > ul {
+        margin: 0 auto;
         padding: 40px 0;
-    }
-    .wrap>.header>.inner>.header-area>.gnb > ul > li > ul > li {
-        width: 170px;
+        margin-right: 170px;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb > ul > li:nth-child(1) > ul > li:nth-child(1) {
-        margin-left: 170px;
+    .top-menu-box>.inner>.gnb-main>li:nth-child(1)>ul>.inner>li {
+        width: 150px;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb > ul > li:nth-child(2) > ul {
+    .top-menu-box>.inner>.gnb-main>li:nth-child(1)>ul>.inner>li>a {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(2)>ul>.inner {
         width: 1680px;
+        margin: 0 auto;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb > ul > li:nth-child(2) > ul > li {
+    .top-menu-box>.inner>.gnb-main>li:nth-child(2)>ul>.inner>li {
         width: 240px;
         height: 290px;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb > ul > li:nth-child(2) > ul > li > a {
+    .top-menu-box>.inner>.gnb-main>li:nth-child(2)>ul>.inner>li>a {
         display: block;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb > ul > li:nth-child(2) > ul > li > a > img {
+    .top-menu-box>.inner>.gnb-main>li:nth-child(2)>ul>.inner>li>a>img {
         width: 100%;
     }
 
-    .wrap>.header>.inner>.header-area>.gnb > ul > li > ul > li > a {
-        font-size: 16px;
+    .top-menu-box>.inner>.gnb-main>li:nth-child(3)>ul>.inner {
+        width: 1190px;
+        padding: 40px 0;
+        margin: 0 auto;
     }
 
-    /* gnb 2차 메뉴 끝 */
+    .top-menu-box>.inner>.gnb-main>li:nth-child(3)>ul>.inner>li {
+        width: 150px;
+    }
 
+    .top-menu-box>.inner>.gnb-main>li:nth-child(3)>ul>.inner>li>a {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(3)>ul>.inner>li>ul {
+        margin-top: 13px;
+    }
+
+    .top-menu-box>.inner>.gnb-main>li:nth-child(3)>ul>.inner>li>ul>li {
+        margin-top: 7px;
+    }
 
 
     /* swiper 슬라이더 시작 */
     .container .swiper-container .swiper-pagination-progressbar-fill {
-        background-color: rgba(0,0,0,0.5);
-      }
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
     .container>.maincont .swiper-container>.swiper-pagination {
         margin-top: 50px;
@@ -603,14 +779,18 @@
     }
 
     .section-box>.head-area>a {
-        border: 1px solid blue;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        padding-right: 25px;
-        font-size: 14px;
+        width: 80px;
+        margin-left: auto;
+        padding: 50px 0;
+        background-image: url("https://ssw0428.github.io/img1/pf/babathe/ico_bullet.png");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        display: block;
+
     }
+
+
+
 
     .section-box>.container>.swiper2>.swiper-wrapper>.swiper-slide>a>.info {
         display: block;
@@ -699,9 +879,6 @@
     /* swiper 슬라이더3 시작 */
 
     /* swiper 슬라이더4 시작 */
-    .best-item {
-        border: 1px solid red;
-    }
 
     .best-item>.inner {
         position: relative;
@@ -737,7 +914,9 @@
     .best-item>.inner>.cont-box {
         width: calc(100% - 330px);
     }
-
+    .best-item>.inner>.cont-box .swiper4 {
+        margin-left: 100px;
+    }
     .best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info {
         display: block;
         text-align: left;
@@ -833,7 +1012,7 @@
 
     /* curation 시작 */
 
-    .curation > .headArea > h2 {
+    .curation>.headArea>h2 {
         font-size: 40px;
     }
 
@@ -849,21 +1028,21 @@
         width: 20%;
         margin-bottom: 60px;
         padding: 0 10px;
-        box-sizing:border-box;
+        box-sizing: border-box;
     }
 
-    .curation > .cont-box > ul > li > a {
+    .curation>.cont-box>ul>li>a {
         display: block;
         overflow: hidden;
     }
 
-    .curation > .cont-box > ul > li > a > img-box {
+    .curation>.cont-box>ul>li>a>img-box {
         position: relative;
         display: block;
         overflow: hidden;
     }
 
-    .curation > .cont-box > ul > li > a > img-box > img {
+    .curation>.cont-box>ul>li>a>img-box>img {
         width: 100%;
     }
 
@@ -873,38 +1052,38 @@
 
     }
 
-    .curation > .cont-box > ul > li > a >.info>.brand {
+    .curation>.cont-box>ul>li>a>.info>.brand {
         font-size: 14px;
         color: #888888;
         display: block;
         margin-top: 14px;
     }
 
-    .curation > .cont-box > ul > li > a >.info>.txt {
+    .curation>.cont-box>ul>li>a>.info>.txt {
         font-size: 14px;
         display: block;
         margin-top: 14px;
     }
 
-    .curation > .cont-box > ul > li > a >.info>.price-list {
+    .curation>.cont-box>ul>li>a>.info>.price-list {
         margin-top: 30px;
         display: block;
     }
 
-    .curation > .cont-box > ul > li > a >.info>.price-list>.color {
+    .curation>.cont-box>ul>li>a>.info>.price-list>.color {
         color: #b1863c;
         font-size: 20px;
     }
 
-    .curation > .cont-box > ul > li > a >.info>.price-list>.name-1 {
+    .curation>.cont-box>ul>li>a>.info>.price-list>.name-1 {
         font-size: 20px;
     }
 
-    .curation > .cont-box > ul > li > a >.info>.price-list>.name-2 {
+    .curation>.cont-box>ul>li>a>.info>.price-list>.name-2 {
         margin-left: 10px;
     }
 
-    .curation > .cont-box > ul > li > a >.info>.price-list>.name-3 {
+    .curation>.cont-box>ul>li>a>.info>.price-list>.name-3 {
         margin-left: 15px;
         font-size: 15px;
         color: #d1d1d1;
@@ -915,9 +1094,9 @@
 
     /* 슬릭 슬라이더 시작 */
 
-    .brand-slick > .cont-box > div .column > .slider > div a {
+    .brand-slick>.cont-box>div .column>.slider>div a {
         color: #ABABAB;
-        font-size: 28px; 
+        font-size: 28px;
         margin: 0.5rem;
         padding: 2%;
         text-align: center;
@@ -925,7 +1104,7 @@
         display: block;
     }
 
-    .brand-slick > .cont-box > div .column > .slider > div a > span {
+    .brand-slick>.cont-box>div .column>.slider>div a>span {
         width: 100%;
         white-space: nowrap;
     }
@@ -954,37 +1133,42 @@
         margin-top: 300px;
     }
 
-    .event-box > .headArea {
-        border: 1px solid red;
+    .event-box>.headArea {
         position: relative;
     }
 
-    .event-box > .headArea > h2 {
+    .event-box>.headArea>h2 {
         font-size: 40px;
     }
-    .event-box > .headArea > span {
+
+
+    .event-box>.headArea>span {
+        width: 80px;
+        margin-left: auto;
+        padding: 50px 0;
+        background-image: url("https://ssw0428.github.io/img1/pf/babathe/ico_bullet.png");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
         display: block;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
+
     }
 
-    .event-box > .cont-box {
+
+    .event-box>.cont-box {
         margin-top: 20px;
     }
 
-    .event-box > .cont-box > ul {
+    .event-box>.cont-box>ul {
         margin: 0 -10px;
     }
 
-    .event-box > .cont-box > ul::after {
+    .event-box>.cont-box>ul::after {
         content: "";
         display: table;
         clear: both;
     }
 
-    .event-box > .cont-box > ul > li {
+    .event-box>.cont-box>ul>li {
         min-height: 400px;
         box-sizing: border-box;
         width: 33.333333%;
@@ -994,20 +1178,22 @@
         float: left;
     }
 
-    .event-box > .cont-box > ul > li:first-child {
+    .event-box>.cont-box>ul>li:first-child {
         width: 66.666666%;
     }
-    .event-box > .cont-box > ul > li > a {
+
+    .event-box>.cont-box>ul>li>a {
         display: block;
     }
-    .event-box > .cont-box > ul > li > a > .img-box {
+
+    .event-box>.cont-box>ul>li>a>.img-box {
         position: relative;
         padding-top: 310px;
         overflow: hidden;
         display: block;
     }
 
-    .event-box > .cont-box > ul > li > a > .img-box > img {
+    .event-box>.cont-box>ul>li>a>.img-box>img {
         position: absolute;
         height: 100%;
         top: 0;
@@ -1015,18 +1201,19 @@
         transform: translatex(-50%);
     }
 
-    .event-box > .cont-box > ul > li > a  > .info {
+    .event-box>.cont-box>ul>li>a>.info {
         margin-top: 15px;
         display: block;
     }
-    .event-box > .cont-box > ul > li > a  > .info > .brand {
+
+    .event-box>.cont-box>ul>li>a>.info>.brand {
         font-size: 24px;
         display: block;
         text-transform: uppercase;
         line-height: 30px;
     }
 
-    .event-box > .cont-box > ul > li > a  > .info > .txt {
+    .event-box>.cont-box>ul>li>a>.info>.txt {
         margin-top: 8px;
         display: block;
         font-size: 16px;
@@ -1039,43 +1226,50 @@
     /* 아울렛 시작 */
     .outlet-box {
         margin-top: 110px;
+        
     }
-    .outlet-box > .headArea {
+
+    .outlet-box>.headArea {
         position: relative;
     }
 
-    .outlet-box > .headArea > h2 {
+    .outlet-box>.headArea>h2 {
         font-size: 40px;
     }
-    .outlet-box > .headArea > span {
+
+    .outlet-box>.headArea>span {
+        width: 80px;
+        margin-left: auto;
+        padding: 50px 0;
+        background-image: url("https://ssw0428.github.io/img1/pf/babathe/ico_bullet.png");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
         display: block;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
+
     }
 
-    .outlet-box > .cont-box > .list1 {
+    .outlet-box>.cont-box>.list1 {
         margin: 0 -10px;
     }
 
-    .outlet-box > .cont-box > .list1 > li {
+    .outlet-box>.cont-box>.list1>li {
         box-sizing: border-box;
         width: calc(100% / 3);
         margin: 0 10px;
     }
 
-    .outlet-box > .cont-box > .list1 > li > a {
+    .outlet-box>.cont-box>.list1>li>a {
         display: block;
     }
-    .outlet-box > .cont-box > .list1 > li > a > .img-box {
+
+    .outlet-box>.cont-box>.list1>li>a>.img-box {
         position: relative;
         padding-top: 310px;
         overflow: hidden;
         display: block;
     }
 
-    .outlet-box > .cont-box > .list1 > li > a > .img-box > img {
+    .outlet-box>.cont-box>.list1>li>a>.img-box>img {
         position: absolute;
         height: 100%;
         top: 0;
@@ -1083,18 +1277,20 @@
         transform: translatex(-50%);
     }
 
-    .outlet-box > .cont-box > .list1 > li > a  > .info {
+    .outlet-box>.cont-box>.list1>li>a>.info {
         margin-top: 15px;
         display: block;
     }
-    .outlet-box > .cont-box > .list1 > li > a  > .info > .brand {
+
+    .outlet-box>.cont-box>.list1>li>a>.info>.brand {
         font-size: 24px;
         display: block;
         text-transform: uppercase;
         line-height: 30px;
+        font-weight: 600;
     }
 
-    .outlet-box > .cont-box > .list1 > li > a  > .info > .txt {
+    .outlet-box>.cont-box>.list1>li>a>.info>.txt {
         margin-top: 8px;
         display: block;
         font-size: 16px;
@@ -1102,70 +1298,70 @@
         color: #888;
     }
 
-    .outlet-box > .cont-box > .list2 {
+    .outlet-box>.cont-box>.list2 {
         margin: 0 -10px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
-    .outlet-box > .cont-box > .list2 >li {
+    .outlet-box>.cont-box>.list2>li {
         width: 20%;
         margin-bottom: 60px;
         padding: 0 10px;
-        box-sizing:border-box;
+        box-sizing: border-box;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a {
+    .outlet-box>.cont-box>.list2>li>a {
         display: block;
         overflow: hidden;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a > img-box {
+    .outlet-box>.cont-box>.list2>li>a>img-box {
         position: relative;
         display: block;
         overflow: hidden;
     }
 
-    .curation > .cont-box > ul > li > a > img-box > img {
+    .curation>.cont-box>ul>li>a>img-box>img {
         width: 100%;
     }
 
-    .outlet-box > .cont-box > .list2 >li>a>.info {
+    .outlet-box>.cont-box>.list2>li>a>.info {
         display: block;
-        text-align: left;
-
+        text-align: left;   
     }
-    .outlet-box > .cont-box > .list2 > li > a >.info>.brand {
+
+    .outlet-box>.cont-box>.list2>li>a>.info>.brand {
         font-size: 14px;
         color: #888888;
         display: block;
         margin-top: 14px;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a >.info>.txt {
+    .outlet-box>.cont-box>.list2>li>a>.info>.txt {
         font-size: 14px;
         display: block;
         margin-top: 14px;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a >.info>.price-list {
+    .outlet-box>.cont-box>.list2>li>a>.info>.price-list {
         margin-top: 30px;
         display: block;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.color {
+    .outlet-box>.cont-box>.list2>li>a>.info>.price-list>.color {
         color: #b1863c;
         font-size: 20px;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.name-1 {
+    .outlet-box>.cont-box>.list2>li>a>.info>.price-list>.name-1 {
         font-size: 20px;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.name-2 {
+    .outlet-box>.cont-box>.list2>li>a>.info>.price-list>.name-2 {
         margin-left: 10px;
     }
 
-    .outlet-box > .cont-box > .list2 > li > a >.info>.price-list>.name-3 {
+    .outlet-box>.cont-box>.list2>li>a>.info>.price-list>.name-3 {
         margin-left: 15px;
         font-size: 15px;
         color: #d1d1d1;
@@ -1180,33 +1376,39 @@
         margin-top: 110px;
     }
 
-    .editorial-box > .headArea {
+    .editorial-box>.headArea {
         position: relative;
     }
 
-    .editorial-box > .headArea > h2 {
+    .editorial-box>.headArea>h2 {
         font-size: 40px;
     }
-    .editorial-box > .headArea > span {
+
+    .editorial-box>.headArea>span {
+        width: 80px;
+        margin-left: auto;
+        padding: 50px 0;
+        background-image: url("https://ssw0428.github.io/img1/pf/babathe/ico_bullet.png");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
         display: block;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
+
     }
 
-    .editorial-box > .container > .swiper6 .swiper-slide > a > .info {
+    .editorial-box>.container>.swiper6 .swiper-slide>a>.info {
         display: block;
         text-align: left;
         margin-top: 12px;
+        height: 110px;
+        text-overflow: ellipsis;
     }
 
-    .editorial-box > .container > .swiper6 .swiper-slide > a > .info > .txt-title {
+    .editorial-box>.container>.swiper6 .swiper-slide>a>.info>.txt-title {
         font-size: 22px;
-        font-weight: 300;
+        font-weight: 600;
     }
 
-    .editorial-box > .container > .swiper6 .swiper-slide > a > .info > .txt {
+    .editorial-box>.container>.swiper6 .swiper-slide>a>.info>.txt {
         font-size: 15px;
         margin-top: 12px;
         display: block;
@@ -1220,7 +1422,7 @@
 
     /* fashion-leader-box 시작 */
 
-    .fashion-leader-box > .inner {
+    .fashion-leader-box>.inner {
         position: relative;
         max-width: 1710px;
         min-width: 1300px;
@@ -1249,15 +1451,18 @@
     .fashion-leader-box>.inner>.cont-box {
         width: calc(100% - 330px);
     }
+
     .fashion-leader-box>.inner>.cont-box .swiper4 .swiper-slide>a>.img-box {
         position: relative;
     }
+
     .fashion-leader-box>.inner>.cont-box .swiper4 .swiper-slide>a .info {
         display: block;
         position: absolute;
         bottom: 5%;
         left: 8%;
         color: white;
+        font-weight: bold;
     }
 
     /* fashion-leader-box 끝 */
@@ -1265,32 +1470,34 @@
     /* 맴버십 배너 시작 */
 
     .membership-bnner {
-        margin-top:115px;
+        margin-top: 115px;
         margin-bottom: 140px;
     }
 
-    .membership-bnner > .headArea > h2 {
+    .membership-bnner>.headArea>h2 {
         font-size: 40px;
     }
 
-    .membership-bnner > .cont-box {
+    .membership-bnner>.cont-box {
         margin-top: 20px;
     }
-    .membership-bnner > .cont-box > ul {
+
+    .membership-bnner>.cont-box>ul {
         margin: 0 -10px;
     }
-    .membership-bnner > .cont-box > ul > li {
+
+    .membership-bnner>.cont-box>ul>li {
         width: 33.333333%;
         padding: 0 10px;
         box-sizing: border-box;
     }
 
-    .membership-bnner > .cont-box > ul > li > a {
+    .membership-bnner>.cont-box>ul>li>a {
         display: block;
     }
 
-    .membership-bnner > .cont-box > ul > li > a > img {
-        width: 100%;    
+    .membership-bnner>.cont-box>ul>li>a>img {
+        width: 100%;
     }
 
     /* 맴버십 배너 끝 */
@@ -1302,67 +1509,96 @@
         background-color: #eee;
     }
 
-    .footer > .cont-box {
+    .footer>.cont-box {
         max-width: 1710px;
         padding: 0 40px;
         height: 290px;
         box-sizing: border-box;
         position: relative;
+        border: 5px solid green;
     }
 
-    .footer > .cont-box > .footArea {
-        margin-right: 185px;
+    .footer>.cont-box>.footArea {
+        margin-right: 300px;
+        width: 100%;
     }
 
-    .footer > .cont-box > .footArea > .footInfo {
+    .footer>.cont-box>.footArea>.footInfo {
         width: 50%;
     }
-    .footer > .cont-box > .footArea > .footHelp {
+
+    .footer>.cont-box>.footArea>.footHelp {
         width: auto;
-        justify-content: flex-end;
-        border: 1px solid red;
+        margin-left: auto;
+        margin-right: 0;
     }
-    .footer > .cont-box > .footArea > .footInfo > address {
+
+    .footer>.cont-box>.footArea>.footInfo>address {
         font-style: normal;
         margin-top: 18px;
     }
 
-    .footer > .cont-box > .footArea > .footInfo span {
-        font-size: 12px;   
+    .footer>.cont-box>.footArea>.footInfo span {
+        font-size: 12px;
     }
 
-    .footer > .cont-box > .footArea > .footInfo > address > .phone1 {
+    .footer>.cont-box>.footArea>.footInfo>address>.phone1 {
         font-size: 20px;
         padding-top: 100px;
     }
 
-    .footer > .cont-box > .footArea > .footInfo > address > .phone2 {
+    .footer>.cont-box>.footArea>.footInfo>address>.phone2 {
         font-size: 22px;
         font-weight: 500;
     }
 
-    .footer > .cont-box > .footArea > .footInfo > address > .same {
+    .footer>.cont-box>.footArea>.footInfo>address>.same {
         margin-left: 8px;
     }
 
-    .footer > .cont-box > .footArea > .footHelp > ul {
-        width: 180px;
-        padding-right: 30px; 
+    .footer>.cont-box>.footArea>.footHelp>ul {
+        width: 100%;
+        padding-right: 30px;
     }
 
-    .footer > .cont-box > .footArea > .footHelp > ul > li:not(:first-child) {
+    .footer>.cont-box>.footArea>.footHelp>ul:last-child {
+        width: 300px;
+    }
+
+    .footer>.cont-box>.footArea>.footHelp>ul>li:not(:first-child) {
         margin-top: 16px;
     }
 
-    .footer > .cont-box > .footArea > .footHelp > ul:nth-child(2) > li:last-child > a {
+    .footer>.cont-box>.footArea>.footHelp>ul:nth-child(2)>li:last-child>a {
         font-weight: 600;
     }
 
-    .footer > .cont-box > .footLink {
+    .footer>.cont-box>.footLink {
         position: absolute;
         top: 0;
         right: 0;
-        border: 1px solid red;
+    }
+
+    .footer>.cont-box>.footLink > ul {
+        position: relative;
+    }
+
+    .footer>.cont-box>.footLink > ul > li:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .footer>.cont-box>.footLink > ul > li:nth-child(3) {
+        position: absolute;
+        top: 50%;
+        right: 0;
+    }
+
+    .footer>.cont-box>.footLink > .sns {
+        margin-top: 60px;
+    }
+
+    .footer>.cont-box>.footLink > .sns > li:nth-child(2)  {
+        margin-left: 20px;
     }
 
     /* footer 끝 */
