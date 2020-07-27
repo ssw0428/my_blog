@@ -15,8 +15,7 @@
           slidesPerView: 2,
           loop: true
       });
-  });
-
+  }); 
   $(function () {
       $(document).ready(function () {
           // Swiper: Slider

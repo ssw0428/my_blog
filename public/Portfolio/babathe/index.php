@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BABATHE.COM</title>
-    <!-- https://www.babathe.com/?gclid=CjwKCAjwmMX4BRAAEiwA-zM4JsgsKYtNLwi04iDl9nDmwFUyXfKdSul8P6mHwzHl69KFHPeCTbKSHBoCJJwQAvD_BwE -->
-    <link rel="stylesheet" href="/Portfolio/babathe/index.css">
+    <link rel="stylesheet" href="/portfolio/babathe/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,7 +20,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-    <script src="/Portfolio/babathe/index.js"></script>
+    <script src="/portfolio/babathe/index.js"></script>
 
 </head>
 
