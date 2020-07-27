@@ -33,7 +33,7 @@
                     <a class="flex flex-ai-c height-100p" href="">BEST
                     </a>
                     <ul class="flex">
-                        <div class="inner flex">
+                        <div class="inner inner3 flex">
                             <li><a href="">베스트 셀러</a></li>
                             <li><a href="">신상품</a></li>
                             <li><a href="">온라인 단독</a></li>

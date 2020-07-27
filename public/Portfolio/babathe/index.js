@@ -203,3 +203,40 @@
   });
 
 
+  $(function () {
+      var $window = $(window);
+      var $html = $('html');
+
+      function Window__init() {
+          $window.scroll(function () {
+              var scrollTop = $window.scrollTop();
+
+              if (scrollTop > 0) {
+                  $html.addClass('scroll-top-0-up');
+              } else {
+                  $html.removeClass('scroll-top-0-up');
+              }
+          });
+      }
+
+      function TopBar__init() {
+          var $topBar = $('.top-menu-box');
+
+          $topBar.find(' > .inner > ul > li').mouseenter(function () {
+              var $this = $(this);
+              var $subMenuBox = $this.find(' > .inner3');
+              $subMenuBox.slideDown(100);
+          });
+
+          $topBar.find(' > .inner > ul > li').mouseleave(function () {
+              var $this = $(this);
+              var $subMenuBox = $this.find(' > .inner3');
+              $subMenuBox.slideUp(100);
+          });
+      }
+
+      $(function () {
+          Window__init();
+          TopBar__init();
+      });
+  });

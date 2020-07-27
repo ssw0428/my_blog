@@ -676,6 +676,19 @@
         margin-top: 7px;
     }
 
+    /*슬라이드 스크롤 내릴 때*/
+
+    .top-menu-box>.inner:hover::after,
+    .scroll-top-0-up .top-menu-box>.inner::after {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .top-menu-box>.inner:hover,
+    .scroll-top-0-up .top-menu-box>.inner {
+        color: black;
+    }
+
+    
 
     /* swiper 슬라이더 시작 */
     .container .swiper-container .swiper-pagination-progressbar-fill {
@@ -914,9 +927,11 @@
     .best-item>.inner>.cont-box {
         width: calc(100% - 330px);
     }
+
     .best-item>.inner>.cont-box .swiper4 {
         margin-left: 100px;
     }
+
     .best-item>.inner>.cont-box .swiper4 .swiper-slide>a>.info {
         display: block;
         text-align: left;
@@ -1226,7 +1241,7 @@
     /* 아울렛 시작 */
     .outlet-box {
         margin-top: 110px;
-        
+
     }
 
     .outlet-box>.headArea {
@@ -1327,7 +1342,7 @@
 
     .outlet-box>.cont-box>.list2>li>a>.info {
         display: block;
-        text-align: left;   
+        text-align: left;
     }
 
     .outlet-box>.cont-box>.list2>li>a>.info>.brand {
@@ -1515,7 +1530,6 @@
         height: 290px;
         box-sizing: border-box;
         position: relative;
-        border: 5px solid green;
     }
 
     .footer>.cont-box>.footArea {
@@ -1579,25 +1593,25 @@
         right: 0;
     }
 
-    .footer>.cont-box>.footLink > ul {
+    .footer>.cont-box>.footLink>ul {
         position: relative;
     }
 
-    .footer>.cont-box>.footLink > ul > li:nth-child(1) {
+    .footer>.cont-box>.footLink>ul>li:nth-child(1) {
         margin-right: 5px;
     }
 
-    .footer>.cont-box>.footLink > ul > li:nth-child(3) {
+    .footer>.cont-box>.footLink>ul>li:nth-child(3) {
         position: absolute;
         top: 50%;
         right: 0;
     }
 
-    .footer>.cont-box>.footLink > .sns {
+    .footer>.cont-box>.footLink>.sns {
         margin-top: 60px;
     }
 
-    .footer>.cont-box>.footLink > .sns > li:nth-child(2)  {
+    .footer>.cont-box>.footLink>.sns>li:nth-child(2) {
         margin-left: 20px;
     }
 
