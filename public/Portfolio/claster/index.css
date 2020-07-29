@@ -362,7 +362,7 @@
     }
 
 
-    .fullpage .top-menu-box {
+    .top-menu-box {
         position: fixed;
         top: 0;
         left: 0;
@@ -371,23 +371,23 @@
         z-index: 5;
     }
 
-    .fullpage>.top-menu-box>.menu-box {
+    .top-menu-box>.menu-box {
         padding: 35px 40px;
 
     }
 
-    .fullpage>.top-menu-box>.logo-box {
+    .top-menu-box>.logo-box {
         padding: 35px 40px;
         margin-right: 0;
         margin-left: auto;
     }
 
-    .fullpage>.top-menu-box>.logo-box>.logo>img {
+    .top-menu-box>.logo-box>.logo>img {
         height: 44px;
     }
 
-    .fullpage>.side-menu-bar {
-        position: absolute;
+    .side-menu-bar {
+        position: fixed;
         top: 0;
         left: -700px;
         height: 100%;
@@ -399,30 +399,30 @@
         z-index: 10;
     }
 
-    .fullpage>.side-menu-bar>.click-btn {
+    .side-menu-bar>.click-btn {
         position: absolute;
         top: 2%;
         right: 4%;
     }
 
-    .fullpage>.side-menu-bar>ul>li>a {
+    .side-menu-bar>ul>li>a {
         display: inline-block;
         font-size: 76px;
         font-weight: bold;
     }
 
-    .fullpage>.side-menu-bar>ul>li:hover>a {
+    .side-menu-bar>ul>li:hover>a {
         color: white;
     }
 
-    .fullpage>.side-menu-bar>span {
+    .side-menu-bar>span {
         display: block;
         color: white;
         font-weight: bold;
         font-size: 22px;
     }
 
-    .fullpage>.side-menu-bar>span:nth-child(3) {
+    .side-menu-bar>span:nth-child(3) {
         margin-top: 40px;
 
     }
@@ -502,12 +502,57 @@
         position: relative;
     }
 
-    .fullpage>.page2>.fp-tableCell>.text-list2 {
-        color: black;
+    .fullpage>.page2>.fp-tableCell>.text-box {
         position: absolute;
+        height: 100%;
+        width: 100%;
         top: 0;
-        left: 0;
-        font-size: 100px;
+        color: #fff;
+        box-sizing: border-box;
+        overflow: hidden;
+        font-size: 180px;
+        border: 1px solid red;
+    }
+
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 180px;
+        padding: 90px;
+        box-sizing: border-box;
+        font-family: Helvetica;
+        font-weight: 800;
+        line-height: 180px;
+    }
+
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list2>span {
+        display: block;
+    }
+
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list2>span:nth-child(3)::after {
+        content: "";
+        position: absolute;
+        top: 65%;
+        right: 62%;
+        border-radius: 50%;
+        border: 10px solid #f5e800;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+    }
+
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+        position: absolute;
+        right: 40px;
+        top: 33%;
+        font-size: 80px;
+        color: #3a3a3a;
+        font-weight: 800;
+    }
+
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list3>span {
+        display: block;
     }
 
     /*page2 끝*/

@@ -19,12 +19,10 @@ $(function () {
     });
 });
 
-$(function() {
-    var SideMenuBar__hide = function() {
-        $('.side-menu-bar').css('left', ''); 
-      }
-      
-      var SideMenuBar__show = function() {
-        $('.side-menu-bar').css('left', '0');
-      }
-});
+var SideMenuBar__hide = function() {
+  $('.side-menu-bar').css('left', ''); 
+}
+
+var SideMenuBar__show = function() {
+  $('.side-menu-bar').css('left', '0');
+}

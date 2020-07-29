@@ -23,32 +23,34 @@
 </head>
 
 <body>
+    <div class="top-menu-box flex">
+        <div onclick="SideMenuBar__show();" class="menu-box">
+            <img src="https://ssw0428.github.io/img1/pf/claster/icon_menu_white.png" alt="">
+        </div>
+        <div class="logo-box">
+            <a class="logo">
+                <img src="https://ssw0428.github.io/img1/pf/claster/logo_white.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="side-menu-bar">
+        <div class="click-btn">
+            <div class="btn-close" onclick="SideMenuBar__hide();">
+                <img src="https://ssw0428.github.io/img1/pf/claster/button_close.png" alt="">
+            </div>
+        </div>
+        <ul>
+            <li><a href="">works</a></li>
+            <li><a href="">business</a></li>
+            <li><a href="">social+</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+        <span><a href="">COMPANY BROCHURE</a></span>
+        <span><a href="">RECRUIT</a></span>
+    </div>
+
     <div class="fullpage" id="fullpage">
-        <div class="top-menu-box flex">
-            <div onclick="SideMenuBar__show();" class="menu-box">
-                <img src="https://ssw0428.github.io/img1/pf/claster/icon_menu_white.png" alt="">
-            </div>
-            <div class="logo-box">
-                <a class="logo">
-                    <img src="https://ssw0428.github.io/img1/pf/claster/logo_white.png" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="side-menu-bar">
-            <div class="click-btn">
-                <div class="btn-close" onclick="SideMenuBar__hide();">
-                    <img src="https://ssw0428.github.io/img1/pf/claster/button_close.png" alt="">
-                </div>
-            </div>
-            <ul>
-                <li><a href="">works</a></li>
-                <li><a href="">business</a></li>
-                <li><a href="">social+</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
-            <span><a href="">COMPANY BROCHURE</a></span>
-            <span><a href="">RECRUIT</a></span>
-        </div>
         <div class="section page1">
             <div class="swiper1">
                 <ul class="swiper-wrapper">
@@ -116,8 +118,14 @@
                 <div class="text-list2">
                     <span>creating</span>
                     <span>a unique</span>
-                    <span>future</span>
+                    <span>
+                        future
+                    </span>
                     <span>who are we?</span>
+                </div>
+                <div class="text-list3">
+                    <span>창의성은 클라스터를</span>
+                    <span>움직이는 에너지입니다.</span>
                 </div>
             </div>
         </div>
@@ -126,6 +134,7 @@
         <div class="section page4">
         </div>
     </div>
+
 </body>
 
 </html>
