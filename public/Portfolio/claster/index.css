@@ -511,12 +511,11 @@
         box-sizing: border-box;
         overflow: hidden;
         font-size: 180px;
-        border: 1px solid red;
     }
 
     .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
         position: relative;
-        top: 50%;
+        top: 100%;
         transform: translateY(-50%);
         font-size: 180px;
         padding: 90px;
@@ -524,10 +523,42 @@
         font-family: Helvetica;
         font-weight: 800;
         line-height: 180px;
+        opacity: 0;
+    }
+
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2 {
+        opacity: 1;
+        transition: opacity 1s 1s;
+    }
+
+
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-200 {
+        transition-delay: 200ms;
+        top: 50%;
+        transition: top 1s 1s;
+    }
+
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-300 {
+        transition-delay: 300ms;
+        top: 50%;
+    }
+
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-400 {
+        transition-delay: 400ms;
+        top: 50%;
+    }
+
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-500 {
+        transition-delay: 500ms;
+        top: 50%;
     }
 
     .fullpage>.page2>.fp-tableCell>.text-box>.text-list2>span {
         display: block;
+        animation-name: pg2-left;
+        animation-duration: 1200ms;
+        animation-delay: 500ms;
+        animation-fill-mode: forwards;
     }
 
     .fullpage>.page2>.fp-tableCell>.text-box>.text-list2>span:nth-child(3)::after {
@@ -556,3 +587,194 @@
     }
 
     /*page2 끝*/
+
+    /*page3 시작*/
+    .fullpage>.page3 {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        left: 25%;
+        overflow: hidden;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 {
+        width: 75%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.title {
+        font-size: 72px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.title>span {
+        display: block;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.title>span::after {
+        content: "";
+        position: absolute;
+        top: 70%;
+        right: 74%;
+        border-radius: 50%;
+        border: 5px solid #f5e800;
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 .swiper-slide {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 .swiper-slide>p {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        font-size: 12px;
+        color: #fff;
+        padding: 5px 20px;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 .swiper-slide>a {
+        display: block;
+        position: relative;
+        overflow-y: hidden;
+    }
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 .swiper-slide>a>img {
+        transition-delay: 100ms;
+        transition-duration: 400ms;
+        width: 100%;
+    }
+
+
+
+
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 .swiper-slide:hover>a>img {
+        transform: translate(0, -6rem);
+    }
+
+    /*page3 끝*/
+
+    .fullpage>.page4 {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 85%;
+        height: 75%;
+        transform: translate(-50%, -50%);
+        overflow: visible;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 {
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        padding: 50px 0 0 100px;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span {
+        display: block;
+    }
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span:nth-child(1) {
+        font-size: 110px;
+        font-weight: 100;
+    }
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span:nth-child(2) {
+        font-size: 110px;
+        font-weight: 100;
+    }
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span:nth-child(3) {
+        font-size: 40px;
+        font-weight: 100;
+        margin-top: 24px;
+    }
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span:nth-child(4) {
+        position: relative;
+        font-size: 30px;
+        margin-top: 80px;
+        font-weight: bold;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span:nth-child(4)::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        border-bottom: 1px solid white;
+        width: 250px;
+        height: 1px;
+        background-color: white;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title2 {
+        position: absolute;
+        top: -40px;;
+        right: 120px;
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title2 > span {
+        display: block;
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 70px;
+    }    
+
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title3 {
+        position: absolute;
+        bottom: 10%;
+        right: 8%;
+    }    
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title3 > span {
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+
+    /*page4 시작*/
+
+
+
+    /*page4 끝*/

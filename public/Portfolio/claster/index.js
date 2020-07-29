@@ -19,10 +19,19 @@ $(function () {
     });
 });
 
-var SideMenuBar__hide = function() {
-  $('.side-menu-bar').css('left', ''); 
+var SideMenuBar__hide = function () {
+    $('.side-menu-bar').css('left', '');
 }
 
-var SideMenuBar__show = function() {
-  $('.side-menu-bar').css('left', '0');
+var SideMenuBar__show = function () {
+    $('.side-menu-bar').css('left', '0');
 }
+
+$(function () {
+    var swiper = new Swiper('.swiper2', {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+    });
+});
