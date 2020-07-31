@@ -15,7 +15,47 @@ $(function () {
             disableOnInteraction: false,
         },
         slidesPerView: 1,
-        loop: true
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+    });
+
+    swiper.on('mousewheel', 'swiper-stage', function (e) {
+        e.preventDefault();
+
+        if (swiper) {
+            return;
+        }
+
+        swiper = true;
+
+        var deltaY = e.deltaY;
+
+        if (deltaY == undefined) {
+            deltaY = e.originalEvent.wheelDelta;
+        }
+
+        if (deltaY < 0) {
+            owl.trigger('next.owl');
+        } else {
+            owl.trigger('prev.owl');
+        }
+
+        setTimeout(function () {
+            swiper = false;
+        }, slidingDuration);
+    });
+
+    $('.control-box > .nav-box > span').click(function () {
+        var $clicked = $(this);
+
+        if ($clicked.is(':last-child')) {
+            alert('우');
+        } else {
+            alert('좌');
+        }
     });
 });
 

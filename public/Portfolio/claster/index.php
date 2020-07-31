@@ -111,6 +111,16 @@
                         </div>
                     </li>
                 </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="control-box flex">
+                <div class="index-box">
+                    <span class="current-index">1</span>/<span class="total-count">4</span>
+                </div>
+                <div class="nav-box">
+                    <span class="btn-left">좌</span>/<span class="btn-right">우</span>
+                </div>
             </div>
         </div>
         <div class="section page2">
@@ -138,73 +148,99 @@
                             <a>
                                 <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480.jpg" alt="">
                             </a>
-                            <p class="msg">대표님은 좋으시겠어요! 우리가 직원이라서!! 헤헷~❤️ 대표님의 생일을 다시한번 축하드립니다 #깜짝파티성공 #대표님생일파티 #새침영주 #생일을축하합니다🎂 #클라스터 #회사스타그램 #직장인스타그램 #claster</p>
+                            <p class="msg">대표님은 좋으시겠어요! 우리가 직원이라서!! 헤헷~❤️ 대표님의 생일을
+                                다시한번 축하드립니다 #깜짝파티성공 #대표님생일파티 #새침영주
+                                #생일을축하합니다🎂 #클라스터 #회사스타그램 #직장인스타그램 #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (1).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (1).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">#클라스터 #홈페이지제작 #홈페이지운영 #커머셜디자인 #이미지촬영 #영상제작 #마케팅광고 #당신이필요한모든것 #올인원제작 #크리에이티브집단 #claster</p>
+                            <p class="msg">#클라스터 #홈페이지제작 #홈페이지운영 #커머셜디자인 #이미지촬영
+                                #영상제작 #마케팅광고 #당신이필요한모든것 #올인원제작 #크리에이티브집단
+                                #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (2).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (2).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">클라스터에서 하루 하루 성장중인 현준님의 생일을 축하합니다~ 우리회사의 인싸~!! 앞으로도 잘 부탁드려요~!! 👏  #현준없인못살아 #우리회사인싸 #생일을축하합니다🎂 #회사스타그램 #생일파티 #오늘도행복해 #클라스터 #claster</p>
+                            <p class="msg">클라스터에서 하루 하루 성장중인 현준님의 생일을 축하합니다~ 우리회사의 인싸~!! 앞으로도 잘 부탁드려요~!! 👏 #현준없인못살아
+                                #우리회사인싸 #생일을축하합니다🎂 #회사스타그램 #생일파티 #오늘도행복해 #클라스터 #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (3).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (3).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">너가 웃으면 나도 좋아~🎵 얼굴도 마음도 예쁜 지원님의 생일을 축하합니다~^^ #클라스터의보물 #지원이생일 #축하합니다🎉 #오늘따라눈부신꽃미모 #재민책임님 #유령설 #직장인스타그램 #생일파티 #claster</p>
+                            <p class="msg">너가 웃으면 나도 좋아~🎵 얼굴도 마음도 예쁜 지원님의 생일을
+                                축하합니다~^^ #클라스터의보물 #지원이생일 #축하합니다🎉
+                                #오늘따라눈부신꽃미모 #재민책임님 #유령설 #직장인스타그램 #생일파티 #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (4).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (4).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">푸릇푸릇한 봄의 점심시간 산책 #직장인 #직장인스타그램 #점심시간힐링 #점심시간의여유 #점심시간산책 #회사근처공원 #학동공원 #클라스터 #claster</p>
+                            <p class="msg">푸릇푸릇한 봄의 점심시간 산책 #직장인 #직장인스타그램 #점심시간힐링 #점심시간의여유 #점심시간산책 #회사근처공원 #학동공원 #클라스터
+                                #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (5).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (5).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">퇴근이 가까워 오는 시간. 오늘 하루도 수고하셨습니다 : ) #클라스터 #직장인스타그램 #직장일상 #퇴근이가까워지는시간 #햇빛좋은오늘 #claster</p>
+                            <p class="msg">퇴근이 가까워 오는 시간. 오늘 하루도 수고하셨습니다 : ) #클라스터
+                                #직장인스타그램 #직장일상 #퇴근이가까워지는시간 #햇빛좋은오늘 #claster
+                            </p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (6).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (6).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">울릉도 여행 후 정은님이 사다주신 울릉도 지역빵! 오징어 빵! 그리고 울릉도 엿! 오늘도 하하호호 오징어빵 하나로 분위기 UP되는 클라스터~ #오징어빵 #오브레 #울릉도오징어먹물빵 #직장인스타그램 #클라스터 #맛있게냠냠😋</p>
+                            <p class="msg">울릉도 여행 후 정은님이 사다주신 울릉도 지역빵! 오징어 빵! 그리고 울릉도 엿! 오늘도 하하호호 오징어빵 하나로 분위기 UP되는
+                                클라스터~ #오징어빵 #오브레 #울릉도오징어먹물빵 #직장인스타그램 #클라스터 #맛있게냠냠😋</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (7).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (7).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">생일을 축하합니다~! 비가오나 눈이오나 클라스터와 한 몸이 되어 회사를 지켜주시고 빛내주신 재민 책임님의 생일을 축하합니다~^^ #생일축하해🎂 #회사생일파티 #생일엔치킨피자🍗🍕 #직장인스타그램 #클라스터 #함께하자요</p>
+                            <p class="msg">생일을 축하합니다~! 비가오나 눈이오나 클라스터와 한 몸이 되어 회사를 지켜주시고 빛내주신 재민 책임님의 생일을 축하합니다~^^
+                                #생일축하해🎂 #회사생일파티 #생일엔치킨피자🍗🍕 #직장인스타그램 #클라스터 #함께하자요</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (8).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (8).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">광명스토어 아니 광명전통시장에서 사온 햄버거~! 클로렐라빵에 야채듬뿍 건강한 느낌의 어릴때 먹던 그맛!!! JMT!!! #지원님 #잘먹을께요 #클로렐라햄버거  #광명전통시장 #들고오느라고생했어 #회사스타그램 #클라스터 #claster</p>
+                            <p class="msg">광명스토어 아니 광명전통시장에서 사온 햄버거~! 클로렐라빵에 야채듬뿍 건강한 느낌의 어릴때 먹던 그맛!!! JMT!!! #지원님
+                                #잘먹을께요 #클로렐라햄버거 #광명전통시장 #들고오느라고생했어 #회사스타그램 #클라스터 #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (9).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (9).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">#엘지생활건강 #잘먹겠습니다❤️ 감사합니다~! 자주 놀러오세요~^^ #스타벅스비아 #스타벅스비아스프링시즌 #센스만점선물 #외계인방앗간 #감사합니다🙏</p>
+                            <p class="msg">#엘지생활건강 #잘먹겠습니다❤️ 감사합니다~! 자주 놀러오세요~^^ #스타벅스비아 #스타벅스비아스프링시즌 #센스만점선물 #외계인방앗간
+                                #감사합니다🙏</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (10).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (10).jpg"
+                                    alt="">
                             </a>
                             <p class="msg">에어팟이 없어졌다~! 어디에 있을까요?? #에어팟숨기기달인 #에어팟찾아주세요 #감쪽같지 #클라스터 #claster</p>
                         </li>
                         <li class="swiper-slide">
                             <a>
-                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (11).jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/claster/thumbnail_resources_480 (11).jpg"
+                                    alt="">
                             </a>
-                            <p class="msg">매번 바뀌는 회사 카페테리아의 입점품목~ 오늘은 빵과 달걀 입점! 회사에서 먹는  #달걀샌드위치🥪 완젼 꿀맛! #센스쟁이 #대표님 #에그샌드위치 #회사생활 #회사스타그램 #클라스터</p>
+                            <p class="msg">매번 바뀌는 회사 카페테리아의 입점품목~ 오늘은 빵과 달걀 입점! 회사에서 먹는 #달걀샌드위치🥪 완젼 꿀맛! #센스쟁이 #대표님
+                                #에그샌드위치 #회사생활 #회사스타그램 #클라스터</p>
                         </li>
                     </ul>
                 </div>

@@ -441,6 +441,22 @@
         height: 100%;
     }
 
+    .fullpage>.page1>.fp-tableCell > .control-box {
+        border: 10px solid red;
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+        z-index: 10;
+        color: white;
+        width: 200px;
+    }
+
+    .fullpage>.page1>.fp-tableCell > .control-box > .nav-box {
+        border: 1px solid blue;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box {
         position: absolute;
         top: 50%;
@@ -527,37 +543,43 @@
     }
 
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2 {
+        top: 50%;
         opacity: 1;
-        transition: opacity 1s 1s;
+        transition-delay: 200ms;
+        transition-duration: 600ms;
+    }    
+
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>span {
+        line-height: 90%;
+        display: block;
+        position: relative;
     }
 
-
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-200 {
-        transition-delay: 200ms;
-        top: 50%;
-        transition: top 1s 1s;
+        animation-name: pg2-left;
+        animation-duration: 1200ms;
+        animation-delay: 800ms;
+        animation-fill-mode: forwards;     
     }
 
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-300 {
-        transition-delay: 300ms;
-        top: 50%;
+        animation-name: pg2-left;
+        animation-duration: 1200ms;
+        animation-delay: 900ms;
+        animation-fill-mode: forwards;
     }
 
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-400 {
-        transition-delay: 400ms;
-        top: 50%;
+        animation-name: pg2-left;
+        animation-duration: 1200ms;
+        animation-delay: 950ms;
+        animation-fill-mode: forwards;
     }
 
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-500 {
-        transition-delay: 500ms;
-        top: 50%;
-    }
-
-    .fullpage>.page2>.fp-tableCell>.text-box>.text-list2>span {
-        display: block;
         animation-name: pg2-left;
         animation-duration: 1200ms;
-        animation-delay: 500ms;
+        animation-delay: 1000ms;
         animation-fill-mode: forwards;
     }
 
@@ -576,15 +598,50 @@
     .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
         position: absolute;
         right: 40px;
-        top: 33%;
+        top: 100%;
         font-size: 80px;
         color: #3a3a3a;
         font-weight: 800;
     }
 
-    .fullpage>.page2>.fp-tableCell>.text-box>.text-list3>span {
-        display: block;
+    .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+        top:33%;
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 1400ms
     }
+
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list3>span:nth-child(1) {
+        display: block;
+        position: relative;
+        animation-name: pg3-left;
+        animation-duration: 1200ms;
+        animation-delay: 1700ms;
+        animation-fill-mode: forwards;
+    }
+    .fullpage>.page2>.fp-tableCell>.text-box>.text-list3>span:nth-child(2) {
+        display: block;
+        position: relative;
+        animation-name: pg3-left;
+        animation-duration: 1200ms;
+        animation-delay: 1700ms;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes pg2-left {
+        0%,33%,66%,100% {top:0; animation-timing-function: ease-out;}
+        16% {top:60px;animation-timing-function: ease-in;}
+        49% {top:30px;animation-timing-function: ease-in;}
+        85% {top:10px;animation-timing-function: ease-in;}
+    }
+
+    @keyframes pg3-left {
+        0%,33%,66%,100% {top:0; animation-timing-function: ease-out;}
+        16% {top:90px;animation-timing-function: ease-in;}
+        49% {top:60px;animation-timing-function: ease-in;}
+        85% {top:10px;animation-timing-function: ease-in;}
+    }
+
 
     /*page2 끝*/
 
@@ -603,6 +660,7 @@
         overflow: hidden;
     }
 
+
     .fullpage>.page3>.fp-tableCell>.item-section>.swiper2 {
         width: 75%;
         height: 100%;
@@ -611,9 +669,19 @@
 
 
     .fullpage>.page3>.fp-tableCell>.item-section>.title {
+        position: relative;
+        right: -100%;
         font-size: 72px;
         font-weight: bold;
         color: white;
+        opacity: 0;
+    }
+
+    .fullpage>.page3.active>.fp-tableCell>.item-section>.title {
+        opacity: 1;
+        right: 0;
+        transition-delay: 300ms;
+        transition-duration: 500ms;
     }
 
     .fullpage>.page3>.fp-tableCell>.item-section>.title>span {
@@ -710,10 +778,12 @@
         position: relative;
         z-index: 1;
         padding: 50px 0 0 100px;
+        
     }
 
     .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span {
         display: block;
+        opacity: 0;
     }
     .fullpage>.page4>.fp-tableCell>.item-section > .title1 > span:nth-child(1) {
         font-size: 110px;
@@ -745,10 +815,60 @@
         height: 1px;
         background-color: white;
     }
+    
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title1 > span:nth-child(1) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 1100ms;
+    }
+
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title1 > span:nth-child(2) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 1250ms;
+    }
+
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title1 > span:nth-child(2)>span {
+        display: inline-block;
+        animation-name: question;
+        animation-delay: 1500ms;
+        animation-duration: 1500ms;
+        transform-origin: center 85%;
+        margin-left: -30px;
+    }
+
+    @keyframes question {
+        20%,60% {transform:rotateZ(-5deg);}
+        40%,80% {transform:rotateZ(5deg);}
+        100% {transform:rotateZ(0);}
+    }
+
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title1 > span:nth-child(3) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 1300ms;
+    }
+
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title1 > span:nth-child(4) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 1500ms;
+        animation-name: inquiry-link;
+        animation-duration: 500ms;
+        animation-delay: 2000ms;
+    }
+
+    @keyframes inquiry-link {
+        10%,30%,50%,70%,90% {left:-1px;}
+        20%,40%,60%,80% {left:1px;}
+        100% {left:0;}
+    }
+
+
 
     .fullpage>.page4>.fp-tableCell>.item-section > .title2 {
         position: absolute;
-        top: -40px;;
+        top: -40px;
         right: 120px;
     }
 
@@ -758,7 +878,37 @@
         font-size: 70px;
         font-weight: bold;
         line-height: 70px;
-    }    
+        opacity: 0;
+    }  
+
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title2 > span:nth-child(1) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 500ms;
+    }
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title2 > span:nth-child(2) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 600ms;
+    }
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title2 > span:nth-child(3) {
+        opacity: 1;
+        transition-duration: 300ms;
+        transition-delay: 700ms;
+        position: relative;
+    }
+
+    .fullpage>.page4.active>.fp-tableCell>.item-section > .title2 > span:nth-child(3)::after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        width: 4px;
+        height: 4px;
+        border-radius: 20px;
+        border: 5px solid #f5e800;
+    }
+
 
 
     .fullpage>.page4>.fp-tableCell>.item-section > .title3 {
@@ -771,6 +921,19 @@
         display: block;
         color: white;
         font-size: 20px;
+        position: relative;
+        
+    }
+
+    .fullpage>.page4>.fp-tableCell>.item-section > .title3 > span::after {
+        content: "";
+        position: absolute;
+        bottom: 15%;
+        right: -25px;
+        border-radius: 50%;
+        width:10px;
+        height: 10px;
+        background-color: #f5e800;
     }
 
     /*page4 시작*/
