@@ -389,9 +389,9 @@
     .side-menu-bar {
         position: fixed;
         top: 0;
-        left: -700px;
+        left: -600px;
         height: 100%;
-        width: 700px;
+        width: 600px;
         padding: 140px 0 140px 75px;
         background-color: #f5e800;
         transition: left 0.1s;
@@ -404,6 +404,12 @@
         top: 2%;
         right: 4%;
     }
+    .side-menu-bar>ul {
+        margin-top: -40px;
+    }
+    .side-menu-bar>ul>li {
+        line-height: 3.3rem;
+    }    
 
     .side-menu-bar>ul>li>a {
         display: inline-block;
@@ -429,40 +435,19 @@
 
     /*page1 시작*/
     .swiper1 {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        overflow: hidden;
-    }
-
-    .swiper-wrapper {
         position: relative;
         width: 100%;
         height: 100%;
-    }
-
-    .fullpage>.page1>.fp-tableCell > .control-box {
-        border: 10px solid red;
-        position: absolute;
-        bottom: 10%;
-        right: 5%;
-        z-index: 10;
-        color: white;
-        width: 200px;
-    }
-
-    .fullpage>.page1>.fp-tableCell > .control-box > .nav-box {
-        border: 1px solid blue;
-        margin-right: 0;
-        margin-left: auto;
+        overflow: hidden;
     }
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box {
         position: absolute;
         top: 50%;
-        left: 15%;
-        transform: translateY(-50%);
+        padding: 2rem 14rem;
+        transform: translateY(-55%);
         text-align: left;
+        z-index: 10;
     }
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list {
@@ -473,27 +458,27 @@
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(1) {
         font-weight: 800;
-        font-size: 130px;
+        font-size: 7rem;
         padding-left: 0.5rem;
     }
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(2) {
         line-height: 125%;
-        font-size: 110px;
+        font-size: 5rem;
         font-weight: 300;
     }
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(3) {
         line-height: 125%;
-        font-size: 110px;
+        font-size: 5rem;
         font-weight: 300;
     }
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(4) {
         position: relative;
-        font-size: 40px;
+        font-size: 2rem;
         padding-top: 20px;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(4)::after {
@@ -505,11 +490,34 @@
         width: 100%;
         height: 2px;
     }
-
-    .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.img-box>img {
-        height: 100%;
-        width: auto;
+    
+   
+    .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.img-box>div {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
     }
+    
+    .fullpage>.page1>.fp-tableCell>.swiper1>.swiper-pagination {
+        z-index: 10;
+        width: 98%;
+        margin-bottom: 30px;
+        color: white;
+        text-align: right;
+        display: block;
+    }
+    .fullpage>.page1>.fp-tableCell>.swiper1>.swiper-pagination > .swiper-pagination-current {
+        font-size: 81px;
+    }
+    .fullpage>.page1>.fp-tableCell>.swiper1>.swiper-pagination > .swiper-pagination-total {
+        font-size: 32px;
+    }
+
 
     /*page1 끝*/
 
@@ -533,7 +541,7 @@
         position: relative;
         top: 100%;
         transform: translateY(-50%);
-        font-size: 180px;
+        font-size: 140px;
         padding: 90px;
         box-sizing: border-box;
         font-family: Helvetica;
@@ -599,7 +607,7 @@
         position: absolute;
         right: 40px;
         top: 100%;
-        font-size: 80px;
+        font-size: 60px;
         color: #3a3a3a;
         font-weight: 800;
     }
@@ -634,14 +642,14 @@
         49% {top:30px;animation-timing-function: ease-in;}
         85% {top:10px;animation-timing-function: ease-in;}
     }
-
+/*
     @keyframes pg3-left {
         0%,33%,66%,100% {top:0; animation-timing-function: ease-out;}
-        16% {top:90px;animation-timing-function: ease-in;}
+        16% {top:900px;animation-timing-function: ease-in;}
         49% {top:60px;animation-timing-function: ease-in;}
         85% {top:10px;animation-timing-function: ease-in;}
     }
-
+*/
 
     /*page2 끝*/
 
@@ -665,8 +673,13 @@
         width: 75%;
         height: 100%;
         box-sizing: border-box;
+        border: 10px solid red;
     }
-
+    .fullpage>.page3>.fp-tableCell>.item-section>.swiper2>ul>li:nth-child(4) {
+    }
+    .fullpage>.page3.active>.fp-tableCell>.item-section>.swiper2>ul>li:nth-child(4) {
+        
+    }
 
     .fullpage>.page3>.fp-tableCell>.item-section>.title {
         position: relative;
@@ -941,3 +954,244 @@
 
 
     /*page4 끝*/
+
+
+
+
+    /* media 커스텀 */
+    @media (max-width:1440px) {
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box {
+            padding: 2rem 18rem;
+        }
+
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(1) {
+            font-size: 8rem;
+            padding-left: 0.5rem;
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(2) {
+            font-size: 4rem;
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(3) {
+            font-size: 4rem;
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(4) {
+            font-size: 1.5rem;
+        }
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 130px;
+        }
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 55px;
+            right: 20px;
+            right: 110px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:49%;
+        }
+        
+        .side-menu-bar>ul {
+            margin-top: -40px;
+        }
+        .side-menu-bar>ul>li {
+            line-height: 3.3rem;
+        }    
+    
+        .side-menu-bar>ul>li>a {
+            font-size: 60px;
+        }
+        
+        .side-menu-bar>span {
+            font-size: 22px;
+        }
+
+    }
+    @media screen and (max-width: 1280px) {
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box {
+            padding: 2rem 9rem;
+        }
+
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(1) {
+            font-size: 6rem;
+            padding-left: 0.5rem;
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(2) {
+            
+            font-size: 4rem;
+            
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(3) {
+            
+            font-size: 4rem;
+            
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(4) {
+            
+            font-size: 1.5rem;
+            
+        }
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 110px;
+        }
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 40px;
+            right: 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:50%;
+        }
+    }
+
+    @media screen and (max-width: 1152px) {
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 90px;
+        }
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 35px;
+            right: 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:50%;
+        }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 80px;
+            padding: 0 40px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2 {
+            top: 40%;
+        }    
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 30px;
+            right: 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:40%;
+        }
+   
+    }
+
+    @media screen and (max-width: 768px) {
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box {
+            padding: 2rem 7rem;
+        }
+
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(1) {
+            font-size: 4rem;
+            padding-left: 0.5rem;
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(2) {
+            
+            font-size: 3rem;
+            
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(3) {
+            white-space: nowrap;
+            font-size: 3rem;
+            
+        }
+    
+        .fullpage>.page1>.fp-tableCell>.swiper1>ul>li>.text-box>.text-list>span:nth-child(4) {
+            white-space: nowrap;
+            font-size: 1.2rem;
+            
+        }
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 80px;
+            padding: 0 35px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2 {
+            top: 40%;
+        }    
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 25px;
+            right: 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:42%;
+        }
+   
+    }
+     
+    @media screen and (max-width: 640px) {
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 65px;
+            padding: 0 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2 {
+            top: 40%;
+        }    
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 25px;
+            left: 0;
+            padding: 0 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:80%;
+        }
+  
+    }
+
+    @media screen and (max-width: 425px) {
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list2 {
+            font-size: 50px;
+            padding: 0 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2 {
+            top: 35%;
+        }    
+
+        .fullpage>.page2>.fp-tableCell>.text-box>.text-list3 {
+            font-size: 22px;
+            left: 0;
+            padding: 0 30px;
+        }
+
+        .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list3 {
+            top:80%;
+        }
+    }
+    
+    @media screen and (max-width: 512px) {
+    
+    }
+
+    @media screen and (max-width: 425px) {
+    }
+    
+    @media screen and (max-width: 375px) {
+ 
+    }
+    
+    @media screen and (max-width: 320px) {
+  
+    
+    }
+    

@@ -53,6 +53,7 @@
     <div class="fullpage" id="fullpage">
         <div class="section page1">
             <div class="swiper1">
+                <div class="swiper-pagination"></div>
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide">
                         <div class="text-box">
@@ -64,8 +65,7 @@
                             </a>
                         </div>
                         <div class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f3031.jpg"
-                                alt="">
+                        <div style="background-image:url(https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f3031.jpg);"></div>
                         </div>
                     </li>
                     <li class="swiper-slide">
@@ -78,8 +78,7 @@
                             </a>
                         </div>
                         <div class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f3032.jpg"
-                                alt="">
+                        <div style="background-image:url(https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f3032.jpg);"></div>
                         </div>
                     </li>
                     <li class="swiper-slide">
@@ -92,8 +91,7 @@
                             </a>
                         </div>
                         <div class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f3033.jpg"
-                                alt="">
+                        <div style="background-image:url(https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f3033.jpg);"></div>
                         </div>
                     </li>
                     <li class="swiper-slide">
@@ -106,21 +104,10 @@
                             </a>
                         </div>
                         <div class="img-box">
-                            <img src="https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f30345f32.jpg"
-                                alt="">
+                        <div style="background-image:url(https://ssw0428.github.io/img1/pf/claster/6d61696e2d62616e6e65725f30345f32.jpg);"></div>
                         </div>
                     </li>
                 </ul>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-            <div class="control-box flex">
-                <div class="index-box">
-                    <span class="current-index">1</span>/<span class="total-count">4</span>
-                </div>
-                <div class="nav-box">
-                    <span class="btn-left">좌</span>/<span class="btn-right">우</span>
-                </div>
             </div>
         </div>
         <div class="section page2">
