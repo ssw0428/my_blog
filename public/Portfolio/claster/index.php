@@ -61,7 +61,10 @@
                                 <span>FILA</span>
                                 <span>휠라</span>
                                 <span>카카오 플친 운영</span>
-                                <span>플러스친구 디자인 및 AD광고 대행</span>
+                                <span>
+                                    플러스친구 디자인 및 AD광고 대행
+                                    <span class="line"></span>
+                                </span>
                             </a>
                         </div>
                         <div class="img-box">
@@ -76,7 +79,10 @@
                                 <span>VDIVOV</span>
                                 <span>비디보브</span>
                                 <span>웹페이지 구축</span>
-                                <span>웹페이지 구축 및 상세페이지 운영</span>
+                                <span>
+                                    웹페이지 구축 및 상세페이지 운영
+                                    <span class="line"></span>
+                                </span>
                             </a>
                         </div>
                         <div class="img-box">
@@ -91,7 +97,10 @@
                                 <span>SUM37˚</span>
                                 <span>숨37˚</span>
                                 <span>홈페이지 구축</span>
-                                <span>온라인 웹 사이트 & 모바일 리뉴얼 구축</span>
+                                <span>
+                                    온라인 웹 사이트 & 모바일 리뉴얼 구축
+                                    <span class="line"></span>
+                                </span>
                             </a>
                         </div>
                         <div class="img-box">
@@ -106,7 +115,10 @@
                                 <span>SGMALL</span>
                                 <span>스팍스 글렌코</span>
                                 <span>광고대행</span>
-                                <span>온라인 AD 및 이벤트 대행 & 운영</span>
+                                <span>
+                                    온라인 AD 및 이벤트 대행 & 운영
+                                    <span class="line"></span>
+                                </span>
                             </a>
                         </div>
                         <div class="img-box">
@@ -123,7 +135,10 @@
                 <div class="text-list2">
                     <span class="trs-delay-200">creating</span>
                     <span class="trs-delay-300">a unique</span>
-                    <span class="trs-delay-400">future</span>
+                    <span class="trs-delay-400">
+                        future
+                        <span class="dot"></span>
+                    </span>
                     <span class="trs-delay-500">who are we?</span>
                 </div>
                 <div class="text-list3">
@@ -135,9 +150,12 @@
         <div class="section page3">
             <div class="item-section">
                 <div class="title">
-                    <span>our moments</span>
+                    <span>
+                        our moments
+                        <span class="dot"></span>
+                    </span>
                 </div>
-                <div class="swiper2">
+                <div class="swiper2 swiper-container">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <a class="img-box"
@@ -243,7 +261,10 @@
                         창의적인 생각을 통해<br>
                         융합적인 비지니스를 창조합니다.
                     </span>
-                    <span>프로젝트 문의하기</span>
+                    <span>
+                        프로젝트 문의하기
+                        <span class="line"></span>
+                    </span>
                 </div>
                 <div class="title2">
                     <span>you</span>

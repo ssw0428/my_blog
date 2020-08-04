@@ -1,8 +1,7 @@
 $(function () {
     $(document).ready(function () {
         $('#fullpage').fullpage({
-            scrollBar: true,
-            navigation: true,
+            scrollBar: true,    
         });
     });
 });
@@ -48,10 +47,12 @@ var SideMenuBar__show = function () {
 
 
 $(function () {
-    var swiper = new Swiper('.swiper2', {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
+    setTimeout(function() {
+        var swiper = new Swiper('.swiper2', {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+        }, 300);
     });
 });
