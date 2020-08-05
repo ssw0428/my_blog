@@ -62,6 +62,44 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <section class="main-visual">
+            <div class="video-bar">
+                <ul>
+                    <li>
+                        <video muted>
+                            <source style="border: 10px solid red;" src="https://ssw0428.github.io/img1/pf/apt/EXPERIENCE of PRIDE.mp4">
+                        </video>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-content">
+            <article class="main-sns flex">
+                <h2 class="title">레미안의 SNS를<br>만나보세요</h2>
+                <ul class="flex">
+                    <li><a href="#">
+                        <img src="https://ssw0428.github.io/img1/pf/apt/ico_ms_instagram.png" alt="">
+                        <span>인스타그렘</span>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="https://ssw0428.github.io/img1/pf/apt/ico_ms_youtube.png" alt="">
+                        <span>유튜브</span>
+                </a></li>
+                    <li><a href="#">
+                        <img src="https://ssw0428.github.io/img1/pf/apt/ico_ms_line.png" alt="">
+                        <span>카카오톡채널</span>
+                    </a></li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-content"></section>
+        <section class="main-content"></section>
+        <section class="main-content"></section>
+        <section class="main-content"></section>
+        <section class="main-content"></section>
+        <section class="main-content"></section>
+    </div>
 </body>
 
 </html>
