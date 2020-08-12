@@ -18,12 +18,12 @@
     <script src="/portfolio/jaguar/index.js"></script>
 </head>
 <body>
-<div class="menu-bar flex">
-    <nav class="menu-box height-100p">
-        <ul class="flex flex-jc-c flex-ai-c">
+<div class="menu-bar con-min-width flex">
+    <nav class="menu-box flex con">
+        <ul class="flex height-100p">
             <li>
                 <a class="flex flex-ai-c height-100p" href="">전체모델</a>
-                <ul clss="flex">
+                <ul clss="flex con-min-width con">
                     <li>
                         <a href="">SUV</a>
                     </li>
@@ -38,20 +38,20 @@
                         </a>
                     </li>
                     <li>
-                    <a class="car-list" href="">
+                        <a class="car-list" href="">
                             <span class="name">E - PACE</span>
                             <span class="car-img">
-                            <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace.jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace.jpg" alt="">
                             </span>
                             <span class="explore">Explore</span>
                             <span class="build">Build</span>
                         </a>
                     </li>
                     <li>
-                    <a class="car-list" href="">
+                        <a class="car-list" href="">
                             <span class="name">I - PACE</span>
                             <span class="car-img">
-                            <img src="https://ssw0428.github.io/img1/pf/jaguar/i-pace.jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/i-pace.jpg" alt="">
                             </span>
                             <span class="explore">Explore</span>
                             <span class="build">Build</span>
@@ -63,30 +63,30 @@
                         </a>
                     </li>
                     <li>
-                    <a class="car-list" href="">
+                        <a class="car-list" href="">
                             <span class="name">XE</span>
                             <span class="car-img">
-                            <img src="https://ssw0428.github.io/img1/pf/jaguar/xe.jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/xe.jpg" alt="">
                             </span>
                             <span class="explore">Explore</span>
                             <span class="build">Build</span>
                         </a>
                     </li>
                     <li>
-                    <a class="car-list" href="">
+                        <a class="car-list" href="">
                             <span class="name">XF</span>
                             <span class="car-img">
-                            <img src="https://ssw0428.github.io/img1/pf/jaguar/xf.jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/xf.jpg" alt="">
                             </span>
                             <span class="explore">Explore</span>
                             <span class="build">Build</span>
                         </a>
                     </li>
                     <li>
-                    <a class="car-list" href="">
+                        <a class="car-list" href="">
                             <span class="name">XJ</span>
                             <span class="car-img">
-                            <img src="https://ssw0428.github.io/img1/pf/jaguar/xj.jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/xj.jpg" alt="">
                             </span>
                             <span class="explore">Explore</span>
                             <span class="build">Build</span>
@@ -94,10 +94,10 @@
                     </li>
                     <li>SPORT CAR</li>
                     <li>
-                    <a class="car-list" href="">
+                        <a class="car-list" href="">
                             <span class="name">F-TYPE</span>
                             <span class="car-img">
-                            <img src="https://ssw0428.github.io/img1/pf/jaguar/f-type.jpg" alt="">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/f-type.jpg" alt="">
                             </span>
                             <span class="explore">Explore</span>
                             <span class="build">Build</span>
@@ -107,13 +107,17 @@
             </li>
             <li><a class="flex flex-ai-c height-100p" href="">나만의 재규어 만들기</a></li>
             <li><a class="flex flex-ai-c height-100p" href="">차량 구매 가이드</a></li>
-            <li><a class="flex flex-ai-c height-100p" href=""><img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo.png" alt=""></a></li>
+            <li><a class="flex flex-ai-c height-100p" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo.png" alt="">
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo-b.png" alt="">
+                </a>
+            </li>
             <li><a class="flex flex-ai-c height-100p" href="">인증 중고차</a></li>
             <li><a class="flex flex-ai-c height-100p" href="">고객 지원</a></li>
             <li><a class="flex flex-ai-c height-100p" href="">재규어 알아보기</a></li>
         </ul>
     </nav>
-</div>    
+</div>  
 <!-- Swiper -->
 <div class="swiper-container">
     <div class="swiper-wrapper">

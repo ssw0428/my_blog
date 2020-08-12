@@ -129,6 +129,16 @@ label[for] {
     margin-right: auto;
 }
 
+.con-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .margin-0-auto {
     margin-left: auto;
     margin-right: auto;
@@ -354,7 +364,7 @@ label[for] {
 }
 
 .con-1 {
-    max-width: 1200px;
+    max-width: 1835px;
 }
 
 body,
@@ -362,42 +372,47 @@ html {
     background-color: black;
     overflow-x: hidden;
     color: white;
-    height: 10000px;
+    min-height: 10000px;
 }
 /*메인 메뉴 바 시작*/
 
 .menu-bar {
-    position:relative;
-    width: 100%;
-}
-
-.menu-bar> .menu-box {
+    border-bottom: 1px solid red;
+    height: 130px;
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translatex(-50%);
-    z-index:10;
-    width: 1330px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
+.menu-bar > .menu-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0);
+    z-index: -1;
+    transition: background-color 1s;
+}
+.menu-bar > .menu-box:hover::after {
+    background-color: rgba(255,255,255,1);
+}
+
 .menu-bar > .menu-box:hover {
     color: black;
 }
-.menu-bar > .menu-box::after {
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color:rgba(255,255,255,0);
-    z-index:-1;
-    transition:background-color .3s;
+.menu-bar > .menu-box > ul {
+    position: relative;
 }
-
-.menu-bar > .menu-box:hover::after {
-    background-color:rgba(255,255,255,1);
-  }
-
+.menu-bar > .menu-box > ul > li {
+    margin: 0 34px;
+}
+.menu-bar > .menu-box > ul > li > a {
+    font-size: 18px;
+    font-weight: 700;
+}
 
 .menu-bar > .menu-box > ul > li:nth-child(4) > a > img {
     display: block;
@@ -406,23 +421,70 @@ html {
     max-height: 130px;
 }
 
-.menu-bar > .menu-box > ul > li > a {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0 34px;
-    border: 1px solid yellow;
+.menu-bar > .menu-box > ul > li:nth-child(4) > a > img:nth-child(2) {
+    display:none;
 }
 
-.menu-bar > .menu-box > ul ul {
+.menu-bar > .menu-box:hover > ul > li:nth-child(4) > a > img:nth-child(2) {
+    display: block;
+    width: auto; height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.menu-bar > .menu-box:hover > ul > li:nth-child(4) > a > img:nth-child(1) {
     display: none;
 }
-.menu-bar > .menu-box > ul > li:hover > ul {
-    display: block;
+
+.menu-bar > .menu-box > ul > li > ul {
     position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+}
+
+.menu-bar > .menu-box > ul > li > ul::after {
+    content: "";
+    position: fixed;
     top: 0;
-    
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: background-color 1s, visibility 0.3s;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.menu-bar > .menu-box > ul > li:hover > ul::after {
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+}
+
+.menu-bar > .menu-box > ul > li:hover > ul {
+    height: auto;
+}
+
+.menu-bar > .menu-box > ul > li:nth-child(1):hover > ul {
+    height: 1060px;
+    transition: height 1s;
+}
+
+.menu-bar > .menu-box > ul > li > ul > li > a {
+    color: black;
+}
+
+/*2차*/
+.menu-bar > .menu-box > ul > li > ul > li > .car-list {
+    border: 1px solid red;
+    display: inline-block;
+    width: 29%;
+}
+.menu-bar > .menu-box > ul > li > ul > li > .car-list > span {
+    display: block;
 }
 
 /*메인 메뉴 바 끝*/
@@ -432,6 +494,7 @@ html {
     .swiper-container {
       width: 100%;
       height: 100%;
+      margin: 0 auto;
     }
 
     .swiper-slide {
