@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,126 +18,329 @@
 
     <script src="/portfolio/jaguar/index.js"></script>
 </head>
+
 <body>
-<div class="menu-bar con-min-width flex">
-    <nav class="menu-box flex con">
-        <ul class="flex height-100p">
-            <li>
-                <a class="flex flex-ai-c height-100p" href="">전체모델</a>
-                <ul clss="flex con-min-width con">
-                    <li>
-                        <a href="">SUV</a>
-                    </li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">F - PACE</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/f-pace.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">E - PACE</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">I - PACE</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/i-pace.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            SEDAN
-                        </a>
-                    </li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">XE</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/xe.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">XF</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/xf.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">XJ</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/xj.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                    <li>SPORT CAR</li>
-                    <li>
-                        <a class="car-list" href="">
-                            <span class="name">F-TYPE</span>
-                            <span class="car-img">
-                                <img src="https://ssw0428.github.io/img1/pf/jaguar/f-type.jpg" alt="">
-                            </span>
-                            <span class="explore">Explore</span>
-                            <span class="build">Build</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li><a class="flex flex-ai-c height-100p" href="">나만의 재규어 만들기</a></li>
-            <li><a class="flex flex-ai-c height-100p" href="">차량 구매 가이드</a></li>
-            <li><a class="flex flex-ai-c height-100p" href="">
-                    <img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo.png" alt="">
-                    <img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo-b.png" alt="">
-                </a>
-            </li>
-            <li><a class="flex flex-ai-c height-100p" href="">인증 중고차</a></li>
-            <li><a class="flex flex-ai-c height-100p" href="">고객 지원</a></li>
-            <li><a class="flex flex-ai-c height-100p" href="">재규어 알아보기</a></li>
-        </ul>
-    </nav>
-</div>  
-<!-- Swiper -->
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-                      <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-1.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-                      <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-2.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-                      <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-3.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-                      <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-4.jpg" alt="">
-      </div>
+    <div class="menu-bar con-min-width flex">
+        <nav class="menu-box flex con">
+            <ul class="flex height-100p">
+                <li class="has-ul">
+                    <a class="flex flex-ai-c height-100p" href="">전체모델</a>
+                    <ul class="flex-colum-nowrap">
+                        <div class="inner inner-1 flex">
+                            <li class="car-name car-name-1">
+                                SUV
+                            </li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">F - PACE</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/f-pace.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">E - PACE</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">I - PACE</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/i-pace.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="inner inner-2 flex">
+                            <li class="car-name car-name-2">
+                                SEDAN
+                            </li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">XE</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/xe.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">XF</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/xf.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">XJ</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/xj.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="inner inner-3 flex">
+                            <li class="car-name car-name-3">SPORT CAR</li>
+                            <li>
+                                <a class="car-list" href="">
+                                    <span class="name">F-TYPE</span>
+                                    <span class="car-img">
+                                        <img src="https://ssw0428.github.io/img1/pf/jaguar/f-type.jpg" alt="">
+                                    </span>
+                                    <div class="inner flex">
+                                        <span class="explore">Explore</span>
+                                        <span class="build flex flex-jc-end">Build</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a class="flex flex-ai-c height-100p" href="">나만의 재규어 만들기</a></li>
+                <li class="has-ul">
+                    <a class="flex flex-ai-c height-100p" href="">차량 구매 가이드</a>
+                    <ul class="flex">
+                        <div class="sub-menu-inner con-1 flex">
+                            <li>
+                                <span href="">파이낸스 프로그램</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">개요</a>
+                                        <a href="">재규어 금융상품 비교하기</a>
+                                        <a href="">나만의 재규어 만들기</a>
+                                        <a href="">재규어 금융 견적 계산기</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">차량 구매 가이드</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">재규어 브로셔 다운로드</a>
+                                        <a href="">차량 비교하기</a>
+                                        <a href="">재규어 모델 살펴보기</a>
+                                        <a href="">시승 신청하기</a>
+                                        <a href="">재규어 소식 받기</a>
+                                        <a href="">전기차, 가솔린, 또는 EURO 6 디젤 엔진</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">법인 판매 프로그램</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">개요</a>
+                                        <a href="">재규어만의 접근법</a>
+                                        <a href="">전체 모델</a>
+                                        <a href="">재규어 서비스 및 서비스 센터</a>
+                                        <a href="">문의하기</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">온라인 스토어</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">재규어 컬렉션</a>
+                                        <a href="">재규어 익스피리언스</a>
+                                        <a href="">재규어 액세서리</a>
+                                        <a href="">재규어 온라인 구매하기</a>
+                                        <a href="">재규어 공식 인증 중고차</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a class="flex flex-ai-c height-100p" href="">
+                        <img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo.png" alt="">
+                        <img src="https://ssw0428.github.io/img1/pf/jaguar/main-logo-b.png" alt="">
+                    </a>
+                </li>
+                <li><a class="flex flex-ai-c height-100p" href="">인증 중고차</a></li>
+                <li class="has-ul">
+                    <a class="flex flex-ai-c height-100p" href="">고객 지원</a>
+                    <ul class="flex">
+                        <div class="sub-menu-inner con-1 flex">
+                            <li>
+                                <span href="">고객 지원</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">개요</a>
+                                        <a href="">재규어 부품 가격 정보 조회</a>
+                                        <a href="">재규어 인컨트롤</a>
+                                        <a href="">온라인 서비스 예약</a>
+                                        <a href="">하자재발 통보서</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">재규어 서비스</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">재규어 랜드로버 오너스</a>
+                                        <a href="">가이드 및 매뉴얼</a>
+                                        <a href="">재규어 디젤 미립자 필터(DPF)</a>
+                                        <a href="">서비스 플랜</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">재규어 보증</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">개요</a>
+                                        <a href="">차량 정비</a>
+                                        <a href="">재규어 보증 정책</a>
+                                        <a href="">재규어 연장 보증</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">고객 지원 서비스</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">긴급 출동 서비스</a>
+                                        <a href="">문의하기</a>
+                                        <a href="">전시장 및 서비스센터 찾기</a>
+                                        <a href="">재규어 리콜 안내문</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="has-ul">
+                    <a class="flex flex-ai-c height-100p" href="">재규어 알아보기</a>
+                    <ul class="flex">
+                        <div class="sub-menu-inner con-1 flex">
+                            <li>
+                                <span href="">재규어 브랜드</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">개요</a>
+                                        <a href="">재규어 뉴스</a>
+                                        <a href="">재규어 레이싱</a>
+                                        <a href="">재규어 엔지니어링</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">재규어 익스피리언스</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">개요</a>
+                                        <a href="">재규어 드라이빙</a>
+                                        <a href="">재규어 모델 살펴보기</a>
+                                        <a href="">생산 시설 견학</a>
+                                        <a href="">재규어 ICE ACADEMY</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">재규어 파트너십</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">재규어 파트너십</a>
+                                        <a href="">재규어 레이싱</a>
+                                        <a href="">I - PACE eTROPHY</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span href="">재규어 혁신과 테크놀로지</span>
+                                <ul>
+                                    <li class="flex flex-column-nowrap">
+                                        <a href="">재규어 인컨트롤</a>
+                                        <a href="">재규어 전기차</a>
+                                        <a href="">SPECIAL VEHICLE OPERATIONS</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <span>1</span>
+            </ul>
+        </nav>
     </div>
-  </div>
-<div class="name">
-    models
-</div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-1.jpg" alt="">
+                <div class="txt-list">
+                    <div class="inner">
+                        <span>당신만의 개성을 찾고 싶은가</span>
+                        <span>NEW JAGUAR<br>F-TYPE</span>
+                        <span>click</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-2.jpg" alt="">
+                <div class="txt-list">
+                    <div class="inner">
+                        <span>당신만의 개성을 찾고 싶은가</span>
+                        <span>NEW JAGUAR<br>F-TYPE</span>
+                        <span>click</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-3.jpg" alt="">
+                <div class="txt-list">
+                    <div class="inner">
+                        <span>당신만의 개성을 찾고 싶은가</span>
+                        <span>NEW JAGUAR<br>F-TYPE</span>
+                        <span>click</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://ssw0428.github.io/img1/pf/jaguar/main-slider-4.jpg" alt="">
+                <div class="txt-list">
+                    <div class="inner">
+                        <span>당신만의 개성을 찾고 싶은가</span>
+                        <span>NEW JAGUAR<br>F-TYPE</span>
+                        <span>click</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="name con-1">
+        models
+    </div>
 </body>
+
 </html>

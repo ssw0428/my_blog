@@ -576,14 +576,12 @@
         animation-name: pg2-left;
         animation-duration: 1200ms;
         animation-delay: 800ms;
-        animation-fill-mode: forwards;
     }
 
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-300 {
         animation-name: pg2-left;
         animation-duration: 1200ms;
         animation-delay: 900ms;
-        animation-fill-mode: forwards;
     }
 
     .fullpage>.page2.active>.fp-tableCell>.text-box>.text-list2>.trs-delay-400 {
