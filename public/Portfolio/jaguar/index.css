@@ -279,10 +279,6 @@ label[for] {
     display: flex;
 }
 
-* > .flex-column-nowrap {
-    display: flex;
-    flex-flow: column nowrap;
-}
 
 * > .flex-grow-1 {
     flex-grow: 1;
@@ -315,6 +311,7 @@ label[for] {
 * > .flex-column-nowrap {
     flex-direction: column;
     flex-wrap: nowrap;
+    flex-flow: column nowrap;
 }
 
 * > .flex-ch-basis-0 {
@@ -370,6 +367,10 @@ label[for] {
 
 .con-1 {
     max-width: 1264px;
+}
+
+.con-2 {
+    max-width: 1620px;
 }
 
 body,
@@ -443,10 +444,10 @@ html {
 .menu-bar > .menu-box > ul > li > ul {
     position: absolute;
     left: 0;
+    right: 0;
     top: 100%;
-    width: 1660px;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
     background-color: white;
     height: 0;
     overflow: hidden;
@@ -490,7 +491,7 @@ html {
 }
 
 .menu-bar > .menu-box > ul > li.has-ul:nth-child(7):hover > ul {
-    height: 500px;
+    height: 600px;
     transition: height 1s;
 }
 
@@ -539,7 +540,7 @@ html {
     font-weight: 800;
 }
 .menu-bar > .menu-box > ul > li > ul > .inner-1 {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .menu-bar > .menu-box > ul > li > ul > .inner-1 > li:nth-child(3) {
     margin: 0 60px;
@@ -568,8 +569,12 @@ html {
 
 /*2차 메뉴에서 2번째*/
 .menu-bar > .menu-box > ul > li > ul > .sub-menu-inner {
+    margin-top: 30px;
     width: 100%;
-    border: 1px solid blue;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .sub-menu-inner > li {
+    margin: 0 auto;
 }
 
 .menu-bar > .menu-box > ul > li > ul > .sub-menu-inner > li:not(:last-child) {
@@ -591,6 +596,52 @@ html {
     font-size: 14px;
     margin-top: 20px;
     font-weight: 300;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box {
+    margin-top: 60px;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box > li {
+    margin: 0 auto;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box > li > a {
+    margin: 0 100px;
+    display: block;
+    text-align: center;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box > li > a > img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box > li > a > span{
+    display: block;
+    font-size: 12px;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box-1 {
+    margin-top: 90px;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box-1 > li > a {
+    margin: 0 20px;
+    display: block;
+    text-align: center;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box-1 > li > a > span {
+    margin-top: 18px;
+}
+
+.menu-bar > .menu-box > ul > li > ul > .img-box-1 > li > a > img {
+    display: block;
+    width: auto; height: auto;
+    max-width: 280px;
+    max-height: 280px;
 }
 
 /*메인 메뉴 바 끝*/
@@ -691,4 +742,25 @@ html {
         transition-duration: 800ms;
     } 
 
-    
+/*메인 슬라이더 끝*/
+
+
+/*car 슬라이더 시작*/
+
+.car-slider > .swiper-container {
+    position: relative;
+    margin-top: 100px;
+    height: 1000px;
+    border: 1px solid red;
+  }
+
+  .car-slider > .swiper-container > .swiper-wrapper > .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .car-slider > .swiper-container > .swiper-wrapper > .swiper-slide > ul {
+      z-index: 1000;
+  }
+
+/*car 슬라이더 끝*/
