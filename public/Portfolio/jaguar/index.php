@@ -511,6 +511,42 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+
+    <nav class="service-menu">
+        <div class="name">
+            <h2>SERVICE</h2>
+        </div>
+        <ul class="flex con-2">
+            <li class="list">
+                <span class="img-box">
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/service-1-1.png" alt="">
+                </span>
+                <span>서비스 네트워크</span>
+                <span>최상의 서비스로 재규어의<br>고객님을 모시겠습니다.</span>
+            </li>
+            <li class="list">
+                <span class="img-box">
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/service-2-1.png" alt="">
+                </span>
+                <span>리멤버 서비스</span>
+                <span>고객님이 불편을 느끼지 않도록<br>빠른 서비스로 모시겠습니다.</span>
+            </li>
+            <li class="list">
+                <span class="img-box">
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/service-3-1.png" alt="">
+                </span>
+                <span>차량관리 서비스</span>
+                <span>차량운행과 관리에<br>필요한 최신정보를 제공합니다. </span>
+            </li>
+            <li class="list">
+                <span class="img-box">
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
+                </span>
+                <span>스마트 시승 서비스</span>
+                <span>올라인에서 간편하게<br>시승 신청이 가능합니다.</span>
+            </li>
+        </ul>
+        </div>
 </body>
 
 </html>

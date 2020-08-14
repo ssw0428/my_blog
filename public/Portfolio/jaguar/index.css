@@ -764,3 +764,45 @@ html {
   }
 
 /*car 슬라이더 끝*/
+
+/* service 메뉴 시작 */
+
+.service-menu {
+    margin-top: 120px;
+    height: 510px;
+    background-color: #9d2626;
+}
+
+.service-menu > .name {
+}
+
+.service-menu > .name > h2 {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service-menu > ul > li {
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.service-menu > ul > li > span {
+    display: block;
+}
+
+.service-menu > ul > li > span > img {
+    display: block;
+    margin: 0 auto;
+    width: auto; height: auto;
+    width: 130px;
+    height: 130px;
+    border: 1px solid blue;
+}
+
+.service-menu > ul > li > span {
+
+}
+
+/* service 메뉴 끝 */
