@@ -773,18 +773,14 @@ html {
     background-color: #9d2626;
 }
 
-.service-menu > .name {
-}
-
 .service-menu > .name > h2 {
     display: block;
     font-size: 50px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
-.service-menu > ul > li {
-    border: 1px solid red;
+.service-menu > ul > li { 
     margin: 0 auto;
 }
 
@@ -798,11 +794,20 @@ html {
     width: auto; height: auto;
     width: 130px;
     height: 130px;
-    border: 1px solid blue;
 }
 
-.service-menu > ul > li > span {
+.service-menu > ul > li > span:nth-child(2) {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-align: center;
+}
 
+.service-menu > ul > li > span:nth-child(3) {
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 25px;
 }
 
 /* service 메뉴 끝 */

@@ -546,7 +546,15 @@
                 <span>올라인에서 간편하게<br>시승 신청이 가능합니다.</span>
             </li>
         </ul>
-        </div>
+    </nav>
+
+    <nav class="sns">
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </nav>
 </body>
 
 </html>
