@@ -16,6 +16,12 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- owl 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+
     <script src="/portfolio/jaguar/index.js"></script>
 </head>
 
@@ -412,103 +418,424 @@
         </div>
     </div>
 
-    <div class="car-slider con-2">
-        <div class="swiper-2 swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar e pace.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
-                        <li><a href="">5</a></li>
-                        <li><a href="">6</a></li>
-                    </ul>
+    <div class="car-slider">
+        <div class="carousel-2" data-carousel-1-autoplay-status="Y">
+            <div class="owl-carousel owl-theme">
+                <div onclick="Carousel2__itemClicked(this);" class="item active">
+                    <h1>1</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar e pace.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar f pace.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
-                        <li><a href="">5</a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>2</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar f pace.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar i pace.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>3</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar i pace.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar f type.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>4</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar f type.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar xe.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>5</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar xe.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar xf.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>6</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar xf.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                        <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar xj.jpg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>7</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar xj.jpg" alt="">
+                </div>
+                <div onclick="Carousel2__itemClicked(this);" class="item">
+                    <h1>8</h1>
+                    <img src="https://ssw0428.github.io/img1/pf/jaguar/jaguar e pace.jpg" alt="">
                 </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="play">시작</div>
+            <div class="stop">정지</div>
+        </div>
+
+        <div class="carousel-1">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h1>1</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        INTERIOR
+                                    </span>
+                                    <span>
+                                        최고의 소재와 우수한 마감 처리는
+                                        <br>E‑PACE Chequered Flag를 더욱 안락한 공간으로 만들어줍니다.<br>
+                                        운전자 중심의 인테리어에는 전용 Flame Red 스티치로 완성된<br>Ebony Grained 가죽이 사용되었습니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR E PACE</span>
+                                    <span>가격: ₩49,600,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace-picture-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace-picture-1.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>IN-CAR 테크놀로지</span>
+                                    <span>XJ의 첨단 운전자 지원 시스템은 운전자의 안전,
+                                        <br>외부 세상과의 연결, 엔터테인먼트를 보장합니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>2</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        DRIVING PERFORMANCE
+                                    </span>
+                                    <span>
+                                        민첩한 핸들링, 성능과 효율성까지 겸비한 첨단 엔진이
+                                        <br>장착된 F‑PACE로 운전의 즐거움을 만끽해보세요.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR F PACE</span>
+                                    <span>가격: ₩69,500,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/F-pace-picture-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/F-pace-picture-2.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>EXTERIOR</span>
+                                    <span>파워풀하고 날렵한 외관과 스포츠카다운 특징은 F‑PACE를 도로 위의 독특한 존재로 만들어줍니다. 재규어 F‑TYPE으로부터 시각적 영감을
+                                        얻은 F‑PACE는 스포츠카의 DNA를 지닌 퍼포먼스 SUV입니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>3</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        INTERIOR
+                                    </span>
+                                    <span>
+                                        I‑PACE는 스포츠카 특성과 럭셔리한 장인정신이 조화를 이루는 클래식한 재규어를 재현하였습니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR I PACE</span>
+                                    <span>가격: ₩113,500,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/I-pace-picture-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/I-pace-picture-2.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>IN-CAR 테크놀로지</span>
+                                    <span>I‑PACE의 모든 기능 및 연결된 장치를 간편하게 제어할 수 있습니다.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>4</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        PERFORMANCE
+                                    </span>
+                                    <span>
+                                        F-TYPE은 재규어의 가솔린 엔진 중에서 가장 스릴 넘치는 엔진으로 구동되며, 모든 엔진에는 성능의 저하 없이 연료 소모량과 CO2 배출량을
+                                        감축시키기 위한 혁신적인 기술이 적용되었습니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR F TYPE</span>
+                                    <span>가격: ₩97,500,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/F-type-picture-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/F-type-picture-2.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>안정성 및 실용성</span>
+                                    <span>F-TYPE에는 운전자와 탑승자를 위한 종합적인 에어백 시스템이 탑재되어 있습니다. 프론트 에어백은 체격과 체중을 감지하는 센서를 통해
+                                        필요한 상황에 적절히 전개됩니다. 최첨단 안전 벨트 프리텐셔너는 속도를 급히 줄이는 경우 자동으로 안전 벨트를 조여줍니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>5</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        EXTERIOR
+                                    </span>
+                                    <span>
+                                        XE는 보다 넓어지고 낮아진 디자인에 당당한 캐릭터를 한층 돋보이게 만들어주는 익스테리어 요소들이 더해져 자신감 넘치는 스탠스를 완성합니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR XE</span>
+                                    <span>가격: ₩47,500,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/XE-picture-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/XE-picture-2.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>IN-CAR 테크놀로지</span>
+                                    <span>다양한 최신 기술이 탑재된 XE는 한층 향상된 안전성, 보안성 및 연결 기능을 제공합니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>6</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        DRIVING PERFORMANCE
+                                    </span>
+                                    <span>
+                                        가벼우면서도 견고한 알루미늄 소재의 프론트 및 리어 서스펜션은 XF의 민첩한 반응과 역동성을 이끌어내는 동시에 편안한 승차감까지 제공합니다.
+                                        F-TYPE과 유사한 더블 위시본 프론트 서스펜션 구조는 동급 최고의 핸들링을 약속합니다. 리어 인테그럴 링크 서스펜션 시스템은 핸들링을
+                                        탄탄하게 받쳐 보다 탁월한 승차감을 제공함으로써 XF의 다이내믹한 성능을 더욱 강화시킵니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR XF</span>
+                                    <span>가격: ₩63,200,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/XF-picture-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/XF-picture-2.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>IN-CAR 테크놀로지</span>
+                                    <span>XJ의 첨단 운전자 지원 시스템은 운전자의 안전,
+                                        <br>외부 세상과의 연결, 엔터테인먼트를 보장합니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>7</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        INTERIOR
+                                    </span>
+                                    <span>
+                                        10.2인치 터치스크린부터 수작업으로 완성한 베니어에 이르기까지, XJ는 테크놀로지, 럭셔리, 안락함의 특별한 기준을 제시합니다. 차별화된
+                                        XJ의 인테리어에서 장인의 손길을 느낄 수 있습니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>JAGUAR XJ</span>
+                                    <span>가격: ₩128,500,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/XJ-picture-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/XJ-picture-2.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>안정성</span>
+                                    <span>어떠한 상황에서도 운전자와 탑승자를 보호하기 위한 다양한 첨단 지원 시스템 및 안전 시스템이 갖추어져 있습니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="item">
+                    <h1>8</h1>
+                    <section class="txt-box">
+                        <div class="box box-1 flex con-2">
+                            <div class="box-list box-list-1">
+                                <div class="inner">
+                                    <span>
+                                        INTERIOR
+                                    </span>
+                                    <span>
+                                        최고의 소재와 우수한 마감 처리는
+                                        <br>E‑PACE Chequered Flag를 더욱 안락한 공간으로 만들어줍니다.<br>
+                                        운전자 중심의 인테리어에는 전용 Flame Red 스티치로 완성된<br>Ebony Grained 가죽이 사용되었습니다.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-2">
+                                <div class="inner">
+                                    <span>jaguar e pace</span>
+                                    <span>가격: ₩49,600,000~</span>
+                                    <span>살펴보기</span>
+                                </div>
+                            </div>
+                            <div class="box-list box-list-3">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace-picture-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="box box-2 flex con-2">
+                            <div class="box-list box-list-4">
+                                <img src="https://ssw0428.github.io/img1/pf/jaguar/e-pace-picture-1.jpg" alt="">
+                            </div>
+                            <div class="box-list box-list-5">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="box-list box-list-6">
+                                <div class="inner">
+                                    <span>IN-CAR 테크놀로지</span>
+                                    <span>XJ의 첨단 운전자 지원 시스템은 운전자의 안전,
+                                        <br>외부 세상과의 연결, 엔터테인먼트를 보장합니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -569,7 +896,7 @@
                 <div class="body">
                     <ul class="contain">
                         <li class="active">
-                            <div class="carousel-1 active">
+                            <div class="carousel-3 active">
                                 <div class="owl-carousel owl-theme slider-box">
                                     <div class="item flex">
                                         <div class="img-box">
@@ -586,10 +913,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -597,10 +924,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -608,10 +935,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -619,10 +946,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -630,10 +957,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -641,10 +968,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -652,10 +979,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -663,10 +990,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -674,62 +1001,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item" style="background-color:white"></div>
-                                    <div class="item" style="background-color:white"></div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="carousel-1">
-                                <div class="owl-carousel owl-theme slider-box">
-                                    <div class="item flex">
-                                        <div class="img-box">
-                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
-                                        </div>
-                                        <div class="main-name">
-                                        test-1
-                                        </div>
-                                        <div class="name">
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item flex">
-                                        <div class="img-box">
-                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
-                                        </div>
-                                        <div class="main-name">
-                                            블랙타이거슈림프+직화스테이크
-                                        </div>
-                                        <div class="name">
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item flex">
-                                        <div class="img-box">
-                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
-                                        </div>
-                                        <div class="main-name">
-                                        test-1
-                                        </div>
-                                        <div class="name">
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item flex">
-                                        <div class="img-box">
-                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
-                                        </div>
-                                        <div class="main-name">
-                                        test-1
-                                        </div>
-                                        <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item" style="background-color:white"></div>
@@ -738,17 +1013,17 @@
                             </div>
                         </li>
                         <li>
-                            <div class="carousel-1">
+                            <div class="carousel-3">
                                 <div class="owl-carousel owl-theme slider-box">
                                     <div class="item flex">
                                         <div class="img-box">
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -756,10 +1031,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                        
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -767,10 +1042,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -778,10 +1053,29 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                        
+
+                                        </div>
+                                    </div>
+                                    <div class="item" style="background-color:white"></div>
+                                    <div class="item" style="background-color:white"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="carousel-3">
+                                <div class="owl-carousel owl-theme slider-box">
+                                    <div class="item flex">
+                                        <div class="img-box">
+                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
+                                        </div>
+                                        <div class="main-name">
+                                            test-1
+                                        </div>
+                                        <div class="name">
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -789,10 +1083,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -800,10 +1094,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -811,10 +1105,10 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
                                         </div>
                                     </div>
                                     <div class="item flex">
@@ -822,10 +1116,43 @@
                                             <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
                                         </div>
                                         <div class="main-name">
-                                        test-1
+                                            test-1
                                         </div>
                                         <div class="name">
-                                            
+
+                                        </div>
+                                    </div>
+                                    <div class="item flex">
+                                        <div class="img-box">
+                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
+                                        </div>
+                                        <div class="main-name">
+                                            test-1
+                                        </div>
+                                        <div class="name">
+
+                                        </div>
+                                    </div>
+                                    <div class="item flex">
+                                        <div class="img-box">
+                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
+                                        </div>
+                                        <div class="main-name">
+                                            test-1
+                                        </div>
+                                        <div class="name">
+
+                                        </div>
+                                    </div>
+                                    <div class="item flex">
+                                        <div class="img-box">
+                                            <img src="https://ssw0428.github.io/img1/pf/jaguar/service-4-1.png" alt="">
+                                        </div>
+                                        <div class="main-name">
+                                            test-1
+                                        </div>
+                                        <div class="name">
+
                                         </div>
                                     </div>
                                     <!-- 끝 -->
@@ -838,289 +1165,5 @@
         </div>
     </section>
 </body>
-
-<!-- 
-    <section class="content-2 subway-menu">
-    <div class="swm-top-bar">
-        <div class="tab-box tab-box-1">
-            <div class="head">
-                <ul class="row">
-                    <li class="cell active"><a href="#" onclick="return false;">프리미엄</a></li>
-                    <li class="cell"><a href="#" onclick="return false;">하프앤하프 시그니처</a></li>
-                    <li class="cell"><a href="#" onclick="return false;">클레식</a></li>
-                </ul>
-            </div>
-            <div class="body">
-                <ul class="contain">
-                    <li class="active">
-                        <div class="carousel-1 active">
-                            <div class="owl-carousel owl-theme slider-box">
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-1.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        미트 미트 미트
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 35,000원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-2.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        30 치즈&뉴욕 스트립 스테이크
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-3.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        베스트 콰트로
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-4.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        치즈케이크 블랙타이거
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 35,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-5.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        시리얼 칠리크랩
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-6.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        문어밤 슈림프
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-7.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        블랙앵거스 스테이크
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-8.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        더블크러스트 이베리코
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-9.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        블랙타이거 슈림프
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Premium-10.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        직화 스테이크
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 33,900원 ~ <span>M</span> 28,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item" style="background-color:white"></div>
-                                <div class="item" style="background-color:white"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="carousel-1">
-                            <div class="owl-carousel owl-theme slider-box">
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/singture-1.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        30 치즈&뉴욕 스트립 스테이크+포테이토
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 30,400원 ~ <span>M</span> 24,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/singture-2.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        블랙타이거슈림프+직화스테이크
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,400원 ~ <span>M</span> 28,500원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/singture-3.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        시리얼칠리크랩+블랙앵거스스테이크
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/singture-4.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        시리얼칠리크랩+블랙타이거슈림프
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 34,900원 ~ <span>M</span> 29,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item" style="background-color:white"></div>
-                                <div class="item" style="background-color:white"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="carousel-1">
-                            <div class="owl-carousel owl-theme slider-box">
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/Classic-1.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        슈퍼디럭스
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 25,900원 ~ <span>M</span> 19,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-2.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        베이컨체더치즈
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 25,900원 ~ <span>M</span> 19,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-3.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        포테이토
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 25,900원 ~ <span>M</span> 19,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-4.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        리얼불고기
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 27,900원 ~ <span>M</span> 21,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-5.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        슈퍼슈프림
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 25,900원 ~ <span>M</span> 19,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-6.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        치즈가든
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 27,900원 ~ <span>M</span> 21,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-7.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        핫치킨
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 27,900원 ~ <span>M</span> 21,000원 ~
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="img-box">
-                                        <img src="https://milly55.github.io/img1/pf/domino/classic-8.png" alt="">
-                                    </div>
-                                    <div class="main-name">
-                                        우리 고구마
-                                    </div>
-                                    <div class="name">
-                                        <span>L</span> 29,900원 ~ <span>M</span> 23,000원 ~
-                                    </div>
-                                </div>
-                                </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
- -->
 
 </html>
