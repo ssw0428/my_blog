@@ -1,5 +1,47 @@
+//마우스 내릴 때 메뉴 바
+var $window = $(window);
+var $html = $('html');
+
+function Window__init() {
+  $window.scroll(function() {
+    var scrollTop = $window.scrollTop();
+    
+    if ( scrollTop > 0 ) {
+      $html.addClass('scroll-top-0-up');
+    }
+    else {
+      $html.removeClass('scroll-top-0-up');
+    }
+  });
+}
+
+function TopBar__init() {
+  var $menuBar = $('.menu-bar');
+  
+  $menuBar.find(' > .menu-bar ul > li').mouseenter(function() {
+    var $this = $(this);
+    var $subMenuBox = $this.find(' > div');
+    $subMenuBox.slideDown(100);
+  });
+  
+  $menuBar.find(' > .menu-bar ul > li').mouseleave(function() {
+    var $this = $(this);
+    var $subMenuBox = $this.find(' > div');
+    $subMenuBox.slideUp(100);
+  });
+}
+
+$(function() {
+  Window__init();
+  TopBar__init();
+});
+
+
 $(function () {
-  var swiper = new Swiper('.swiper-1');
+  var swiper = new Swiper('.swiper-1',{
+    loop: true,
+  });
+  
 });
 
 $(function () {
@@ -69,7 +111,7 @@ function Carousel1__init() {
   });
 }
 $(function () {
-Carousel1__init();
+  Carousel1__init();
 });
 
 /* 캐러셀 2 */
@@ -174,7 +216,7 @@ function Silder__a() {
     navText: ['<div class="left-btn"></div>', '<div class="right-btn"></div>'],
     responsive: {
       0: {
-        items: 4
+        items: 3
       }
     }
   });
@@ -183,3 +225,16 @@ function Silder__a() {
 $(function () {
   Silder__a();
 })
+
+//더 알아보기 슬라이드
+$(function () {
+  var swiper = new Swiper('.swiper-3', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    loop: true,
+  });
+});
