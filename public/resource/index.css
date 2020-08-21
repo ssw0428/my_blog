@@ -315,3 +315,145 @@
     width: 140px;   
 
 }
+
+/* 포트폴리오 사이트 */
+.title {
+    position: relative;
+    height: 85vh;
+}
+.title-list {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
+    opacity: 0.6;
+}
+
+.title-list > .title-box {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50vh;
+    opacity: 0.6;
+}
+.title-list > .inner {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    height: 490px;
+}
+
+.title-list > .inner > .txt-list {
+    margin-left: 50px;
+    color: white;
+    font-weight: 100;
+}
+
+.title-list > .inner > .txt-list > span {
+    display: block;
+}
+
+.title-list > .inner > .txt-list-1 > span {
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 14px;
+    border-bottom: 2px solid white;
+    margin-top: 40px;
+}
+
+.title-list > .inner > .txt-list-2 > span:nth-child(1) {
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.title-list > .inner > .txt-list-2 > span:nth-child(2) {
+    font-size: 55px; 
+    font-weight: 700;
+    margin-top: 20px;   
+}
+
+.title-list > .inner > .txt-list-2 > span:nth-child(3) {
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.up-down {
+    animation-name: up-down; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 2s;
+	animation-fill-mode:forwards;
+	}
+
+@keyframes up-down {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.title-list > .inner > .txt-list-2 > .fas {
+    margin-left: 10px;
+    animation:up-down 2s 1s infinite alternate;	
+}
+
+.content-1 {
+    height: 1000px;
+}
+
+.content-1 > .about-me > span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.content-1 > .about-me > .inner {
+    color: white;
+    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
+    opacity: 0.6;
+}
+
+.content-1 > .about-me > .inner > span {
+    display: block;
+}
+.content-1 > .about-me > .inner > span:nth-child(1) {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.content-1 > .about-me > .inner > span:nth-child(2) {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.content-1 > .about-me > .inner > span:nth-child(3) {
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 83px;
+
+}
+
+.content-1 > .profile {
+    border: 1px solid red;
+}
+
+.content-1 > .profile > .img-box {
+    margin: 60px 0;
+}
+
+.content-1 > .profile > .img-box > img {
+    width: 300px;
+}
+

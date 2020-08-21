@@ -147,7 +147,7 @@
 
                     </li>
                     <li class="flex-1-0-0 flex">
-                        <a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Portfolio</span></a>
+                        <a href="/portfolio.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Portfolio</span></a>
                     </li>
 
                 </ul>
