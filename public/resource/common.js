@@ -349,3 +349,27 @@ $grid.masonry({
 $grid.imagesLoaded().progress( function() {
   $grid.masonry('layout');
 });
+
+$(function () {
+    AOS.init(); 
+});
+
+var $window = $(window);
+var $html = $('html');
+
+function Window__init() {
+  $window.scroll(function() {
+    var scrollTop = $window.scrollTop();
+    
+    if ( scrollTop > 0 ) {
+      $html.addClass('scroll-top-0-up');
+    }
+    else {
+      $html.removeClass('scroll-top-0-up');
+    }
+  });
+}
+
+$(function() {
+    Window__init();
+  });

@@ -273,6 +273,11 @@ label[for] {
     flex-grow: 1;
 }
 
+*>.flex-jc-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
 *>.flex-jc-end {
     display: flex;
     justify-content: flex-end;
@@ -413,7 +418,9 @@ label[for] {
 .top-bar {
     margin-top: 90px;
 }
-
+.scroll-top-0-up .top-bar {
+    display: none;
+}
 
 .top-bar>div>.menu-box-1>ul>li {
     position: relative;

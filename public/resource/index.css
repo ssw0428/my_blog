@@ -317,6 +317,38 @@
 }
 
 /* 포트폴리오 사이트 */
+.main-logo-1 {
+    border: 2px solid orange;
+    display: block;
+    text-align: center;
+}
+.main-logo-1>img {
+    width: 70px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.scroll-top-0-up .sub-menu {
+    display: block;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.sub-menu > ul {
+    display: none;
+}
+
+.sub-menu:hover > ul {
+    display: block;
+}
+
 .title {
     position: relative;
     height: 100%;
@@ -453,7 +485,9 @@
 }
 
 .content-1 > .profile > .profile-list > .introduce-list > div {
-    border: 1px solid #c4c4c4;
+    border: 1px solid transparent;
+    border-image: linear-gradient(190deg,  rgba(255, 119, 7, .3) 10%, rgba(219, 0, 248,0.8));
+    border-image-slice: 1;
     width: 400px;
     padding-bottom: 30px;
     
@@ -534,7 +568,7 @@
 
 .content-2 > .ability-list > .name {
     display: block;
-    width: 300px;
+    width: 220px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -772,9 +806,7 @@
       width: 250px;
       height: 180px;
       margin: 0 auto;
-      border: 2px solid transparent;
-      border-image: linear-gradient(190deg,  rgba(255, 119, 7, .3) 10%, rgba(219, 0, 248,0.8));
-      border-image-slice: 1;
+      border: 1px solid #7e7e7e;
       
   }
 
@@ -785,3 +817,97 @@
   #css_tabs > .content > ul > .inner > li > a:not(:nth-child(5)) {
       margin-right: 25px;
   }
+
+  /* content-4 시작 */
+
+.content-4 {
+    height: 1000px;
+}
+.content-4 .img-box  {
+    padding-top: 25px;
+    padding-right: 12px;
+    margin-left: 50px;
+}
+.content-4 .img-box > img {
+    width: 400px;
+}
+
+.content-4 > .inner > .arrow-box {
+    position: relative;
+    border: 2px solid #FFBD98;
+    width: 900px;
+    margin: 20px 0;
+    margin-left: 60px;
+    height: 400px;
+}
+
+.arrow-box::before, .arrow-box::after {
+    content: " ";
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow-box::before {
+    border-color: rgba(103, 110, 195, 0);
+    border-right-color: #FFBD98;
+    border-width: 39px;
+    margin-top: -39px;
+}
+
+.arrow-box::after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+    border-width: 36px;
+    margin-top: -36px;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box {
+    width: 850px;
+    margin: 20px auto;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner {
+    margin: 0 auto;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .name {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .name > span:nth-child(1) {
+    font-size: 30px;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .name > span:nth-child(2) {
+    margin-left: 10px;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .info {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .info > div:not(:nth-child(3)){
+    margin-right: 40px;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .info > div > span {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.content-4 > .inner > .arrow-box > .txt-box > .inner > .content > span {
+    display: block;
+    text-align: center;
+    color: #5e5e5e;
+}

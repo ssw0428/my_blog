@@ -1,11 +1,26 @@
 <?php
 include "../part/head.php";
 ?>
+<nav class="sub-menu">
+    <a href="/index.php" class="flex flex-ai-c flex-1-0-0 main-logo-1">
+        <img class="" src="/resource/img/img-1.png" alt="width=100">
+    </a>
+    <ul>
+        <div class="inner flex">
+            <li><a href="">Home</a></li>
+            <li><a href="">Daily Life</a></li>
+            <li><a href="">Self Development</a></li>
+            <li><a href="">SNS</a></li>
+            <li><a href="">Portfolio</a></li>
+        </div>
+    </ul>
+</nav>
+
 <div class="title">
     <div class="title-list-1 con">
         <div class="title-box">
         </div>
-        <div class="inner">
+        <div class="inner" data-aos="zoom-in" data-aos-duration="1500">
             <div class="txt-list txt-list-1">
                 <span>Personal Website</span>
             </div>
@@ -21,7 +36,7 @@ include "../part/head.php";
 
 <div class="content-1 con">
     <div class="about-me flex">
-        <div class="inner">
+        <div class="inner" data-aos="fade-down" data-aos-duration="1500">
             <span>About Me</span>
         </div>
     </div>
@@ -39,26 +54,26 @@ include "../part/head.php";
                 <span>010-3496-4521</span>
             </div>
             <div class="introduce-list flex con flex-jc-c">
-                <div class="list-1">
+                <div class="list-1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
                     <span>PUBLISHER</span>
                     <span>부족하더라도, 끈기와 인내, 열정이 넘치는 퍼블리셔가 저의 비전이자 모토입니다.
                         그러기 위해서 HTML5, CSS3, JQUERY, SCRIPT를 계속해서 공부할 것입니다.
                     </span>
                 </div>
-                <div class="list-2">
+                <div class="list-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                     <span>SKILLS</span>
                     <span>뒤쳐지지 않기 위해, 지속적인 자기개발을 하고 있습니다.
                         중요한 정보와 지식들을 습득하면서, 공유가 필요하다면 블로그를 통해
                         많은 사람들과 공유를 하고 있습니다.
                     </span>
                 </div>
-                <div class="list-3">
+                <div class="list-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <span>FOR USERS</span>
                     <span>저 혼자서 하는 웹퍼블리셔가 아닌, 함께 나누고, 소통하고, 협력해서
                         개발하는 걸 추구합니다. 시대에 맞게끔 UI/UX디자인을 만들겠습니다.
                     </span>
                 </div>
-                <div class="list-3">
+                <div class="list-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="800">
                     <span>DIVERSITY</span>
                     <span>코딩과 더불어, 포토샵, 일러스트, 미디어 편집까지 많은 툴을 다둘 줄 압니다.
                         하나만 잘하는 것이 아니라 많은 툴로 더 세련되고, 나은 UI/UX디자인을 하겠습니다.
@@ -71,7 +86,7 @@ include "../part/head.php";
 
 <div class="content-2 con">
     <div class="about-me flex">
-        <div class="inner">
+        <div class="inner" data-aos="fade-down" data-aos-duration="1500">
             <span>ABILITY</span>
         </div>
     </div>
@@ -81,7 +96,7 @@ include "../part/head.php";
         </div>
         <div class="list list-1">
             <span>HTML5</span>
-            <div>
+            <div data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="inner">
                     <span>기초부터 탄탄하게!</span>
                     <span>탄탄하고 깔끔한 코딩작업을 하는 습관! 상황에 맞는 태그와 마크업을 하며, 가독성을 높이기 위한 들여쓰기로 완성된 HTML을 만듭니다.</span>
@@ -90,7 +105,7 @@ include "../part/head.php";
         </div>
         <div class="list list-2">
             <span>CSS3</span>
-            <div>
+            <div data-aos="zoom-in-left" data-aos-duration="1500">
                 <div class="inner">
                     <span>화려한 것보단 심플하면서 세련미있게!</span>
                     <span>기초부터 탄탄하게 쌓은 HTML코드에 알맞게 CSS 작업을 통해, 모든 사람이 마음에 들어하게끔 작업을 합니다.</span>
@@ -103,7 +118,7 @@ include "../part/head.php";
                 &
                 <br>
                 jQuery</span>
-            <div>
+            <div data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="inner">
                     <span>부족함을 극복하는!</span>
                     <span>
@@ -120,7 +135,7 @@ include "../part/head.php";
         </div>
         <div class="list list-4">
             <span>웹 기획</span>
-            <div>
+            <div data-aos="zoom-in-left" data-aos-duration="1500">
                 <div class="inner">
                     <span>구성부터 탄탄하고, 꼼꼼하게! </span>
                     <span>
@@ -132,7 +147,7 @@ include "../part/head.php";
         </div>
         <div class="list list-5">
             <span>웹 디자인</span>
-            <div>
+            <div data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="inner">
                     <span>포토샵과 일러스토로! </span>
                     <span>
@@ -143,7 +158,7 @@ include "../part/head.php";
         </div>
         <div class="list list-6">
             <span>다양한 툴 사용</span>
-            <div>
+            <div data-aos="zoom-in-left" data-aos-duration="1500">
                 <div class="inner">
                     <span>웹 코딩, 디자인, 편집까지!</span>
                     <span>
@@ -157,7 +172,7 @@ include "../part/head.php";
 
 <div class="content-3 con">
     <div class="about-me flex">
-        <div class="inner">
+        <div class="inner" data-aos="fade-down" data-aos-duration="1500">
             <span>PORTFOLIO</span>
         </div>
     </div>
@@ -248,40 +263,8 @@ include "../part/head.php";
             </ul>
         </div>
         <div class="con content tab2_content">
-        <ul>
+            <ul>
                 <div class="inner inner-1 flex">
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddas
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                </div>
-                <div class="inner inner-2 flex">
                     <li>
                         <a href="http://localhost:8023/portfolio/k2/">
                             d
@@ -317,7 +300,7 @@ include "../part/head.php";
             </ul>
         </div>
         <div class="con content tab3_content">
-        <ul>
+            <ul>
                 <div class="inner inner-1 flex">
                     <li>
                         <a href="http://localhost:8023/portfolio/k2/">
@@ -334,44 +317,6 @@ include "../part/head.php";
                     <li>
                         <a href="http://localhost:8023/portfolio/k2/">
                             ddas
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                </div>
-                <div class="inner inner-2 flex">
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddas
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
                             <img src="250 180" alt="">
                         </a>
                     </li>
@@ -386,52 +331,8 @@ include "../part/head.php";
             </ul>
         </div>
         <div class="con content tab4_content">
-        <ul>
+            <ul>
                 <div class="inner inner-1 flex">
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddas
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                </div>
-                <div class="inner inner-2 flex">
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
                     <li>
                         <a href="http://localhost:8023/portfolio/k2/">
                             ddas
@@ -455,20 +356,8 @@ include "../part/head.php";
             </ul>
         </div>
         <div class="con content tab5_content">
-        <ul>
+            <ul>
                 <div class="inner inner-1 flex">
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
                     <li>
                         <a href="http://localhost:8023/portfolio/k2/">
                             ddas
@@ -488,43 +377,47 @@ include "../part/head.php";
                         </a>
                     </li>
                 </div>
-                <div class="inner inner-2 flex">
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddas
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                </div>
 
             </ul>
         </div>
     </div>
 
+</div>
+
+<div class="content-4 con">
+    <div class="inner flex">
+        <div class="img-box" data-aos="fade-up" data-aos-duration="1500">
+            <img src="/resource/img/img-2.png" alt="">
+        </div>
+        <div class="arrow-box flex hegiht-100p" data-aos="fade-up" data-aos-duration="1500">
+            <div class="txt-box hegiht-100p flex-ai-c">
+                <div class="inner">
+                    <div class="name flex-jc-c flex">
+                        <span><i class="fas fa-check"></i></span>
+                        <span>궁금하거나, 하고싶은 얘기가 있다면</span>
+                    </div>
+                    <div class="info flex flex-jc-sa">
+                        <div class="list-1">
+                            <span><i class="fas fa-mobile-alt"></i></span>
+                            <span>010-3496-4521</span>
+                        </div>
+                        <div class="list-2">
+                            <span><i class="fas fa-paper-plane"></i></span>
+                            <span>ssw0428@naver.com</span>
+                        </div>
+                        <div class="list-3">
+                            <span><i class="fab fa-kickstarter-k"></i></span>
+                            <span>sangwon2428</span>
+                        </div>
+                    </div>
+                    <div class="content" data-aos="fade-right" data-aos-duration="1500">
+                        <span>저의 포트폴리오 사이트를 끝까지 봐주셔서 감사합니다.</span>
+                        <span>저의 포트폴리오가 마음에 드셨다면, 언제든 연락주세요! 감사드립니다.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!--
 <div class="txt-content hegiht-100p flex flex-ai-c">
