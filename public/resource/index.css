@@ -319,43 +319,39 @@
 /* 포트폴리오 사이트 */
 .title {
     position: relative;
-    height: 85vh;
+    height: 100%;
+    margin-top: 40px;
+    z-index: 10;
 }
-.title-list {
+.title-list-1 {
     position: absolute;
-    top: -5%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     width: 100%;
     background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
     opacity: 0.6;
+    height: 50%;
 }
 
-.title-list > .title-box {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 50vh;
-    opacity: 0.6;
-}
-.title-list > .inner {
+.title-list-1 > .inner {
     position: absolute;
     top: 2%;
     width: 100%;
     height: 490px;
 }
 
-.title-list > .inner > .txt-list {
+.title-list-1 > .inner > .txt-list {
     margin-left: 50px;
     color: white;
     font-weight: 100;
 }
 
-.title-list > .inner > .txt-list > span {
+.title-list-1 > .inner > .txt-list > span {
     display: block;
 }
 
-.title-list > .inner > .txt-list-1 > span {
+.title-list-1 > .inner > .txt-list-1 > span {
     display: inline-block;
     padding-bottom: 5px;
     font-size: 14px;
@@ -363,18 +359,18 @@
     margin-top: 40px;
 }
 
-.title-list > .inner > .txt-list-2 > span:nth-child(1) {
+.title-list-1 > .inner > .txt-list-2 > span:nth-child(1) {
     font-size: 18px;
     margin-top: 100px;
 }
 
-.title-list > .inner > .txt-list-2 > span:nth-child(2) {
+.title-list-1 > .inner > .txt-list-2 > span:nth-child(2) {
     font-size: 55px; 
     font-weight: 700;
     margin-top: 20px;   
 }
 
-.title-list > .inner > .txt-list-2 > span:nth-child(3) {
+.title-list-1 > .inner > .txt-list-2 > span:nth-child(3) {
     display: inline-block;
     margin-top: 120px;
 }
@@ -395,14 +391,16 @@
     to {opacity:1;}
 }
 
-.title-list > .inner > .txt-list-2 > .fas {
+.title-list-1 > .inner > .txt-list-2 > .fas {
     margin-left: 10px;
     animation:up-down 2s 1s infinite alternate;	
 }
 
 .content-1 {
     height: 1000px;
+    margin-top: 30px;
 }
+ 
 
 .content-1 > .about-me > span {
     display: inline-block;
@@ -412,48 +410,378 @@
 
 .content-1 > .about-me > .inner {
     color: white;
-    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
     opacity: 0.6;
+    margin: 0 auto;
 }
 
 .content-1 > .about-me > .inner > span {
-    display: block;
-}
-.content-1 > .about-me > .inner > span:nth-child(1) {
     display: inline-block;
-    font-size: 18px;
-    padding-left: 25px;
-    padding-right: 30px;
-    color: black;
-    font-weight: 700;
+    font-size: 60px;
+    padding: 15px 40px;
+    height: 100%;
+    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.content-1 > .about-me > .inner > span:nth-child(2) {
-    display: inline-block;
-    font-size: 22px;
-    font-weight: 700;
-    padding-top: 10px;
-    padding-right: 40px;
-}
-
-.content-1 > .about-me > .inner > span:nth-child(3) {
-    font-size: 12px;
-    font-weight: 100;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 83px;
-
-}
-
-.content-1 > .profile {
-    border: 1px solid red;
-}
 
 .content-1 > .profile > .img-box {
-    margin: 60px 0;
+    margin-top: 40px;
 }
 
 .content-1 > .profile > .img-box > img {
+    margin: 0 auto;
+    width: 250px;
+}
+
+.content-1 > .profile > .profile-list > .inner {
+    margin: 30px auto;
     width: 300px;
 }
 
+.content-1 > .profile > .profile-list > .inner > span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #a4a4a4;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.content-1 > .profile > .profile-list > .introduce-list {
+    margin: 100px auto;
+}
+
+.content-1 > .profile > .profile-list > .introduce-list > div {
+    border: 1px solid #c4c4c4;
+    width: 400px;
+    padding-bottom: 30px;
+    
+}
+
+.content-1 > .profile > .profile-list > .introduce-list > div:not(:nth-child(4)) {
+    margin-right: 35px;
+}
+
+.content-1 > .profile > .profile-list > .introduce-list > div > span {
+    display: block;
+}
+
+.content-1 > .profile > .profile-list > .introduce-list > div > span:nth-child(1) {
+    text-align: center;
+    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content-1 > .profile > .profile-list > .introduce-list > div > span:nth-child(2) {
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+    color: #7e7e7e;
+}
+
+/*content-2 시작*/
+
+
+.content-2 > .about-me > span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.content-2 > .about-me > .inner {
+    margin: 0 auto;
+    opacity: 0.6;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.content-2 > .about-me > .inner > span {
+    display: inline-block;
+    font-size: 60px;
+    height: 100%;
+    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-2 > .ability-list-1 {
+    margin-top: 30px;
+    position: relative;
+}
+
+.content-2 > .ability-list-1::before {
+    content: '';
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    bottom: 0;
+    width: -1px;
+    height: 85%;
+    margin-left: -1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #f3410b, rgb(219, 0, 248));
+    border-image-slice: 1;
+    opacity: 0.6;
+    z-index: -10;
+    }
+
+.content-2 > .ability-list > .name {
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.content-2 > .ability-list > .list {
+    margin-bottom: 100px;
+}
+.content-2 > .ability-list > .list-1 {
+    margin-top: 100px;
+}
+.content-2 > .ability-list > .list-4 {
+    margin-top: 100px;
+}
+
+.content-2 > .ability-list > .list > span {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: white;
+}
+.content-2 > .ability-list > .list > div {
+    margin-top: -60px;
+    width: 620px;
+    height: 110px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(190deg,  rgba(255, 119, 7, .3) 10%, rgba(219, 0, 248,0.8));
+    border-image-slice: 1;
+}
+
+.content-2 > .ability-list > .list-3 > div {
+    height: 135px;
+}
+
+.content-2 > .ability-list > .list-4 > div {
+    height: 135px;
+}
+
+.content-2 > .ability-list > .list > div > .inner {
+    width: 600px;
+    margin: 17px auto;
+    padding-left: 10px;
+}
+
+.content-2 > .ability-list > .list > div > .inner > span:nth-child(1) {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content-2 > .ability-list > .list > div > .inner > span:nth-child(2) {
+    display: block;
+    color: #696f74;
+    font-weight: normal;
+}
+
+.content-2 > .ability-list > .list-2 > div {
+    margin-top: -40px;
+    width: 620px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.content-2 > .ability-list > .list-3 > div {
+    margin-top: -75px;
+}
+
+.content-2 > .ability-list-2 {
+    margin-top: 150px;
+    position: relative;
+}
+
+.content-2 > .ability-list-2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    bottom: 0;
+    width: 2px;
+    height: 83%;
+    margin-left: -1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #f3410b, rgb(219, 0, 248));
+    border-image-slice: 1;
+    opacity: 0.6;
+    z-index: -10;
+    }
+
+.content-2 > .ability-list > .list-4 > div {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.content-2 > .ability-list > .list-6 > div {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+/*content-3 시작*/
+.content-3 {
+    height: 1000px;
+}
+.content-3 > .about-me > span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.content-3 > .about-me > .inner {
+    margin: 0 auto;
+    opacity: 0.6;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.content-3 > .about-me > .inner > span {
+    display: inline-block;
+    font-size: 60px;
+    height: 100%;
+    background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#css_tabs {
+    font-family: 'nanumgothic', '나눔고딕', 'malgun gothic', '맑은 고딕', 'dotum', '돋움', sans-serif
+  }
+  /* 탭 선택 시 표시할 요소(div) 정의(1번 탭 선택 시 첫 번째 div 요소 표시) */
+  
+  #css_tabs input:nth-of-type(1),
+  #css_tabs input:nth-of-type(1) ~ div:nth-of-type(1),
+  #css_tabs input:nth-of-type(2),
+  #css_tabs input:nth-of-type(2) ~ div:nth-of-type(2),
+  #css_tabs input:nth-of-type(3),
+  #css_tabs input:nth-of-type(3) ~ div:nth-of-type(3),
+  #css_tabs input:nth-of-type(4),
+  #css_tabs input:nth-of-type(4) ~ div:nth-of-type(4),
+  #css_tabs input:nth-of-type(5),
+  #css_tabs input:nth-of-type(5) ~ div:nth-of-type(5) {
+    display: none
+  }
+  
+  #css_tabs input:nth-of-type(1):checked ~ div:nth-of-type(1),
+  #css_tabs input:nth-of-type(2):checked ~ div:nth-of-type(2),
+  #css_tabs input:nth-of-type(3):checked ~ div:nth-of-type(3),
+  #css_tabs input:nth-of-type(4):checked ~ div:nth-of-type(4),
+  #css_tabs input:nth-of-type(5):checked ~ div:nth-of-type(5) {
+    display: block
+  }
+  /* 라벨 기본 스타일 지정 */
+  
+  #css_tabs > label {
+    display: inline-block;
+    font-variant: small-caps;
+    font-size: .9em;
+    padding: 5px;
+    text-align: center;
+    width: 9%;
+    line-height: 1.8em;
+    font-weight: 700;
+    border-radius: 3px 3px 0 0;
+    color: #777;
+    border: 1px solid #ccc;
+    border-width: 1px;
+    margin-right: 5px;
+  }
+  
+  #css_tabs > label:hover {
+    cursor: pointer
+  }
+  
+  #css_tabs label[for=tab1] {
+    margin-left: 400px;
+  }
+  /* 선택된 라벨, 커서를 올린 라벨 스타일 지정 */
+  
+  #css_tabs input:nth-of-type(1):checked ~ label:nth-of-type(1),
+  #css_tabs > label[for=tab1]:hover {
+    background: tomato;
+    color: #fff
+  }
+  
+  #css_tabs input:nth-of-type(2):checked ~ label:nth-of-type(2),
+  #css_tabs > label[for=tab2]:hover {
+    background: gold;
+    color: #fff
+  }
+  
+  #css_tabs input:nth-of-type(3):checked ~ label:nth-of-type(3),
+  #css_tabs > label[for=tab3]:hover {
+    background: green;
+    color: #fff
+  }
+  
+  #css_tabs input:nth-of-type(4):checked ~ label:nth-of-type(4),
+  #css_tabs > label[for=tab4]:hover {
+    background: orange;
+    color: #fff
+  }
+
+  #css_tabs input:nth-of-type(5):checked ~ label:nth-of-type(5),
+  #css_tabs > label[for=tab5]:hover {
+    background: pink;
+    color: #fff
+  }
+  
+  /* 실제 내용이 담긴 div 요소 스타일 지정 */
+  
+  #css_tabs .tab1_content,
+  #css_tabs .tab2_content,
+  #css_tabs .tab3_content,
+  #css_tabs .tab4_content,
+  #css_tabs .tab5_content {
+    padding: 2em;
+    height: 100%
+  }
+
+  #css_tabs > .content > ul > .inner {
+      margin: 0 auto;
+      width:100%;
+  }
+
+  #css_tabs > .content > ul > .inner-1 {
+      margin-top: 20px;
+      margin-bottom: 25px;
+}
+
+  #css_tabs > .content > ul > .inner > li > a {
+      display: block;
+      width: 250px;
+      height: 180px;
+      margin: 0 auto;
+      border: 2px solid transparent;
+      border-image: linear-gradient(190deg,  rgba(255, 119, 7, .3) 10%, rgba(219, 0, 248,0.8));
+      border-image-slice: 1;
+      
+  }
+
+  #css_tabs > .content > ul > .inner > li:nth-child(1) > a {
+      margin-left: 40px;
+  }
+
+  #css_tabs > .content > ul > .inner > li > a:not(:nth-child(5)) {
+      margin-right: 25px;
+  }
