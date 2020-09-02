@@ -1,37 +1,12 @@
-<?php
-include "../part/head.php";
-
-$dbHost = "site4.blog.oa.gg";
-$dbPort = 3306;
-$dbId = "site4";
-$dbPw = "sbs123414";
-$dbName = 'site4';
-
-// 전화걸기
-$dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
 
 
-// 상대방에게 할말 적기
-$sql = "
-SELECT *
-FROM article
-ORDER BY id DESC
-LIMIT 4
-";
+            Sang Won's Blog에 찾아와주셔서 감사합니다. <br>제가 지금까지 공부한 자료와 저의 일상들이 기록되어 있는 공간입니다. <br> 부족하지만, 많은 글들을 보시면서 함께
+            공감하길 원해요.
+        </p>
+    </div>
+</div>
 
-// 말하고 응답받기
-$rs = mysqli_query($dbConn, $sql);
-$articles = [];
-while ( true ) {
-$row = mysqli_fetch_assoc($rs);
-if ( $row == null ) {
-    break;
-}
-$articles[] = $row;
-}
-
-?>
-<!-- 메인페이지  -->
+<!-- 메인페이지  --/>
 <div class="main-page box con">
     <section class="container con">
         <div class="blog-name flex flex-jc-c">
@@ -45,7 +20,7 @@ $articles[] = $row;
         </div>
 
         <div class="self-introduction flex">
-            <!-- 슬라이더 -->
+            <!-- 슬라이더 --/>
             <div class="main-slider">
                 <div class="slides">
                     <div class="active" style="background-image:url(../resource/img/main-slide-2.jpg);"></div>
@@ -79,12 +54,8 @@ $articles[] = $row;
         </div>
 
     </section>
-    <section class="con flex">
-    </section>
-    <section></section>
 </div>
-
-<!-- 주요 소식 -->
+<!-- 주요 소식 --/>
 <div class="box">
     <span class="flex main-title con">Recent Stories</span>
     <div class="recentStories flex con">
@@ -159,6 +130,7 @@ $articles[] = $row;
         </li>
     </ul>
 </nav>
+
 
 <!--
 <div class="main-bar con">

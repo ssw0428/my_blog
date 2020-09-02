@@ -17,7 +17,7 @@
 
     <!--aos animate-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="/resource/common.js"></script>
 </head>
@@ -88,8 +88,8 @@
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c"><span>Daily&#160;&#160;Life</span></a>
                         <ul class="">
                             <li class="">
-                                <a href="/articles.php?cateItemId=1"></a>
-                                photograph
+                                <a href="/articles.php?cateItemId=1">
+                                    photograph
                                 </a>
                             </li>
 
@@ -157,9 +157,9 @@
 
                 </ul>
             </nav>
-
         </div>
     </div>
+
 
 
     <!-- Top btn -->

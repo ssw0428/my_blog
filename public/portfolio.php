@@ -6,12 +6,12 @@ include "../part/head.php";
         <img class="" src="/resource/img/img-1.png" alt="width=100">
     </a>
     <ul>
-        <div class="inner flex">
-            <li><a href="">Home</a></li>
-            <li><a href="">Daily Life</a></li>
-            <li><a href="">Self Development</a></li>
-            <li><a href="">SNS</a></li>
-            <li><a href="">Portfolio</a></li>
+        <div class="inner flex height-100p">
+            <li class="flex flex-jc-c flex-ai-c height-100p"><a href="">Home</a></li>
+            <li class="flex flex-jc-c flex-ai-c height-100p"><a href="">Daily Life</a></li>
+            <li class="flex flex-jc-c flex-ai-c height-100p"><a href="">Self Development</a></li>
+            <li class="flex flex-jc-c flex-ai-c height-100p"><a href="">SNS</a></li>
+            <li class="flex flex-jc-c flex-ai-c height-100p"><a href="">Portfolio</a></li>
         </div>
     </ul>
 </nav>
@@ -411,8 +411,8 @@ include "../part/head.php";
                         </div>
                     </div>
                     <div class="content" data-aos="fade-right" data-aos-duration="1500">
-                        <span>저의 포트폴리오 사이트를 끝까지 봐주셔서 감사합니다.</span>
-                        <span>저의 포트폴리오가 마음에 드셨다면, 언제든 연락주세요! 감사드립니다.</span>
+                        <span>저의 포트폴리오 페이지를 끝까지 봐주셔서 감사합니다.</span>
+                        <span>저의 포트폴리오가 마음에 드셨다면, 언제든 연락주세요:)</span>
                     </div>
                 </div>
             </div>

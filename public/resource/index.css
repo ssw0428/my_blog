@@ -318,7 +318,6 @@
 
 /* 포트폴리오 사이트 */
 .main-logo-1 {
-    border: 2px solid orange;
     display: block;
     text-align: center;
 }
@@ -327,33 +326,64 @@
 }
 
 .sub-menu {
-    display: none;
+    position: absolute;
+    top: -10%;
+    opacity: 0;
 }
 
 .scroll-top-0-up .sub-menu {
-    display: block;
+    opacity: 1;
+    transition: opacity .6s;
     position: fixed;
     top: 2%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 20;
-    border: 1px solid red;
-    padding: 20px;
 }
 
 .sub-menu > ul {
-    display: none;
+    opacity: 0;
+    transition: opacity .6s;
+    height: 80px;
 }
 
 .sub-menu:hover > ul {
-    display: block;
+    opacity: 1;
+}
+
+.sub-menu > ul > .inner > li > a {
+    display:inline-block; 
+    padding: 0 10px;
+    font-size: 16px;
+    text-transform:uppercase; 
+    height: 100%;
+    padding: 30px 0;
+}
+
+.sub-menu > ul > .inner > li > a::after {
+  content: '';
+  display:block;
+  height: 3px;
+  background: linear-gradient(to right, purple, rgb(250, 122, 143));
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.sub-menu > ul > .inner > li > a::after {
+    transform-origin:0 50%;
+}
+
+.sub-menu > ul > .inner > li > a:hover::after {
+    transform: scaleX(1);
+}
+.sub-menu > ul > .inner > li:not(:nth-child(5)) {
+    margin-right: 30px;
 }
 
 .title {
     position: relative;
-    height: 100%;
-    margin-top: 40px;
-    z-index: 10;
+    height: 500px;
+    margin-top: 80px;
 }
 .title-list-1 {
     position: absolute;
@@ -361,9 +391,9 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
+    height: 100%;
     background: linear-gradient( to right, #ff3c00, rgb(219, 0, 248) );
     opacity: 0.6;
-    height: 50%;
 }
 
 .title-list-1 > .inner {
@@ -429,8 +459,7 @@
 }
 
 .content-1 {
-    height: 1000px;
-    margin-top: 30px;
+    margin-top: 140px;
 }
  
 

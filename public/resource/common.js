@@ -294,7 +294,7 @@ $(function () {
         return false;
     });
 });
-
+/*
 //스크롤 내릴 때 한페이지씩 나오게 하기
 window.onload = function () {
     var elm = ".box";
@@ -338,6 +338,7 @@ window.onload = function () {
         });
     });
 };
+*/
 
 //그리드
 var $grid = $('.grid');
@@ -346,30 +347,47 @@ $grid.masonry({
     itemSelector: 'li'
 });
 
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
+$grid.imagesLoaded().progress(function () {
+    $grid.masonry('layout');
 });
 
 $(function () {
-    AOS.init(); 
+    AOS.init();
 });
+
+
+//스크롤
 
 var $window = $(window);
 var $html = $('html');
 
 function Window__init() {
-  $window.scroll(function() {
-    var scrollTop = $window.scrollTop();
-    
-    if ( scrollTop > 0 ) {
-      $html.addClass('scroll-top-0-up');
-    }
-    else {
-      $html.removeClass('scroll-top-0-up');
-    }
-  });
+    $window.scroll(function () {
+        var scrollTop = $window.scrollTop();
+
+        if (scrollTop > 0) {
+            $html.addClass('scroll-top-0-up');
+        } else {
+            $html.removeClass('scroll-top-0-up');
+        }
+    });
 }
 
-$(function() {
+$(function () {
     Window__init();
-  });
+});
+
+//블로그 첫화면 나올 때 쓰는 엑티브
+$(function () {
+    setTimeout(function () {
+        $('.main-logo').addClass('active');
+    }, 1000);
+
+    setTimeout(function () {
+        $('.main-logo').addClass('active-1');
+    }, 1100);
+
+    setTimeout(function () {
+        $('.top-bar>div>.menu-box-1').addClass('active');
+    }, 1100);
+});
