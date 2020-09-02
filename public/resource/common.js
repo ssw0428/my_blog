@@ -390,4 +390,20 @@ $(function () {
     setTimeout(function () {
         $('.top-bar>div>.menu-box-1').addClass('active');
     }, 1100);
+
+    setTimeout(function () {
+        $('.main-content > .box > .img-box').addClass('active');
+    }, 1100);
+    setTimeout(function () {
+        $('.main-content > .box > .img-box').addClass('active-1');
+    }, 1100);
+    setTimeout(function () {
+        $('.main-content >.box> .txt-box').addClass('active');
+    }, 1100);
+    setTimeout(function () {
+        $('.svg > .img-box-1').addClass('active');
+    }, 1100);
+    setTimeout(function () {
+        $('.svg > .img-box-2').addClass('active');
+    }, 1100);
 });

@@ -408,7 +408,7 @@ label[for] {
 }
 
 .main-logo>img {
-    width: 120px;
+    width: 110px;
     margin: 0 auto;
 }
 
@@ -420,7 +420,7 @@ label[for] {
 }
 
 .main-logo.active-1 {
-    left: 10%;
+    left: 13%;
     transition-delay: 1000ms;
     transition-duration: 500ms;
 }
@@ -444,14 +444,14 @@ label[for] {
 /*여기가 처음 시작하는 화면!*/
 .top-bar>div>.menu-box-1 {
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 15%;
 }
 
 .top-bar>div>.menu-box-1::before {
     content: "";
     background-color: white;
-    width: 850px;
+    width: 950px;
     height: 100px;
     position: fixed;
     top: 0;
@@ -460,7 +460,7 @@ label[for] {
 }
 
 .top-bar>div>.menu-box-1.active {
-    left: 55%;
+    left: 57%;
     transition-delay: 1000ms;
     transition-duration: 500ms;
 }
@@ -481,7 +481,6 @@ label[for] {
 
 .top-bar>div>.menu-box-1>ul>li:hover>a {
     color: rgb(238, 69, 154);
-
 }
 
 /* 메뉴 바 클릭할 때 선 나오기 시작 */
@@ -574,20 +573,122 @@ label[for] {
 }
 
 .main-content > .box {
-    border: 1px solid blue;
-    width: 800px;
+    position: relative;
     height: 500px;
-    margin: 0 auto;
 }
 
-.main-content > .box > p {
-    border: 1px solid red;
+.main-content > .box > .main-name {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 120px;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.main-content > .box > .img-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+    opacity: 1;
+}
+
+.main-content > .box > .img-box > svg {
+    width: 450px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-content > .box > .img-box.active {
+    left: 40%;
+    transition-delay: 2700ms;
+    transition-duration: 500ms;
+}
+.main-content > .box > .img-box.active-1 {
+    opacity: 0;
+    transition-delay: 1000ms;
+    transition-duration: 1000ms;
+}
+
+.main-content >.box> .txt-box {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.main-content >.box> .txt-box > p {
+    font-family: 'Black Han Sans', sans-serif;
     width: 750px;
     margin: 0 auto;
     font-size: 20px;
-    text-align: center;
+    font-weight: bold;
+    text-align: center;  
+}
+.main-content >.box> .txt-box.active {
+    bottom: 10%;
+    opacity: 1;
+    transition-delay: 4000ms;
+    transition-duration: 800ms;
 }
 
+.svg > .img-box-1 {
+    position: absolute;
+    bottom: -30%;
+    left: 8%;
+    opacity: 0;
+}
+
+.svg > .img-box-1 > svg {
+    width: 200px;
+    height: 100%;
+}
+
+.svg > .img-box-1.active {
+    bottom: 15%;
+    opacity: 1;
+    transition-delay: 4000ms;
+    transition-duration: 800ms;
+}
+
+
+.svg > .img-box-2 {
+    position: absolute;
+    bottom: 45%;
+    right: -30%;
+    opacity: 0;
+}
+
+.svg > .img-box-2.active {
+    right: 8%;
+    opacity: 1;
+    transition-delay: 4000ms;
+    transition-duration: 800ms;
+}
+
+.svg > .img-box-2 > svg {
+    width: 200px;
+    height: 100%;
+
+}
 
 /* 메인 컨텐츠 끝 */
 
@@ -668,7 +769,6 @@ label[for] {
     top: 0;
     left: 70%;
 }
-
 
 /* 메인 페이지 끝 */
 
@@ -911,7 +1011,7 @@ body {
 
 .top-btn>a {
     position: fixed;
-    right: 1%;
+    right: 10%;
     bottom: 5%;
     background-color: purple;
     color: white;
