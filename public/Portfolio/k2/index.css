@@ -1117,12 +1117,11 @@ html, body {
     height: 0;
     padding-bottom: 9.165%;
     font-size: 0;
-    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_brand_ci.png);
+    background-image: url(https://ssw0428.github.io/img1/pf/k2/brand_ci.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
     transform: translateX(-50%);
-    border: 1px solid red;
 }
 
 .main_vod > .branding > .inner > .txt {

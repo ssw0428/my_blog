@@ -16,7 +16,7 @@ include "../part/head.php";
     </ul>
 </nav>
 
-<div class="title">
+<div class="pf-title">
     <div class="title-list-1 con">
         <div class="title-box">
         </div>
@@ -197,41 +197,35 @@ include "../part/head.php";
             <ul>
                 <div class="inner inner-1 flex">
                     <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
+                        <a href="http://localhost:8023/portfolio/babathe/">
+                            <img src="https://ssw0428.github.io/img1/pf/babathe/wlogo_on.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8023/portfolio/claster/">
+                            <img src="https://ssw0428.github.io/img1/pf/claster/logo_white.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8023/portfolio/hancomm/">
+                            <img src="https://ssw0428.github.io/img1/pf/hancomm/logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8023/portfolio/jaguar/">
+                            <img src="https://ssw0428.github.io/img1/pf/jaguar/logo-b-1.png" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="http://localhost:8023/portfolio/k2/">
-                            dd
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddas
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            ddsad
-                            <img src="250 180" alt="">
+                            <img src="https://ssw0428.github.io/img1/pf/k2/ci.png" alt="">
                         </a>
                     </li>
                 </div>
                 <div class="inner inner-2 flex">
                     <li>
-                        <a href="http://localhost:8023/portfolio/k2/">
-                            d
-                            <img src="250 180" alt="">
+                        <a href="http://localhost:8023/portfolio/raemian/">
+                            <img src="https://ssw0428.github.io/img1/pf/apt/logo_h.png" alt="">
                         </a>
                     </li>
                     <li>
