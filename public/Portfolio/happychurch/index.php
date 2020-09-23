@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>행복한 교회</title>
 
     <link rel="stylesheet" href="/portfolio/happychurch/index.css">
@@ -71,7 +71,7 @@
     <!--notice bar-->
     <div class="notice-bar-bg">
     </div>
-    <div class="sub-menu-side-bar">
+    <div class="sub-menu-side-bar con">
         <nav class="sub-menu-box flex">
             <ul>
                 <li><a href="">- 행복한 교회는?</a></li>
@@ -113,7 +113,17 @@
     </div>
     <!--메인 슬라이드-->
     <div class="slide-bar con">
-        <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+            </div>
+        </div>
     </div>
     <!--컨텐츠-->
     <div class="content content-1 con">
@@ -121,7 +131,7 @@
             <span>말씀과 찬양</span>
             <span>말씀으로 무장하고, 입술로 찬양하길 원합니다</span>
         </div>
-        <div class="box-list-1 con">
+        <div class="box-list-1">
             <div class="flex flex-row-wrap">
                 <div class="box">
                     <div class="content tab-type-1">
@@ -261,7 +271,7 @@
             <span>행복 뉴스</span>
             <span>행복한 교회의 소식들을 알아봅시다</span>
         </div>
-        <div class="news-list news-list-1 flex">
+        <div class="news-list flex">
             <div class="news-list-1">
                 <div class="box-list-1">
                     <div class="flex flex-row-wrap">
@@ -402,79 +412,6 @@
                 </div>
             </div>
         </div>
-        <div class="news-list news-list-2 flex">
-            <div class="news-list-1">
-                <div class="box-list-1">
-                    <div class="flex flex-row-wrap">
-                        <div class="box">
-                            <div class="content tab-type-1">
-                                <div class="head">
-                                    <ul class="flex flex-jc-c">
-                                        <li class="active" data-tab-name-2="box-1" data-tab-head-item-name-2="1">
-                                            <a>매일묵상</a>
-                                        </li>
-                                        <li class="" data-tab-name-2="box-1" data-tab-head-item-name-2="2">
-                                            <a>말씀읽기</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="body">
-                                    <ul>
-                                        <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
-                                            <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
-                                            </a>
-                                            <a class="list" href="">
-                                                <span>서상원</span>
-                                                <span>2020.09.20</span>
-                                            </a>
-                                        </li>
-                                        <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
-                                            <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
-                                            </a>
-                                            <a class="list" href="">
-                                                <span>서상원</span>
-                                                <span>2020.09.20</span>
-                                            </a>
-                                        </li>
-                                        <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
-                                            <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
-                                            </a>
-                                            <a class="list" href="">
-                                                <span>서상원</span>
-                                                <span>2020.09.20</span>
-                                            </a>
-                                        </li>
-                                        <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
-                                            <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
-                                            </a>
-                                            <a class="list" href="">
-                                                <span>서상원</span>
-                                                <span>2020.09.20</span>
-                                            </a>
-                                        </li>
-                                        <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
-                                            <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
-                                            </a>
-                                            <a class="list" href="">
-                                                <span>서상원</span>
-                                                <span>2020.09.20</span>
-                                            </a>
-                                        </li>
-                                        <li data-tab-name-2="box-1" data-tab-body-item-name-2="2">입찰공고 내용</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
     </div>
     <div class="content content-4 con">
         <div class="name">

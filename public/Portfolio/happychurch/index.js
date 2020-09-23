@@ -1,3 +1,25 @@
+//메인 슬라이드
+$(function () {
+    $('.slide-bar .owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+});
+
+
+
+
 //notice-bar 
 function NoticeBar__toggle() {
     var $btn = $('.btn-toggle-notice-bar');
@@ -94,39 +116,5 @@ $(function () {
         }
     });
 });
-// Testing media queries with jQuery
-// Using matchMedia
-// By Ravenous - July, 2014
-
-(function($) {
-
-	function mediaSize() {
-		if (window.matchMedia("(max-width: 767px)").matches) {
-			/* Changes when we reach the min-width  */
-            $('.my-1 > .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                center: true,
-                nav: true,
-                stagePadding: 100,
-                dots: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    }
-                }
-            });
-		} else {
-			/* Reset for CSS changes – Still need a better way to do this! */
-			$("body, strong").removeAttr("style");
-		}
-	}
-
-	/* Call the function */
-	mediaSize();
-	/* Attach the function to the resize event listener */
-	window.addEventListener("resize", mediaSize, false);
-})(jQuery);
-
 
 //$('.my-1 > .owl-carousel').trigger('to.owl.carousel', 1, 0);
