@@ -130,9 +130,11 @@
     <div class="content content-1 con">
         <div class="name">
             <div class="inner">
-                <span></span>
-                <i class="fas fa-chevron-right arrow"></i>
-                <span>말씀과 찬양</span>
+                <span class="box">
+                    <span class="stick"></span>
+                    <i class="fas fa-chevron-right arrow"></i>
+                    말씀과 찬양
+                </span>
                 <span>말씀으로 무장하고, 입술로 찬양하길 원합니다</span>
             </div>
         </div>
@@ -195,12 +197,16 @@
     <div class="content content-2 con">
         <div class="name">
             <div class="inner">
-                <span></span>
-                <i class="fas fa-chevron-right arrow"></i>
-                <span>더 알아보기</span>
+                <span class="box">
+                    <span class="stick"></span>
+                    <i class="fas fa-chevron-right arrow"></i>
+                    더 알아보기
+                </span>
                 <span>행복한 교회의 다양한 부분들을 둘러보세요</span>
-                <span>행복한 교회에 대해서<br>더 알아보길 원한다면</span>
             </div>
+        </div>
+        <div class="sub-title">
+            <span>행복한 교회에 대해서<br>더 알아보길 원한다면</span>
         </div>
         <div class="icon-list">
             <nav class="box flex">
@@ -278,9 +284,11 @@
     <div class="content content-3 con">
         <div class="name">
             <div class="inner">
-                <span></span>
-                <i class="fas fa-chevron-right arrow"></i>
-                <span>행복 뉴스</span>
+                <span class="box">
+                    <span class="stick"></span>
+                    <i class="fas fa-chevron-right arrow"></i>
+                    행복 뉴스
+                </span>
                 <span>행복한 교회의 소식들을 알아봅시다</span>
             </div>
         </div>
@@ -304,7 +312,9 @@
                                     <ul>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha
+                                                반갑습니다. haha haha haha haha haha haha haha haha haha haha haha haha haha
+                                                haha haha haha haha haha haha haha haha haha haha haha haha haha haha
+                                                haha haha haha haha haha
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -313,7 +323,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 
+                                                반갑습니다.
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -322,7 +332,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 
+                                                반갑습니다.
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -331,7 +341,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 
+                                                반갑습니다.
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -340,7 +350,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 
+                                                반갑습니다.
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -429,9 +439,11 @@
     <div class="content content-4 con">
         <div class="name">
             <div class="inner">
-                <span></span>
-                <i class="fas fa-chevron-right arrow"></i>
-                <span>행복 포토</span>
+                <span class="box">
+                <span class="stick"></span>
+                <i class="fas fa-chevron-right arrow"></i>    
+                행복 포토
+            </span>
                 <span>주님 안에서 행복한 우리의 모습들</span>
             </div>
         </div>
