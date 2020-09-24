@@ -494,7 +494,23 @@ screen and (max-height: 1000px) {
 }
 
 .content>.name {
+    position: relative;
     text-align: center;
+}
+.content>.name:hover {
+    display: none;
+}
+
+.content>.name::before {
+    content: "\f061";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid blue;
+    width: 100px;
+    font-size: 60px;
 }
 
 .content>.name>span {
@@ -509,8 +525,11 @@ screen and (max-height: 1000px) {
     font-weight: 700;
 }
 
+
+
 .content>.name>span:nth-child(2) {
     font-size: 16px;
+    position: relative;
 }
 
 .content>.name>span:nth-child(1)::before {
@@ -928,32 +947,32 @@ screen and (max-height: 1000px) {
     margin-top: 70px;
 }
 
-.footer>.address>span {
+.footer>.inner>.address>span {
     display: block;
     color: white;
 }
 
-.footer>.address>span:nth-child(1) {
+.footer>.inner>.address>span:nth-child(1) {
     padding-top: 63px;
 }
 
-.footer>.address>span:nth-child(2) {
+.footer>.inner>.address>span:nth-child(2) {
     padding-top: 14px;
 }
 
-.footer>.address>span:nth-child(3) {
+.footer>.inner>.address>span:nth-child(3) {
     display: inline-block;
     padding-top: 71px;
 }
 
-.footer>.icon {
+.footer>.inner>.icon {
     margin-top: 190px;
     border: 1px solid red;
     margin-right: 0;
     margin-left: auto;
 }
 
-.footer>.icon>a>img:not(:nth-child(3)) {
+.footer>.inner>.icon>a>img:not(:nth-child(3)) {
     margin-right: 20px;
 }
 

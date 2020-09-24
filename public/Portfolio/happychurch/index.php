@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="/portfolio/happychurch/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -449,18 +450,20 @@
         </div>
     </div>
 
-    <div class="footer flex">
-        <div class="address">
-            <span>충청북도 옥천군 군북면 증약길 191-5 (우) 29001</span>
-            <span>TEL. 043-123-1234</span>
-            <span>© COPYRIGHTS 1998 행복한교회 ALL RIGHTS RESERVED.</span>
-        </div>
-        <div class="icon">
-            <a href="">
-                <img src="https://ssw0428.github.io/img1/pf/happy/youtube-icon-w.png" alt="">
-                <img src="https://ssw0428.github.io/img1/pf/happy/insta-icon-w.png" alt="">
-                <img src="https://ssw0428.github.io/img1/pf/happy/facebook-icon-w.png" alt="">
-            </a>
+    <div class="footer">
+        <div class="inner con flex">
+            <div class="address">
+                <span>충청북도 옥천군 군북면 증약길 191-5 (우) 29001</span>
+                <span>TEL. 043-123-1234</span>
+                <span>© COPYRIGHTS 1998 행복한교회 ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="icon">
+                <a href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/youtube-icon-w.png" alt="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/insta-icon-w.png" alt="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/facebook-icon-w.png" alt="">
+                </a>
+            </div>
         </div>
     </div>
 </body>
