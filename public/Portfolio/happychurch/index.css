@@ -489,50 +489,17 @@ screen and (max-height: 1000px) {
 /*슬라이드 끝*/
 
 /*컨텐츠-1 시작*/
+
 .content-1 {
     margin-top: 70px;
 }
 
 .content>.name {
     position: relative;
-    text-align: center;
-}
-.content>.name:hover {
-    display: none;
+    text-align: center; 
 }
 
 .content>.name::before {
-    content: "\f061";
-    font-family: FontAwesome;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    border: 1px solid blue;
-    width: 100px;
-    font-size: 60px;
-}
-
-.content>.name>span {
-    display: block;
-}
-
-.content>.name>span:nth-child(1) {
-    position: relative;
-    font-size: 46px;
-    margin-bottom: 13px;
-    color: #f26649;
-    font-weight: 700;
-}
-
-
-
-.content>.name>span:nth-child(2) {
-    font-size: 16px;
-    position: relative;
-}
-
-.content>.name>span:nth-child(1)::before {
     content: "";
     border: 1px solid #51c06f;
     position: absolute;
@@ -541,13 +508,89 @@ screen and (max-height: 1000px) {
     left: 0;
 }
 
-.content>.name>span:nth-child(1)::after {
+.content>.name::after {
     content: "";
     border: 1px solid #51c06f;
     position: absolute;
     width: 500px;
     top: 70%;
     right: 0;
+}
+
+.content>.name>.inner>span {
+    display: block;
+}
+
+.content>.name>.inner>span:nth-child(1) {
+    position: absolute;
+    top: 1px;
+    left: 42%;
+    width: 6px;
+    height: 50px;
+    background-color: #f26649;
+    transition: all ease 1s;
+}
+.content>.name>.inner:hover>span:nth-child(1) {
+    top: -13px;
+    left: 40%;
+    transform: rotate(90deg);
+    transform-origin: 0% 70%;
+    background-color: white;
+}
+.content>.name>.inner>.arrow {
+    font-size: 40px;
+    color: #f26649;
+    position: absolute;
+    top: 5px;
+    left: 38%;
+    opacity: 0;
+    transition: opacity 1s, left 1s, color 1s;
+}
+.content>.name>.inner:hover>.arrow {
+    opacity: 1;
+    left: 41%;
+    color: white;
+}
+
+.content>.name>.inner>span:nth-child(3) {
+    display: inline-block;
+    position: relative;
+    font-size: 46px;
+    margin-bottom: 13px;
+    color: #f26649;
+    font-weight: 700;
+    position:relative;
+    transition:color .3s;
+    overflow:hidden;
+    padding-left: 40px;
+    padding-right: 10px;
+    transition: padding 1s, color 1s;
+}
+.content>.name>.inner:hover>span:hover {
+    padding-left: 60px;
+    color: white;
+}
+
+.content>.name>.inner>span:nth-child(3)::before {
+    content:"";
+    position:absolute;
+    left:-500px;
+    top:0;
+    width:100%;
+    bottom:0;
+    background-color:#f26649;
+    transition:left 1s;
+    z-index: -1;
+}
+.content>.name>.inner:hover>span:nth-child(3)::before {
+    left:0;
+}
+
+
+
+.content>.name>.inner>span:nth-child(4) {
+    font-size: 16px;
+    position: relative;
 }
 
 /* 커스텀 */
@@ -784,7 +827,20 @@ screen and (max-height: 1000px) {
     margin-top: 120px;
     width: 100%;
     border: 1px solid blue;
+    flex-wrap: wrap;
 }
+
+.content-3>.news-list > * {
+    width:calc(50% - 20px);
+}
+
+@media ( max-width:1000px ) {
+    .content-3>.news-list > * {
+        width:calc(100%);
+        margin:0;
+    }
+}
+
 .content-3>.news-list .box-list-1 {
     border: 1px solid red;
 }
@@ -855,7 +911,6 @@ screen and (max-height: 1000px) {
 }
 
 .content-3>.news-list .tab-type-1>.body>ul>li>.content {
-    display: block;
     font-size: 22px;
     line-height: 30px;
     color: #535353;
@@ -863,10 +918,12 @@ screen and (max-height: 1000px) {
     padding-left: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
+    flex-grow: 1;
+    white-space: nowrap;
+    flex-shrink: 2;
 }
 
 .content-3>.news-list .tab-type-1>.body>ul>li>.list {
-    display: block;
     margin-right: 0;
     margin-left: auto;
     line-height: 30px;
@@ -874,6 +931,7 @@ screen and (max-height: 1000px) {
     color: #535353;
     font-size: 14px;
     letter-spacing: -1px;
+    white-space: nowrap;
 }
 
 .content-3>.news-list .tab-type-1>.body>ul>li>.list>span:nth-child(1) {

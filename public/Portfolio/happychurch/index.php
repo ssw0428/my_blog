@@ -119,7 +119,7 @@
                 <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
             </div>
             <div class="item">
-                <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+                <img src="https://ssw0428.github.io/img1/pf/happy/메인 슬라이드 마스크 착용 안내.png" alt="">
             </div>
             <div class="item">
                 <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
@@ -129,8 +129,12 @@
     <!--컨텐츠-->
     <div class="content content-1 con">
         <div class="name">
-            <span>말씀과 찬양</span>
-            <span>말씀으로 무장하고, 입술로 찬양하길 원합니다</span>
+            <div class="inner">
+                <span></span>
+                <i class="fas fa-chevron-right arrow"></i>
+                <span>말씀과 찬양</span>
+                <span>말씀으로 무장하고, 입술로 찬양하길 원합니다</span>
+            </div>
         </div>
         <div class="box-list-1">
             <div class="flex flex-row-wrap">
@@ -159,18 +163,18 @@
                             <ul>
                                 <li class="active" data-tab-name-1="box-1" data-tab-body-item-name-1="1">
                                     <a href="">
-                                        <img src="https://ssw0428.github.io/img1/pf/happy/썸네일.jpg" alt="">
+                                        <img src="https://ssw0428.github.io/img1/pf/happy/주일예배 썸네일.png" alt="">
                                     </a>
                                     <a href="">
-                                        <img src="https://ssw0428.github.io/img1/pf/happy/썸네일.jpg" alt="">
+                                        <img src="https://ssw0428.github.io/img1/pf/happy/주일예배 썸네일.png" alt="">
                                     </a>
                                 </li>
                                 <li data-tab-name-1="box-1" data-tab-body-item-name-1="2">
                                     <a href="">
-                                        <img src="https://ssw0428.github.io/img1/pf/happy/썸네일2.jpg" alt="">
+                                        <img src="https://ssw0428.github.io/img1/pf/happy/썸네일3.png" alt="">
                                     </a>
                                     <a href="">
-                                        <img src="https://ssw0428.github.io/img1/pf/happy/썸네일3.jpg" alt="">
+                                        <img src="https://ssw0428.github.io/img1/pf/happy/썸네일3.png" alt="">
                                     </a>
                                 </li>
                                 <li data-tab-name-1="box-1" data-tab-body-item-name-1="3">
@@ -190,9 +194,13 @@
     </div>
     <div class="content content-2 con">
         <div class="name">
-            <span>더 알아보기</span>
-            <span>행복한 교회의 다양한 부분들을 둘러보세요</span>
-            <span>행복한 교회에 대해서<br>더 알아보길 원한다면</span>
+            <div class="inner">
+                <span></span>
+                <i class="fas fa-chevron-right arrow"></i>
+                <span>더 알아보기</span>
+                <span>행복한 교회의 다양한 부분들을 둘러보세요</span>
+                <span>행복한 교회에 대해서<br>더 알아보길 원한다면</span>
+            </div>
         </div>
         <div class="icon-list">
             <nav class="box flex">
@@ -269,13 +277,17 @@
     </div>
     <div class="content content-3 con">
         <div class="name">
-            <span>행복 뉴스</span>
-            <span>행복한 교회의 소식들을 알아봅시다</span>
+            <div class="inner">
+                <span></span>
+                <i class="fas fa-chevron-right arrow"></i>
+                <span>행복 뉴스</span>
+                <span>행복한 교회의 소식들을 알아봅시다</span>
+            </div>
         </div>
         <div class="news-list flex">
             <div class="news-list-1">
                 <div class="box-list-1">
-                    <div class="flex flex-row-wrap">
+                    <div class="">
                         <div class="box">
                             <div class="content tab-type-1">
                                 <div class="head">
@@ -292,7 +304,7 @@
                                     <ul>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
+                                                반갑습니다. haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha haha
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -301,7 +313,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
+                                                반갑습니다. 
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -310,7 +322,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
+                                                반갑습니다. 
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -319,7 +331,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
+                                                반갑습니다. 
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -328,7 +340,7 @@
                                         </li>
                                         <li class="active flex" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                             <a class="content" href="">
-                                                반갑습니다. 내용을 채워넣겠습니다. 많이많이 이용해주세요 hahahahaha
+                                                반갑습니다. 
                                             </a>
                                             <a class="list" href="">
                                                 <span>서상원</span>
@@ -345,7 +357,7 @@
             </div>
             <div class="news-list-2">
                 <div class="box-list-1">
-                    <div class="flex flex-row-wrap">
+                    <div class="">
                         <div class="box">
                             <div class="content tab-type-1">
                                 <div class="head">
@@ -416,8 +428,12 @@
     </div>
     <div class="content content-4 con">
         <div class="name">
-            <span>행복 포토</span>
-            <span>주님 안에서 행복한 우리의 모습들</span>
+            <div class="inner">
+                <span></span>
+                <i class="fas fa-chevron-right arrow"></i>
+                <span>행복 포토</span>
+                <span>주님 안에서 행복한 우리의 모습들</span>
+            </div>
         </div>
     </div>
     <div class="my-1">
