@@ -521,11 +521,10 @@ screen and (max-height: 1000px) {
 .content>.name>.inner>span {
     display: block;
 }
-
 .content>.name>.inner>.box>.stick {
     position: absolute;
     top: 13px;
-    left: 42%;
+    left: 8%;
     width: 5px;
     height: 44px;
     background-color: #f26649;
@@ -533,7 +532,7 @@ screen and (max-height: 1000px) {
 }
 .content>.name>.inner>.box:hover>.stick {
     top: 1px;
-    left: 40%;
+    left: 5%;
     transform: rotate(90deg);
     transform-origin: 0% 70%;
     background-color: white;
@@ -543,13 +542,13 @@ screen and (max-height: 1000px) {
     color: #f26649;
     position: absolute;
     top: 20px;
-    left: 38%;
+    left: 9%;
     opacity: 0;
     transition: opacity 0.3s, left .5s, color 1s;
 }
 .content>.name>.inner>.box:hover>.arrow {
     opacity: 1;
-    left: 570px;
+    left: 12%;
     color: white;
 }
 
