@@ -58,6 +58,13 @@
                 <div></div>
             </a>
         </div>
+        <div class="mobile-box">
+            <a href="#" onclick="return false;" class="sub-menu-bar flex height-100p btn-mobile-box-bar">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
         <!--
         <div class="icon-list flex height-100p">
             <a class="flex flex-ai-c height-100p" href="https://www.youtube.com/channel/UC-Mh1lEenRP99RaHgtawOWw?view_as=subscriber">
@@ -69,7 +76,7 @@
         </div>
         -->
     </div>
-    <!--notice bar-->
+    <!--sub-menu-bar-->
     <div class="notice-bar-bg">
     </div>
     <div class="sub-menu-side-bar con">
@@ -112,17 +119,130 @@
             </ul>
         </nav>
     </div>
+    <!--mobile-sub-menu-bar-->
+    <div class="mobile-sub-menu-bar-bg">        
+    </div>
+    <div class="mobile-sub-menu-bar">
+        <nav class="mobile-sub-menu-box">
+            <ul>
+                <li>
+                    <a href="">교회 소개</a>
+                    <ul>
+                        <li>
+                            <a href="">행복한 교회는?</a>
+                        </li>
+                        <li>
+                            <a href="">담임목사 소개</a>
+                        </li>
+                        <li>
+                            <a href="">교회 비전</a>
+                        </li>
+                        <li>
+                            <a href="">예배 안내</a>
+                        </li>
+                        <li>
+                            <a href="">오시는 길</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">묵상</a>
+                    <ul>
+                        <li>
+                            <a href="">매일 묵상</a>
+                        </li>
+                        <li>
+                            <a href="">포토 에세이</a>
+                        </li>
+                        <li>
+                            <a href="">말씀 읽기</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">미디어</a>
+                    <ul>
+                        <li>
+                            <a href="">설교 듣기</a>
+                        </li>
+                        <li>
+                            <a href="">3분 메세지</a>
+                        </li>
+                        <li>
+                            <a href="">찬양 듣기</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">부서활동</a>
+                    <ul>
+                        <li>
+                            <a href="">영아부</a>
+                        </li>
+                        <li>
+                            <a href="">주일학교</a>
+                        </li>
+                        <li>
+                            <a href="">학생부</a>
+                        </li>
+                        <li>
+                            <a href="">청년부</a>
+                        </li>
+                        <li>
+                            <a href="">3040</a>
+                        </li>
+                        <li>
+                            <a href="">5060</a>
+                        </li>
+                        <li>
+                            <a href="">7000</a>
+                        </li>
+                        <li>
+                            <a href="">성가대</a>
+                        </li>
+                        <li>
+                            <a href="">선교부</a>
+                        </li>
+                        <li>
+                            <a href="">매일 묵상</a>
+                        </li>
+                        <li>
+                            <a href="">동호회</a>
+                        </li>
+                        <li>
+                            <a href="">청소년 신앙 공동체</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">소식</a>
+                    <ul>
+                        <li>
+                            <a href="">행복 소식</a>
+                        </li>
+                        <li>
+                            <a href="">나눔 소식</a>
+                        </li>
+                        <li>
+                            <a href="">행복 포토</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <!--메인 슬라이드-->
     <div class="slide-bar con">
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+                <div class="bg-img" style="background-image:url('https://ssw0428.github.io/img1/pf/happy/표어.jpg')"></div>
             </div>
             <div class="item">
-                <img src="https://ssw0428.github.io/img1/pf/happy/메인 슬라이드 마스크 착용 안내.png" alt="">
+                <div class="bg-img" style="background-image:url('https://ssw0428.github.io/img1/pf/happy/메인 슬라이드 마스크 착용 안내.png')"></div>
             </div>
             <div class="item">
-                <img src="https://ssw0428.github.io/img1/pf/happy/표어.jpg" alt="">
+                <div class="bg-img" style="background-image:url('https://ssw0428.github.io/img1/pf/happy/happychurch_3.jpg')"></div>
+                <div class="txt">안녕하세요</div>
             </div>
         </div>
     </div>
@@ -440,10 +560,10 @@
         <div class="name">
             <div class="inner">
                 <span class="box">
-                <span class="stick"></span>
-                <i class="fas fa-chevron-right arrow"></i>    
-                행복 포토
-            </span>
+                    <span class="stick"></span>
+                    <i class="fas fa-chevron-right arrow"></i>
+                    행복 포토
+                </span>
                 <span>주님 안에서 행복한 우리의 모습들</span>
             </div>
         </div>
@@ -451,29 +571,32 @@
     <div class="my-1">
         <div class="owl-carousel owl-theme">
             <!-- 필수 : .owl-carousel와 .owl-theme -->
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);"></div>
             </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);">
-            </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-1.jpg);">
-            </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-2.jpg);">
-            </div>
-            <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);">
+            <div class="item-box">
+                <div class="item" style="background-image:url(https://ssw0428.github.io/img1/pf/happy/img-3.jpg);"></div>
             </div>
         </div>
     </div>

@@ -17,9 +17,6 @@ $(function () {
     });
 });
 
-
-
-
 //notice-bar 
 function NoticeBar__toggle() {
     var $btn = $('.btn-toggle-notice-bar');
@@ -43,6 +40,31 @@ function NoticeBar__init() {
 
 $(function () {
     NoticeBar__init();
+})
+
+//btn-mobile-box-bar
+function BtnMobileBoxBar__toggle() {
+    var $btn = $('.btn-mobile-box-bar');
+    var $SubMenuSideBar = $('.mobile-sub-menu-bar');
+    var $NoticeBarBg = $('.mobile-sub-menu-bar-bg');
+
+    if ($btn.hasClass('active')) {
+        $btn.removeClass('active');
+        $SubMenuSideBar.removeClass('active');
+        $NoticeBarBg.removeClass('active');
+    } else {
+        $btn.addClass('active');
+        $SubMenuSideBar.addClass('active');
+        $NoticeBarBg.addClass('active');
+    }
+}
+
+function BtnMobileBoxBar__init() {
+    $('.btn-mobile-box-bar, .mobile-sub-menu-bar-bg').click(BtnMobileBoxBar__toggle);
+}
+
+$(function () {
+    BtnMobileBoxBar__init();
 })
 
 //탭 바 
