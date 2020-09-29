@@ -61,6 +61,16 @@ function BtnMobileBoxBar__toggle() {
 
 function BtnMobileBoxBar__init() {
     $('.btn-mobile-box-bar, .mobile-sub-menu-bar-bg').click(BtnMobileBoxBar__toggle);
+
+    $('.mobile-sub-menu-bar>.mobile-sub-menu-box>ul>li').click(function() {
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+        }
+        else {
+            $(this).addClass('active');
+        }
+    });
+    
 }
 
 $(function () {

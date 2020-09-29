@@ -7,6 +7,7 @@
     <title>행복한 교회</title>
 
     <link rel="stylesheet" href="/portfolio/happychurch/index.css">
+    <link rel="stylesheet" href="/portfolio/happychurch/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- 제이쿼리 불러오기 -->
@@ -126,7 +127,7 @@
         <nav class="mobile-sub-menu-box">
             <ul>
                 <li>
-                    <a href="">교회 소개</a>
+                    <a>교회 소개</a>
                     <ul>
                         <li>
                             <a href="">행복한 교회는?</a>
@@ -146,7 +147,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">묵상</a>
+                    <a>묵상</a>
                     <ul>
                         <li>
                             <a href="">매일 묵상</a>
@@ -160,7 +161,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">미디어</a>
+                    <a>미디어</a>
                     <ul>
                         <li>
                             <a href="">설교 듣기</a>
@@ -174,7 +175,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">부서활동</a>
+                    <a>부서활동</a>
                     <ul>
                         <li>
                             <a href="">영아부</a>
@@ -215,7 +216,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">소식</a>
+                    <a>소식</a>
                     <ul>
                         <li>
                             <a href="">행복 소식</a>
@@ -256,6 +257,10 @@
                     말씀과 찬양
                 </span>
                 <span>말씀으로 무장하고, 입술로 찬양하길 원합니다</span>
+                <div class="border border-1"></div>
+                <div class="border border-2"></div>
+                <div class="border border-3"></div>
+                <div class="border border-4"></div>
             </div>
         </div>
         <div class="box-list-1">
@@ -287,6 +292,9 @@
                                     <a href="">
                                         <img src="https://ssw0428.github.io/img1/pf/happy/주일예배 썸네일.png" alt="">
                                     </a>
+                                    </a>
+                                </li>
+                                <li class="active" data-tab-name-1="box-1" data-tab-body-item-name-1="1">
                                     <a href="">
                                         <img src="https://ssw0428.github.io/img1/pf/happy/주일예배 썸네일.png" alt="">
                                     </a>
@@ -295,6 +303,8 @@
                                     <a href="">
                                         <img src="https://ssw0428.github.io/img1/pf/happy/썸네일3.png" alt="">
                                     </a>
+                                </li>
+                                <li data-tab-name-1="box-1" data-tab-body-item-name-1="2">
                                     <a href="">
                                         <img src="https://ssw0428.github.io/img1/pf/happy/썸네일3.png" alt="">
                                     </a>
@@ -303,6 +313,8 @@
                                     <a href="">
                                         <img src="https://ssw0428.github.io/img1/pf/happy/썸네일.jpg" alt="">
                                     </a>
+                                </li>
+                                <li data-tab-name-1="box-1" data-tab-body-item-name-1="3">
                                     <a href="">
                                         <img src="https://ssw0428.github.io/img1/pf/happy/썸네일.jpg" alt="">
                                     </a>
@@ -363,8 +375,6 @@
                             <span class="name">예배 시청</span>
                         </a>
                     </li>
-                </ul>
-                <ul class="flex">
                     <li>
                         <a href="#">
                             <span class="radius">

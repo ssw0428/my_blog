@@ -1,0 +1,281 @@
+@media (max-width:1100px) {
+    .content-1 .tab-type-1>.body>ul {
+        flex-wrap: wrap;
+    }
+    
+    .content-1 .tab-type-1>.body>ul>li {
+        display: none;
+        width: calc(100%);
+        box-sizing: border-box;
+        margin: 70px;
+    }
+
+    .content-2>.icon-list>.box>ul {
+        flex-wrap: wrap;
+    }
+    .content-2>.icon-list>.box>ul>li {
+        width: calc(25% - 20px);
+    }
+
+    .content-3>.news-list>* {
+        width: calc(100%);
+        margin: 0;
+    }
+}
+.content-2>.icon-list>.box>ul>li>a {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (max-width: 1100px) and (min-width: 300px) {
+    .menu-box>.menu-list {
+        display: none;
+    }
+    .menu-box {
+        border-bottom: 1px solid rgb(201, 201, 201);
+    }
+    .menu-box>.box {
+        display: none;
+    }
+    .menu-box>.mobile-box {
+        display: block;
+    }
+    .menu-box>.mobile-box {
+        margin-right: 0;
+        margin-left: auto;
+    }
+    
+    .sub-menu-bar {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 35px;
+        margin-right: 0;
+        margin-left: auto;
+        border: 1px solid red;
+    }
+    
+    .sub-menu-bar>div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        background-color: black;
+        transition: top .3s .3s, transform .3s, opacity .2s .3s;
+    }
+    
+    .sub-menu-bar>div:nth-child(2) {
+        top: 40%;
+    }
+    
+    .sub-menu-bar>div:nth-child(3) {
+        top: 80%;
+    }
+    
+    .sub-menu-bar.active>div {
+        top: 40%;
+        transition: top .3s, transform .3s, opacity .2s 0s;
+    }
+    
+    .sub-menu-bar.active>div:nth-child(1) {
+        transform: rotate(45deg);
+    }
+    
+    .sub-menu-bar.active>div:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+    
+    .sub-menu-bar.active>div:nth-child(2) {
+        opacity: 0;
+    }
+    
+    /*메뉴바 끝*/
+
+    /*sub-menu-side-bar 시작*/
+
+    .mobile-sub-menu-bar {
+        display: block;
+        position: absolute;
+        top: -1000px;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        transition: top .6s;
+        widtH: 100%;
+        z-index: 9;
+        border: 1px solid red;
+    }
+
+    .mobile-sub-menu-bar.active {
+        top: 100px;
+    }
+
+    .mobile-sub-menu-bar>.mobile-sub-menu-box {
+        margin-top: 30px;
+    }
+
+    .mobile-sub-menu-bar>.mobile-sub-menu-box>ul>li>a {
+        display: block;
+        text-align: center;
+        color: #178638;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 20px 0;
+        border: 1px solid blue;
+    }
+    .mobile-sub-menu-bar>.mobile-sub-menu-box>ul ul {
+        display: none;
+    }
+    .mobile-sub-menu-bar>.mobile-sub-menu-box>ul>li.active>ul {
+        display: block;
+    }
+    .mobile-sub-menu-bar>.mobile-sub-menu-box>ul>li>ul>li {
+        margin: 20px 0;
+    }
+    .mobile-sub-menu-bar>.mobile-sub-menu-box>ul>li>ul>li>a {
+        display: block;
+        text-align: center;
+        color: #646464;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .sub-menu-side-bar>.sub-menu-box>ul>li>a::after {
+        content: "";
+        display: block;
+        border-bottom: solid 3px #178638;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+
+    .sub-menu-side-bar>.sub-menu-box>ul>li:hover>a::after {
+        transform: scaleX(1);
+    }
+
+    .sub-menu-side-bar>.sub-menu-box>ul>li:hover>a {
+        color: #178638;
+    }
+
+    .sub-menu-side-bar>.sub-menu-box>ul>li>a {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .sub-menu-side-bar>.sub-menu-box>ul>li:hover>a {
+        font-weight: 800;
+        color: #178638;
+    }
+
+    .content-1>.name>.inner {
+        position: relative;
+    } 
+
+    .content>.name::before {
+        display: none;
+    }
+    
+    .content>.name::after {
+        display: none;
+    }
+
+    .content-1>.name>.inner > .border {
+        position: absolute;
+        background-color: #178638;
+    }
+
+    .content-1>.name>.inner > .border-1 {
+        top: -20px;
+        left: -30px;
+        width: 50px;
+        height: 2px;
+    }
+    .content-1>.name>.inner > .border-2 {
+        top: -20px;
+        left: -30px;
+        width: 2px;
+        height: 50px;
+    }
+    .content-1>.name>.inner > .border-3 {
+        bottom: -25px;
+        right: -40px;
+        width: 50px;
+        height: 2px;
+    }
+    .content-1>.name>.inner > .border-4 {
+        bottom: -25px;
+        right: -40px;
+        width: 2px;
+        height: 50px;
+    }
+
+    .content-1 .box-list-1>div {
+        margin-top: 70px;
+        height: 480px;
+    }
+
+    .content-2 {
+        margin-top: 900px;
+    }
+    .content-2>.icon-list>.box>ul>li>a {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .content-2>.icon-list>.box>ul>li>a>.radius>img {
+        width: 100%;
+    }
+    
+    .content-2>.icon-list>.box>ul>li>a>.radius {
+        position: relative;
+        display: block;
+    }
+    
+    .content-2>.icon-list>.box>ul>li>a>.radius::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: #f8f8f8;
+        border-radius: 100%;
+        width: 130%;
+        height: 130%;
+        z-index: -1;
+    }
+
+    .content-3>.news-list {
+        margin-top: 30px;
+    }
+    .content-3>.news-list .box-list-1>div>.box {
+        margin: 50px;
+    
+    }
+    
+    
+    /*
+.notice-bar-bg {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    visibility: hidden;
+    transition: background-color .7s;
+
+}
+
+.notice-bar-bg.active {
+    visibility: visible;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+*/
+
+    /*notice bar 끝*/
+
+}
