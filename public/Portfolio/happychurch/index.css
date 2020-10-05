@@ -387,8 +387,6 @@ screen and (max-height: 1000px) {
     z-index: 10;
 }
 
-.menu-box>.logo-box>.logo {}
-
 .menu-box>.menu-list>ul>li>a {
     font-size: 20px;
     font-weight: 900;
@@ -435,7 +433,6 @@ screen and (max-height: 1000px) {
     top: 35px;
     margin-right: 0;
     margin-left: auto;
-    border: 1px solid red;
 }
 
 .sub-menu-bar>div {
@@ -935,7 +932,6 @@ screen and (max-height: 1000px) {
     height: 320px;
     box-sizing: border-box;
     margin-top: 20px;
-
 }
 
 .content-3>.news-list .box-list-1>div>.box>.content {
@@ -1057,7 +1053,7 @@ screen and (max-height: 1000px) {
 
 .my-1 {
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .my-1>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item.center {
@@ -1076,7 +1072,7 @@ screen and (max-height: 1000px) {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: s13px 0;
+    margin: 50px 0;
 }
 
 .my-1>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item-box>.item::after {
@@ -1124,7 +1120,6 @@ screen and (max-height: 1000px) {
 
 .footer>.inner>.icon {
     margin-top: 190px;
-    border: 1px solid red;
     margin-right: 0;
     margin-left: auto;
 }

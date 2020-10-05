@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>행복한 교회</title>
 
-    <link rel="stylesheet" href="/portfolio/happychurch/index.css">
-    <link rel="stylesheet" href="/portfolio/happychurch/media.css">
+    <link rel="stylesheet" href="/Portfolio/happychurch/index.css">
+    <link rel="stylesheet" href="/Portfolio/happychurch/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- 제이쿼리 불러오기 -->
@@ -23,7 +23,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
-    <script src="/portfolio/happychurch/index.js"></script>
+    <script src="/Portfolio/happychurch/index.js"></script>
 
 </head>
 
@@ -335,6 +335,10 @@
                     더 알아보기
                 </span>
                 <span>행복한 교회의 다양한 부분들을 둘러보세요</span>
+                <div class="border border-1"></div>
+                <div class="border border-2"></div>
+                <div class="border border-3"></div>
+                <div class="border border-4"></div>
             </div>
         </div>
         <div class="sub-title">
@@ -420,6 +424,10 @@
                     행복 뉴스
                 </span>
                 <span>행복한 교회의 소식들을 알아봅시다</span>
+                <div class="border border-1"></div>
+                <div class="border border-2"></div>
+                <div class="border border-3"></div>
+                <div class="border border-4"></div>
             </div>
         </div>
         <div class="news-list flex">
@@ -575,6 +583,10 @@
                     행복 포토
                 </span>
                 <span>주님 안에서 행복한 우리의 모습들</span>
+                <div class="border border-1"></div>
+                <div class="border border-2"></div>
+                <div class="border border-3"></div>
+                <div class="border border-4"></div>
             </div>
         </div>
     </div>
