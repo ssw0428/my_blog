@@ -37,7 +37,7 @@ $(function () {
 
 //content-2-2 알림
 $(function () {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.content-2-2 .swiper-container', {
         pagination: {
           el: '.swiper-pagination',
         },
@@ -49,3 +49,40 @@ $(function () {
           loop: true
       });
 });
+
+//content-5 사진
+$(function () {
+    var swiper = new Swiper(".content-5 .swiper-container", {
+        slidesPerView: 4,
+        spaceBetween: 50,
+              autoplay: {
+            delay: 9000,
+            disableOnInteraction: false,
+          },
+        speed : 2000,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.slide-arrows .swiper-button-next',
+            prevEl: '.slide-arrows .swiper-button-prev'
+        },
+        loop: true,
+        on: {
+            init: function(){
+                console.log('작동중입니다');
+                $('.swiper-box .swiper-slide-next').next().addClass('down-ani');
+            }
+        }
+    });
+    
+    swiper.on('slideChange',function(){
+        console.log('슬라이드가 바뀌었습니다');
+        $('.swiper-box .swiper-slide').removeClass('down-ani');
+        setTimeout(function(){
+            $('.swiper-box .swiper-slide-next').next().addClass('down-ani');
+        }, 100)
+    })
+    
+})

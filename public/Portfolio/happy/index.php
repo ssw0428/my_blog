@@ -287,10 +287,10 @@
                         <img src="https://ssw0428.github.io/img1/pf/happy/poster-1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                    <img src="https://ssw0428.github.io/img1/pf/happy/poster-2.jpg" alt="">
+                        <img src="https://ssw0428.github.io/img1/pf/happy/poster-2.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                    <img src="https://ssw0428.github.io/img1/pf/happy/poster-3.jpg" alt="">
+                        <img src="https://ssw0428.github.io/img1/pf/happy/poster-3.jpg" alt="">
                     </div>
                     <div class="swiper-slide">Slide 4</div>
                     <div class="swiper-slide">Slide 5</div>
@@ -302,9 +302,214 @@
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </div>
     </section>
+    <!--컨텐츠-3 3분메세지-->
+    <nav class="content content-3 con">
+        <div class="title">
+            <span>3분</span>
+            <span>메세지</span>
+            <a href="">+</a>
+        </div>
+        <ul class="flex">
+            <li>
+                <a href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/3분 메세지 썸네일.png" alt="">
+                    <div class="box">
+                        <span class="word">마태복음1장 1절</span>
+                        <span class="title">동행과 자아</span>
+                        <span class="date">2020-10-21</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/3분 메세지 썸네일.png" alt="">
+                    <div class="box">
+                        <span class="word">마태복음1장 1절</span>
+                        <span class="title">동행과 자아</span>
+                        <span class="date">2020-10-21</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/3분 메세지 썸네일.png" alt="">
+                    <div class="box">
+                        <span class="word">마태복음1장 1절</span>
+                        <span class="title">동행과 자아</span>
+                        <span class="date">2020-10-21</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--컨텐츠-4 말씀과 찬양-->
+    <nav class="content content-4 con">
+        <div class="title">
+            <span>말씀과 찬양</span>
+            <a href="">+</a>
+        </div>
+        <ul class="list-1 flex">
+            <li>
+                <a class="box" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/예배 썸네일.jpg" alt="">
+                    <div class="list">
+                        <span class="mini-title-1">설교</span>
+                        <span class="mini-title-2">동행하는 삶</span>
+                        <span class="title">고린도전서1장 1절</span>
+                        <span class="date">2020.10.01</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="box" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/예배 썸네일.jpg" alt="">
+                    <div class="list">
+                        <span class="mini-title-1">설교</span>
+                        <span class="mini-title-2">동행하는 삶</span>
+                        <span class="title">동행과 자아</span>
+                        <span class="date">2020.10.01</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-2 flex">
+            <li>
+                <a class="box" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/찬양 썸네일-1.jpg" alt="">
+                    <div class="list">
+                        <span class="mini-title-1">찬양</span>
+                        <span class="title">20.09.22 수요예배 실황</span>
+                        <span class="date">2020.10.01</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="box" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/찬양 썸네일-2.jpg" alt="">
+                    <div class="list">
+                        <span class="mini-title-1">찬양</span>
+                        <span class="title">20.09.25 금요예배 실황</span>
+                        <span class="date">2020.10.01</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="box" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/찬양 썸네일-3.jpg" alt="">
+                    <div class="list">
+                        <span class="mini-title-1">찬양</span>
+                        <span class="title">나는 예배합니다</span>
+                        <span class="date">2020.10.01</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="box" href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/찬양 썸네일-4.jpg" alt="">
+                    <div class="list">
+                        <span class="mini-title-1">찬양</span>
+                        <span class="title">하나님의 은혜</span>
+                        <span class="date">2020.10.01</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--컨텐츠-5 사진-->
+    <div class="content-5 con">
+        <!-- Swiper -->
+        <div class="swiper-box con">
+            <div class="gallery-box">
+                <div class="box">
+                    <div class="text-box">
+                        <p class="text-1">
+                            <span>PHOTO</span>
+                            <i class="line1"></i>
+                        </p>
+                        <p class="text-2">
+                            <span>GALLERY</span>
+                        </p>
+                    </div>
+                    <h3>포토갤러리</h3>
+                    <p class="text-3">한국공예관의 다양한 모습을 사진을 만나보세요.</p>
+                    <div class="slide-arrows">
+                        <div class="swiper-button swiper-button-prev"></div>
+                        <div class="swiper-button swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-8.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-7.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-6.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-5.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-4.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-3.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-2.jpg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box"
+                                style="background-image:url('https://ssw0428.github.io/img1/pf/happy/ex-1.jpg')">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="inner con flex">
+            <div class="address">
+                <span>충청북도 옥천군 군북면 증약길 191-5 (우) 29001</span>
+                <span>TEL. 043-123-1234</span>
+                <span>© COPYRIGHTS 1998 행복한교회 ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="icon">
+                <a href="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/youtube-icon-w.png" alt="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/insta-icon-w.png" alt="">
+                    <img src="https://ssw0428.github.io/img1/pf/happy/facebook-icon-w.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

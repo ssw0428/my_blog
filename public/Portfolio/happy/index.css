@@ -11,7 +11,6 @@ html {
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
-    height: 10000px;
 }
 
 
@@ -590,12 +589,11 @@ screen and (max-height: 1000px) {
 
 /*컨텐츠-2 더 알아보기 시작*/
 .content-2 {
-    margin-top: 500px;
+    margin-top: 550px;
 }
 
 .content-2>.content-2-1 {
     width: 50%;
-    border: 1px solid red;
 }
 
 .content-2>.content-2-1>.title {
@@ -612,6 +610,9 @@ screen and (max-height: 1000px) {
 
 .content-2>.content-2-1>.title>span:nth-child(2) {
     font-weight: 600;
+}
+.content-2>.content-2-1>ul {
+    margin-top: 50px;
 }
 .content-2>.content-2-1>ul>li>a {
     display: block;
@@ -631,13 +632,12 @@ screen and (max-height: 1000px) {
 
 /*컨텐츠-2 알림 시작*/
 .content-2>.content-2-2 {
+    position: relative;
     width: 50%;
-    border: 1px solid red;
 }
-.content-2>.content-2-2>.title {
-    border-bottom: 1px solid rgb(204, 204, 204);
-}
+
 .content-2>.content-2-2>.title>span {
+    margin-left: 25px;
     font-size: 47px;
 }
 
@@ -649,22 +649,297 @@ screen and (max-height: 1000px) {
     font-weight: 600;
 }
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  border: 2px solid blue;
   width: 100%;
 }
-.swiper-wrapper .swiper-pagination {
-    border: 100px solid red;
+.swiper-container .swiper-pagination {
+    position: absolute;
+    top: -10%;
+    z-index: 10;
 }
 
+.swiper-container .swiper-button {
+    position: absolute;
+    top: 0;
+    border: 1px solid red;
+}
 /*컨텐츠-2 알림 끝*/
 
 /*컨텐츠-2 끝*/
+
+/*컨텐츠-3 3분 메세지 시작*/
+.content-3 {
+    margin-top: 100px;
+}
+.content-3>.title {
+    position: relative;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.content-3>.title>span {
+    font-size: 47px;
+}
+
+.content-3>.title>span:nth-child(1) {
+    font-weight: 300;
+}
+
+.content-3>.title>span:nth-child(2) {
+    font-weight: 600;
+}
+
+.content-3>.title>a {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 99%;
+    transform: translateY(-50%);
+}
+.content-3>ul {
+    margin-top: 40px;
+}
+.content-3>ul>li:not(:nth-child(3)) {
+    margin-right: 35px;
+}
+.content-3>ul>li>a {
+    position: relative;
+    display: block;
+}
+.content-3>ul>li>a>.box {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: .7;
+}
+.content-3>ul>li>a>.box>span {
+    display: block;
+    color: white;
+    margin-left: 20px;
+}
+.content-3>ul>li>a>.box>.word {
+    font-size: 13px;
+    margin-top: 15px;
+    color: rgb(190, 190, 190);
+}
+.content-3>ul>li>a>.box>.title {
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(236, 236, 236);
+} 
+
+.content-3>ul>li>a>.box>.date {
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: rgb(190, 190, 190);
+}
+/*컨텐츠-3 3분 메세지 끝*/
+
+/*컨텐츠-4 말씀과 찬양 시작*/
+.content-4 {
+    margin-top: 100px;
+}
+.content-4>.title {
+    position: relative;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.content-4>.title>span {
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.content-4>.title>a {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 99%;
+    transform: translateY(-50%);
+}
+.content-4>.list-1>li{
+    margin-top: 40px;
+    margin-right: 36px;
+}
+.content-4>.list-1>li>.box>img {
+    display: block;
+}
+
+.content-4>ul>li>.box>.list {
+    background-color: rgb(251, 251, 251);
+    border: 1px solid rgb(206, 206, 206);   
+}
+.content-4>ul>li>.box>.list>.mini-title-1 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.content-4>ul>li>.box>.list>.title {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.content-4>ul>li>.box>.list>.date {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: teal;
+
+}
+.content-4>.list-2 {
+    margin-top: 40px;
+}
+.content-4>.list-2>li:not(:nth-child(4)) {
+    margin-right: 53px;
+}
+.content-4>.list-2>li>a>img{
+    display: block;
+}
+.content-4>.list-2>li>a>.list>.title{
+    font-size: 18px;
+}
+/*컨텐츠-4 말씀과 찬양 끝*/
+
+/*컨텐츠-5 사진 시작*/
+.content-5 .swiper-box {
+    margin-top: 100px;
+}
+.content-5 .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.content-5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+}
+
+.content-5 .swiper-box>.gallery-box {
+  position: relative;
+  padding: 0 0 180px 0;
+}
+
+.content-5 .swiper-box>.gallery-box>.box {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 25%;
+  z-index: 100;
+  background: url(https://ssw0428.github.io/img1/pf/happy/bg_gal.gif) no-repeat center;
+  background-size: 400px 600px;
+}
+.content-5 .swiper-box>.gallery-box>.box>.text-box {
+  position: relative;
+  margin: 50px 0;
+  padding-top: 120px;
+}
+.content-5 h3 {
+  font-size: 32px;
+  color: #2a2a2a;
+}
+}
+
+.content-5 .swiper-box>.gallery-box>.box>.text-box>.text-1 {
+  position: relative;
+  color: #2a2a2a;
+  letter-spacing: 0.5em;
+  z-index: 2000;
+}
+.content-5 .swiper-box>.gallery-box>.box>.text-box>.text-1>span {
+  position: relative;
+  font-size: 60px;
+  z-index: 2000;
+}
+.content-5 .swiper-box>.gallery-box>.box>.text-box>.text-1>.line1 {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 269px;
+  height: 48px;
+  background: #2bf8c9;
+}
+
+.content-5 .swiper-box>.gallery-box>.box>.text-box>.text-2 {
+  position: relative;
+  font-family: 'GmarketSansBold';
+  color: #2a2a2a;
+  font-size: 50px;
+  letter-spacing: 0.5em;
+  z-index: 2000;
+}
+.content-5 .swiper-container {
+  height: 600px;
+}
+.content-5 .swiper-slide .img-box {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-5 .swiper-slide .img-box::before {
+  content:"";
+  display: block;
+  padding-bottom: 100%;
+}
+.content-5 .swiper-slide>.img-box>img {
+  display:none;
+}
+.content-5 .swiper-container .swiper-slide {
+  transition: transform 1s;
+}
+.content-5 .down-ani {
+  transform:translateY(100px);
+}
+.content-5 .swiper-box .slide-arrows .swiper-button {
+  outline: none;
+  border: 10px solid red;
+  height: 20%;
+}
+/*컨텐츠-5 사진 시작*/
+
+/*footer 시작*/
+
+.footer {
+    height: 256px;
+    background-color: #0f112c;
+    margin-top: 70px;
+}
+
+.footer>.inner>.address>span {
+    display: block;
+    color: white;
+}
+
+.footer>.inner>.address>span:nth-child(1) {
+    padding-top: 63px;
+}
+
+.footer>.inner>.address>span:nth-child(2) {
+    padding-top: 14px;
+}
+
+.footer>.inner>.address>span:nth-child(3) {
+    display: inline-block;
+    padding-top: 71px;
+}
+
+.footer>.inner>.icon {
+    margin-top: 190px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.footer>.inner>.icon>a>img:not(:nth-child(3)) {
+    margin-right: 20px;
+}
+
+/*footer 끝*/
