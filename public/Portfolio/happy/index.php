@@ -66,7 +66,7 @@
                 <img src="https://ssw0428.github.io/img1/pf/happy/홈페이지 메인 슬라이드 사진.jpg" alt="">
             </div>
             <div class="item">
-                <img src="https://ssw0428.github.io/img1/pf/happy/홈페이지 메인 슬라이드 사진.jpg" alt="">
+                <img src="https://ssw0428.github.io/img1/pf/vision/main_slide_1.jpg" alt="">
             </div>
         </div>
     </div>

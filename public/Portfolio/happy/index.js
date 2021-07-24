@@ -1,3 +1,7 @@
+$(function () {
+        alert("경고창이 발생하였습니다.");
+});
+
 //메인 슬라이드
 $(function () {
     $('.slide-bar .owl-carousel').owlCarousel({
