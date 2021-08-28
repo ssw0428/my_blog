@@ -65,9 +65,9 @@
             <div class="item">
                 <img src="https://ssw0428.github.io/img1/pf/happy/홈페이지 메인 슬라이드 사진.jpg" alt="">
             </div>
-            <div class="item">
+            <!-- <div class="item">
                 <img src="https://ssw0428.github.io/img1/pf/vision/main_slide_1.jpg" alt="">
-            </div>
+            </div> -->
         </div>
     </div>
     <!--컨텐츠-1 행복소식-->
@@ -136,7 +136,7 @@
                                 <li data-tab-name="box-1" data-tab-body-item-name="2">
                                     <a href="">
                                         <span class="title">제목쓰는 부분입니다.</span>
-                                        <span class="content">반갑습니다. 홈페이지 리뉴얼 중입니다. 많은 관심과 응원 부탁드립니다. 열심히 만들겠습니다.</span>
+                                        <span class="content">반갑습니다. 열심히 만들겠습니다.</span>
                                         <span class="date">2020-11-05</span>
                                     </a>
                                 </li>
@@ -292,13 +292,15 @@
                     <div class="swiper-slide">
                         <img src="https://ssw0428.github.io/img1/pf/happy/poster-3.jpg" alt="">
                     </div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
+                    <div class="swiper-slide">
+                        <img src="https://ssw0428.github.io/img1/pf/happy/poster-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://ssw0428.github.io/img1/pf/happy/poster-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://ssw0428.github.io/img1/pf/happy/poster-3.jpg" alt="">
+                    </div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
